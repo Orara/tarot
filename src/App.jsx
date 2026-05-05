@@ -196,7 +196,7 @@ function App() {
           {/* Glowing background effect behind image */}
           <div className="absolute inset-0 bg-tarot-secondary/20 blur-[100px] rounded-full"></div>
           <img 
-            src="/@fs/C:/Users/USER/.gemini/antigravity/brain/85228e03-3cc5-4d65-b278-f24c5afb90f7/tarot_hero_image_1777936437387.png" 
+            src="https://images.unsplash.com/photo-1590012314607-cda9d9b699ae?q=80&w=2000&auto=format&fit=crop" 
             alt="Mystical Tarot Reading" 
             className="w-full h-auto object-cover rounded-2xl shadow-[0_0_50px_rgba(122,77,255,0.3)] relative z-10 border border-white/10"
             style={{ aspectRatio: '4/5' }}
