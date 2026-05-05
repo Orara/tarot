@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useLanguage } from '../LanguageContext';
 
 const MAX_CHARS = 200;
-const MIN_CHARS = 10;
+const MIN_CHARS = 30;
 
 const CATEGORIES = {
   ko: [
