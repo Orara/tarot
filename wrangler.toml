@@ -1,3 +1,7 @@
 name = "tarot"
 pages_build_output_dir = "dist"
 compatibility_date = "2024-05-01"
+
+[[kv_namespaces]]
+binding = "STATS_KV"
+id = "dbf0b2920e6849baa9b8a4e544208d9c"

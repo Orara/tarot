@@ -22,21 +22,50 @@ function App() {
   const [isAdmin, setIsAdmin] = useState(false);
   const [concern, setConcern] = useState('');
   const [pendingMode, setPendingMode] = useState(null);
+  const [adminStats, setAdminStats] = useState(null);
+  const [statsLoading, setStatsLoading] = useState(false);
+
+  const fetchStats = async () => {
+    setStatsLoading(true);
+    try {
+      const res = await fetch('/api/stats');
+      if (res.ok) {
+        const data = await res.json();
+        setAdminStats(data);
+      }
+    } catch {
+      // 통계 로드 실패 시 무시
+    } finally {
+      setStatsLoading(false);
+    }
+  };
 
   useEffect(() => {
     // 어드민 모드: URL에 ?admin=arcana2026 이 있으면 활성화
     const params = new URLSearchParams(window.location.search);
+    let admin = false;
     if (params.get('admin') === ADMIN_KEY) {
       setIsAdmin(true);
       sessionStorage.setItem('arcana_admin', '1');
+      admin = true;
     } else if (sessionStorage.getItem('arcana_admin') === '1') {
       setIsAdmin(true);
+      admin = true;
     }
 
     // 무료 리딩 사용 여부 확인
     if (localStorage.getItem(FREE_USED_KEY)) {
       setFreeUsed(true);
     }
+
+    // 방문자 추적 (세션당 1회)
+    if (!sessionStorage.getItem('visit_tracked')) {
+      sessionStorage.setItem('visit_tracked', '1');
+      fetch('/api/stats', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ type: 'visit' }) }).catch(() => {});
+    }
+
+    // 어드민이면 통계 바로 로드
+    if (admin) fetchStats();
   }, []);
 
   const getAmountForMode = (mode) => {
@@ -224,6 +253,49 @@ function App() {
           </div>
         )}
 
+        {/* 어드민 통계 대시보드 */}
+        {isAdmin && (
+          <div className="w-full max-w-6xl mx-auto px-6 pt-16 pb-0">
+            <div className="bg-yellow-950/40 border border-yellow-500/40 rounded-2xl p-6">
+              <div className="flex items-center justify-between mb-4">
+                <h3 className="text-yellow-400 font-bold text-lg">📊 오늘의 현황 ({adminStats?.date || '로딩 중...'})</h3>
+                <button
+                  onClick={fetchStats}
+                  disabled={statsLoading}
+                  className="text-xs px-3 py-1 rounded-full border border-yellow-500/50 text-yellow-400 hover:bg-yellow-500/20 transition-all disabled:opacity-50"
+                >
+                  {statsLoading ? '새로고침 중...' : '🔄 새로고침'}
+                </button>
+              </div>
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="border-b border-yellow-500/30">
+                    <th className="text-left py-2 text-yellow-300/70 font-semibold">항목</th>
+                    <th className="text-right py-2 text-yellow-300/70 font-semibold">수치</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-b border-white/5">
+                    <td className="py-3 text-gray-300">👥 오늘 방문자 수</td>
+                    <td className="py-3 text-right text-white font-bold text-lg">
+                      {statsLoading ? '—' : (adminStats ? adminStats.visits.toLocaleString() : '—')}
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="py-3 text-gray-300">💳 오늘 결제 수</td>
+                    <td className="py-3 text-right text-tarot-gold font-bold text-lg">
+                      {statsLoading ? '—' : (adminStats ? adminStats.payments.toLocaleString() : '—')}
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              {!adminStats && !statsLoading && (
+                <p className="text-xs text-yellow-500/60 mt-3">⚠️ KV 네임스페이스가 연결되지 않았습니다. Cloudflare 대시보드에서 설정이 필요합니다.</p>
+              )}
+            </div>
+          </div>
+        )}
+
         {/* Checkout Modal */}
         {checkoutMode && (
           <PayPalCheckout
@@ -232,6 +304,7 @@ function App() {
             onSuccess={(details) => {
               const mode = checkoutMode;
               setCheckoutMode(null);
+              fetch('/api/stats', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ type: 'payment' }) }).catch(() => {});
               goToConcernInput(mode);
             }}
             onCancel={() => setCheckoutMode(null)}
