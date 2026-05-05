@@ -3,7 +3,6 @@ import ReactMarkdown from 'react-markdown';
 import { useLanguage } from './LanguageContext';
 import TarotDeck from './components/TarotDeck';
 import ConcernInput from './components/ConcernInput';
-import ConcernInput from './components/ConcernInput';
 import { getTarotReading } from './lib/gemini';
 import { PayPalScriptProvider } from '@paypal/react-paypal-js';
 import PayPalCheckout from './components/PayPalCheckout';
@@ -129,8 +128,8 @@ function App() {
           : "API key is missing.");
       } else {
         setError(lang === 'ko'
-          ? "AI 리딩을 가져오는 중 오류가 발생했습니다. 잠시 후 다시 시도해주세요."
-          : "An error occurred while fetching the reading. Please try again later.");
+          ? \`오류 상세 원인: \${err.message}\`
+          : \`Error details: \${err.message}\`);
       }
     } finally {
       setIsLoading(false);

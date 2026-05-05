@@ -8,7 +8,7 @@ export async function getTarotReading(cards, mode, language, concern = "") {
 
   const genAI = new GoogleGenerativeAI(apiKey);
   const model = genAI.getGenerativeModel({
-    model: "gemini-2.5-flash",
+    model: "gemini-1.5-flash",
     generationConfig: {
       temperature: 1.8,
       topP: 0.95,
@@ -253,6 +253,6 @@ Write strictly and fluently in language code: ${language}.`;
     return response.text();
   } catch (error) {
     console.error("Gemini API Error:", error);
-    throw new Error("API_ERROR");
+    throw new Error(error.message || "API_ERROR");
   }
 }
