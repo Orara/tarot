@@ -72,9 +72,18 @@ function App() {
         
         {/* Selected Cards Display */}
         <div className="flex flex-wrap justify-center gap-6 mb-12">
-          {readingResult.cards.map(c => (
-            <div key={c.id} className="w-32 h-48 bg-white border-2 border-tarot-gold rounded-xl flex items-center justify-center p-2 text-center shadow-[0_0_30px_rgba(255,215,0,0.3)]">
-              <span className="font-bold text-gray-800">{lang === 'ko' ? c.nameKo : c.name}</span>
+          {readingResult.cards.map((c, i) => (
+            <div key={c.id} className="flex flex-col items-center gap-2">
+              <div className="w-28 h-44 md:w-36 md:h-56 border-2 border-tarot-gold rounded-xl overflow-hidden shadow-[0_0_30px_rgba(255,215,0,0.4)]">
+                <img
+                  src={c.image}
+                  alt={lang === 'ko' ? c.nameKo : c.name}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <span className="text-tarot-gold text-xs font-semibold text-center max-w-[7rem]">
+                {lang === 'ko' ? c.nameKo : c.name}
+              </span>
             </div>
           ))}
         </div>

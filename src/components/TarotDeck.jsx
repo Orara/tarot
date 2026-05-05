@@ -131,14 +131,14 @@ export default function TarotDeck({ mode, onComplete, onCancel }) {
                 </div>
 
                 {/* Front of the card (Revealed) */}
-                <div className="absolute inset-0 w-full h-full backface-hidden rotate-y-180 bg-[#f8f5f2] border-2 border-tarot-gold rounded-xl shadow-2xl flex flex-col items-center justify-center p-2 md:p-3 text-center overflow-hidden">
-                  <div className="w-full h-full border border-gray-300 rounded-lg flex flex-col items-center justify-center p-1 md:p-2 bg-white relative">
-                    <div className="absolute top-2 text-tarot-gold text-xs">✧</div>
-                    <div className="absolute bottom-2 text-tarot-gold text-xs">✧</div>
-                    <span className="text-xs md:text-sm lg:text-base font-bold text-gray-800 break-words mt-1">
-                      {cardData ? (lang === 'ko' ? cardData.nameKo : cardData.name) : ''}
-                    </span>
-                  </div>
+                <div className="absolute inset-0 w-full h-full backface-hidden rotate-y-180 border-2 border-tarot-gold rounded-xl shadow-2xl overflow-hidden">
+                  {cardData ? (
+                    <img
+                      src={cardData.image}
+                      alt={lang === 'ko' ? cardData.nameKo : cardData.name}
+                      className="w-full h-full object-cover"
+                    />
+                  ) : null}
                 </div>
               </div>
             );
