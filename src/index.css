@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased selection:bg-tarot-secondary selection:text-white bg-tarot-dark;
+  }
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* Hide scrollbar for the deck spread */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Card hover glow and z-index management */
+.tarot-card {
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transform: translateY(var(--random-y, 0px)) rotate(var(--random-rot, 0deg));
+}
+.tarot-card:hover {
+  z-index: 100 !important;
+  transform: translateY(calc(var(--random-y, 0px) - 30px)) rotate(0deg);
+  box-shadow: 0 0 30px rgba(122, 77, 255, 0.8);
+}
+.tarot-card.flipped {
+  z-index: 90 !important;
+  transform: translateY(-40px) rotateY(180deg);
+  box-shadow: 0 20px 40px rgba(255, 215, 0, 0.5);
+}
