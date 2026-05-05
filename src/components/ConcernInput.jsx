@@ -1,15 +1,82 @@
 import React, { useState } from 'react';
 import { useLanguage } from '../LanguageContext';
 
-const EXAMPLES = {
-  ko: ['연애와 관계', '직장과 커리어', '재정과 돈', '중요한 결정', '가족 문제', '미래의 방향'],
-  en: ['Love & relationship', 'Career & work', 'Money & finances', 'An important decision', 'Family matters', 'Future direction'],
-  ja: ['恋愛・人間関係', '仕事・キャリア', 'お金・財政', '重要な決断', '家族の問題', '将来の方向性'],
-  zh: ['爱情与关系', '职业与工作', '金钱与财务', '重要决定', '家庭问题', '未来方向'],
-  es: ['Amor y relaciones', 'Carrera y trabajo', 'Dinero y finanzas', 'Una decisión importante', 'Asuntos familiares', 'Dirección futura'],
-  fr: ['Amour et relations', 'Carrière et travail', 'Argent et finances', 'Une décision importante', 'Questions familiales', 'Direction future'],
-  th: ['ความรักและความสัมพันธ์', 'อาชีพและการทำงาน', 'เงินและการเงิน', 'การตัดสินใจสำคัญ', 'เรื่องครอบครัว', 'ทิศทางอนาคต'],
-  vi: ['Tình yêu và mối quan hệ', 'Sự nghiệp và công việc', 'Tiền bạc và tài chính', 'Một quyết định quan trọng', 'Vấn đề gia đình', 'Định hướng tương lai'],
+const MAX_CHARS = 200;
+const MIN_CHARS = 10;
+
+const CATEGORIES = {
+  ko: [
+    { id: 'love',    label: '❤️ 사랑 / 연애' },
+    { id: 'money',   label: '💰 돈 / 재정' },
+    { id: 'family',  label: '👨‍👩‍👧 가족' },
+    { id: 'future',  label: '🔮 미래 / 진로' },
+    { id: 'work',    label: '💼 직장 / 커리어' },
+    { id: 'relation',label: '🤝 인간관계' },
+    { id: 'other',   label: '✏️ 기타 / 자유 작성' },
+  ],
+  en: [
+    { id: 'love',    label: '❤️ Love / Relationship' },
+    { id: 'money',   label: '💰 Money / Finances' },
+    { id: 'family',  label: '👨‍👩‍👧 Family' },
+    { id: 'future',  label: '🔮 Future / Career Path' },
+    { id: 'work',    label: '💼 Work / Career' },
+    { id: 'relation',label: '🤝 Relationships' },
+    { id: 'other',   label: '✏️ Other / Free Write' },
+  ],
+  ja: [
+    { id: 'love',    label: '❤️ 恋愛・愛情' },
+    { id: 'money',   label: '💰 お金・財政' },
+    { id: 'family',  label: '👨‍👩‍👧 家族' },
+    { id: 'future',  label: '🔮 未来・進路' },
+    { id: 'work',    label: '💼 仕事・キャリア' },
+    { id: 'relation',label: '🤝 人間関係' },
+    { id: 'other',   label: '✏️ その他・自由記入' },
+  ],
+  zh: [
+    { id: 'love',    label: '❤️ 爱情 / 感情' },
+    { id: 'money',   label: '💰 金钱 / 财务' },
+    { id: 'family',  label: '👨‍👩‍👧 家庭' },
+    { id: 'future',  label: '🔮 未来 / 前途' },
+    { id: 'work',    label: '💼 工作 / 职业' },
+    { id: 'relation',label: '🤝 人际关系' },
+    { id: 'other',   label: '✏️ 其他 / 自由填写' },
+  ],
+  es: [
+    { id: 'love',    label: '❤️ Amor / Relaciones' },
+    { id: 'money',   label: '💰 Dinero / Finanzas' },
+    { id: 'family',  label: '👨‍👩‍👧 Familia' },
+    { id: 'future',  label: '🔮 Futuro / Rumbo' },
+    { id: 'work',    label: '💼 Trabajo / Carrera' },
+    { id: 'relation',label: '🤝 Relaciones personales' },
+    { id: 'other',   label: '✏️ Otro / Escritura libre' },
+  ],
+  fr: [
+    { id: 'love',    label: '❤️ Amour / Relations' },
+    { id: 'money',   label: '💰 Argent / Finances' },
+    { id: 'family',  label: '👨‍👩‍👧 Famille' },
+    { id: 'future',  label: '🔮 Avenir / Orientation' },
+    { id: 'work',    label: '💼 Travail / Carrière' },
+    { id: 'relation',label: '🤝 Relations personnelles' },
+    { id: 'other',   label: '✏️ Autre / Écriture libre' },
+  ],
+  th: [
+    { id: 'love',    label: '❤️ ความรัก / ความสัมพันธ์' },
+    { id: 'money',   label: '💰 เงิน / การเงิน' },
+    { id: 'family',  label: '👨‍👩‍👧 ครอบครัว' },
+    { id: 'future',  label: '🔮 อนาคต / เส้นทางชีวิต' },
+    { id: 'work',    label: '💼 งาน / อาชีพ' },
+    { id: 'relation',label: '🤝 ความสัมพันธ์' },
+    { id: 'other',   label: '✏️ อื่นๆ / เขียนอิสระ' },
+  ],
+  vi: [
+    { id: 'love',    label: '❤️ Tình yêu / Quan hệ' },
+    { id: 'money',   label: '💰 Tiền bạc / Tài chính' },
+    { id: 'family',  label: '👨‍👩‍👧 Gia đình' },
+    { id: 'future',  label: '🔮 Tương lai / Hướng đi' },
+    { id: 'work',    label: '💼 Công việc / Sự nghiệp' },
+    { id: 'relation',label: '🤝 Các mối quan hệ' },
+    { id: 'other',   label: '✏️ Khác / Viết tự do' },
+  ],
 };
 
 const TEXT = {
@@ -24,44 +91,43 @@ const TEXT = {
     vi: 'Bạn muốn hỏi những lá bài điều gì?',
   },
   subtitle: {
-    ko: '현재 고민이나 상황을 구체적으로 적을수록 더 정확한 리딩을 받을 수 있습니다.',
-    en: 'The more specific your concern, the more accurate and personal your reading will be.',
-    ja: '悩みや状況を具体的に書くほど、より正確なリーディングが得られます。',
-    zh: '您的问题越具体，塔罗牌的解读就越准确、越个性化。',
-    es: 'Cuanto más específica sea tu pregunta, más precisa y personal será tu lectura.',
-    fr: 'Plus votre question est précise, plus votre lecture sera exacte et personnalisée.',
-    th: 'ยิ่งคุณระบุความกังวลของคุณได้ชัดเจนมากเท่าไหร่ การอ่านก็จะยิ่งแม่นยำมากขึ้นเท่านั้น',
-    vi: 'Câu hỏi của bạn càng cụ thể, bài đọc sẽ càng chính xác và cá nhân hóa hơn.',
+    ko: '주제를 선택하고, 현재 상황을 구체적으로 적어주세요.',
+    en: 'Select a topic, then describe your situation in detail.',
+    ja: 'テーマを選択し、現在の状況を具体的にお書きください。',
+    zh: '选择主题，然后具体描述您的情况。',
+    es: 'Selecciona un tema y describe tu situación en detalle.',
+    fr: 'Choisissez un sujet, puis décrivez votre situation en détail.',
+    th: 'เลือกหัวข้อ จากนั้นอธิบายสถานการณ์ของคุณโดยละเอียด',
+    vi: 'Chọn chủ đề, sau đó mô tả tình huống của bạn một cách chi tiết.',
+  },
+  categoryLabel: {
+    ko: '어떤 주제인가요?',
+    en: 'What topic?',
+    ja: 'どんなテーマですか？',
+    zh: '关于什么主题？',
+    es: '¿Qué tema?',
+    fr: 'Quel sujet ?',
+    th: 'หัวข้ออะไร?',
+    vi: 'Chủ đề gì?',
+  },
+  detailLabel: {
+    ko: '구체적으로 어떤 상황인지 알려주세요',
+    en: 'Describe your situation',
+    ja: '具体的な状況を教えてください',
+    zh: '请描述您的具体情况',
+    es: 'Describe tu situación',
+    fr: 'Décrivez votre situation',
+    th: 'อธิบายสถานการณ์ของคุณ',
+    vi: 'Mô tả tình huống của bạn',
   },
   placeholder: {
-    ko: '예) 요즘 3년간 사귄 남자친구와의 관계가 답답합니다. 이 관계를 계속해야 할지, 헤어져야 할지 방향을 알고 싶습니다.',
-    en: 'e.g. I\'ve been with my partner for 3 years but things feel stagnant. Should I keep going or is it time to move on?',
-    ja: '例）3年間付き合っている彼氏との関係が行き詰まっています。この関係を続けるべきか、別れるべきか方向性を知りたいです。',
-    zh: '例）我和交往了3年的男友关系陷入瓶颈。我想知道是否应该继续这段关系，还是该分手。',
-    es: 'ej. Llevo 3 años con mi pareja pero siento que la relación está estancada. ¿Debo seguir o es momento de seguir adelante?',
-    fr: 'ex. Je suis avec mon partenaire depuis 3 ans mais les choses semblent stagner. Dois-je continuer ou est-il temps de passer à autre chose ?',
-    th: 'เช่น ฉันคบกับแฟนมา 3 ปีแล้ว แต่รู้สึกว่าความสัมพันธ์ไม่ก้าวหน้า ควรจะเดินหน้าต่อหรือเลิกกันดี?',
-    vi: 'vd. Tôi đã yêu người bạn trai được 3 năm nhưng mọi thứ có vẻ trì trệ. Tôi có nên tiếp tục hay đã đến lúc buông tay?',
-  },
-  tagLabel: {
-    ko: '주제 예시 (클릭하면 추가됩니다)',
-    en: 'Topic examples (click to add)',
-    ja: 'テーマ例（クリックで追加）',
-    zh: '主题示例（点击添加）',
-    es: 'Ejemplos de temas (haz clic para añadir)',
-    fr: 'Exemples de sujets (cliquez pour ajouter)',
-    th: 'ตัวอย่างหัวข้อ (คลิกเพื่อเพิ่ม)',
-    vi: 'Ví dụ chủ đề (nhấp để thêm)',
-  },
-  minChars: {
-    ko: '최소 20자 이상 작성해주세요',
-    en: 'Please write at least 20 characters',
-    ja: '20文字以上入力してください',
-    zh: '请至少输入20个字符',
-    es: 'Por favor escribe al menos 20 caracteres',
-    fr: 'Veuillez écrire au moins 20 caractères',
-    th: 'กรุณาเขียนอย่างน้อย 20 ตัวอักษร',
-    vi: 'Vui lòng viết ít nhất 20 ký tự',
+    love:    { ko: '예) 3년 사귄 남자친구와 최근 자주 다투고 있어요. 이 관계를 계속해야 할지 헤어져야 할지 모르겠어요.', en: 'e.g. I\'ve been with my partner for 3 years but we argue constantly lately. Should I stay or move on?' },
+    money:   { ko: '예) 이직을 고려 중인데 연봉이 낮아질 수도 있어요. 지금 이 결정이 재정적으로 괜찮을지 궁금해요.', en: 'e.g. I\'m considering a job change but the salary might drop. Will this decision be financially okay?' },
+    family:  { ko: '예) 부모님과 의견 충돌이 잦아졌어요. 독립을 원하지만 가족과의 관계가 걱정됩니다.', en: 'e.g. I\'ve been clashing with my parents a lot. I want independence but worry about our relationship.' },
+    future:  { ko: '예) 지금 다니는 회사를 그만두고 창업을 하고 싶은데 두렵습니다. 어떤 선택이 맞는지 알고 싶어요.', en: 'e.g. I want to quit my job and start a business but I\'m scared. I need guidance on which path to take.' },
+    work:    { ko: '예) 직장에서 승진이 계속 안 되고 있어요. 이 회사에 계속 있어야 할지, 이직을 해야 할지 모르겠어요.', en: 'e.g. I keep getting passed over for promotions. Should I stay at this company or look for something new?' },
+    relation:{ ko: '예) 친한 친구와 오해로 사이가 멀어졌어요. 먼저 다가가야 할지, 기다려야 할지 모르겠어요.', en: 'e.g. A misunderstanding has distanced me from a close friend. Should I reach out first or wait?' },
+    other:   { ko: '지금 가장 궁금한 것, 가장 힘든 것을 자유롭게 써주세요.', en: 'Write freely about what\'s on your mind — your biggest question or struggle right now.' },
   },
   startBtn: {
     ko: '카드 뽑으러 가기',
@@ -83,92 +149,144 @@ const TEXT = {
     th: 'กลับ',
     vi: 'Quay lại',
   },
-  charCount: {
-    ko: (n) => `${n}자 입력됨`,
-    en: (n) => `${n} characters`,
-    ja: (n) => `${n}文字`,
-    zh: (n) => `已输入${n}个字符`,
-    es: (n) => `${n} caracteres`,
-    fr: (n) => `${n} caractères`,
-    th: (n) => `${n} ตัวอักษร`,
-    vi: (n) => `${n} ký tự`,
+  selectFirst: {
+    ko: '먼저 주제를 선택해주세요',
+    en: 'Please select a topic first',
+    ja: 'まずテーマを選んでください',
+    zh: '请先选择主题',
+    es: 'Por favor selecciona un tema primero',
+    fr: 'Veuillez d\'abord choisir un sujet',
+    th: 'กรุณาเลือกหัวข้อก่อน',
+    vi: 'Vui lòng chọn chủ đề trước',
+  },
+  minCharsHint: {
+    ko: (n) => `${MIN_CHARS - n}자 더 작성해주세요`,
+    en: (n) => `${MIN_CHARS - n} more characters needed`,
+    ja: (n) => `あと${MIN_CHARS - n}文字入力してください`,
+    zh: (n) => `还需输入${MIN_CHARS - n}个字符`,
+    es: (n) => `Faltan ${MIN_CHARS - n} caracteres`,
+    fr: (n) => `Encore ${MIN_CHARS - n} caractères`,
+    th: (n) => `ต้องการอีก ${MIN_CHARS - n} ตัวอักษร`,
+    vi: (n) => `Cần thêm ${MIN_CHARS - n} ký tự`,
   },
 };
 
-const MIN_CHARS = 20;
-
 export default function ConcernInput({ mode, onStart, onCancel }) {
   const { lang } = useLanguage();
-  const [concern, setConcern] = useState('');
+  const [selectedCategory, setSelectedCategory] = useState(null);
+  const [text, setText] = useState('');
 
   const t = (key) => TEXT[key]?.[lang] || TEXT[key]?.en || '';
-  const examples = EXAMPLES[lang] || EXAMPLES.en;
+  const categories = CATEGORIES[lang] || CATEGORIES.en;
 
-  const handleTagClick = (tag) => {
-    if (concern && !concern.endsWith(' ')) {
-      setConcern(prev => prev + ' ' + tag + ' ');
-    } else {
-      setConcern(prev => prev + tag + ' ');
+  const handleCategoryClick = (cat) => {
+    if (selectedCategory?.id === cat.id) return;
+    setSelectedCategory(cat);
+    setText('');
+  };
+
+  const handleTextChange = (e) => {
+    if (e.target.value.length <= MAX_CHARS) {
+      setText(e.target.value);
     }
   };
 
-  const isReady = concern.trim().length >= MIN_CHARS;
+  const getPlaceholder = () => {
+    if (!selectedCategory) return '';
+    const p = TEXT.placeholder[selectedCategory.id];
+    return p?.[lang] || p?.en || '';
+  };
+
+  const isReady = selectedCategory && text.trim().length >= MIN_CHARS;
+
+  const handleStart = () => {
+    if (!isReady) return;
+    const categoryLabel = selectedCategory.id !== 'other'
+      ? `[${selectedCategory.label.replace(/^.{2}\s/, '')}] `
+      : '';
+    onStart(categoryLabel + text.trim());
+  };
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center px-6 py-16 bg-tarot-dark">
-      {/* Decorative glow */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-96 h-96 bg-tarot-secondary/10 rounded-full blur-[120px] pointer-events-none" />
 
       <div className="relative w-full max-w-2xl">
         {/* Header */}
-        <div className="text-center mb-10">
+        <div className="text-center mb-8">
           <div className="text-4xl mb-4">🔮</div>
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-3 leading-tight">
             {t('title')}
           </h2>
-          <p className="text-gray-400 text-base leading-relaxed max-w-lg mx-auto">
+          <p className="text-gray-400 text-sm leading-relaxed max-w-lg mx-auto">
             {t('subtitle')}
           </p>
         </div>
 
-        {/* Input card */}
         <div className="bg-white/5 border border-white/10 rounded-2xl p-6 md:p-8 backdrop-blur-sm shadow-2xl">
-          {/* Topic tag examples */}
-          <p className="text-xs text-gray-500 mb-3 uppercase tracking-wider">{t('tagLabel')}</p>
-          <div className="flex flex-wrap gap-2 mb-5">
-            {examples.map((ex) => (
-              <button
-                key={ex}
-                onClick={() => handleTagClick(ex)}
-                className="px-3 py-1.5 text-xs rounded-full border border-tarot-secondary/50 text-tarot-secondary hover:bg-tarot-secondary/20 transition-all"
-              >
-                {ex}
-              </button>
-            ))}
+
+          {/* Step 1: Category */}
+          <p className="text-xs text-gray-500 uppercase tracking-wider mb-3">
+            01 · {t('categoryLabel')}
+          </p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 mb-7">
+            {categories.map((cat) => {
+              const isSelected = selectedCategory?.id === cat.id;
+              return (
+                <button
+                  key={cat.id}
+                  onClick={() => handleCategoryClick(cat)}
+                  className={`px-3 py-2.5 rounded-xl text-sm font-medium text-left transition-all border ${
+                    isSelected
+                      ? 'bg-tarot-secondary/30 border-tarot-secondary text-white shadow-[0_0_12px_rgba(122,77,255,0.4)]'
+                      : 'bg-black/20 border-white/10 text-gray-400 hover:border-white/30 hover:text-white'
+                  }`}
+                >
+                  {cat.label}
+                </button>
+              );
+            })}
           </div>
 
-          {/* Textarea */}
-          <textarea
-            value={concern}
-            onChange={(e) => setConcern(e.target.value)}
-            placeholder={t('placeholder')}
-            rows={5}
-            className="w-full bg-black/30 border border-white/10 focus:border-tarot-secondary/60 rounded-xl p-4 text-white placeholder-gray-600 text-sm leading-relaxed resize-none outline-none transition-all"
-          />
-
-          {/* Character count + validation */}
-          <div className="flex justify-between items-center mt-2 mb-6">
-            <span className={`text-xs transition-colors ${isReady ? 'text-green-400' : 'text-gray-500'}`}>
-              {isReady ? '✓ ' : ''}{typeof t('charCount') === 'function' ? t('charCount')(concern.trim().length) : concern.trim().length}
-            </span>
-            {!isReady && concern.trim().length > 0 && (
-              <span className="text-xs text-yellow-500/80">{t('minChars')}</span>
+          {/* Step 2: Detail text */}
+          <p className={`text-xs uppercase tracking-wider mb-3 transition-colors ${selectedCategory ? 'text-gray-500' : 'text-gray-700'}`}>
+            02 · {t('detailLabel')}
+          </p>
+          <div className="relative">
+            <textarea
+              value={text}
+              onChange={handleTextChange}
+              placeholder={selectedCategory ? getPlaceholder() : t('selectFirst')}
+              disabled={!selectedCategory}
+              rows={4}
+              className={`w-full bg-black/30 border rounded-xl p-4 text-white text-sm leading-relaxed resize-none outline-none transition-all placeholder-gray-600 ${
+                selectedCategory
+                  ? 'border-white/10 focus:border-tarot-secondary/60'
+                  : 'border-white/5 cursor-not-allowed opacity-40'
+              }`}
+            />
+            {/* Char counter */}
+            {selectedCategory && (
+              <span className={`absolute bottom-3 right-3 text-xs ${text.length >= MAX_CHARS ? 'text-red-400' : 'text-gray-600'}`}>
+                {text.length} / {MAX_CHARS}
+              </span>
             )}
           </div>
 
-          {/* CTA Button */}
+          {/* Validation hint */}
+          <div className="h-5 mt-1.5 mb-5">
+            {selectedCategory && text.trim().length > 0 && text.trim().length < MIN_CHARS && (
+              <p className="text-xs text-yellow-500/80">
+                {typeof TEXT.minCharsHint[lang] === 'function'
+                  ? TEXT.minCharsHint[lang](text.trim().length)
+                  : TEXT.minCharsHint.en(text.trim().length)}
+              </p>
+            )}
+          </div>
+
+          {/* CTA */}
           <button
-            onClick={() => isReady && onStart(concern.trim())}
+            onClick={handleStart}
             disabled={!isReady}
             className={`w-full py-4 rounded-full font-bold text-lg transition-all ${
               isReady
@@ -180,7 +298,6 @@ export default function ConcernInput({ mode, onStart, onCancel }) {
           </button>
         </div>
 
-        {/* Back button */}
         <div className="text-center mt-6">
           <button
             onClick={onCancel}
