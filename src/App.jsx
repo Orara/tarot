@@ -1,8 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import ReactMarkdown from 'react-markdown';
 import { useLanguage } from './LanguageContext';
 import TarotDeck from './components/TarotDeck';
 import ConcernInput from './components/ConcernInput';
+import ShareCard from './components/ShareCard';
+import ShortsGenerator from './components/ShortsGenerator';
+import html2canvas from 'html2canvas';
 import { getTarotReading } from './lib/gemini';
 import { PayPalScriptProvider } from '@paypal/react-paypal-js';
 import PayPalCheckout from './components/PayPalCheckout';
@@ -24,6 +27,8 @@ function App() {
   const [pendingMode, setPendingMode] = useState(null);
   const [adminStats, setAdminStats] = useState(null);
   const [statsLoading, setStatsLoading] = useState(false);
+  const shareCardRef = useRef(null);
+  const [isSharing, setIsSharing] = useState(false);
 
   const fetchStats = async () => {
     setStatsLoading(true);
@@ -51,6 +56,10 @@ function App() {
     } else if (sessionStorage.getItem('arcana_admin') === '1') {
       setIsAdmin(true);
       admin = true;
+    }
+
+    if (admin && params.get('mode') === 'shorts') {
+      setAppState('shorts');
     }
 
     // 무료 리딩 사용 여부 확인
@@ -135,6 +144,50 @@ function App() {
     }
   };
 
+  const handleShare = async () => {
+    if (!shareCardRef.current) return;
+    setIsSharing(true);
+    try {
+      const canvas = await html2canvas(shareCardRef.current, {
+        scale: 1, // Keep 1080x1920 resolution
+        useCORS: true,
+        backgroundColor: '#0a051e',
+        allowTaint: true
+      });
+      const image = canvas.toDataURL("image/png");
+      
+      // Try Web Share API for mobile devices
+      if (navigator.share) {
+        try {
+          const blob = await (await fetch(image)).blob();
+          const file = new File([blob], 'tarot-reading.png', { type: 'image/png' });
+          if (navigator.canShare && navigator.canShare({ files: [file] })) {
+            await navigator.share({
+              title: lang === 'ko' ? '나의 타로 리딩' : 'My Tarot Reading',
+              text: lang === 'ko' ? 'Arcana Insight에서 타로를 확인해보세요!' : 'Check out my tarot reading at Arcana Insight!',
+              files: [file],
+            });
+            setIsSharing(false);
+            return;
+          }
+        } catch (err) {
+          console.log('Share API failed, falling back to download', err);
+        }
+      }
+
+      // Fallback: Download image directly
+      const link = document.createElement('a');
+      link.href = image;
+      link.download = `arcana-insight-tarot-${Date.now()}.png`;
+      link.click();
+    } catch (err) {
+      console.error("Error generating image:", err);
+      alert(lang === 'ko' ? "이미지 생성 중 오류가 발생했습니다." : "Failed to generate image.");
+    } finally {
+      setIsSharing(false);
+    }
+  };
+
   if (appState === 'concern') {
     return (
       <ConcernInput
@@ -143,6 +196,10 @@ function App() {
         onCancel={() => setAppState('home')}
       />
     );
+  }
+
+  if (appState === 'shorts') {
+    return <ShortsGenerator />;
   }
 
   if (appState.includes('-reading')) {
@@ -225,19 +282,51 @@ function App() {
 
         </div>
 
-        <button
-          onClick={() => setAppState('home')}
-          className="mt-12 px-8 py-3 border border-tarot-secondary text-tarot-secondary hover:bg-tarot-secondary hover:text-white rounded-full transition-all"
-        >
-          {lang === 'ko' ? '메인으로 돌아가기' :
-           lang === 'en' ? 'Back to Home' :
-           lang === 'ja' ? 'ホームに戻る' :
-           lang === 'zh' ? '返回首页' :
-           lang === 'es' ? 'Volver al Inicio' :
-           lang === 'fr' ? 'Retour à l\'Accueil' :
-           lang === 'th' ? 'กลับไปที่หน้าแรก' :
-           'Trở về Trang chủ'}
-        </button>
+        {/* Action Buttons */}
+        <div className="mt-12 flex flex-col sm:flex-row gap-4 items-center z-20">
+          {!isLoading && !error && readingText && (
+            <button
+              onClick={handleShare}
+              disabled={isSharing}
+              className="px-8 py-3.5 bg-gradient-to-r from-purple-600 to-pink-500 hover:from-purple-500 hover:to-pink-400 text-white rounded-full font-bold shadow-[0_0_20px_rgba(236,72,153,0.4)] transition-all flex items-center justify-center gap-2 disabled:opacity-50 hover:scale-105 active:scale-95"
+            >
+              {isSharing ? (
+                <span className="animate-pulse">{lang === 'ko' ? '이미지 생성 중...' : 'Generating Image...'}</span>
+              ) : (
+                <>
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"></path></svg>
+                  {lang === 'ko' ? '인스타그램에 공유하기 (이미지 저장)' : 'Save & Share Result'}
+                </>
+              )}
+            </button>
+          )}
+
+          <button
+            onClick={() => setAppState('home')}
+            className="px-8 py-3.5 border border-tarot-secondary text-tarot-secondary hover:bg-tarot-secondary hover:text-white rounded-full transition-all"
+          >
+            {lang === 'ko' ? '메인으로 돌아가기' :
+             lang === 'en' ? 'Back to Home' :
+             lang === 'ja' ? 'ホームに戻る' :
+             lang === 'zh' ? '返回首页' :
+             lang === 'es' ? 'Volver al Inicio' :
+             lang === 'fr' ? 'Retour à l\'Accueil' :
+             lang === 'th' ? 'กลับไปที่หน้าแรก' :
+             'Trở về Trang chủ'}
+          </button>
+        </div>
+
+        {/* Hidden ShareCard Component for Rendering PNG */}
+        {!isLoading && !error && readingText && (
+          <ShareCard 
+            ref={shareCardRef}
+            cards={readingResult.cards}
+            concern={readingResult.concern}
+            readingText={readingText}
+            lang={lang}
+            mode={readingResult.mode}
+          />
+        )}
       </div>
     );
   }
