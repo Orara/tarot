@@ -8,7 +8,7 @@ export async function getTarotReading(cards, mode, language) {
 
   const genAI = new GoogleGenerativeAI(apiKey);
   // We use gemini-1.5-flash as it is fast and powerful enough for this task
-  const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+  const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
   const cardNames = cards.map(c => c.name).join(', ');
   
