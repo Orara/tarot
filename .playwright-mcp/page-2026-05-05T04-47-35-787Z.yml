@@ -1,0 +1,212 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - link "Futurepedia" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img "Futurepedia" [ref=e7]
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - generic:
+            - textbox "Search" [ref=e10]
+            - button "Cancel search"
+          - button "Open search" [ref=e11]
+        - button "Open menu"
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - img "Diamond Lattice"
+      - navigation "Breadcrumb" [ref=e19]:
+        - generic [ref=e20]:
+          - link "Home" [ref=e21] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e22]: "> Submit AI Tool"
+      - generic [ref=e24]:
+        - heading "Reach Millions Of AI Enthusiasts" [level=1] [ref=e26]
+        - generic [ref=e27]:
+          - text: "Futurepedia is the #1 collection of AI tools for work, dedicated to showcasing the best AI tools, GPTs and apps to over 400k proactive professionals every month. Choose the listing option that best aligns with your product. Feel free to"
+          - link "book time with us" [ref=e28] [cursor=pointer]:
+            - /url: https://meetings.hubspot.com/futurepedia/strategy-call
+          - text: if you have questions.
+        - generic [ref=e29]:
+          - generic [ref=e30]:
+            - heading "Basic Listing" [level=2] [ref=e31]
+            - generic [ref=e32]:
+              - generic [ref=e33]:
+                - generic [ref=e34]: $247
+                - generic [ref=e35]: (Sold Out)
+              - link "Why we charge" [ref=e36] [cursor=pointer]:
+                - /url: "#why-we-charge"
+            - separator [ref=e37]
+            - list [ref=e38]:
+              - listitem [ref=e39]: Published within 7 days
+              - separator [ref=e40]
+              - generic [ref=e41]: Listing includes
+              - listitem [ref=e42]: Ability to add a video to your page
+              - listitem [ref=e43]:
+                - generic [ref=e44]:
+                  - link "Tutorials" [ref=e45] [cursor=pointer]:
+                    - /url: /tutorials
+                  - text: placement, if provided
+          - generic [ref=e46]:
+            - heading "Verified Listing" [level=2] [ref=e47]
+            - generic [ref=e48]:
+              - generic [ref=e49]:
+                - generic [ref=e50]: $497
+                - generic [ref=e51]: (one time fee)
+              - link "Why we charge" [ref=e52] [cursor=pointer]:
+                - /url: "#why-we-charge"
+            - separator [ref=e53]
+            - list [ref=e54]:
+              - listitem [ref=e55]: Published within 2 business days
+              - separator [ref=e56]
+              - generic [ref=e57]: Listing includes
+              - listitem [ref=e58]: Enhanced Listing Page ($999 value)
+              - listitem [ref=e59]: Verified Check Mark ($250 value)
+              - listitem [ref=e60]: Ability to add a video to your page
+              - listitem [ref=e61]:
+                - generic [ref=e62]:
+                  - link "Tutorials" [ref=e63] [cursor=pointer]:
+                    - /url: /tutorials
+                  - text: placement, if provided
+            - link "Submit your tool" [ref=e64] [cursor=pointer]:
+              - /url: /verified
+          - generic [ref=e65]:
+            - heading "Enterprise Packages" [level=2] [ref=e66]
+            - generic [ref=e69]: Custom Pricing
+            - separator [ref=e70]
+            - list [ref=e71]:
+              - listitem [ref=e72]: Dedicated account manager
+              - listitem [ref=e73]: Sponsorship bundles and discounts
+              - listitem [ref=e74]: Conbranded webinars or workshops
+              - listitem [ref=e75]: Custom editorial content
+              - listitem [ref=e76]: YouTube Sponsorships
+              - listitem [ref=e77]: Creator and influencer campaigns
+              - separator [ref=e78]
+            - link "Book a call" [ref=e79] [cursor=pointer]:
+              - /url: https://meetings.hubspot.com/futurepedia/enterprise-strategy-call
+      - generic [ref=e80]:
+        - heading "Disclosure of terms" [level=2] [ref=e81]
+        - generic [ref=e82]: All tool submissions subject to editorial approval. Tools may be denied or removed from the site if at any time, the tool’s features are deemed inappropriate for our audience.
+      - generic [ref=e83]:
+        - heading "Frequently asked questions" [level=5] [ref=e84]
+        - generic [ref=e85]:
+          - heading "Why do you charge a verification fee?" [level=3] [ref=e87]:
+            - button "Why do you charge a verification fee?" [ref=e88]:
+              - generic [ref=e89]: Why do you charge a verification fee?
+          - heading "How can I request an update to my listing?" [level=3] [ref=e92]:
+            - button "How can I request an update to my listing?" [ref=e93]: How can I request an update to my listing?
+          - heading "What is your refund policy?" [level=3] [ref=e96]:
+            - button "What is your refund policy?" [ref=e97]: What is your refund policy?
+          - heading "Do you offer free listings?" [level=3] [ref=e100]:
+            - button "Do you offer free listings?" [ref=e101]: Do you offer free listings?
+          - heading "How much traffic can I expect to get once my listing is approved?" [level=3] [ref=e104]:
+            - button "How much traffic can I expect to get once my listing is approved?" [ref=e105]: How much traffic can I expect to get once my listing is approved?
+  - contentinfo [ref=e107]:
+    - generic [ref=e108]:
+      - generic [ref=e109]:
+        - generic [ref=e110]:
+          - img "Futurepedia" [ref=e111]
+          - paragraph [ref=e112]: "Advertiser Disclosure: Futurepedia.io is committed to rigorous editorial standards to provide our users with accurate and helpful content. To keep our site free, we may receive compensation when you click some links on our site."
+        - generic [ref=e113]:
+          - generic [ref=e114]:
+            - paragraph [ref=e115]: Categories
+            - list [ref=e116]:
+              - listitem [ref=e117]:
+                - link "Productivity Tools" [ref=e118] [cursor=pointer]:
+                  - /url: /ai-tools/productivity
+              - listitem [ref=e119]:
+                - link "Image Generators" [ref=e120] [cursor=pointer]:
+                  - /url: /ai-tools/image-generators
+              - listitem [ref=e121]:
+                - link "Text Generators" [ref=e122] [cursor=pointer]:
+                  - /url: /ai-tools/text-generators
+              - listitem [ref=e123]:
+                - link "Video Tools" [ref=e124] [cursor=pointer]:
+                  - /url: /ai-tools/video
+              - listitem [ref=e125]:
+                - link "Art Generators" [ref=e126] [cursor=pointer]:
+                  - /url: /ai-tools/art
+              - listitem [ref=e127]:
+                - link "Audio Generators" [ref=e128] [cursor=pointer]:
+                  - /url: /ai-tools/audio-generators
+              - listitem [ref=e129]:
+                - link "All AI Tools" [ref=e130] [cursor=pointer]:
+                  - /url: /ai-tools
+          - generic [ref=e131]:
+            - paragraph [ref=e132]: Resources
+            - list [ref=e133]:
+              - listitem [ref=e134]:
+                - link "Best AI Art Generators" [ref=e135] [cursor=pointer]:
+                  - /url: /ai-tools/art-generators/best
+              - listitem [ref=e136]:
+                - link "Best AI Image Generators" [ref=e137] [cursor=pointer]:
+                  - /url: /ai-tools/image-generators/best
+              - listitem [ref=e138]:
+                - link "Best AI Chatbots" [ref=e139] [cursor=pointer]:
+                  - /url: /ai-tools/chatbots/best
+              - listitem [ref=e140]:
+                - link "Best AI Text Generators" [ref=e141] [cursor=pointer]:
+                  - /url: /ai-tools/text-generators/best
+              - listitem [ref=e142]:
+                - link "Best AI 3D Generators" [ref=e143] [cursor=pointer]:
+                  - /url: /ai-tools/3D-generator/best
+              - listitem [ref=e144]:
+                - link "All Resources" [ref=e145] [cursor=pointer]:
+                  - /url: /resources
+              - listitem [ref=e146]:
+                - link "Skill Leap" [ref=e147] [cursor=pointer]:
+                  - /url: https://skillleap.futurepedia.io/?utm_source=futurepedia.io&utm_medium=footer&utm_campaign=skillleap_link
+          - generic [ref=e148]:
+            - paragraph [ref=e149]: Company
+            - list [ref=e150]:
+              - listitem [ref=e151]:
+                - link "About Us" [ref=e152] [cursor=pointer]:
+                  - /url: /about-us
+              - listitem [ref=e153]:
+                - link "Contact Us" [ref=e154] [cursor=pointer]:
+                  - /url: /contact
+              - listitem [ref=e155]:
+                - link "Submit a Tool" [ref=e156] [cursor=pointer]:
+                  - /url: /submit-tool
+              - listitem [ref=e157]:
+                - link "Update a Tool" [ref=e158] [cursor=pointer]:
+                  - /url: /update-a-tool
+              - listitem [ref=e159]:
+                - link "Login" [ref=e160] [cursor=pointer]:
+                  - /url: /login
+              - listitem [ref=e161]:
+                - link "Editorial Guidelines" [ref=e162] [cursor=pointer]:
+                  - /url: /editorial-guidelines
+        - generic [ref=e164]:
+          - link "Sign up for free" [ref=e165] [cursor=pointer]:
+            - /url: /register
+          - generic [ref=e166]:
+            - link "Linkedin" [ref=e167] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/futurepedia
+              - generic [ref=e168]: Linkedin
+              - img [ref=e169]
+            - link "Twitter" [ref=e171] [cursor=pointer]:
+              - /url: https://x.com/futurepedia_io
+              - generic [ref=e172]: Twitter
+              - img [ref=e173]
+            - link "YouTube" [ref=e175] [cursor=pointer]:
+              - /url: https://www.youtube.com/@futurepedia_io
+              - generic [ref=e176]: YouTube
+              - img [ref=e177]
+            - link "TikTok" [ref=e179] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@futurepediaio
+              - generic [ref=e180]: TikTok
+              - img [ref=e181]
+            - link "Instagram" [ref=e183] [cursor=pointer]:
+              - /url: https://www.instagram.com/futurepedia_io/
+              - generic [ref=e184]: Instagram
+              - img [ref=e185]
+            - link "Facebook" [ref=e187] [cursor=pointer]:
+              - /url: https://www.facebook.com/futurepediadotio/
+              - generic [ref=e188]: Facebook
+              - img [ref=e189]
+      - generic [ref=e192]:
+        - paragraph [ref=e193]: © 2026 Futurepedia LLC. All rights reserved.
+        - link "Privacy Policy" [ref=e194] [cursor=pointer]:
+          - /url: /privacy-policy
+        - link "Terms of Service" [ref=e195] [cursor=pointer]:
+          - /url: /terms-of-service

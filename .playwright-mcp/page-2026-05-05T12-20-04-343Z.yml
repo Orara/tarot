@@ -1,0 +1,268 @@
+- generic [active] [ref=e1]:
+  - link "메인 콘텐츠로 바로가기" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+    - generic [ref=e4]: 메인 콘텐츠로 바로가기
+  - generic [ref=e6]:
+    - generic:
+      - generic [ref=e7]:
+        - generic: r/tarot에 제출
+      - banner [ref=e10]:
+        - navigation [ref=e11]:
+          - generic [ref=e12]:
+            - button "메뉴 열기" [ref=e16] [cursor=pointer]:
+              - img [ref=e19]
+              - generic [ref=e21]:
+                - generic: 메뉴 열기
+            - link "홈" [ref=e26] [cursor=pointer]:
+              - /url: /
+              - img [ref=e28]
+          - search [ref=e45]:
+            - generic [ref=e47]:
+              - img [ref=e50]
+              - generic [ref=e53]:
+                - 'button "현재 검색 범위: r/tarot" [ref=e54] [cursor=pointer]':
+                  - generic [ref=e55]:
+                    - img [ref=e59]
+                    - generic [ref=e63]: r/tarot
+                  - generic [ref=e64]:
+                    - generic: "현재 검색 범위: r/tarot"
+                - button "r/tarot 필터를 제거하고 Reddit 전체로 검색 범위를 확대합니다" [ref=e66] [cursor=pointer]:
+                  - img [ref=e69]
+                  - generic [ref=e71]:
+                    - generic: r/tarot 필터를 제거하고 Reddit 전체로 검색 범위를 확대합니다
+              - 'textbox "현재 검색 범위: r/tarot r/tarot 필터를 제거하고 Reddit 전체로 검색 범위를 확대합니다" [ref=e73]':
+                - /placeholder: "검색 범위: r/tarot"
+          - generic [ref=e74]:
+            - generic [ref=e75]:
+              - button "채팅 열기" [ref=e81] [cursor=pointer]:
+                - img [ref=e84]
+                - generic [ref=e86]:
+                  - generic: 채팅 열기
+              - link "게시물 만들기" [ref=e91] [cursor=pointer]:
+                - /url: /r/tarot/submit/
+                - generic [ref=e92]:
+                  - img [ref=e94]
+                  - generic [ref=e96]: 만들기
+                - generic [ref=e97]:
+                  - generic: 게시물 만들기
+              - link "받은 편지함 열기" [ref=e101] [cursor=pointer]:
+                - /url: /notifications
+                - img [ref=e104]
+                - generic [ref=e106]:
+                  - generic: 받은 편지함 열기
+            - button "사용자 아바타 사용자 메뉴 펼치기" [ref=e111] [cursor=pointer]:
+              - img "사용자 아바타" [ref=e119]
+              - generic [ref=e121]:
+                - generic: 사용자 메뉴 펼치기
+      - generic [ref=e125]:
+        - main [ref=e126]:
+          - generic "r/tarot에 제출"
+          - generic [ref=e127]:
+            - heading "게시물 만들기" [level=1] [ref=e128]
+            - button "임시 저장본" [ref=e131] [cursor=pointer]:
+              - generic [ref=e133]: 임시 저장본
+          - generic [ref=e134]:
+            - generic:
+              - button "r/tarot" [ref=e138] [cursor=pointer]:
+                - generic [ref=e144]: r/tarot
+                - img [ref=e146]
+              - tablist [ref=e149]:
+                - tab "텍스트" [selected] [ref=e151] [cursor=pointer]:
+                  - generic [ref=e157]: 텍스트
+                - tab "이미지" [ref=e159] [cursor=pointer]:
+                  - generic [ref=e165]: 이미지
+                - tab "링크" [ref=e167] [cursor=pointer]:
+                  - generic [ref=e173]: 링크
+                - tab "설문조사" [ref=e175] [cursor=pointer]:
+                  - generic [ref=e181]: 설문조사
+                - tab "AMA" [ref=e183] [cursor=pointer]:
+                  - generic [ref=e189]: AMA
+              - generic [ref=e190]:
+                - group [ref=e192]:
+                  - generic [ref=e193]:
+                    - generic [ref=e198]:
+                      - generic:
+                        - generic: 제목
+                        - text: "*"
+                      - textbox "제목" [ref=e200]
+                    - generic [ref=e205]: 0/300
+                  - button "플레어 및 태그 추가 *" [ref=e210] [cursor=pointer]:
+                    - generic [ref=e212]:
+                      - generic:
+                        - text: 플레어 및 태그 추가
+                        - generic: "*"
+                - group [ref=e214]:
+                  - generic [ref=e217]:
+                    - generic [ref=e218]:
+                      - paragraph [ref=e219]:
+                        - generic [ref=e220]: 본문 텍스트*
+                      - textbox "게시물 본문 텍스트 필드" [ref=e221]:
+                        - paragraph [ref=e222]
+                    - toolbar "텍스트 서식 툴바" [ref=e223]:
+                      - generic [ref=e226]:
+                        - generic [ref=e227]:
+                          - button "굵게" [ref=e230] [cursor=pointer]:
+                            - img [ref=e233]
+                            - generic [ref=e235]:
+                              - generic: 굵게
+                          - button "기울임꼴" [ref=e238] [cursor=pointer]:
+                            - img [ref=e241]
+                            - generic [ref=e243]:
+                              - generic: 기울임꼴
+                          - button "취소선" [ref=e246] [cursor=pointer]:
+                            - img [ref=e249]
+                            - generic [ref=e251]:
+                              - generic: 취소선
+                          - button "위 첨자" [ref=e254] [cursor=pointer]:
+                            - img [ref=e257]
+                            - generic [ref=e259]:
+                              - generic: 위 첨자
+                          - button "제목" [ref=e262] [cursor=pointer]:
+                            - img [ref=e265]
+                            - generic [ref=e267]:
+                              - generic: 제목
+                          - button "링크" [ref=e270] [cursor=pointer]:
+                            - img [ref=e273]
+                            - generic [ref=e275]:
+                              - generic: 링크
+                          - button "이미지" [ref=e278] [cursor=pointer]:
+                            - img [ref=e281]
+                            - generic [ref=e283]:
+                              - generic: 이미지
+                          - button "글머리 기호 목록" [ref=e286] [cursor=pointer]:
+                            - img [ref=e289]
+                            - generic [ref=e291]:
+                              - generic: 글머리 기호 목록
+                          - button "숫자 리스트" [ref=e294] [cursor=pointer]:
+                            - img [ref=e297]
+                            - generic [ref=e299]:
+                              - generic: 숫자 리스트
+                          - button "스포일러" [ref=e302] [cursor=pointer]:
+                            - img [ref=e305]
+                            - generic [ref=e307]:
+                              - generic: 스포일러
+                          - button "인용 블록" [ref=e310] [cursor=pointer]:
+                            - img [ref=e313]
+                            - generic [ref=e315]:
+                              - generic: 인용 블록
+                          - button "코드" [ref=e318] [cursor=pointer]:
+                            - img [ref=e321]
+                            - generic [ref=e324]:
+                              - generic: 코드
+                          - button "코드 블록" [ref=e327] [cursor=pointer]:
+                            - img [ref=e330]
+                            - generic [ref=e332]:
+                              - generic: 코드 블록
+                          - button "표" [ref=e335] [cursor=pointer]:
+                            - img [ref=e338]
+                            - generic [ref=e340]:
+                              - generic: 표
+                        - generic [ref=e341]:
+                          - generic:
+                            - button "옵션 더 보기" [ref=e342] [cursor=pointer]:
+                              - img [ref=e345]
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: Markdown으로 전환
+                - generic [ref=e348]:
+                  - generic [ref=e349]:
+                    - generic [ref=e350]:
+                      - button "게시하기" [disabled]:
+                        - generic:
+                          - generic: 게시하기
+                    - generic [ref=e351]:
+                      - button "임시 저장하기" [disabled]:
+                        - generic:
+                          - generic: 임시 저장하기
+                  - list
+        - generic [ref=e353]:
+          - generic [ref=e355]:
+            - heading "모더레이터의 가이드라인 r/tarot" [level=2] [ref=e356]
+            - generic [ref=e357]: Please, READ THE RULES on reading offers/requests/swaps, and promotion BEFORE you post. Interpretation help requests must include a full interpretation looking for a second opinion only. If the post includes photos of cards or a deck, please provide the name of the deck and the author/artist. If sharing a spread, please include the card positions and your full interpretation. FLAIR is required!
+          - generic [ref=e359]:
+            - heading "r/tarot 이용 수칙" [level=2] [ref=e361]:
+              - generic [ref=e362]: r/tarot 이용 수칙
+            - generic [ref=e363]:
+              - group [ref=e365]:
+                - generic "1 Promotional content is limited to the Megathreads and User Flair." [ref=e366] [cursor=pointer]:
+                  - generic [ref=e368]:
+                    - generic [ref=e369]:
+                      - generic [ref=e371]: "1"
+                      - heading "Promotional content is limited to the Megathreads and User Flair." [level=2] [ref=e375]
+                    - img [ref=e378]
+              - group [ref=e381]:
+                - generic "2 Free Reading Requests and Offers go in the Weekly Reading and Interpretation Help Thread." [ref=e382] [cursor=pointer]:
+                  - generic [ref=e384]:
+                    - generic [ref=e385]:
+                      - generic [ref=e387]: "2"
+                      - heading "Free Reading Requests and Offers go in the Weekly Reading and Interpretation Help Thread." [level=2] [ref=e391]
+                    - img [ref=e394]
+              - group [ref=e397]:
+                - generic "3 Spread Post and Interpretation Help Guidelines" [ref=e398] [cursor=pointer]:
+                  - generic [ref=e400]:
+                    - generic [ref=e401]:
+                      - generic [ref=e403]: "3"
+                      - heading "Spread Post and Interpretation Help Guidelines" [level=2] [ref=e407]
+                    - img [ref=e410]
+              - group [ref=e413]:
+                - generic "4 Deck posts must include a review of the deck" [ref=e414] [cursor=pointer]:
+                  - generic [ref=e416]:
+                    - generic [ref=e417]:
+                      - generic [ref=e419]: "4"
+                      - heading "Deck posts must include a review of the deck" [level=2] [ref=e423]
+                    - img [ref=e426]
+              - group [ref=e429]:
+                - generic "5 Art posts must include context and are limited to one every 30 days." [ref=e430] [cursor=pointer]:
+                  - generic [ref=e432]:
+                    - generic [ref=e433]:
+                      - generic [ref=e435]: "5"
+                      - heading "Art posts must include context and are limited to one every 30 days." [level=2] [ref=e439]
+                    - img [ref=e442]
+              - group [ref=e445]:
+                - generic "6 Tarot related photos that are not Deck, Spread or Art Post are limited to 'Shitpost Saturdays'" [ref=e446] [cursor=pointer]:
+                  - generic [ref=e448]:
+                    - generic [ref=e449]:
+                      - generic [ref=e451]: "6"
+                      - heading "Tarot related photos that are not Deck, Spread or Art Post are limited to 'Shitpost Saturdays'" [level=2] [ref=e455]
+                    - img [ref=e458]
+              - group [ref=e461]:
+                - generic "7 No Sharing or Requesting Pirated material." [ref=e462] [cursor=pointer]:
+                  - generic [ref=e464]:
+                    - generic [ref=e465]:
+                      - generic [ref=e467]: "7"
+                      - heading "No Sharing or Requesting Pirated material." [level=2] [ref=e471]
+                    - img [ref=e474]
+              - group [ref=e477]:
+                - generic "8 Please be respectful. No Gatekeeping, Harassing, Belittling, or Dismissing a person's beliefs." [ref=e478] [cursor=pointer]:
+                  - generic [ref=e480]:
+                    - generic [ref=e481]:
+                      - generic [ref=e483]: "8"
+                      - heading "Please be respectful. No Gatekeeping, Harassing, Belittling, or Dismissing a person's beliefs." [level=2] [ref=e487]
+                    - img [ref=e490]
+              - group [ref=e493]:
+                - generic "9 The use of Artificial Intelligence (AI) is prohibited in discussions, comments, and interpretations." [ref=e494] [cursor=pointer]:
+                  - generic [ref=e496]:
+                    - generic [ref=e497]:
+                      - generic [ref=e499]: "9"
+                      - heading "The use of Artificial Intelligence (AI) is prohibited in discussions, comments, and interpretations." [level=2] [ref=e503]
+                    - img [ref=e506]
+          - generic [ref=e509]:
+            - heading "사용자 플레어 설정" [level=2] [ref=e511]:
+              - generic [ref=e512]: 사용자 플레어 설정
+            - button "u/Intrepid_Diver1032 님의 아바타입니다 Intrepid_Diver1032" [ref=e514]:
+              - generic [ref=e516]:
+                - img "u/Intrepid_Diver1032 님의 아바타입니다" [ref=e521]
+                - generic [ref=e523]: Intrepid_Diver1032
+        - generic [ref=e525]:
+          - link "Reddit 콘텐츠 규정" [ref=e528] [cursor=pointer]:
+            - /url: https://www.redditinc.com/policies/content-policy
+          - link "개인정보 처리방침" [ref=e531] [cursor=pointer]:
+            - /url: https://www.reddit.com/policies/privacy-policy
+          - link "이용 약관" [ref=e534] [cursor=pointer]:
+            - /url: https://www.redditinc.com/policies/user-agreement
+          - link "접근성" [ref=e537] [cursor=pointer]:
+            - /url: https://support.reddithelp.com/hc/sections/38303584022676-Accessibility
+          - generic [ref=e538]: •
+          - link "Reddit, Inc. © 2026. All rights reserved." [ref=e540] [cursor=pointer]:
+            - /url: https://redditinc.com

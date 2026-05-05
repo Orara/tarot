@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:sacred-texts.com)",
+      "WebFetch(domain:commons.wikimedia.org)",
+      "WebFetch(domain:www.sacred-texts.com)",
+      "WebFetch(domain:archive.org)",
+      "Bash(node:*)",
+      "Bash(npm run:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(npx wrangler:*)",
+      "Bash(grep -c \"tarot-cards\" /c/Users/USER/Desktop/tarot/dist/assets/*.js)",
+      "Bash(grep -o '\"\\\\/tarot-cards\\\\/[0-9]*\\\\.jpg\"' /c/Users/USER/Desktop/tarot/dist/assets/*.js)",
+      "Bash(npx vite:*)",
+      "Bash(curl -s http://localhost:4173)",
+      "WebFetch(domain:tarot-bzi.pages.dev)",
+      "Bash(curl:*)",
+      "Bash(npm install:*)",
+      "Bash(ls -lt /c/Users/USER/Desktop/*.png /c/Users/USER/Desktop/*.jpg /c/Users/USER/Desktop/*.jpeg /c/Users/USER/Desktop/*.webp)",
+      "Bash(ls /c/Users/USER/Desktop/screenshot*)",
+      "Bash(ls /c/Users/USER/Desktop/Screenshot*)",
+      "Bash(ls:*)",
+      "Read(//c/Users/USER/.config/.wrangler/config/**)",
+      "Read(//c/Users/USER/AppData/Roaming/wrangler/**)",
+      "Read(//c/Users/USER/.config/**)",
+      "Read(//c/Users/USER/AppData/Roaming/**)",
+      "Bash(pip list:*)",
+      "Bash(npm list:*)",
+      "Read(//c/Users/USER/Desktop/**)",
+      "Read(//c/Users/USER/Documents/**)",
+      "mcp__playwright__browser_type"
+    ]
+  }
+}

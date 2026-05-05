@@ -1,0 +1,572 @@
+- generic [ref=e4]:
+  - generic [ref=e7] [cursor=pointer]:
+    - generic [ref=e8]: Sponsored by
+    - generic [ref=e9]: AdsCreator.com
+    - generic [ref=e10]: "-"
+    - generic [ref=e11]: AI Ad Creation Tool - Just Paste your Website URL
+    - img [ref=e14]
+  - banner [ref=e16]:
+    - generic [ref=e18]:
+      - link "Toolify Toolify logo" [ref=e20] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e21]: Toolify
+        - img "Toolify logo" [ref=e22]
+      - img [ref=e26] [cursor=pointer]
+  - generic [ref=e29]:
+    - generic [ref=e30]:
+      - generic [ref=e31]:
+        - heading "Your AIs on Toolify" [level=1] [ref=e32]
+        - link "My Orders" [ref=e33] [cursor=pointer]:
+          - /url: /profile/oders-invoice
+          - generic [ref=e34]: My Orders
+          - img [ref=e36]
+      - paragraph [ref=e38]: Toolify AI can help you reach millions of AI users and your potential customers worldwide. Reach AI enthusiasts, AI entrepreneurs, AI investors, VPs and more to increase your product visibility, trial rates and paying users.
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - img [ref=e42]
+          - generic [ref=e44]:
+            - generic [ref=e45]: 8M+
+            - paragraph [ref=e46]: PAGE VIEWS
+        - generic [ref=e47]:
+          - img [ref=e49]
+          - generic [ref=e51]:
+            - generic [ref=e52]: 5.1M+
+            - paragraph [ref=e53]: MONTHLY VISITS
+        - generic [ref=e54]:
+          - img [ref=e56]
+          - generic [ref=e58]:
+            - generic [ref=e59]: 700K+
+            - paragraph [ref=e60]: SUBSCRIBERS
+        - generic [ref=e61]:
+          - img [ref=e63]
+          - generic [ref=e65]:
+            - generic [ref=e66]: 55%
+            - paragraph [ref=e67]: DESKTOP USERS
+        - generic [ref=e68]:
+          - img [ref=e70]
+          - generic [ref=e72]:
+            - generic [ref=e73]: 03:23
+            - paragraph [ref=e74]: AVG TIME ON SITE
+    - generic [ref=e77]:
+      - generic [ref=e78]:
+        - img [ref=e80]
+        - paragraph [ref=e82]: Top AI Tools Directory
+      - generic [ref=e83]:
+        - img [ref=e85]
+        - paragraph [ref=e87]: Dofollow backlink
+      - generic [ref=e88]:
+        - img [ref=e90]
+        - paragraph [ref=e92]: Multi-language intro
+      - generic [ref=e93]:
+        - img [ref=e95]
+        - paragraph [ref=e97]: Listing & Traffic forever
+      - generic [ref=e98]:
+        - img [ref=e100]
+        - paragraph [ref=e102]: Value for Founders&Startups
+    - paragraph [ref=e105]: Choose what you want
+    - generic [ref=e106]:
+      - generic [ref=e107]:
+        - link "Submit AI Submit your AI tools, get traffic" [ref=e108] [cursor=pointer]:
+          - /url: /submit
+          - heading "Submit AI" [level=3] [ref=e109]
+          - paragraph [ref=e110]: Submit your AI tools, get traffic
+        - link "Advertise AI* Pay-per-click, featured promotions, automated ad placement" [ref=e111] [cursor=pointer]:
+          - /url: /advertise
+          - heading "Advertise AI*" [level=3] [ref=e112]:
+            - generic [ref=e113]: Advertise AI*
+            - img [ref=e115]
+          - paragraph [ref=e117]: Pay-per-click, featured promotions, automated ad placement
+        - link "Guest Posts / Link Insert Guest posts/link insert on Toolify" [ref=e118] [cursor=pointer]:
+          - /url: /post-or-insert
+          - heading "Guest Posts / Link Insert" [level=3] [ref=e119]
+          - paragraph [ref=e120]: Guest posts/link insert on Toolify
+        - link "Update AI Update your tool's information." [ref=e121] [cursor=pointer]:
+          - /url: /update-ai
+          - heading "Update AI" [level=3] [ref=e122]
+          - paragraph [ref=e123]: Update your tool's information.
+        - link "Submit GPT Submit your gpt for more people to use." [ref=e124] [cursor=pointer]:
+          - /url: /submit-gpt
+          - heading "Submit GPT" [level=3] [ref=e125]
+          - paragraph [ref=e126]: Submit your gpt for more people to use.
+        - 'link "More Business Such as: link exchanges, Twitter posts, videos, etc." [ref=e127] [cursor=pointer]':
+          - /url: /business
+          - heading "More Business" [level=3] [ref=e128]
+          - paragraph [ref=e129]: "Such as: link exchanges, Twitter posts, videos, etc."
+      - generic [ref=e130]:
+        - generic [ref=e131]:
+          - heading "Tools you need to submit" [level=3] [ref=e132]
+          - generic [ref=e133]:
+            - generic [ref=e134]:
+              - generic [ref=e135]: "*Name"
+              - textbox "Copy AI" [ref=e138]
+            - generic [ref=e139]:
+              - generic [ref=e140]:
+                - text: "*"
+                - generic [ref=e141]:
+                  - generic [ref=e142]: Website URL
+                  - link "No website yet? Secure your .AI domain now." [ref=e143] [cursor=pointer]:
+                    - /url: /premium-ai-domain-marketplace
+                    - generic [ref=e144]: No website yet?
+                    - generic [ref=e145]:
+                      - generic [ref=e146]: Secure your .AI domain now.
+                      - img [ref=e147]
+              - 'textbox "Please enter the tool url, such as: \"https://www.copy.ai/\"" [ref=e151]'
+            - generic [ref=e152]:
+              - generic [ref=e153]: "*Choose how to generate tool information"
+              - radiogroup [ref=e155]:
+                - radio "Generated by Toolify All content and translations are generated by Toolify AI" [ref=e156] [cursor=pointer]:
+                  - generic [ref=e158]:
+                    - generic [ref=e159]: Generated by Toolify
+                    - generic [ref=e160]: All content and translations are generated by Toolify AI
+                - radio "Do it myself Provide tool information myself in English only, translated by Toolify AI" [ref=e161] [cursor=pointer]:
+                  - generic [ref=e163]:
+                    - generic [ref=e164]: Do it myself
+                    - generic [ref=e165]: Provide tool information myself in English only, translated by Toolify AI
+            - generic [ref=e166]:
+              - generic [ref=e167]:
+                - generic [ref=e168]: "Total: $ 99"
+                - paragraph [ref=e169]: No queue, listed within 48 hours
+              - button "Pay $ 99" [ref=e170] [cursor=pointer]
+        - generic [ref=e172]:
+          - img "toolify" [ref=e174]
+          - generic [ref=e175]:
+            - heading "Submit a Tool Example" [level=3] [ref=e176]
+            - generic [ref=e177]:
+              - paragraph [ref=e178]: "You will get:"
+              - generic [ref=e179]:
+                - img [ref=e180]
+                - generic [ref=e183]: Appeared in Listing and Just Launched within 48 hours, no queue.
+              - generic [ref=e184]:
+                - img [ref=e185]
+                - generic [ref=e187]:
+                  - generic [ref=e188]: Border Highlight.
+                  - paragraph [ref=e189]: Users can quickly spot you in the list and increase the number of clicks.
+              - generic [ref=e190]:
+                - img [ref=e191]
+                - generic [ref=e193]:
+                  - generic [ref=e194]: Get dofollow links and boost your SEO.
+                  - paragraph [ref=e195]: Your website will get no less than 6 quality dofollow links from Toolify. This is a key factor in improving your search engine optimization rankings. Not only will it increase your visibility on search engines, but it will also increase natural traffic, which is crucial for your digital growth.
+              - generic [ref=e196]:
+                - img [ref=e197]
+                - generic [ref=e199]:
+                  - generic [ref=e200]: Listing & Traffic Forever.
+                  - paragraph [ref=e201]: Your tool stays permanently on toolify's list and gets a constant stream of clicks and subscribers.
+              - generic [ref=e202]:
+                - img [ref=e203]
+                - generic [ref=e205]:
+                  - generic [ref=e206]: Get toolify AI Launch embeds.
+                  - paragraph [ref=e207]: Get toolify's AI certification and link toolify AI certification to your website.
+      - generic [ref=e208]:
+        - heading "Frequently Asked Questions - Submit AI" [level=2] [ref=e209]
+        - generic [ref=e211]:
+          - term [ref=e213] [cursor=pointer]:
+            - generic [ref=e214]: How much does it cost to list a tool?Is it a one-time payment or a recurring payment?
+            - img [ref=e216]
+          - term [ref=e219] [cursor=pointer]:
+            - generic [ref=e220]: How long does it take to be listed after I pay and submit?
+            - img [ref=e222]
+          - term [ref=e225] [cursor=pointer]:
+            - generic [ref=e226]: Does my listing expire？
+            - img [ref=e228]
+          - term [ref=e231] [cursor=pointer]:
+            - generic [ref=e232]: How can I need more views？
+            - img [ref=e234]
+          - term [ref=e237] [cursor=pointer]:
+            - generic [ref=e238]: Why wasn't my tool listed?
+            - img [ref=e240]
+          - term [ref=e243] [cursor=pointer]:
+            - generic [ref=e244]: Can you guarantee sales or traffic?
+            - img [ref=e246]
+          - term [ref=e249] [cursor=pointer]:
+            - generic [ref=e250]: What is the refund policy?
+            - img [ref=e252]
+          - term [ref=e255] [cursor=pointer]:
+            - generic [ref=e256]: Do you work with agencies?
+            - img [ref=e258]
+          - term [ref=e261] [cursor=pointer]:
+            - generic [ref=e262]: Any questions?
+            - img [ref=e264]
+  - contentinfo [ref=e266]:
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - generic [ref=e269]:
+          - generic [ref=e270]: Top AI Tools
+          - list [ref=e271]:
+            - listitem [ref=e272]:
+              - link "13 Reasons to Switch from Snapchat to Text Messaging" [ref=e273] [cursor=pointer]:
+                - /url: /top-ai-tools/13-reasons-to-switch-from-snapchat-to-text-messaging
+            - listitem [ref=e274]:
+              - link "7 Powerful Speech to Text Apps to Boost Productivity" [ref=e275] [cursor=pointer]:
+                - /url: /top-ai-tools/7-powerful-speech-to-text-apps-to-boost-productivity
+            - listitem [ref=e276]:
+              - link "10 Best Speech to Text Tools for Effortless Transcription" [ref=e277] [cursor=pointer]:
+                - /url: /top-ai-tools/10-best-speech-to-text-tools-for-effortless-transcription
+            - listitem [ref=e278]:
+              - link "13 Free Tools to Easily Transcribe Audio to Text" [ref=e279] [cursor=pointer]:
+                - /url: /top-ai-tools/13-free-tools-to-easily-transcribe-audio-to-text
+            - listitem [ref=e280]:
+              - link "15 Surprising Ways Google's Speech-to-Text Boosts Productivity" [ref=e281] [cursor=pointer]:
+                - /url: /top-ai-tools/15-surprising-ways-google-s-speech-to-text-boosts-productivity
+            - listitem [ref=e282]:
+              - link "7 Best Free Online Audio to Text Transcription Tools" [ref=e283] [cursor=pointer]:
+                - /url: /top-ai-tools/7-best-free-online-audio-to-text-transcription-tools
+            - listitem [ref=e284]:
+              - link "9 Tips to Transcribe Speech to Text Faster and Better" [ref=e285] [cursor=pointer]:
+                - /url: /top-ai-tools/9-tips-to-transcribe-speech-to-text-faster-and-better
+            - listitem [ref=e286]:
+              - link "13 Best Speech to Text Software for Windows 10 in 2023" [ref=e287] [cursor=pointer]:
+                - /url: /top-ai-tools/13-best-speech-to-text-software-for-windows-10-in-2023-1
+            - listitem [ref=e288]:
+              - link "7 Tips for Choosing the Best Transcriber for Audio to Text" [ref=e289] [cursor=pointer]:
+                - /url: /top-ai-tools/7-tips-for-choosing-the-best-transcriber-for-audio-to-text
+            - listitem [ref=e290]:
+              - link "11 Reasons Why Dragon Speech-to-Text Apps are Game-Changers" [ref=e291] [cursor=pointer]:
+                - /url: /top-ai-tools/11-reasons-why-dragon-speech-to-text-apps-are-game-changers
+            - listitem [ref=e292]:
+              - link "6 Secrets to Enhance Your Speech to Text Transcription" [ref=e293] [cursor=pointer]:
+                - /url: /top-ai-tools/6-secrets-to-enhance-your-speech-to-text-transcription
+            - listitem [ref=e294]:
+              - link "6 Brilliant Ways to Boost Productivity with Talk-to-Text on Your MacBook" [ref=e295] [cursor=pointer]:
+                - /url: /top-ai-tools/6-brilliant-ways-to-boost-productivity-with-talk-to-text-on-your-macbook
+            - listitem [ref=e296]:
+              - link "6 Ways Transcription Software Converts Audio to Text" [ref=e297] [cursor=pointer]:
+                - /url: /top-ai-tools/6-ways-transcription-software-converts-audio-to-text
+            - listitem [ref=e298]:
+              - link "8 Tips to Transcribe Speech to Text Like a Pro" [ref=e299] [cursor=pointer]:
+                - /url: /top-ai-tools/8-tips-to-transcribe-speech-to-text-like-a-pro
+            - listitem [ref=e300]:
+              - link "6 Reasons IBM Watson Speech to Text is a Game-Changer" [ref=e301] [cursor=pointer]:
+                - /url: /top-ai-tools/6-reasons-ibm-watson-speech-to-text-is-a-game-changer
+            - listitem [ref=e302]:
+              - link "14 Powerful Ways Talk-to-Text Improves Your Workflow" [ref=e303] [cursor=pointer]:
+                - /url: /top-ai-tools/14-powerful-ways-talk-to-text-improves-your-workflow
+            - listitem [ref=e304]:
+              - link "12 Top Windows Speech-to-Text Software for Efficient Transcription" [ref=e305] [cursor=pointer]:
+                - /url: /top-ai-tools/12-top-windows-speech-to-text-software-for-efficient-transcription
+            - listitem [ref=e306]:
+              - link "12 Game-Changing Benefits of Apple's Speech to Text Technology" [ref=e307] [cursor=pointer]:
+                - /url: /top-ai-tools/12-game-changing-benefits-of-apple-s-speech-to-text-technology
+            - listitem [ref=e308]:
+              - link "9 Powerful Use Cases for AWS Speech to Text Technology" [ref=e309] [cursor=pointer]:
+                - /url: /top-ai-tools/9-powerful-use-cases-for-aws-speech-to-text-technology
+            - listitem [ref=e310]:
+              - link "10 Easy Steps to Transcribe YouTube Videos to Text" [ref=e311] [cursor=pointer]:
+                - /url: /top-ai-tools/10-easy-steps-to-transcribe-youtube-videos-to-text
+        - generic [ref=e312]:
+          - generic [ref=e313]: More Tools
+          - list [ref=e314]:
+            - listitem [ref=e315]:
+              - link "transcription audio en texte" [ref=e316] [cursor=pointer]:
+                - /url: /category-attribute/transcription-audio-en-texte
+            - listitem [ref=e317]:
+              - link "online audio transcription" [ref=e318] [cursor=pointer]:
+                - /url: /category-attribute/online-audio-transcription
+            - listitem [ref=e319]:
+              - link "free audio file transcription" [ref=e320] [cursor=pointer]:
+                - /url: /category-attribute/free-audio-file-transcription
+            - listitem [ref=e321]:
+              - link "free ai audio transcription" [ref=e322] [cursor=pointer]:
+                - /url: /category-attribute/free-ai-audio-transcription
+            - listitem [ref=e323]:
+              - link "audio transcription service" [ref=e324] [cursor=pointer]:
+                - /url: /category-attribute/audio-transcription-service
+            - listitem [ref=e325]:
+              - link "audio transcription online free" [ref=e326] [cursor=pointer]:
+                - /url: /category-attribute/audio-transcription-online-free
+            - listitem [ref=e327]:
+              - link "audio transcription free online" [ref=e328] [cursor=pointer]:
+                - /url: /category-attribute/audio-transcription-free-online
+            - listitem [ref=e329]:
+              - link "audio to transcription software" [ref=e330] [cursor=pointer]:
+                - /url: /category-attribute/audio-to-transcription-software
+            - listitem [ref=e331]:
+              - link "audio and transcript" [ref=e332] [cursor=pointer]:
+                - /url: /category-attribute/audio-and-transcript
+            - listitem [ref=e333]:
+              - link "ai audio transcription free" [ref=e334] [cursor=pointer]:
+                - /url: /category-attribute/ai-audio-transcription-free
+            - listitem [ref=e335]:
+              - link "voice recording to text converter" [ref=e336] [cursor=pointer]:
+                - /url: /category-attribute/voice-recording-to-text-converter
+            - listitem [ref=e337]:
+              - link "translate voice recording to text" [ref=e338] [cursor=pointer]:
+                - /url: /category-attribute/translate-voice-recording-to-text
+            - listitem [ref=e339]:
+              - link "record voice to text" [ref=e340] [cursor=pointer]:
+                - /url: /category-attribute/record-voice-to-text
+            - listitem [ref=e341]:
+              - link "audio recording to text converter" [ref=e342] [cursor=pointer]:
+                - /url: /category-attribute/audio-recording-to-text-converter
+            - listitem [ref=e343]:
+              - link "voice recording and transcription" [ref=e344] [cursor=pointer]:
+                - /url: /category-attribute/voice-recording-and-transcription
+            - listitem [ref=e345]:
+              - link "chatgpt voice to text" [ref=e346] [cursor=pointer]:
+                - /url: /category-attribute/chatgpt-voice-to-text
+            - listitem [ref=e347]:
+              - link "gmail voice to text" [ref=e348] [cursor=pointer]:
+                - /url: /category-attribute/gmail-voice-to-text
+            - listitem [ref=e349]:
+              - link "speech to text reader" [ref=e350] [cursor=pointer]:
+                - /url: /category-attribute/speech-to-text-reader
+            - listitem [ref=e351]:
+              - link "speech to text ai free" [ref=e352] [cursor=pointer]:
+                - /url: /category-attribute/speech-to-text-ai-free
+            - listitem [ref=e353]:
+              - link "speech to talk" [ref=e354] [cursor=pointer]:
+                - /url: /category-attribute/speech-to-talk
+        - generic [ref=e355]:
+          - generic [ref=e356]: Recommend
+          - list [ref=e357]:
+            - listitem [ref=e358]:
+              - link "2026别再为 Claude多花冤枉钱了，ClaudeAPI.com国内直连让我每月省下 ¥780" [ref=e359] [cursor=pointer]:
+                - /url: https://www.toolify.ai/zh/ai-news-cn/2026别再为-claude多花冤枉钱了claudeapicom国内直连让我每月省下-780-3915965
+            - listitem [ref=e360]:
+              - link "5 Best AI Chat Apps for Mac in 2026" [ref=e361] [cursor=pointer]:
+                - /url: https://www.toolify.ai/ai-news/5-best-ai-chat-apps-for-mac-in-2026-3915970
+            - listitem [ref=e362]:
+              - link "What Makes Happy Horse 1.0 Different from Basic AI Video Tools" [ref=e363] [cursor=pointer]:
+                - /url: https://www.toolify.ai/ai-news/what-makes-happy-horse-10-different-from-basic-ai-video-tools-3915967
+            - listitem [ref=e364]:
+              - link "Key Features of Happy Horse 1.0 AI Video Generator You Should Know" [ref=e365] [cursor=pointer]:
+                - /url: https://www.toolify.ai/ai-news/key-features-of-happy-horse-10-ai-video-generator-you-should-know-3915968
+            - listitem [ref=e366]:
+              - link "爱翻译功能全面解析:核心优势及主要功能" [ref=e367] [cursor=pointer]:
+                - /url: https://www.toolify.ai/zh/ai-news-cn/爱翻译功能全面解析核心优势及主要功能-3915966
+            - listitem [ref=e368]:
+              - link "Best AI Humanizers for SEO Content Writers in 2026" [ref=e369] [cursor=pointer]:
+                - /url: https://www.toolify.ai/ai-news/best-ai-humanizers-for-seo-content-writers-in-2026-3915943
+            - listitem [ref=e370]:
+              - 'link "Seedance 2.0 Prompting 101: The 6 Parameters You Need to Master (by Topview)" [ref=e371] [cursor=pointer]':
+                - /url: https://www.toolify.ai/ai-news/seedance-20-prompting-101-the-6-parameters-you-need-to-master-by-topview-3915955
+            - listitem [ref=e372]:
+              - 'link "Top 5 AI Text-to-Video Generators: A 2025 Review" [ref=e373] [cursor=pointer]':
+                - /url: https://www.toolify.ai/ai-news/top-5-ai-texttovideo-generators-a-2025-review-3675665
+            - listitem [ref=e374]:
+              - 'link "Create Professional UGC Videos with AI: Introducing Magic Ads" [ref=e375] [cursor=pointer]':
+                - /url: https://www.toolify.ai/ai-news/create-professional-ugc-videos-with-ai-introducing-magic-ads-1334365
+            - listitem [ref=e376]:
+              - 'link "Top 5 Browsers for Managing Multiple Accounts in 2026: What Actually Works" [ref=e377] [cursor=pointer]':
+                - /url: https://www.toolify.ai/ai-news/top-5-browsers-for-managing-multiple-accounts-in-2026-what-actually-works-3915936
+          - generic [ref=e378]: Resourse
+          - list [ref=e379]:
+            - listitem [ref=e380]:
+              - link "Blog" [ref=e381] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=e382]:
+              - link "AI News" [ref=e383] [cursor=pointer]:
+                - /url: /ai-news
+            - listitem [ref=e384]:
+              - link "GPTS" [ref=e385] [cursor=pointer]:
+                - /url: /gpts
+            - listitem [ref=e386]:
+              - link "Stable Video Diffusion" [ref=e387] [cursor=pointer]:
+                - /url: /stable-video-diffusion
+            - listitem [ref=e388]:
+              - link "Gemini AI" [ref=e389] [cursor=pointer]:
+                - /url: /gemini-ai
+            - listitem [ref=e390]:
+              - link "Hardware" [ref=e391] [cursor=pointer]:
+                - /url: /hardware
+            - listitem [ref=e392]:
+              - link "Top AI Tools" [ref=e393] [cursor=pointer]:
+                - /url: /top-ai-tools
+            - listitem [ref=e394]:
+              - link "Is It Down?" [ref=e395] [cursor=pointer]:
+                - /url: /is-it-down
+          - generic [ref=e396]: Browse by Alphabet
+          - list [ref=e397]:
+            - listitem [ref=e398]:
+              - link "A" [ref=e399] [cursor=pointer]:
+                - /url: /alphabet-a
+            - listitem [ref=e400]:
+              - link "B" [ref=e401] [cursor=pointer]:
+                - /url: /alphabet-b
+            - listitem [ref=e402]:
+              - link "C" [ref=e403] [cursor=pointer]:
+                - /url: /alphabet-c
+            - listitem [ref=e404]:
+              - link "D" [ref=e405] [cursor=pointer]:
+                - /url: /alphabet-d
+            - listitem [ref=e406]:
+              - link "E" [ref=e407] [cursor=pointer]:
+                - /url: /alphabet-e
+            - listitem [ref=e408]:
+              - link "F" [ref=e409] [cursor=pointer]:
+                - /url: /alphabet-f
+            - listitem [ref=e410]:
+              - link "G" [ref=e411] [cursor=pointer]:
+                - /url: /alphabet-g
+            - listitem [ref=e412]:
+              - link "H" [ref=e413] [cursor=pointer]:
+                - /url: /alphabet-h
+            - listitem [ref=e414]:
+              - link "I" [ref=e415] [cursor=pointer]:
+                - /url: /alphabet-i
+            - listitem [ref=e416]:
+              - link "J" [ref=e417] [cursor=pointer]:
+                - /url: /alphabet-j
+            - listitem [ref=e418]:
+              - link "K" [ref=e419] [cursor=pointer]:
+                - /url: /alphabet-k
+            - listitem [ref=e420]:
+              - link "L" [ref=e421] [cursor=pointer]:
+                - /url: /alphabet-l
+            - listitem [ref=e422]:
+              - link "M" [ref=e423] [cursor=pointer]:
+                - /url: /alphabet-m
+            - listitem [ref=e424]:
+              - link "N" [ref=e425] [cursor=pointer]:
+                - /url: /alphabet-n
+            - listitem [ref=e426]:
+              - link "O" [ref=e427] [cursor=pointer]:
+                - /url: /alphabet-o
+            - listitem [ref=e428]:
+              - link "P" [ref=e429] [cursor=pointer]:
+                - /url: /alphabet-p
+            - listitem [ref=e430]:
+              - link "Q" [ref=e431] [cursor=pointer]:
+                - /url: /alphabet-q
+            - listitem [ref=e432]:
+              - link "R" [ref=e433] [cursor=pointer]:
+                - /url: /alphabet-r
+            - listitem [ref=e434]:
+              - link "S" [ref=e435] [cursor=pointer]:
+                - /url: /alphabet-s
+            - listitem [ref=e436]:
+              - link "T" [ref=e437] [cursor=pointer]:
+                - /url: /alphabet-t
+            - listitem [ref=e438]:
+              - link "U" [ref=e439] [cursor=pointer]:
+                - /url: /alphabet-u
+            - listitem [ref=e440]:
+              - link "V" [ref=e441] [cursor=pointer]:
+                - /url: /alphabet-v
+            - listitem [ref=e442]:
+              - link "W" [ref=e443] [cursor=pointer]:
+                - /url: /alphabet-w
+            - listitem [ref=e444]:
+              - link "X" [ref=e445] [cursor=pointer]:
+                - /url: /alphabet-x
+            - listitem [ref=e446]:
+              - link "Y" [ref=e447] [cursor=pointer]:
+                - /url: /alphabet-y
+            - listitem [ref=e448]:
+              - link "Z" [ref=e449] [cursor=pointer]:
+                - /url: /alphabet-z
+            - listitem [ref=e450]:
+              - link "Other" [ref=e451] [cursor=pointer]:
+                - /url: /alphabet-other
+          - generic [ref=e452]: Top 1000 AI Tools Directory
+          - list [ref=e453]:
+            - listitem [ref=e454]:
+              - link "04/30" [ref=e455] [cursor=pointer]:
+                - /url: /top-1000-adspy/04-30-2026
+            - listitem [ref=e456]:
+              - link "04/29" [ref=e457] [cursor=pointer]:
+                - /url: /top-1000-adspy/04-29-2026
+            - listitem [ref=e458]:
+              - link "04/24" [ref=e459] [cursor=pointer]:
+                - /url: /top-1000-adspy/04-24-2026
+            - listitem [ref=e460]:
+              - link "04/22" [ref=e461] [cursor=pointer]:
+                - /url: /top-1000-adspy/04-22-2026
+            - listitem [ref=e462]:
+              - link "04/21" [ref=e463] [cursor=pointer]:
+                - /url: /top-1000-adspy/04-21-2026
+            - listitem [ref=e464]:
+              - link "04/20" [ref=e465] [cursor=pointer]:
+                - /url: /top-1000-adspy/04-20-2026
+            - listitem [ref=e466]:
+              - link "04/17" [ref=e467] [cursor=pointer]:
+                - /url: /top-1000-adspy/04-17-2026
+            - listitem [ref=e468]:
+              - link "04/14" [ref=e469] [cursor=pointer]:
+                - /url: /top-1000-adspy/04-14-2026
+            - listitem [ref=e470]:
+              - link "04/13" [ref=e471] [cursor=pointer]:
+                - /url: /top-1000-adspy/04-13-2026
+        - generic [ref=e472]:
+          - generic [ref=e473]: Read more
+          - list [ref=e474]:
+            - listitem [ref=e475]:
+              - 'link "Transforming AI Videos: A Comprehensive Guide to 3D Spatial Conversion" [ref=e476] [cursor=pointer]':
+                - /url: /ai-news/transforming-ai-videos-a-comprehensive-guide-to-3d-spatial-conversion-3388426
+            - listitem [ref=e477]:
+              - link "We Tested 15+ AI Headshot Generators - Here's the Verdict" [ref=e478] [cursor=pointer]:
+                - /url: /ai-news/we-tested-15-ai-headshot-generators-heres-the-verdict-3915974
+            - listitem [ref=e479]:
+              - 'link "AI Dropshipping in 2026: How Automation Is Changing Ecommerce" [ref=e480] [cursor=pointer]':
+                - /url: /ai-news/ai-dropshipping-in-2026-how-automation-is-changing-ecommerce-3915973
+            - listitem [ref=e481]:
+              - 'link "Mastering Meeting Minutes: A Comprehensive Guide for Efficiency" [ref=e482] [cursor=pointer]':
+                - /url: /ai-news/mastering-meeting-minutes-a-comprehensive-guide-for-efficiency-3526075
+            - listitem [ref=e483]:
+              - 'link "The Dangers of Deepfake for K-Pop: From Idol to Porn Star" [ref=e484] [cursor=pointer]':
+                - /url: /ai-news/the-dangers-of-deepfake-for-kpop-from-idol-to-porn-star-524686
+            - listitem [ref=e485]:
+              - link "Key Metrics Used in AI Benchmarking for Enterprise Systems" [ref=e486] [cursor=pointer]:
+                - /url: /ai-news/key-metrics-used-in-ai-benchmarking-for-enterprise-systems-3915972
+            - listitem [ref=e487]:
+              - 'link "Top Free AI Video Generators: Latest Tools Compared!" [ref=e488] [cursor=pointer]':
+                - /url: /ai-news/top-free-ai-video-generators-latest-tools-compared-3805577
+            - listitem [ref=e489]:
+              - 'link "Top 5 Free AI Video Generators: Unlimited Options in 2025" [ref=e490] [cursor=pointer]':
+                - /url: /ai-news/top-5-free-ai-video-generators-unlimited-options-in-2025-3847306
+            - listitem [ref=e491]:
+              - 'link "Top AI Video Generators: Ranking the Best Tools for 2025" [ref=e492] [cursor=pointer]':
+                - /url: /ai-news/top-ai-video-generators-ranking-the-best-tools-for-2025-3809776
+            - listitem [ref=e493]:
+              - 'link "Top AI Video Generators: Create Stunning Videos Effortlessly" [ref=e494] [cursor=pointer]':
+                - /url: /ai-news/top-ai-video-generators-create-stunning-videos-effortlessly-3859493
+        - generic [ref=e495]:
+          - generic [ref=e496]: About
+          - list [ref=e497]:
+            - listitem [ref=e498]:
+              - link "Fulfillment Policy" [ref=e499] [cursor=pointer]:
+                - /url: /fulfillment-policy
+            - listitem [ref=e500]:
+              - link "Privacy Policy" [ref=e501] [cursor=pointer]:
+                - /url: /privacy-policy
+          - generic [ref=e502]: Contact Us
+          - list [ref=e503]:
+            - listitem [ref=e504]:
+              - link "business@toolify.ai" [ref=e505] [cursor=pointer]:
+                - /url: mailto:business@toolify.ai
+            - listitem [ref=e506]:
+              - generic [ref=e507]:
+                - link "Twitter" [ref=e508] [cursor=pointer]:
+                  - /url: https://twitter.com/intent/user?&region=follow&screen_name=samChan3890089
+                  - img [ref=e509]
+                - link "Telegram" [ref=e511] [cursor=pointer]:
+                  - /url: https://t.me/s/toolifynews/
+                  - img [ref=e512]
+      - generic [ref=e514]:
+        - link "Toolify Toolify logo" [ref=e515] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e516]: Toolify
+          - img "Toolify logo" [ref=e517]
+        - generic [ref=e518]: Toolify, The Best AI Websites & AI Tools Directory
+      - generic [ref=e519]:
+        - link "English" [ref=e520] [cursor=pointer]:
+          - /url: /submit
+        - link "简体中文" [ref=e521] [cursor=pointer]:
+          - /url: /zh/submit
+        - link "繁體中文" [ref=e522] [cursor=pointer]:
+          - /url: /tw/submit
+        - link "한국어" [ref=e523] [cursor=pointer]:
+          - /url: /ko/submit
+        - link "日本語" [ref=e524] [cursor=pointer]:
+          - /url: /ja/submit
+        - link "Português" [ref=e525] [cursor=pointer]:
+          - /url: /pt/submit
+        - link "Español" [ref=e526] [cursor=pointer]:
+          - /url: /es/submit
+        - link "Deutsch" [ref=e527] [cursor=pointer]:
+          - /url: /de/submit
+        - link "Français" [ref=e528] [cursor=pointer]:
+          - /url: /fr/submit
+        - link "Tiếng Việt" [ref=e529] [cursor=pointer]:
+          - /url: /vi/submit
+      - paragraph [ref=e531]: Copyright ©2026 Toolify. All Rights Reserved.
+  - text:  

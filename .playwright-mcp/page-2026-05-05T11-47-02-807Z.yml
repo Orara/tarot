@@ -1,0 +1,71 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5] [cursor=pointer]: Arcana Insight
+    - combobox [active] [ref=e7] [cursor=pointer]:
+      - option "🇰🇷 한국어"
+      - option "🇺🇸 English" [selected]
+      - option "🇯🇵 日本語"
+      - option "🇨🇳 中文"
+      - option "🇪🇸 Español"
+      - option "🇫🇷 Français"
+      - option "🇹🇭 ภาษาไทย"
+      - option "🇻🇳 Tiếng Việt"
+  - generic [ref=e8]:
+    - generic [ref=e9]:
+      - heading "Accurate Guidance Based on Global Tarot Data" [level=1] [ref=e80]:
+        - generic [ref=e11]: Accurate
+        - generic [ref=e12]: Guidance
+        - generic [ref=e13]: Based
+        - generic [ref=e14]: "on"
+        - generic [ref=e15]: Global
+        - generic [ref=e16]: Tarot
+        - generic [ref=e17]: Data
+      - paragraph [ref=e19]: Based on vast tarot data and hermeneutics accumulated over centuries worldwide, we accurately see through your current situation and guide your path. Experience the best insight combining the speed of AI with the depth of traditional tarot.
+      - button "Check Your Destiny Right Now" [ref=e81] [cursor=pointer]
+    - generic [ref=e24]:
+      - generic [ref=e26]:
+        - generic [ref=e29]: ✦
+        - generic [ref=e32]: ☽
+        - generic [ref=e35]: ✧
+      - paragraph [ref=e37]: ARCANA INSIGHT
+  - generic [ref=e39]:
+    - heading "Why Arcana Insight?" [level=2] [ref=e82]
+    - generic [ref=e41]:
+      - generic [ref=e42]:
+        - generic [ref=e43]: 🌍
+        - heading "Global Database" [level=3] [ref=e83]
+        - paragraph [ref=e45]: Provides the most objective and accurate interpretation based on tens of thousands of tarot reading data spanning East and West.
+      - generic [ref=e46]:
+        - generic [ref=e47]: 👁️
+        - heading "Deep Insight" [level=3] [ref=e84]
+        - paragraph [ref=e49]: Practically resolves your concerns with in-depth advice combining psychology and symbology, not just simple fortunes.
+      - generic [ref=e50]:
+        - generic [ref=e51]: ✨
+        - heading "Personalized Reading" [level=3] [ref=e85]
+        - paragraph [ref=e53]: Analyzes the unique flow of your situation and questions to present the most appropriate tarot answers right now.
+  - generic [ref=e54]:
+    - heading "Check Your Destiny Right Now" [level=2] [ref=e86]
+    - generic [ref=e56]:
+      - generic [ref=e57]:
+        - generic [ref=e58]:
+          - heading "Today's Insight (Free)" [level=2] [ref=e87]
+          - paragraph [ref=e60]: Lightly draw 1 card to check the blunt advice you need most right now.
+        - button "Start 1 Free Reading" [ref=e88] [cursor=pointer]
+      - generic [ref=e62]:
+        - generic [ref=e63]:
+          - heading "Basic Reading (3 Cards)" [level=2] [ref=e89]
+          - paragraph [ref=e65]: Analyze the cause and effect of your current problems by understanding the flow of past, present, and future.
+        - button "Deep Consultation ($2.99)" [ref=e90] [cursor=pointer]
+      - generic [ref=e67]:
+        - generic [ref=e68]: BEST SELLER
+        - generic [ref=e69]:
+          - heading "Premium Reading (5 Cards)" [level=2] [ref=e91]
+          - paragraph [ref=e71]: Provides comprehensive solutions including surroundings, hidden meanings, and specific action guidelines.
+        - button "Precision Analysis ($4.99)" [ref=e92] [cursor=pointer]
+      - generic [ref=e73]:
+        - generic [ref=e74]: VIP ONLY
+        - generic [ref=e75]:
+          - heading "VIP Celtic Cross (10 Cards)" [level=2] [ref=e93]
+          - paragraph [ref=e77]: The ultimate 10-card spread completely dissects everything from your subconscious to the final outcome.
+        - button "Ultimate Consultation ($8.99)" [ref=e94] [cursor=pointer]
+  - contentinfo [ref=e79]: © 2026 Arcana Insight. All rights reserved.

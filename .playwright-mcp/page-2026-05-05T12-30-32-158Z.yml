@@ -1,0 +1,2121 @@
+- generic [ref=e1]:
+  - link "메인 콘텐츠로 바로가기" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+    - generic [ref=e4]: 메인 콘텐츠로 바로가기
+  - generic [ref=e6]:
+    - generic:
+      - generic [ref=e592]:
+        - generic: 10/10 would bookmark again
+      - banner [ref=e595]:
+        - navigation [ref=e596]:
+          - generic [ref=e597]:
+            - button "메뉴 열기" [ref=e601] [cursor=pointer]:
+              - img [ref=e604]
+              - generic [ref=e606]:
+                - generic: 메뉴 열기
+            - link "홈" [ref=e611] [cursor=pointer]:
+              - /url: /
+              - img [ref=e613]
+          - search [ref=e630]:
+            - generic [ref=e632]:
+              - img [ref=e635]
+              - generic [ref=e638]:
+                - 'button "현재 검색 범위: r/InternetIsBeautiful" [ref=e639] [cursor=pointer]':
+                  - generic [ref=e647]: r/InternetIsBeautiful
+                  - generic [ref=e648]:
+                    - generic: "현재 검색 범위: r/InternetIsBeautiful"
+                - button "r/InternetIsBeautiful 필터를 제거하고 Reddit 전체로 검색 범위를 확대합니다" [ref=e650] [cursor=pointer]:
+                  - img [ref=e653]
+                  - generic [ref=e655]:
+                    - generic: r/InternetIsBeautiful 필터를 제거하고 Reddit 전체로 검색 범위를 확대합니다
+              - 'textbox "현재 검색 범위: r/InternetIsBeautiful r/InternetIsBeautiful 필터를 제거하고 Reddit 전체로 검색 범위를 확대합니다" [ref=e657]':
+                - /placeholder: "검색 범위: r/InternetIsBeautiful"
+          - generic [ref=e658]:
+            - generic [ref=e659]:
+              - button "채팅 열기" [ref=e665] [cursor=pointer]:
+                - img [ref=e668]
+                - generic [ref=e670]:
+                  - generic: 채팅 열기
+              - link "게시물 만들기" [ref=e675] [cursor=pointer]:
+                - /url: /r/InternetIsBeautiful/submit/
+                - img [ref=e678]
+                - generic [ref=e680]:
+                  - generic: 게시물 만들기
+              - link "받은 편지함 열기" [ref=e684] [cursor=pointer]:
+                - /url: /notifications
+                - img [ref=e687]
+                - generic [ref=e689]:
+                  - generic: 받은 편지함 열기
+            - button "사용자 아바타 사용자 메뉴 펼치기" [ref=e694] [cursor=pointer]:
+              - img "사용자 아바타" [ref=e700]
+              - generic [ref=e702]:
+                - generic: 사용자 메뉴 펼치기
+      - generic [ref=e704]:
+        - region "커뮤니티 작업" [ref=e708]:
+          - generic [ref=e709]:
+            - heading "r/InternetIsBeautiful" [level=1] [ref=e715]
+            - generic [ref=e716]:
+              - link "게시물 만들기" [ref=e720] [cursor=pointer]:
+                - /url: /r/InternetIsBeautiful/submit
+                - generic [ref=e721]:
+                  - img [ref=e723]
+                  - generic [ref=e725]: 게시물 만들기
+              - generic [ref=e727]:
+                - button "가입" [ref=e730] [cursor=pointer]
+                - button "오버플로 메뉴 열기" [ref=e733] [cursor=pointer]:
+                  - img [ref=e736]
+        - generic [ref=e739]:
+          - main [ref=e740]:
+            - generic [ref=e743]:
+              - generic "정렬 기준" [ref=e747]:
+                - 'button "정렬 기준: 좋아요 비율 높은 순" [ref=e749] [cursor=pointer]':
+                  - generic [ref=e751]: 좋아요 비율 높은 순
+              - generic "보기" [ref=e757]:
+                - 'button "보기: 카드형" [ref=e759] [cursor=pointer]'
+            - generic [ref=e765]:
+              - button "커뮤니티 하이라이트 접기/펼치기" [ref=e766] [cursor=pointer]:
+                - heading "커뮤니티 하이라이트" [level=3] [ref=e767]:
+                  - img [ref=e768]
+                  - generic [ref=e770]: 커뮤니티 하이라이트
+                - button "커뮤니티 하이라이트 접기/펼치기" [ref=e772]:
+                  - img [ref=e775]
+              - list [ref=e779]:
+                - listitem [ref=e780]:
+                  - link "[SUB NEWS] Generic and Repetitive Site Submissions. 투표 234개 • 댓글 39개 공지" [ref=e781] [cursor=pointer]:
+                    - /url: /r/InternetIsBeautiful/comments/1sbezpp/sub_news_generic_and_repetitive_site_submissions/
+                    - generic [ref=e785]:
+                      - generic [ref=e786]:
+                        - heading "[SUB NEWS] Generic and Repetitive Site Submissions." [level=2] [ref=e789]
+                        - generic [ref=e792]:
+                          - text: 투표
+                          - generic [ref=e793]: "234"
+                          - text: 개 • 댓글
+                          - generic [ref=e794]: "39"
+                          - text: 개
+                      - generic [ref=e798]:
+                        - img [ref=e799]
+                        - generic [ref=e801]: 공지
+            - generic [ref=e803]:
+              - generic "10/10 would bookmark again"
+              - separator [ref=e804]
+              - generic [ref=e805]:
+                - heading "피드" [level=1] [ref=e807]
+                - generic:
+                  - article "This free tarot site reads your actual question — not just generic card meanings. Full 78-card deck, 8 languages." [ref=e808]:
+                    - generic [ref=e809] [cursor=pointer]:
+                      - link "This free tarot site reads your actual question — not just generic card meanings. Full 78-card deck, 8 languages." [ref=e810]:
+                        - /url: /r/InternetIsBeautiful/comments/1t4e1lt/this_free_tarot_site_reads_your_actual_question/
+                        - generic [ref=e811]:
+                          - generic: This free tarot site reads your actual question — not just generic card meanings. Full 78-card deck, 8 languages.
+                      - generic:
+                        - generic [ref=e812]:
+                          - generic [ref=e814]:
+                            - generic [ref=e815]:
+                              - link "작성자는 u/Intrepid_Diver1032입니다" [ref=e820]:
+                                - /url: /user/Intrepid_Diver1032/
+                                - generic [ref=e821]:
+                                  - img "u/Intrepid_Diver1032 님의 아바타입니다" [ref=e824]
+                                  - generic [ref=e825]: u/Intrepid_Diver1032
+                              - generic [ref=e826]: •
+                              - time [ref=e828]: 1분 전
+                            - button "사용자 작업 열기" [ref=e833]:
+                              - img [ref=e836]
+                          - generic [ref=e838]:
+                            - link "This free tarot site reads your actual question — not just generic card meanings. Full 78-card deck, 8 languages." [ref=e840]:
+                              - /url: /r/InternetIsBeautiful/comments/1t4e1lt/this_free_tarot_site_reads_your_actual_question/
+                              - text: This free tarot site reads your actual question — not just generic card meanings. Full 78-card deck, 8 languages.
+                            - link "https://tarot-bzi.pages.dev/" [ref=e843]:
+                              - /url: https://tarot-bzi.pages.dev/
+                        - generic [ref=e845]:
+                          - img [ref=e846]
+                          - generic [ref=e848]: 죄송합니다. r/InternetIsBeautiful 모더레이터가 제거한 게시물입니다.
+                      - generic "이 게시물에서 실행할 수 있는 작업" [ref=e850]:
+                        - generic [ref=e853]:
+                          - button "좋아요" [pressed] [ref=e854]:
+                            - img [ref=e856]
+                            - generic [ref=e858]:
+                              - generic: 좋아요
+                          - generic [ref=e860]: "1"
+                          - button "싫어요" [ref=e861]:
+                            - img [ref=e863]
+                            - generic [ref=e865]:
+                              - generic: 싫어요
+                        - link "0 댓글로 이동" [ref=e866]:
+                          - /url: /r/InternetIsBeautiful/comments/1t4e1lt/this_free_tarot_site_reads_your_actual_question/
+                          - generic [ref=e867]:
+                            - img [ref=e869]
+                            - generic [ref=e872]: "0"
+                          - generic [ref=e873]:
+                            - generic: 댓글로 이동
+                        - button "공유" [ref=e877]:
+                          - generic [ref=e878]:
+                            - img [ref=e880]
+                            - generic [ref=e882]: 공유
+                  - separator [ref=e883]
+                  - generic [ref=e884]:
+                    - 'generic "Advertisement: We literally can''t keep up with all the new things we''re shipping for app developers." [ref=e885]':
+                      - 'link "Advertisement: We literally can''t keep up with all the new things we''re shipping for app developers." [ref=e886] [cursor=pointer]':
+                        - /url: https://alb.reddit.com/cr?za=SVeNr6HDKbiFy6t7yN3OlqMXh-FwSXEa38lC4Qnnn2kXzt5fIMyzNf41DeOF7TFeVrP8wW1dhHD-3kcvBbrHw0grQyNJBjg2CNSXbPLWsGxK7lam5PSMgqfJ2kigKrU-eFzIhW1pZBpHdrndQGiFyu8xNAdcjNhRNt53n13mXNltMU73pAUhrxpkcbfi0Myk5z3muVsknkHGljgFbYcrFMMnjvHGRZOVXlpCVMpQCnafKIfDROOiwLU7yhGY5pejdpaSTcyozr5LIDZn5Vb0Jl0iv-K9DfWevt8CJ5ILJ7Kj0GeVj8B_GZxhkqgZEwGCyBliBxtK4i36Ap0_dxG5if5bXBzjcKoqEwg6B50msgcS7iwuuakmZegHU1U9HSiOfYEb2SytpCR-dWOLBRgOBm90dwd1Z0CkvsGn2Lgna60XicmRra2k3lE4UuTsGt_BNUzWanhShkv_-e15cMhQoIyzl4Sxg-h6OJLWLkYsyWFaA1yZCHqk_aFsWDql768fDYpUHnp-6l36H7lLQeeTvDaPaDA6nmXwqaeuWf7qssn9B8vl9fuvYZF8d6pRoVlTlnFvFVsyZspGtrA3mgNK7nKjz07LaAHzaUDHcCJtZnsV9kCA-IMMlL2rc91e31-3Jnp52iDi_OaMVhEwMa7O-D6aTqfERNy2Nrj0Jf08HlxefWN0N5-kbCY-9VYGHnllHjkNcNc27Qw-akXWY--QzEWKP8rxysFhKoDaVsmFFn7_A_ohmts89bla&zp=nkJi6bdnQjP6KfhjSMPmiMAcgQr1i4lOgF3bCScqoqGBdz1xK_0bmPtT3ntU4T9E74TTmgH5o5smfxOFyDqmmF7GKLZ7wqUJDmX74VUaoq1in5QDVxR9tz4YEiIZqeMWgS2g4zGoD7DmV-4nEIsPyD5SUAN2E2diMy0-iUQKraAJ5lvfXq3Qha7Qdl3oCfuoR0OFktT9ZNCgFH83Grjw8eKJTgE5vykdvE_rUNC8zcJzjHWYIeEtf1waH7hbnlJJ3l0hM1jJ3F0Y-0smUQtWjIdsZwKfMd2xM15DAmA50f39TqofTaSlUjGoAzPyhYxiOLQyBMdxhS6gX3Z8SznZKRKBhfn0olNCDEtSFcBuZLg2qI4
+                    - generic [ref=e887]:
+                      - generic [ref=e888]:
+                        - link "u/RevenueCat 님의 아바타입니다 u/RevenueCat" [ref=e891] [cursor=pointer]:
+                          - /url: /user/RevenueCat/
+                          - img "u/RevenueCat 님의 아바타입니다" [ref=e894]
+                          - generic [ref=e895]: u/RevenueCat
+                        - generic [ref=e896]: •
+                        - link "홍보 광고" [ref=e898] [cursor=pointer]:
+                          - /url: /user/RevenueCat/
+                          - generic [ref=e899]: 홍보 광고
+                        - link [ref=e901] [cursor=pointer]:
+                          - /url: https://alb.reddit.com/cr?za=SVeNr6HDKbiFy6t7yN3OlqMXh-FwSXEa38lC4Qnnn2kXzt5fIMyzNf41DeOF7TFeVrP8wW1dhHD-3kcvBbrHw0grQyNJBjg2CNSXbPLWsGxK7lam5PSMgqfJ2kigKrU-eFzIhW1pZBpHdrndQGiFyu8xNAdcjNhRNt53n13mXNltMU73pAUhrxpkcbfi0Myk5z3muVsknkHGljgFbYcrFMMnjvHGRZOVXlpCVMpQCnafKIfDROOiwLU7yhGY5pejdpaSTcyozr5LIDZn5Vb0Jl0iv-K9DfWevt8CJ5ILJ7Kj0GeVj8B_GZxhkqgZEwGCyBliBxtK4i36Ap0_dxG5if5bXBzjcKoqEwg6B50msgcS7iwuuakmZegHU1U9HSiOfYEb2SytpCR-dWOLBRgOBm90dwd1Z0CkvsGn2Lgna60XicmRra2k3lE4UuTsGt_BNUzWanhShkv_-e15cMhQoIyzl4Sxg-h6OJLWLkYsyWFaA1yZCHqk_aFsWDql768fDYpUHnp-6l36H7lLQeeTvDaPaDA6nmXwqaeuWf7qssn9B8vl9fuvYZF8d6pRoVlTlnFvFVsyZspGtrA3mgNK7nKjz07LaAHzaUDHcCJtZnsV9kCA-IMMlL2rc91e31-3Jnp52iDi_OaMVhEwMa7O-D6aTqfERNy2Nrj0Jf08HlxefWN0N5-kbCY-9VYGHnllHjkNcNc27Qw-akXWY--QzEWKP8rxysFhKoDaVsmFFn7_A_ohmts89bla&zp=nkJi6bdnQjP6KfhjSMPmiMAcgQr1i4lOgF3bCScqoqGBdz1xK_0bmPtT3ntU4T9E74TTmgH5o5smfxOFyDqmmF7GKLZ7wqUJDmX74VUaoq1in5QDVxR9tz4YEiIZqeMWgS2g4zGoD7DmV-4nEIsPyD5SUAN2E2diMy0-iUQKraAJ5lvfXq3Qha7Qdl3oCfuoR0OFktT9ZNCgFH83Grjw8eKJTgE5vykdvE_rUNC8zcJzjHWYIeEtf1waH7hbnlJJ3l0hM1jJ3F0Y-0smUQtWjIdsZwKfMd2xM15DAmA50f39TqofTaSlUjGoAzPyhYxiOLQyBMdxhS6gX3Z8SznZKRKBhfn0olNCDEtSFcBuZLg2qI4
+                      - button "사용자 작업 열기" [ref=e906] [cursor=pointer]:
+                        - img [ref=e909]
+                    - heading "We literally can't keep up with all the new things we're shipping for app developers." [level=2] [ref=e913]:
+                      - link "We literally can't keep up with all the new things we're shipping for app developers." [ref=e916] [cursor=pointer]:
+                        - /url: https://alb.reddit.com/cr?za=SVeNr6HDKbiFy6t7yN3OlqMXh-FwSXEa38lC4Qnnn2kXzt5fIMyzNf41DeOF7TFeVrP8wW1dhHD-3kcvBbrHw0grQyNJBjg2CNSXbPLWsGxK7lam5PSMgqfJ2kigKrU-eFzIhW1pZBpHdrndQGiFyu8xNAdcjNhRNt53n13mXNltMU73pAUhrxpkcbfi0Myk5z3muVsknkHGljgFbYcrFMMnjvHGRZOVXlpCVMpQCnafKIfDROOiwLU7yhGY5pejdpaSTcyozr5LIDZn5Vb0Jl0iv-K9DfWevt8CJ5ILJ7Kj0GeVj8B_GZxhkqgZEwGCyBliBxtK4i36Ap0_dxG5if5bXBzjcKoqEwg6B50msgcS7iwuuakmZegHU1U9HSiOfYEb2SytpCR-dWOLBRgOBm90dwd1Z0CkvsGn2Lgna60XicmRra2k3lE4UuTsGt_BNUzWanhShkv_-e15cMhQoIyzl4Sxg-h6OJLWLkYsyWFaA1yZCHqk_aFsWDql768fDYpUHnp-6l36H7lLQeeTvDaPaDA6nmXwqaeuWf7qssn9B8vl9fuvYZF8d6pRoVlTlnFvFVsyZspGtrA3mgNK7nKjz07LaAHzaUDHcCJtZnsV9kCA-IMMlL2rc91e31-3Jnp52iDi_OaMVhEwMa7O-D6aTqfERNy2Nrj0Jf08HlxefWN0N5-kbCY-9VYGHnllHjkNcNc27Qw-akXWY--QzEWKP8rxysFhKoDaVsmFFn7_A_ohmts89bla&zp=nkJi6bdnQjP6KfhjSMPmiMAcgQr1i4lOgF3bCScqoqGBdz1xK_0bmPtT3ntU4T9E74TTmgH5o5smfxOFyDqmmF7GKLZ7wqUJDmX74VUaoq1in5QDVxR9tz4YEiIZqeMWgS2g4zGoD7DmV-4nEIsPyD5SUAN2E2diMy0-iUQKraAJ5lvfXq3Qha7Qdl3oCfuoR0OFktT9ZNCgFH83Grjw8eKJTgE5vykdvE_rUNC8zcJzjHWYIeEtf1waH7hbnlJJ3l0hM1jJ3F0Y-0smUQtWjIdsZwKfMd2xM15DAmA50f39TqofTaSlUjGoAzPyhYxiOLQyBMdxhS6gX3Z8SznZKRKBhfn0olNCDEtSFcBuZLg2qI4
+                        - generic: We literally can't keep up with all the new things we're shipping for app developers.
+                    - generic [ref=e917]:
+                      - link "We literally can't keep up with all the new things we're shipping for app developers." [ref=e921] [cursor=pointer]:
+                        - /url: https://alb.reddit.com/cr?za=SVeNr6HDKbiFy6t7yN3OlqMXh-FwSXEa38lC4Qnnn2kXzt5fIMyzNf41DeOF7TFeVrP8wW1dhHD-3kcvBbrHw0grQyNJBjg2CNSXbPLWsGxK7lam5PSMgqfJ2kigKrU-eFzIhW1pZBpHdrndQGiFyu8xNAdcjNhRNt53n13mXNltMU73pAUhrxpkcbfi0Myk5z3muVsknkHGljgFbYcrFMMnjvHGRZOVXlpCVMpQCnafKIfDROOiwLU7yhGY5pejdpaSTcyozr5LIDZn5Vb0Jl0iv-K9DfWevt8CJ5ILJ7Kj0GeVj8B_GZxhkqgZEwGCyBliBxtK4i36Ap0_dxG5if5bXBzjcKoqEwg6B50msgcS7iwuuakmZegHU1U9HSiOfYEb2SytpCR-dWOLBRgOBm90dwd1Z0CkvsGn2Lgna60XicmRra2k3lE4UuTsGt_BNUzWanhShkv_-e15cMhQoIyzl4Sxg-h6OJLWLkYsyWFaA1yZCHqk_aFsWDql768fDYpUHnp-6l36H7lLQeeTvDaPaDA6nmXwqaeuWf7qssn9B8vl9fuvYZF8d6pRoVlTlnFvFVsyZspGtrA3mgNK7nKjz07LaAHzaUDHcCJtZnsV9kCA-IMMlL2rc91e31-3Jnp52iDi_OaMVhEwMa7O-D6aTqfERNy2Nrj0Jf08HlxefWN0N5-kbCY-9VYGHnllHjkNcNc27Qw-akXWY--QzEWKP8rxysFhKoDaVsmFFn7_A_ohmts89bla&zp=nkJi6bdnQjP6KfhjSMPmiMAcgQr1i4lOgF3bCScqoqGBdz1xK_0bmPtT3ntU4T9E74TTmgH5o5smfxOFyDqmmF7GKLZ7wqUJDmX74VUaoq1in5QDVxR9tz4YEiIZqeMWgS2g4zGoD7DmV-4nEIsPyD5SUAN2E2diMy0-iUQKraAJ5lvfXq3Qha7Qdl3oCfuoR0OFktT9ZNCgFH83Grjw8eKJTgE5vykdvE_rUNC8zcJzjHWYIeEtf1waH7hbnlJJ3l0hM1jJ3F0Y-0smUQtWjIdsZwKfMd2xM15DAmA50f39TqofTaSlUjGoAzPyhYxiOLQyBMdxhS6gX3Z8SznZKRKBhfn0olNCDEtSFcBuZLg2qI4
+                        - img "We literally can't keep up with all the new things we're shipping for app developers." [ref=e923]
+                      - separator [ref=e924]
+                      - generic [ref=e925]:
+                        - link [ref=e927] [cursor=pointer]:
+                          - /url: https://alb.reddit.com/cr?za=SVeNr6HDKbiFy6t7yN3OlqMXh-FwSXEa38lC4Qnnn2kXzt5fIMyzNf41DeOF7TFeVrP8wW1dhHD-3kcvBbrHw0grQyNJBjg2CNSXbPLWsGxK7lam5PSMgqfJ2kigKrU-eFzIhW1pZBpHdrndQGiFyu8xNAdcjNhRNt53n13mXNltMU73pAUhrxpkcbfi0Myk5z3muVsknkHGljgFbYcrFMMnjvHGRZOVXlpCVMpQCnafKIfDROOiwLU7yhGY5pejdpaSTcyozr5LIDZn5Vb0Jl0iv-K9DfWevt8CJ5ILJ7Kj0GeVj8B_GZxhkqgZEwGCyBliBxtK4i36Ap0_dxG5if5bXBzjcKoqEwg6B50msgcS7iwuuakmZegHU1U9HSiOfYEb2SytpCR-dWOLBRgOBm90dwd1Z0CkvsGn2Lgna60XicmRra2k3lE4UuTsGt_BNUzWanhShkv_-e15cMhQoIyzl4Sxg-h6OJLWLkYsyWFaA1yZCHqk_aFsWDql768fDYpUHnp-6l36H7lLQeeTvDaPaDA6nmXwqaeuWf7qssn9B8vl9fuvYZF8d6pRoVlTlnFvFVsyZspGtrA3mgNK7nKjz07LaAHzaUDHcCJtZnsV9kCA-IMMlL2rc91e31-3Jnp52iDi_OaMVhEwMa7O-D6aTqfERNy2Nrj0Jf08HlxefWN0N5-kbCY-9VYGHnllHjkNcNc27Qw-akXWY--QzEWKP8rxysFhKoDaVsmFFn7_A_ohmts89bla&zp=nkJi6bdnQjP6KfhjSMPmiMAcgQr1i4lOgF3bCScqoqGBdz1xK_0bmPtT3ntU4T9E74TTmgH5o5smfxOFyDqmmF7GKLZ7wqUJDmX74VUaoq1in5QDVxR9tz4YEiIZqeMWgS2g4zGoD7DmV-4nEIsPyD5SUAN2E2diMy0-iUQKraAJ5lvfXq3Qha7Qdl3oCfuoR0OFktT9ZNCgFH83Grjw8eKJTgE5vykdvE_rUNC8zcJzjHWYIeEtf1waH7hbnlJJ3l0hM1jJ3F0Y-0smUQtWjIdsZwKfMd2xM15DAmA50f39TqofTaSlUjGoAzPyhYxiOLQyBMdxhS6gX3Z8SznZKRKBhfn0olNCDEtSFcBuZLg2qI4
+                        - generic [ref=e928]:
+                          - link "revenuecat.com" [ref=e931] [cursor=pointer]:
+                            - /url: https://alb.reddit.com/cr?za=SVeNr6HDKbiFy6t7yN3OlqMXh-FwSXEa38lC4Qnnn2kXzt5fIMyzNf41DeOF7TFeVrP8wW1dhHD-3kcvBbrHw0grQyNJBjg2CNSXbPLWsGxK7lam5PSMgqfJ2kigKrU-eFzIhW1pZBpHdrndQGiFyu8xNAdcjNhRNt53n13mXNltMU73pAUhrxpkcbfi0Myk5z3muVsknkHGljgFbYcrFMMnjvHGRZOVXlpCVMpQCnafKIfDROOiwLU7yhGY5pejdpaSTcyozr5LIDZn5Vb0Jl0iv-K9DfWevt8CJ5ILJ7Kj0GeVj8B_GZxhkqgZEwGCyBliBxtK4i36Ap0_dxG5if5bXBzjcKoqEwg6B50msgcS7iwuuakmZegHU1U9HSiOfYEb2SytpCR-dWOLBRgOBm90dwd1Z0CkvsGn2Lgna60XicmRra2k3lE4UuTsGt_BNUzWanhShkv_-e15cMhQoIyzl4Sxg-h6OJLWLkYsyWFaA1yZCHqk_aFsWDql768fDYpUHnp-6l36H7lLQeeTvDaPaDA6nmXwqaeuWf7qssn9B8vl9fuvYZF8d6pRoVlTlnFvFVsyZspGtrA3mgNK7nKjz07LaAHzaUDHcCJtZnsV9kCA-IMMlL2rc91e31-3Jnp52iDi_OaMVhEwMa7O-D6aTqfERNy2Nrj0Jf08HlxefWN0N5-kbCY-9VYGHnllHjkNcNc27Qw-akXWY--QzEWKP8rxysFhKoDaVsmFFn7_A_ohmts89bla&zp=nkJi6bdnQjP6KfhjSMPmiMAcgQr1i4lOgF3bCScqoqGBdz1xK_0bmPtT3ntU4T9E74TTmgH5o5smfxOFyDqmmF7GKLZ7wqUJDmX74VUaoq1in5QDVxR9tz4YEiIZqeMWgS2g4zGoD7DmV-4nEIsPyD5SUAN2E2diMy0-iUQKraAJ5lvfXq3Qha7Qdl3oCfuoR0OFktT9ZNCgFH83Grjw8eKJTgE5vykdvE_rUNC8zcJzjHWYIeEtf1waH7hbnlJJ3l0hM1jJ3F0Y-0smUQtWjIdsZwKfMd2xM15DAmA50f39TqofTaSlUjGoAzPyhYxiOLQyBMdxhS6gX3Z8SznZKRKBhfn0olNCDEtSFcBuZLg2qI4
+                            - generic: revenuecat.com
+                          - link "더 알아보기" [ref=e933] [cursor=pointer]:
+                            - /url: https://alb.reddit.com/cr?za=SVeNr6HDKbiFy6t7yN3OlqMXh-FwSXEa38lC4Qnnn2kXzt5fIMyzNf41DeOF7TFeVrP8wW1dhHD-3kcvBbrHw0grQyNJBjg2CNSXbPLWsGxK7lam5PSMgqfJ2kigKrU-eFzIhW1pZBpHdrndQGiFyu8xNAdcjNhRNt53n13mXNltMU73pAUhrxpkcbfi0Myk5z3muVsknkHGljgFbYcrFMMnjvHGRZOVXlpCVMpQCnafKIfDROOiwLU7yhGY5pejdpaSTcyozr5LIDZn5Vb0Jl0iv-K9DfWevt8CJ5ILJ7Kj0GeVj8B_GZxhkqgZEwGCyBliBxtK4i36Ap0_dxG5if5bXBzjcKoqEwg6B50msgcS7iwuuakmZegHU1U9HSiOfYEb2SytpCR-dWOLBRgOBm90dwd1Z0CkvsGn2Lgna60XicmRra2k3lE4UuTsGt_BNUzWanhShkv_-e15cMhQoIyzl4Sxg-h6OJLWLkYsyWFaA1yZCHqk_aFsWDql768fDYpUHnp-6l36H7lLQeeTvDaPaDA6nmXwqaeuWf7qssn9B8vl9fuvYZF8d6pRoVlTlnFvFVsyZspGtrA3mgNK7nKjz07LaAHzaUDHcCJtZnsV9kCA-IMMlL2rc91e31-3Jnp52iDi_OaMVhEwMa7O-D6aTqfERNy2Nrj0Jf08HlxefWN0N5-kbCY-9VYGHnllHjkNcNc27Qw-akXWY--QzEWKP8rxysFhKoDaVsmFFn7_A_ohmts89bla&zp=nkJi6bdnQjP6KfhjSMPmiMAcgQr1i4lOgF3bCScqoqGBdz1xK_0bmPtT3ntU4T9E74TTmgH5o5smfxOFyDqmmF7GKLZ7wqUJDmX74VUaoq1in5QDVxR9tz4YEiIZqeMWgS2g4zGoD7DmV-4nEIsPyD5SUAN2E2diMy0-iUQKraAJ5lvfXq3Qha7Qdl3oCfuoR0OFktT9ZNCgFH83Grjw8eKJTgE5vykdvE_rUNC8zcJzjHWYIeEtf1waH7hbnlJJ3l0hM1jJ3F0Y-0smUQtWjIdsZwKfMd2xM15DAmA50f39TqofTaSlUjGoAzPyhYxiOLQyBMdxhS6gX3Z8SznZKRKBhfn0olNCDEtSFcBuZLg2qI4
+                            - generic [ref=e935]:
+                              - generic: 더 알아보기
+                    - generic "이 게시물에서 실행할 수 있는 작업" [ref=e936]:
+                      - generic [ref=e939]:
+                        - button "좋아요" [ref=e940] [cursor=pointer]:
+                          - img [ref=e942]
+                          - generic [ref=e944]:
+                            - generic: 좋아요
+                        - text: 투표
+                        - button "싫어요" [ref=e945] [cursor=pointer]:
+                          - img [ref=e947]
+                          - generic [ref=e949]:
+                            - generic: 싫어요
+                      - link "0 댓글로 이동" [ref=e950] [cursor=pointer]:
+                        - /url: /user/RevenueCat/comments/1o8eiii/we_literally_cant_keep_up_with_all_the_new_things/?p=1&impressionid=5471798430407894635
+                        - generic [ref=e951]:
+                          - img [ref=e953]
+                          - generic [ref=e956]: "0"
+                        - generic [ref=e957]:
+                          - generic: 댓글로 이동
+                      - button "공유" [ref=e961] [cursor=pointer]:
+                        - generic [ref=e962]:
+                          - img [ref=e964]
+                          - generic [ref=e966]: 공유
+                      - link [ref=e968] [cursor=pointer]:
+                        - /url: https://alb.reddit.com/cr?za=SVeNr6HDKbiFy6t7yN3OlqMXh-FwSXEa38lC4Qnnn2kXzt5fIMyzNf41DeOF7TFeVrP8wW1dhHD-3kcvBbrHw0grQyNJBjg2CNSXbPLWsGxK7lam5PSMgqfJ2kigKrU-eFzIhW1pZBpHdrndQGiFyu8xNAdcjNhRNt53n13mXNltMU73pAUhrxpkcbfi0Myk5z3muVsknkHGljgFbYcrFMMnjvHGRZOVXlpCVMpQCnafKIfDROOiwLU7yhGY5pejdpaSTcyozr5LIDZn5Vb0Jl0iv-K9DfWevt8CJ5ILJ7Kj0GeVj8B_GZxhkqgZEwGCyBliBxtK4i36Ap0_dxG5if5bXBzjcKoqEwg6B50msgcS7iwuuakmZegHU1U9HSiOfYEb2SytpCR-dWOLBRgOBm90dwd1Z0CkvsGn2Lgna60XicmRra2k3lE4UuTsGt_BNUzWanhShkv_-e15cMhQoIyzl4Sxg-h6OJLWLkYsyWFaA1yZCHqk_aFsWDql768fDYpUHnp-6l36H7lLQeeTvDaPaDA6nmXwqaeuWf7qssn9B8vl9fuvYZF8d6pRoVlTlnFvFVsyZspGtrA3mgNK7nKjz07LaAHzaUDHcCJtZnsV9kCA-IMMlL2rc91e31-3Jnp52iDi_OaMVhEwMa7O-D6aTqfERNy2Nrj0Jf08HlxefWN0N5-kbCY-9VYGHnllHjkNcNc27Qw-akXWY--QzEWKP8rxysFhKoDaVsmFFn7_A_ohmts89bla&zp=nkJi6bdnQjP6KfhjSMPmiMAcgQr1i4lOgF3bCScqoqGBdz1xK_0bmPtT3ntU4T9E74TTmgH5o5smfxOFyDqmmF7GKLZ7wqUJDmX74VUaoq1in5QDVxR9tz4YEiIZqeMWgS2g4zGoD7DmV-4nEIsPyD5SUAN2E2diMy0-iUQKraAJ5lvfXq3Qha7Qdl3oCfuoR0OFktT9ZNCgFH83Grjw8eKJTgE5vykdvE_rUNC8zcJzjHWYIeEtf1waH7hbnlJJ3l0hM1jJ3F0Y-0smUQtWjIdsZwKfMd2xM15DAmA50f39TqofTaSlUjGoAzPyhYxiOLQyBMdxhS6gX3Z8SznZKRKBhfn0olNCDEtSFcBuZLg2qI4
+                  - separator [ref=e969]
+                  - article "All 877 Guardian Blind Dates, aggregated and analysed" [ref=e970]:
+                    - generic [ref=e971] [cursor=pointer]:
+                      - link "All 877 Guardian Blind Dates, aggregated and analysed" [ref=e972]:
+                        - /url: /r/InternetIsBeautiful/comments/1t4cnj3/all_877_guardian_blind_dates_aggregated_and/
+                        - generic [ref=e973]:
+                          - generic: All 877 Guardian Blind Dates, aggregated and analysed
+                      - generic [ref=e974]:
+                        - generic [ref=e976]:
+                          - generic [ref=e977]:
+                            - link "작성자는 u/mrlenoir입니다" [ref=e982]:
+                              - /url: /user/mrlenoir/
+                              - generic [ref=e983]:
+                                - img "u/mrlenoir 님의 아바타입니다" [ref=e986]
+                                - generic [ref=e987]: u/mrlenoir
+                            - generic [ref=e988]: •
+                            - time [ref=e990]: 1시간 전
+                          - button "사용자 작업 열기" [ref=e995]:
+                            - img [ref=e998]
+                        - generic [ref=e1000]:
+                          - link "All 877 Guardian Blind Dates, aggregated and analysed" [ref=e1002]:
+                            - /url: /r/InternetIsBeautiful/comments/1t4cnj3/all_877_guardian_blind_dates_aggregated_and/
+                          - link "https://blinddates.rory.codes" [ref=e1005]:
+                            - /url: https://blinddates.rory.codes
+                        - generic [ref=e1007]:
+                          - link "r/InternetIsBeautiful - All 877 Guardian Blind Dates, aggregated and analysed" [ref=e1008]:
+                            - /url: https://blinddates.rory.codes
+                            - img "r/InternetIsBeautiful - All 877 Guardian Blind Dates, aggregated and analysed" [ref=e1009]
+                          - generic:
+                            - generic:
+                              - img
+                      - generic "이 게시물에서 실행할 수 있는 작업" [ref=e1011]:
+                        - generic [ref=e1014]:
+                          - button "좋아요" [ref=e1015]:
+                            - img [ref=e1017]
+                            - generic [ref=e1019]:
+                              - generic: 좋아요
+                          - generic [ref=e1021]: "24"
+                          - button "싫어요" [ref=e1022]:
+                            - img [ref=e1024]
+                            - generic [ref=e1026]:
+                              - generic: 싫어요
+                        - link "1 댓글로 이동" [ref=e1027]:
+                          - /url: /r/InternetIsBeautiful/comments/1t4cnj3/all_877_guardian_blind_dates_aggregated_and/
+                          - generic [ref=e1028]:
+                            - img [ref=e1030]
+                            - generic [ref=e1033]: "1"
+                          - generic [ref=e1034]:
+                            - generic: 댓글로 이동
+                        - button "어워드 수여" [ref=e1036]:
+                          - img [ref=e1039]
+                        - button "공유" [ref=e1044]:
+                          - generic [ref=e1045]:
+                            - img [ref=e1047]
+                            - generic [ref=e1049]: 공유
+                  - separator [ref=e1050]
+                  - article "A website that lets you experience the absolute pointlessness of modern middle management. Your only purpose is to keep your employees' Slack dots green." [ref=e1051]:
+                    - generic [ref=e1052] [cursor=pointer]:
+                      - link "A website that lets you experience the absolute pointlessness of modern middle management. Your only purpose is to keep your employees' Slack dots green." [ref=e1053]:
+                        - /url: /r/InternetIsBeautiful/comments/1sl9kv4/a_website_that_lets_you_experience_the_absolute/
+                        - generic [ref=e1054]:
+                          - generic: A website that lets you experience the absolute pointlessness of modern middle management. Your only purpose is to keep your employees' Slack dots green.
+                      - generic [ref=e1055]:
+                        - generic [ref=e1057]:
+                          - generic [ref=e1058]:
+                            - link "작성자는 u/booby-dev입니다" [ref=e1063]:
+                              - /url: /user/booby-dev/
+                              - generic [ref=e1064]:
+                                - img "u/booby-dev 님의 아바타입니다" [ref=e1067]
+                                - generic [ref=e1068]: u/booby-dev
+                            - generic [ref=e1069]: •
+                            - time [ref=e1071]: 21일 전
+                          - button "사용자 작업 열기" [ref=e1076]:
+                            - img [ref=e1079]
+                        - generic [ref=e1081]:
+                          - link "A website that lets you experience the absolute pointlessness of modern middle management. Your only purpose is to keep your employees' Slack dots green." [ref=e1083]:
+                            - /url: /r/InternetIsBeautiful/comments/1sl9kv4/a_website_that_lets_you_experience_the_absolute/
+                          - link "https://otiose.app/en/green-dot" [ref=e1086]:
+                            - /url: https://otiose.app/en/green-dot
+                        - generic [ref=e1088]:
+                          - link "r/InternetIsBeautiful - A website that lets you experience the absolute pointlessness of modern middle management. Your only purpose is to keep your employees' Slack dots green." [ref=e1089]:
+                            - /url: https://otiose.app/en/green-dot
+                            - img "r/InternetIsBeautiful - A website that lets you experience the absolute pointlessness of modern middle management. Your only purpose is to keep your employees' Slack dots green." [ref=e1090]
+                          - generic:
+                            - generic:
+                              - img
+                      - generic "이 게시물에서 실행할 수 있는 작업" [ref=e1092]:
+                        - generic [ref=e1095]:
+                          - button "좋아요" [ref=e1096]:
+                            - img [ref=e1098]
+                            - generic [ref=e1100]:
+                              - generic: 좋아요
+                          - generic [ref=e1102]: 2.6천
+                          - button "싫어요" [ref=e1103]:
+                            - img [ref=e1105]
+                            - generic [ref=e1107]:
+                              - generic: 싫어요
+                        - link "102 댓글로 이동" [ref=e1108]:
+                          - /url: /r/InternetIsBeautiful/comments/1sl9kv4/a_website_that_lets_you_experience_the_absolute/
+                          - generic [ref=e1109]:
+                            - img [ref=e1111]
+                            - generic [ref=e1114]: "102"
+                          - generic [ref=e1115]:
+                            - generic: 댓글로 이동
+                        - button "어워드 수여" [ref=e1117]:
+                          - img [ref=e1120]
+                        - button "공유" [ref=e1125]:
+                          - generic [ref=e1126]:
+                            - img [ref=e1128]
+                            - generic [ref=e1130]: 공유
+                  - separator [ref=e1131]
+                  - generic [ref=e1132]:
+                    - generic:
+                      - article "An interactive Star Wars galaxy map with canonical planet coordinates of +2000 planets, lore factoids, hyperspace trade routes, and a full timeline tracker for every movie, show, book and comic. (Includes spoilers)" [ref=e1133]:
+                        - generic [ref=e1134] [cursor=pointer]:
+                          - link "An interactive Star Wars galaxy map with canonical planet coordinates of +2000 planets, lore factoids, hyperspace trade routes, and a full timeline tracker for every movie, show, book and comic. (Includes spoilers)" [ref=e1135]:
+                            - /url: /r/InternetIsBeautiful/comments/1t3gq6c/an_interactive_star_wars_galaxy_map_with/
+                            - generic [ref=e1136]:
+                              - generic: An interactive Star Wars galaxy map with canonical planet coordinates of +2000 planets, lore factoids, hyperspace trade routes, and a full timeline tracker for every movie, show, book and comic. (Includes spoilers)
+                          - generic [ref=e1137]:
+                            - generic [ref=e1139]:
+                              - generic [ref=e1140]:
+                                - link "작성자는 u/Yuuhne입니다" [ref=e1145]:
+                                  - /url: /user/Yuuhne/
+                                  - generic [ref=e1146]:
+                                    - img "u/Yuuhne 님의 아바타입니다" [ref=e1149]
+                                    - generic [ref=e1150]: u/Yuuhne
+                                - generic [ref=e1151]: •
+                                - time [ref=e1153]: 1일 전
+                              - button "사용자 작업 열기" [ref=e1158]:
+                                - img [ref=e1161]
+                            - generic [ref=e1163]:
+                              - generic [ref=e1168]:
+                                - img [ref=e1170]
+                                - generic [ref=e1172]: 스포일러
+                              - link "An interactive Star Wars galaxy map with canonical planet coordinates of +2000 planets, lore factoids, hyperspace trade routes, and a full timeline tracker for every movie, show, book and comic. (Includes spoilers)" [ref=e1174]:
+                                - /url: /r/InternetIsBeautiful/comments/1t3gq6c/an_interactive_star_wars_galaxy_map_with/
+                              - link "https://thegalacticarchive.com" [ref=e1177]:
+                                - /url: https://thegalacticarchive.com
+                          - generic "이 게시물에서 실행할 수 있는 작업" [ref=e1179]:
+                            - generic [ref=e1182]:
+                              - button "좋아요" [ref=e1183]:
+                                - img [ref=e1185]
+                                - generic [ref=e1187]:
+                                  - generic: 좋아요
+                              - generic [ref=e1189]: "40"
+                              - button "싫어요" [ref=e1190]:
+                                - img [ref=e1192]
+                                - generic [ref=e1194]:
+                                  - generic: 싫어요
+                            - link "3 댓글로 이동" [ref=e1195]:
+                              - /url: /r/InternetIsBeautiful/comments/1t3gq6c/an_interactive_star_wars_galaxy_map_with/
+                              - generic [ref=e1196]:
+                                - img [ref=e1198]
+                                - generic [ref=e1201]: "3"
+                              - generic [ref=e1202]:
+                                - generic: 댓글로 이동
+                            - button "어워드 수여" [ref=e1204]:
+                              - img [ref=e1207]
+                            - button "공유" [ref=e1212]:
+                              - generic [ref=e1213]:
+                                - img [ref=e1215]
+                                - generic [ref=e1217]: 공유
+                      - separator [ref=e1218]
+                      - generic [ref=e1219]:
+                        - heading "관련 커뮤니티" [level=3] [ref=e1221]
+                        - generic [ref=e1222]:
+                          - generic [ref=e1224]:
+                            - generic [ref=e1226]:
+                              - generic:
+                                - link "r/UpliftingNews" [ref=e1227] [cursor=pointer]:
+                                  - /url: /r/UpliftingNews
+                                  - generic [ref=e1228]:
+                                    - generic: r/UpliftingNews
+                                - generic [ref=e1229]:
+                                  - generic [ref=e1230]:
+                                    - generic [ref=e1233]:
+                                      - heading "UpliftingNews" [level=4] [ref=e1234]
+                                      - paragraph [ref=e1235]:
+                                        - generic [ref=e1236]: 93만
+                                        - text: 주간 방문자
+                                    - button "가입" [ref=e1239] [cursor=pointer]
+                                  - paragraph [ref=e1240]: Celebrate positivity and kindness through heartwarming news stories.
+                            - generic [ref=e1242]:
+                              - generic:
+                                - link "r/space" [ref=e1243] [cursor=pointer]:
+                                  - /url: /r/space
+                                  - generic [ref=e1244]:
+                                    - generic: r/space
+                                - generic [ref=e1245]:
+                                  - generic [ref=e1246]:
+                                    - generic [ref=e1249]:
+                                      - heading "space" [level=4] [ref=e1250]
+                                      - paragraph [ref=e1251]:
+                                        - generic [ref=e1252]: 107만
+                                        - text: 주간 방문자
+                                    - button "가입" [ref=e1255] [cursor=pointer]
+                                  - paragraph [ref=e1256]: Delve into the mysteries of the cosmos - from planets to black holes.
+                            - generic [ref=e1258]:
+                              - generic:
+                                - link "r/LifeProTips" [ref=e1259] [cursor=pointer]:
+                                  - /url: /r/LifeProTips
+                                  - generic [ref=e1260]:
+                                    - generic: r/LifeProTips
+                                - generic [ref=e1261]:
+                                  - generic [ref=e1262]:
+                                    - generic [ref=e1265]:
+                                      - heading "LifeProTips" [level=4] [ref=e1266]
+                                      - paragraph [ref=e1267]:
+                                        - generic [ref=e1268]: 133만
+                                        - text: 주간 방문자
+                                    - button "가입" [ref=e1271] [cursor=pointer]
+                                  - paragraph [ref=e1272]: Useful tips from helpful individuals who want to help you succeed in life.
+                            - generic [ref=e1274]:
+                              - generic:
+                                - link "r/mealtimevideos" [ref=e1275] [cursor=pointer]:
+                                  - /url: /r/mealtimevideos
+                                  - generic [ref=e1276]:
+                                    - generic: r/mealtimevideos
+                                - generic [ref=e1277]:
+                                  - generic [ref=e1278]:
+                                    - generic [ref=e1281]:
+                                      - heading "mealtimevideos" [level=4] [ref=e1282]
+                                      - paragraph [ref=e1283]:
+                                        - generic [ref=e1284]: 6.3만
+                                        - text: 주간 방문자
+                                    - button "가입" [ref=e1287] [cursor=pointer]
+                                  - paragraph [ref=e1288]: Let mealtime become your favorite time of the day with engaging and informative videos.
+                          - button "커뮤니티 추천 더 보기" [ref=e1290] [cursor=pointer]: 더 보기
+                      - separator [ref=e1291]
+                      - article "I made a website that tells you if the Costco rotisserie chicken is still $4.99" [ref=e1292]:
+                        - generic [ref=e1293] [cursor=pointer]:
+                          - link "I made a website that tells you if the Costco rotisserie chicken is still $4.99" [ref=e1294]:
+                            - /url: /r/InternetIsBeautiful/comments/1t2mwol/i_made_a_website_that_tells_you_if_the_costco/
+                            - generic [ref=e1295]:
+                              - generic: I made a website that tells you if the Costco rotisserie chicken is still $4.99
+                          - generic [ref=e1296]:
+                            - generic [ref=e1298]:
+                              - generic [ref=e1299]:
+                                - link "작성자는 u/abepena205입니다" [ref=e1304]:
+                                  - /url: /user/abepena205/
+                                  - generic [ref=e1305]:
+                                    - img [ref=e1310]
+                                    - generic [ref=e1312]: u/abepena205
+                                - generic [ref=e1313]: •
+                                - time [ref=e1315]: 2일 전
+                              - button "사용자 작업 열기" [ref=e1320]:
+                                - img [ref=e1323]
+                            - generic [ref=e1325]:
+                              - link "I made a website that tells you if the Costco rotisserie chicken is still $4.99" [ref=e1327]:
+                                - /url: /r/InternetIsBeautiful/comments/1t2mwol/i_made_a_website_that_tells_you_if_the_costco/
+                              - link "https://IsCostcoChickenStill499.com" [ref=e1330]:
+                                - /url: https://IsCostcoChickenStill499.com
+                            - generic [ref=e1332]:
+                              - link "r/InternetIsBeautiful - I made a website that tells you if the Costco rotisserie chicken is still $4.99" [ref=e1333]:
+                                - /url: https://IsCostcoChickenStill499.com
+                                - img "r/InternetIsBeautiful - I made a website that tells you if the Costco rotisserie chicken is still $4.99" [ref=e1334]
+                              - generic:
+                                - generic:
+                                  - img
+                          - generic "이 게시물에서 실행할 수 있는 작업" [ref=e1336]:
+                            - generic [ref=e1339]:
+                              - button "좋아요" [ref=e1340]:
+                                - img [ref=e1342]
+                                - generic [ref=e1344]:
+                                  - generic: 좋아요
+                              - generic [ref=e1346]: "0"
+                              - button "싫어요" [ref=e1347]:
+                                - img [ref=e1349]
+                                - generic [ref=e1351]:
+                                  - generic: 싫어요
+                            - link "5 댓글로 이동" [ref=e1352]:
+                              - /url: /r/InternetIsBeautiful/comments/1t2mwol/i_made_a_website_that_tells_you_if_the_costco/
+                              - generic [ref=e1353]:
+                                - img [ref=e1355]
+                                - generic [ref=e1358]: "5"
+                              - generic [ref=e1359]:
+                                - generic: 댓글로 이동
+                            - button "어워드 수여" [ref=e1361]:
+                              - img [ref=e1364]
+                            - button "공유" [ref=e1369]:
+                              - generic [ref=e1370]:
+                                - img [ref=e1372]
+                                - generic [ref=e1374]: 공유
+                      - separator [ref=e1375]
+                      - article "Cursor Camp, a website to hang out with other cursors" [ref=e1376]:
+                        - generic [ref=e1377] [cursor=pointer]:
+                          - link "Cursor Camp, a website to hang out with other cursors" [ref=e1378]:
+                            - /url: /r/InternetIsBeautiful/comments/1t2oj2s/cursor_camp_a_website_to_hang_out_with_other/
+                            - generic [ref=e1379]:
+                              - generic: Cursor Camp, a website to hang out with other cursors
+                          - generic [ref=e1380]:
+                            - generic [ref=e1382]:
+                              - generic [ref=e1383]:
+                                - link "작성자는 u/sc4212입니다" [ref=e1388]:
+                                  - /url: /user/sc4212/
+                                  - generic [ref=e1389]:
+                                    - img "u/sc4212 님의 아바타입니다" [ref=e1392]
+                                    - generic [ref=e1393]: u/sc4212
+                                - generic [ref=e1394]: •
+                                - time [ref=e1396]: 2일 전
+                              - button "사용자 작업 열기" [ref=e1401]:
+                                - img [ref=e1404]
+                            - generic [ref=e1406]:
+                              - link "Cursor Camp, a website to hang out with other cursors" [ref=e1408]:
+                                - /url: /r/InternetIsBeautiful/comments/1t2oj2s/cursor_camp_a_website_to_hang_out_with_other/
+                              - link "https://neal.fun/cursor-camp/" [ref=e1411]:
+                                - /url: https://neal.fun/cursor-camp/
+                            - generic [ref=e1413]:
+                              - link "r/InternetIsBeautiful - Cursor Camp, a website to hang out with other cursors" [ref=e1414]:
+                                - /url: https://neal.fun/cursor-camp/
+                                - img "r/InternetIsBeautiful - Cursor Camp, a website to hang out with other cursors" [ref=e1415]
+                              - generic:
+                                - generic:
+                                  - img
+                          - generic "이 게시물에서 실행할 수 있는 작업" [ref=e1417]:
+                            - generic [ref=e1420]:
+                              - button "좋아요" [ref=e1421]:
+                                - img [ref=e1423]
+                                - generic [ref=e1425]:
+                                  - generic: 좋아요
+                              - generic [ref=e1427]: 1.6천
+                              - button "싫어요" [ref=e1428]:
+                                - img [ref=e1430]
+                                - generic [ref=e1432]:
+                                  - generic: 싫어요
+                            - link "60 댓글로 이동" [ref=e1433]:
+                              - /url: /r/InternetIsBeautiful/comments/1t2oj2s/cursor_camp_a_website_to_hang_out_with_other/
+                              - generic [ref=e1434]:
+                                - img [ref=e1436]
+                                - generic [ref=e1439]: "60"
+                              - generic [ref=e1440]:
+                                - generic: 댓글로 이동
+                            - button "어워드 주기, 2개 어워드 수여됨" [ref=e1442]:
+                              - generic [ref=e1447]: "2"
+                            - button "공유" [ref=e1451]:
+                              - generic [ref=e1452]:
+                                - img [ref=e1454]
+                                - generic [ref=e1456]: 공유
+                      - separator [ref=e1457]
+                      - generic [ref=e1458]:
+                        - 'generic "Advertisement: It''s NOT easy to be a Hero 😈 Come try!" [ref=e1459]':
+                          - 'link "Advertisement: It''s NOT easy to be a Hero 😈 Come try!" [ref=e1460] [cursor=pointer]':
+                            - /url: https://alb.reddit.com/cr?za=hMVA85opzR-Po4QB83VRoF97oH9exuP8nB9P_7glCqIWSIRPcGOR2SqOosx0fCSvhi8Up6I2tNu34O-7hsxAymuj89Nacl5LxB6a_8Pmxerzc0DTYJ9_WeHaFcKnibWFIUTQ7ribBvYJ8nPbyKNLK1aNpPtM1fcOuOIJN1FYrObWglAfKGYXSVDE7gZNlucufpKU3Sz6Lp-pccI8kofkMRKhs6xEmmLZ1Av0sjevxOHdzWg4tuzEDeT1OepdpVOxpEg5s7p1IDhoapn-PhMWJp0zCUMkNXruurq0AiWz4lSkDs_brdWjdXdS28MVNQgRwWYu6aoP8KiAX4KKHPos7zSll7xQstCPujlw5S2MDpcQhSsn54lMsCbT4fKEIhoNNYpEogwMno8PMSMUKAmWUmFLngDeuaJtWAeSJO6vOJRXEqFcWwm1XPEbIfkwBE28pVt7sJPxNpDO4lpE8-vkLH4g4TbhNa4hhJzv4yndHOjGsURCFt1g1lu6-pWSO3sZYnJgVMyHqN8_D1kUCOc49oWwOwm4CivsbPu1JECU0Cx9sZnsDcwyfb-CGPiuK_pUSQOwr_alDHG3zeyzK1MYS6OSH3_bS23wKf1EIqua_VJAW8f5ruD4rUGr3XmP-SSRtV-Q5NBw2RVzv04AH76A6qs_82ZCAeJNTvqwNFaSYiV9l2nONHCKvs84rrPoKgCV9923M-dZ2G2oSgNfk8bxnRYJpl76hNt_GqZ3Sn-E7sroUpQQUQouEQey7nBIyDljJw&zp=ZUJZOR0ZgUJfcxRnXs_T3kOA5yBz6mLx0E-YqZwnfIva8M3d2-BRwdM3WrmyEplP89JuESFzA3i9eJ0Ypdx53Sol_YnLDFMdu27jsZp6KLcOIuoWOz_gIEAFwlpNWA-JXczVssIgHP730vl-tu9CZk2W4HyFRENt3yxZkqtZQKCB4zDWwvOvmwHPZ3eV7ueug7VY660oGD8-jpbzP_2M0HSZEprVG24eqE96R07DIp0eNASiN67cD4AvThXPCWpJGMbr7yZLVOsYJWVqmCOU5jVIfKK2iJHcGRFfJJmBCQ66cHOUZn-rt9Q-mFZVRb3qEmFG5b0qqwdvldwcu3np-ynxrZPPM6hYiSHsuiHyTwLIQB6F8vzMe6u-xQWk4-LoW1AoSApD_iCEz6FBBT634-QjmGJKErmJ0A3zJxTmvItGKUhUsaVfEHrXzJlH2xbfbN2RJ_0pBRtm_NaEs4pRhMit7SJBUkT_j2DdKFkJyPd1OZHTBlmUB9xsXV1joN7afIche5GYUlCM9y1pdPahQ8Pg18jvv3NzcKz6Hr9kasAlwB9AJDesicyej9nuHKjr5u_jM5vu7SHydysDyTw74lceE8GvL4CUeb9yAN0Q4Dse_hP-BwGqlAECY_gQ1XTEpieNNDfHu3OCzRV75yBT4jAtuL60_a7ggSCCVWwXjW5xT0rCG7oJcz4Te2oedOSPI5nSBVnEfTCuUmSpCq9L-_S95y37WTK89bllkKVOU684cNkRyiu56PEifyTtyln3NfFHJE2GR3gr-3htys-u-1ZK4Tp7MILpTfYX2rmaTsiuBDogjzgmphU
+                        - generic [ref=e1461]:
+                          - generic [ref=e1462]:
+                            - link "u/HeroWarsDominionEra 님의 아바타입니다 u/HeroWarsDominionEra" [ref=e1465] [cursor=pointer]:
+                              - /url: /user/HeroWarsDominionEra/
+                              - img "u/HeroWarsDominionEra 님의 아바타입니다" [ref=e1468]
+                              - generic [ref=e1469]: u/HeroWarsDominionEra
+                            - generic [ref=e1470]: •
+                            - link "홍보 광고" [ref=e1472] [cursor=pointer]:
+                              - /url: /user/HeroWarsDominionEra/
+                              - generic [ref=e1473]: 홍보 광고
+                            - link [ref=e1475] [cursor=pointer]:
+                              - /url: https://alb.reddit.com/cr?za=hMVA85opzR-Po4QB83VRoF97oH9exuP8nB9P_7glCqIWSIRPcGOR2SqOosx0fCSvhi8Up6I2tNu34O-7hsxAymuj89Nacl5LxB6a_8Pmxerzc0DTYJ9_WeHaFcKnibWFIUTQ7ribBvYJ8nPbyKNLK1aNpPtM1fcOuOIJN1FYrObWglAfKGYXSVDE7gZNlucufpKU3Sz6Lp-pccI8kofkMRKhs6xEmmLZ1Av0sjevxOHdzWg4tuzEDeT1OepdpVOxpEg5s7p1IDhoapn-PhMWJp0zCUMkNXruurq0AiWz4lSkDs_brdWjdXdS28MVNQgRwWYu6aoP8KiAX4KKHPos7zSll7xQstCPujlw5S2MDpcQhSsn54lMsCbT4fKEIhoNNYpEogwMno8PMSMUKAmWUmFLngDeuaJtWAeSJO6vOJRXEqFcWwm1XPEbIfkwBE28pVt7sJPxNpDO4lpE8-vkLH4g4TbhNa4hhJzv4yndHOjGsURCFt1g1lu6-pWSO3sZYnJgVMyHqN8_D1kUCOc49oWwOwm4CivsbPu1JECU0Cx9sZnsDcwyfb-CGPiuK_pUSQOwr_alDHG3zeyzK1MYS6OSH3_bS23wKf1EIqua_VJAW8f5ruD4rUGr3XmP-SSRtV-Q5NBw2RVzv04AH76A6qs_82ZCAeJNTvqwNFaSYiV9l2nONHCKvs84rrPoKgCV9923M-dZ2G2oSgNfk8bxnRYJpl76hNt_GqZ3Sn-E7sroUpQQUQouEQey7nBIyDljJw&zp=ZUJZOR0ZgUJfcxRnXs_T3kOA5yBz6mLx0E-YqZwnfIva8M3d2-BRwdM3WrmyEplP89JuESFzA3i9eJ0Ypdx53Sol_YnLDFMdu27jsZp6KLcOIuoWOz_gIEAFwlpNWA-JXczVssIgHP730vl-tu9CZk2W4HyFRENt3yxZkqtZQKCB4zDWwvOvmwHPZ3eV7ueug7VY660oGD8-jpbzP_2M0HSZEprVG24eqE96R07DIp0eNASiN67cD4AvThXPCWpJGMbr7yZLVOsYJWVqmCOU5jVIfKK2iJHcGRFfJJmBCQ66cHOUZn-rt9Q-mFZVRb3qEmFG5b0qqwdvldwcu3np-ynxrZPPM6hYiSHsuiHyTwLIQB6F8vzMe6u-xQWk4-LoW1AoSApD_iCEz6FBBT634-QjmGJKErmJ0A3zJxTmvItGKUhUsaVfEHrXzJlH2xbfbN2RJ_0pBRtm_NaEs4pRhMit7SJBUkT_j2DdKFkJyPd1OZHTBlmUB9xsXV1joN7afIche5GYUlCM9y1pdPahQ8Pg18jvv3NzcKz6Hr9kasAlwB9AJDesicyej9nuHKjr5u_jM5vu7SHydysDyTw74lceE8GvL4CUeb9yAN0Q4Dse_hP-BwGqlAECY_gQ1XTEpieNNDfHu3OCzRV75yBT4jAtuL60_a7ggSCCVWwXjW5xT0rCG7oJcz4Te2oedOSPI5nSBVnEfTCuUmSpCq9L-_S95y37WTK89bllkKVOU684cNkRyiu56PEifyTtyln3NfFHJE2GR3gr-3htys-u-1ZK4Tp7MILpTfYX2rmaTsiuBDogjzgmphU
+                          - button "사용자 작업 열기" [ref=e1480] [cursor=pointer]:
+                            - img [ref=e1483]
+                        - heading "It's NOT easy to be a Hero 😈 Come try!" [level=2] [ref=e1487]:
+                          - link "It's NOT easy to be a Hero 😈 Come try!" [ref=e1490] [cursor=pointer]:
+                            - /url: https://alb.reddit.com/cr?za=hMVA85opzR-Po4QB83VRoF97oH9exuP8nB9P_7glCqIWSIRPcGOR2SqOosx0fCSvhi8Up6I2tNu34O-7hsxAymuj89Nacl5LxB6a_8Pmxerzc0DTYJ9_WeHaFcKnibWFIUTQ7ribBvYJ8nPbyKNLK1aNpPtM1fcOuOIJN1FYrObWglAfKGYXSVDE7gZNlucufpKU3Sz6Lp-pccI8kofkMRKhs6xEmmLZ1Av0sjevxOHdzWg4tuzEDeT1OepdpVOxpEg5s7p1IDhoapn-PhMWJp0zCUMkNXruurq0AiWz4lSkDs_brdWjdXdS28MVNQgRwWYu6aoP8KiAX4KKHPos7zSll7xQstCPujlw5S2MDpcQhSsn54lMsCbT4fKEIhoNNYpEogwMno8PMSMUKAmWUmFLngDeuaJtWAeSJO6vOJRXEqFcWwm1XPEbIfkwBE28pVt7sJPxNpDO4lpE8-vkLH4g4TbhNa4hhJzv4yndHOjGsURCFt1g1lu6-pWSO3sZYnJgVMyHqN8_D1kUCOc49oWwOwm4CivsbPu1JECU0Cx9sZnsDcwyfb-CGPiuK_pUSQOwr_alDHG3zeyzK1MYS6OSH3_bS23wKf1EIqua_VJAW8f5ruD4rUGr3XmP-SSRtV-Q5NBw2RVzv04AH76A6qs_82ZCAeJNTvqwNFaSYiV9l2nONHCKvs84rrPoKgCV9923M-dZ2G2oSgNfk8bxnRYJpl76hNt_GqZ3Sn-E7sroUpQQUQouEQey7nBIyDljJw&zp=ZUJZOR0ZgUJfcxRnXs_T3kOA5yBz6mLx0E-YqZwnfIva8M3d2-BRwdM3WrmyEplP89JuESFzA3i9eJ0Ypdx53Sol_YnLDFMdu27jsZp6KLcOIuoWOz_gIEAFwlpNWA-JXczVssIgHP730vl-tu9CZk2W4HyFRENt3yxZkqtZQKCB4zDWwvOvmwHPZ3eV7ueug7VY660oGD8-jpbzP_2M0HSZEprVG24eqE96R07DIp0eNASiN67cD4AvThXPCWpJGMbr7yZLVOsYJWVqmCOU5jVIfKK2iJHcGRFfJJmBCQ66cHOUZn-rt9Q-mFZVRb3qEmFG5b0qqwdvldwcu3np-ynxrZPPM6hYiSHsuiHyTwLIQB6F8vzMe6u-xQWk4-LoW1AoSApD_iCEz6FBBT634-QjmGJKErmJ0A3zJxTmvItGKUhUsaVfEHrXzJlH2xbfbN2RJ_0pBRtm_NaEs4pRhMit7SJBUkT_j2DdKFkJyPd1OZHTBlmUB9xsXV1joN7afIche5GYUlCM9y1pdPahQ8Pg18jvv3NzcKz6Hr9kasAlwB9AJDesicyej9nuHKjr5u_jM5vu7SHydysDyTw74lceE8GvL4CUeb9yAN0Q4Dse_hP-BwGqlAECY_gQ1XTEpieNNDfHu3OCzRV75yBT4jAtuL60_a7ggSCCVWwXjW5xT0rCG7oJcz4Te2oedOSPI5nSBVnEfTCuUmSpCq9L-_S95y37WTK89bllkKVOU684cNkRyiu56PEifyTtyln3NfFHJE2GR3gr-3htys-u-1ZK4Tp7MILpTfYX2rmaTsiuBDogjzgmphU
+                            - generic: It's NOT easy to be a Hero 😈 Come try!
+                        - generic [ref=e1491]:
+                          - link "It's NOT easy to be a Hero 😈 Come try!" [ref=e1495] [cursor=pointer]:
+                            - /url: https://alb.reddit.com/cr?za=hMVA85opzR-Po4QB83VRoF97oH9exuP8nB9P_7glCqIWSIRPcGOR2SqOosx0fCSvhi8Up6I2tNu34O-7hsxAymuj89Nacl5LxB6a_8Pmxerzc0DTYJ9_WeHaFcKnibWFIUTQ7ribBvYJ8nPbyKNLK1aNpPtM1fcOuOIJN1FYrObWglAfKGYXSVDE7gZNlucufpKU3Sz6Lp-pccI8kofkMRKhs6xEmmLZ1Av0sjevxOHdzWg4tuzEDeT1OepdpVOxpEg5s7p1IDhoapn-PhMWJp0zCUMkNXruurq0AiWz4lSkDs_brdWjdXdS28MVNQgRwWYu6aoP8KiAX4KKHPos7zSll7xQstCPujlw5S2MDpcQhSsn54lMsCbT4fKEIhoNNYpEogwMno8PMSMUKAmWUmFLngDeuaJtWAeSJO6vOJRXEqFcWwm1XPEbIfkwBE28pVt7sJPxNpDO4lpE8-vkLH4g4TbhNa4hhJzv4yndHOjGsURCFt1g1lu6-pWSO3sZYnJgVMyHqN8_D1kUCOc49oWwOwm4CivsbPu1JECU0Cx9sZnsDcwyfb-CGPiuK_pUSQOwr_alDHG3zeyzK1MYS6OSH3_bS23wKf1EIqua_VJAW8f5ruD4rUGr3XmP-SSRtV-Q5NBw2RVzv04AH76A6qs_82ZCAeJNTvqwNFaSYiV9l2nONHCKvs84rrPoKgCV9923M-dZ2G2oSgNfk8bxnRYJpl76hNt_GqZ3Sn-E7sroUpQQUQouEQey7nBIyDljJw&zp=ZUJZOR0ZgUJfcxRnXs_T3kOA5yBz6mLx0E-YqZwnfIva8M3d2-BRwdM3WrmyEplP89JuESFzA3i9eJ0Ypdx53Sol_YnLDFMdu27jsZp6KLcOIuoWOz_gIEAFwlpNWA-JXczVssIgHP730vl-tu9CZk2W4HyFRENt3yxZkqtZQKCB4zDWwvOvmwHPZ3eV7ueug7VY660oGD8-jpbzP_2M0HSZEprVG24eqE96R07DIp0eNASiN67cD4AvThXPCWpJGMbr7yZLVOsYJWVqmCOU5jVIfKK2iJHcGRFfJJmBCQ66cHOUZn-rt9Q-mFZVRb3qEmFG5b0qqwdvldwcu3np-ynxrZPPM6hYiSHsuiHyTwLIQB6F8vzMe6u-xQWk4-LoW1AoSApD_iCEz6FBBT634-QjmGJKErmJ0A3zJxTmvItGKUhUsaVfEHrXzJlH2xbfbN2RJ_0pBRtm_NaEs4pRhMit7SJBUkT_j2DdKFkJyPd1OZHTBlmUB9xsXV1joN7afIche5GYUlCM9y1pdPahQ8Pg18jvv3NzcKz6Hr9kasAlwB9AJDesicyej9nuHKjr5u_jM5vu7SHydysDyTw74lceE8GvL4CUeb9yAN0Q4Dse_hP-BwGqlAECY_gQ1XTEpieNNDfHu3OCzRV75yBT4jAtuL60_a7ggSCCVWwXjW5xT0rCG7oJcz4Te2oedOSPI5nSBVnEfTCuUmSpCq9L-_S95y37WTK89bllkKVOU684cNkRyiu56PEifyTtyln3NfFHJE2GR3gr-3htys-u-1ZK4Tp7MILpTfYX2rmaTsiuBDogjzgmphU
+                            - img "It's NOT easy to be a Hero 😈 Come try!" [ref=e1497]
+                          - separator [ref=e1498]
+                          - generic [ref=e1499]:
+                            - link [ref=e1501] [cursor=pointer]:
+                              - /url: https://alb.reddit.com/cr?za=hMVA85opzR-Po4QB83VRoF97oH9exuP8nB9P_7glCqIWSIRPcGOR2SqOosx0fCSvhi8Up6I2tNu34O-7hsxAymuj89Nacl5LxB6a_8Pmxerzc0DTYJ9_WeHaFcKnibWFIUTQ7ribBvYJ8nPbyKNLK1aNpPtM1fcOuOIJN1FYrObWglAfKGYXSVDE7gZNlucufpKU3Sz6Lp-pccI8kofkMRKhs6xEmmLZ1Av0sjevxOHdzWg4tuzEDeT1OepdpVOxpEg5s7p1IDhoapn-PhMWJp0zCUMkNXruurq0AiWz4lSkDs_brdWjdXdS28MVNQgRwWYu6aoP8KiAX4KKHPos7zSll7xQstCPujlw5S2MDpcQhSsn54lMsCbT4fKEIhoNNYpEogwMno8PMSMUKAmWUmFLngDeuaJtWAeSJO6vOJRXEqFcWwm1XPEbIfkwBE28pVt7sJPxNpDO4lpE8-vkLH4g4TbhNa4hhJzv4yndHOjGsURCFt1g1lu6-pWSO3sZYnJgVMyHqN8_D1kUCOc49oWwOwm4CivsbPu1JECU0Cx9sZnsDcwyfb-CGPiuK_pUSQOwr_alDHG3zeyzK1MYS6OSH3_bS23wKf1EIqua_VJAW8f5ruD4rUGr3XmP-SSRtV-Q5NBw2RVzv04AH76A6qs_82ZCAeJNTvqwNFaSYiV9l2nONHCKvs84rrPoKgCV9923M-dZ2G2oSgNfk8bxnRYJpl76hNt_GqZ3Sn-E7sroUpQQUQouEQey7nBIyDljJw&zp=ZUJZOR0ZgUJfcxRnXs_T3kOA5yBz6mLx0E-YqZwnfIva8M3d2-BRwdM3WrmyEplP89JuESFzA3i9eJ0Ypdx53Sol_YnLDFMdu27jsZp6KLcOIuoWOz_gIEAFwlpNWA-JXczVssIgHP730vl-tu9CZk2W4HyFRENt3yxZkqtZQKCB4zDWwvOvmwHPZ3eV7ueug7VY660oGD8-jpbzP_2M0HSZEprVG24eqE96R07DIp0eNASiN67cD4AvThXPCWpJGMbr7yZLVOsYJWVqmCOU5jVIfKK2iJHcGRFfJJmBCQ66cHOUZn-rt9Q-mFZVRb3qEmFG5b0qqwdvldwcu3np-ynxrZPPM6hYiSHsuiHyTwLIQB6F8vzMe6u-xQWk4-LoW1AoSApD_iCEz6FBBT634-QjmGJKErmJ0A3zJxTmvItGKUhUsaVfEHrXzJlH2xbfbN2RJ_0pBRtm_NaEs4pRhMit7SJBUkT_j2DdKFkJyPd1OZHTBlmUB9xsXV1joN7afIche5GYUlCM9y1pdPahQ8Pg18jvv3NzcKz6Hr9kasAlwB9AJDesicyej9nuHKjr5u_jM5vu7SHydysDyTw74lceE8GvL4CUeb9yAN0Q4Dse_hP-BwGqlAECY_gQ1XTEpieNNDfHu3OCzRV75yBT4jAtuL60_a7ggSCCVWwXjW5xT0rCG7oJcz4Te2oedOSPI5nSBVnEfTCuUmSpCq9L-_S95y37WTK89bllkKVOU684cNkRyiu56PEifyTtyln3NfFHJE2GR3gr-3htys-u-1ZK4Tp7MILpTfYX2rmaTsiuBDogjzgmphU
+                            - generic [ref=e1502]:
+                              - link "hero-wars.com" [ref=e1505] [cursor=pointer]:
+                                - /url: https://alb.reddit.com/cr?za=hMVA85opzR-Po4QB83VRoF97oH9exuP8nB9P_7glCqIWSIRPcGOR2SqOosx0fCSvhi8Up6I2tNu34O-7hsxAymuj89Nacl5LxB6a_8Pmxerzc0DTYJ9_WeHaFcKnibWFIUTQ7ribBvYJ8nPbyKNLK1aNpPtM1fcOuOIJN1FYrObWglAfKGYXSVDE7gZNlucufpKU3Sz6Lp-pccI8kofkMRKhs6xEmmLZ1Av0sjevxOHdzWg4tuzEDeT1OepdpVOxpEg5s7p1IDhoapn-PhMWJp0zCUMkNXruurq0AiWz4lSkDs_brdWjdXdS28MVNQgRwWYu6aoP8KiAX4KKHPos7zSll7xQstCPujlw5S2MDpcQhSsn54lMsCbT4fKEIhoNNYpEogwMno8PMSMUKAmWUmFLngDeuaJtWAeSJO6vOJRXEqFcWwm1XPEbIfkwBE28pVt7sJPxNpDO4lpE8-vkLH4g4TbhNa4hhJzv4yndHOjGsURCFt1g1lu6-pWSO3sZYnJgVMyHqN8_D1kUCOc49oWwOwm4CivsbPu1JECU0Cx9sZnsDcwyfb-CGPiuK_pUSQOwr_alDHG3zeyzK1MYS6OSH3_bS23wKf1EIqua_VJAW8f5ruD4rUGr3XmP-SSRtV-Q5NBw2RVzv04AH76A6qs_82ZCAeJNTvqwNFaSYiV9l2nONHCKvs84rrPoKgCV9923M-dZ2G2oSgNfk8bxnRYJpl76hNt_GqZ3Sn-E7sroUpQQUQouEQey7nBIyDljJw&zp=ZUJZOR0ZgUJfcxRnXs_T3kOA5yBz6mLx0E-YqZwnfIva8M3d2-BRwdM3WrmyEplP89JuESFzA3i9eJ0Ypdx53Sol_YnLDFMdu27jsZp6KLcOIuoWOz_gIEAFwlpNWA-JXczVssIgHP730vl-tu9CZk2W4HyFRENt3yxZkqtZQKCB4zDWwvOvmwHPZ3eV7ueug7VY660oGD8-jpbzP_2M0HSZEprVG24eqE96R07DIp0eNASiN67cD4AvThXPCWpJGMbr7yZLVOsYJWVqmCOU5jVIfKK2iJHcGRFfJJmBCQ66cHOUZn-rt9Q-mFZVRb3qEmFG5b0qqwdvldwcu3np-ynxrZPPM6hYiSHsuiHyTwLIQB6F8vzMe6u-xQWk4-LoW1AoSApD_iCEz6FBBT634-QjmGJKErmJ0A3zJxTmvItGKUhUsaVfEHrXzJlH2xbfbN2RJ_0pBRtm_NaEs4pRhMit7SJBUkT_j2DdKFkJyPd1OZHTBlmUB9xsXV1joN7afIche5GYUlCM9y1pdPahQ8Pg18jvv3NzcKz6Hr9kasAlwB9AJDesicyej9nuHKjr5u_jM5vu7SHydysDyTw74lceE8GvL4CUeb9yAN0Q4Dse_hP-BwGqlAECY_gQ1XTEpieNNDfHu3OCzRV75yBT4jAtuL60_a7ggSCCVWwXjW5xT0rCG7oJcz4Te2oedOSPI5nSBVnEfTCuUmSpCq9L-_S95y37WTK89bllkKVOU684cNkRyiu56PEifyTtyln3NfFHJE2GR3gr-3htys-u-1ZK4Tp7MILpTfYX2rmaTsiuBDogjzgmphU
+                                - generic: hero-wars.com
+                              - link "지금 재생" [ref=e1507] [cursor=pointer]:
+                                - /url: https://alb.reddit.com/cr?za=hMVA85opzR-Po4QB83VRoF97oH9exuP8nB9P_7glCqIWSIRPcGOR2SqOosx0fCSvhi8Up6I2tNu34O-7hsxAymuj89Nacl5LxB6a_8Pmxerzc0DTYJ9_WeHaFcKnibWFIUTQ7ribBvYJ8nPbyKNLK1aNpPtM1fcOuOIJN1FYrObWglAfKGYXSVDE7gZNlucufpKU3Sz6Lp-pccI8kofkMRKhs6xEmmLZ1Av0sjevxOHdzWg4tuzEDeT1OepdpVOxpEg5s7p1IDhoapn-PhMWJp0zCUMkNXruurq0AiWz4lSkDs_brdWjdXdS28MVNQgRwWYu6aoP8KiAX4KKHPos7zSll7xQstCPujlw5S2MDpcQhSsn54lMsCbT4fKEIhoNNYpEogwMno8PMSMUKAmWUmFLngDeuaJtWAeSJO6vOJRXEqFcWwm1XPEbIfkwBE28pVt7sJPxNpDO4lpE8-vkLH4g4TbhNa4hhJzv4yndHOjGsURCFt1g1lu6-pWSO3sZYnJgVMyHqN8_D1kUCOc49oWwOwm4CivsbPu1JECU0Cx9sZnsDcwyfb-CGPiuK_pUSQOwr_alDHG3zeyzK1MYS6OSH3_bS23wKf1EIqua_VJAW8f5ruD4rUGr3XmP-SSRtV-Q5NBw2RVzv04AH76A6qs_82ZCAeJNTvqwNFaSYiV9l2nONHCKvs84rrPoKgCV9923M-dZ2G2oSgNfk8bxnRYJpl76hNt_GqZ3Sn-E7sroUpQQUQouEQey7nBIyDljJw&zp=ZUJZOR0ZgUJfcxRnXs_T3kOA5yBz6mLx0E-YqZwnfIva8M3d2-BRwdM3WrmyEplP89JuESFzA3i9eJ0Ypdx53Sol_YnLDFMdu27jsZp6KLcOIuoWOz_gIEAFwlpNWA-JXczVssIgHP730vl-tu9CZk2W4HyFRENt3yxZkqtZQKCB4zDWwvOvmwHPZ3eV7ueug7VY660oGD8-jpbzP_2M0HSZEprVG24eqE96R07DIp0eNASiN67cD4AvThXPCWpJGMbr7yZLVOsYJWVqmCOU5jVIfKK2iJHcGRFfJJmBCQ66cHOUZn-rt9Q-mFZVRb3qEmFG5b0qqwdvldwcu3np-ynxrZPPM6hYiSHsuiHyTwLIQB6F8vzMe6u-xQWk4-LoW1AoSApD_iCEz6FBBT634-QjmGJKErmJ0A3zJxTmvItGKUhUsaVfEHrXzJlH2xbfbN2RJ_0pBRtm_NaEs4pRhMit7SJBUkT_j2DdKFkJyPd1OZHTBlmUB9xsXV1joN7afIche5GYUlCM9y1pdPahQ8Pg18jvv3NzcKz6Hr9kasAlwB9AJDesicyej9nuHKjr5u_jM5vu7SHydysDyTw74lceE8GvL4CUeb9yAN0Q4Dse_hP-BwGqlAECY_gQ1XTEpieNNDfHu3OCzRV75yBT4jAtuL60_a7ggSCCVWwXjW5xT0rCG7oJcz4Te2oedOSPI5nSBVnEfTCuUmSpCq9L-_S95y37WTK89bllkKVOU684cNkRyiu56PEifyTtyln3NfFHJE2GR3gr-3htys-u-1ZK4Tp7MILpTfYX2rmaTsiuBDogjzgmphU
+                                - generic [ref=e1509]:
+                                  - generic: 지금 재생
+                        - generic:
+                          - link "Redditors appreciate Hero Wars for its engaging gameplay, rewarding events, and the strategic depth it offers through various game mechanics." [ref=e1511] [cursor=pointer]:
+                            - /url: https://alb.reddit.com/cr?za=hMVA85opzR-Po4QB83VRoF97oH9exuP8nB9P_7glCqIWSIRPcGOR2SqOosx0fCSvhi8Up6I2tNu34O-7hsxAymuj89Nacl5LxB6a_8Pmxerzc0DTYJ9_WeHaFcKnibWFIUTQ7ribBvYJ8nPbyKNLK1aNpPtM1fcOuOIJN1FYrObWglAfKGYXSVDE7gZNlucufpKU3Sz6Lp-pccI8kofkMRKhs6xEmmLZ1Av0sjevxOHdzWg4tuzEDeT1OepdpVOxpEg5s7p1IDhoapn-PhMWJp0zCUMkNXruurq0AiWz4lSkDs_brdWjdXdS28MVNQgRwWYu6aoP8KiAX4KKHPos7zSll7xQstCPujlw5S2MDpcQhSsn54lMsCbT4fKEIhoNNYpEogwMno8PMSMUKAmWUmFLngDeuaJtWAeSJO6vOJRXEqFcWwm1XPEbIfkwBE28pVt7sJPxNpDO4lpE8-vkLH4g4TbhNa4hhJzv4yndHOjGsURCFt1g1lu6-pWSO3sZYnJgVMyHqN8_D1kUCOc49oWwOwm4CivsbPu1JECU0Cx9sZnsDcwyfb-CGPiuK_pUSQOwr_alDHG3zeyzK1MYS6OSH3_bS23wKf1EIqua_VJAW8f5ruD4rUGr3XmP-SSRtV-Q5NBw2RVzv04AH76A6qs_82ZCAeJNTvqwNFaSYiV9l2nONHCKvs84rrPoKgCV9923M-dZ2G2oSgNfk8bxnRYJpl76hNt_GqZ3Sn-E7sroUpQQUQouEQey7nBIyDljJw&zp=ZUJZOR0ZgUJfcxRnXs_T3kOA5yBz6mLx0E-YqZwnfIva8M3d2-BRwdM3WrmyEplP89JuESFzA3i9eJ0Ypdx53Sol_YnLDFMdu27jsZp6KLcOIuoWOz_gIEAFwlpNWA-JXczVssIgHP730vl-tu9CZk2W4HyFRENt3yxZkqtZQKCB4zDWwvOvmwHPZ3eV7ueug7VY660oGD8-jpbzP_2M0HSZEprVG24eqE96R07DIp0eNASiN67cD4AvThXPCWpJGMbr7yZLVOsYJWVqmCOU5jVIfKK2iJHcGRFfJJmBCQ66cHOUZn-rt9Q-mFZVRb3qEmFG5b0qqwdvldwcu3np-ynxrZPPM6hYiSHsuiHyTwLIQB6F8vzMe6u-xQWk4-LoW1AoSApD_iCEz6FBBT634-QjmGJKErmJ0A3zJxTmvItGKUhUsaVfEHrXzJlH2xbfbN2RJ_0pBRtm_NaEs4pRhMit7SJBUkT_j2DdKFkJyPd1OZHTBlmUB9xsXV1joN7afIche5GYUlCM9y1pdPahQ8Pg18jvv3NzcKz6Hr9kasAlwB9AJDesicyej9nuHKjr5u_jM5vu7SHydysDyTw74lceE8GvL4CUeb9yAN0Q4Dse_hP-BwGqlAECY_gQ1XTEpieNNDfHu3OCzRV75yBT4jAtuL60_a7ggSCCVWwXjW5xT0rCG7oJcz4Te2oedOSPI5nSBVnEfTCuUmSpCq9L-_S95y37WTK89bllkKVOU684cNkRyiu56PEifyTtyln3NfFHJE2GR3gr-3htys-u-1ZK4Tp7MILpTfYX2rmaTsiuBDogjzgmphU
+                            - generic [ref=e1512]:
+                              - generic [ref=e1513]: Redditors appreciate Hero Wars for its engaging gameplay, rewarding events, and the strategic depth it offers through various game mechanics.
+                              - img [ref=e1514]
+                          - generic [ref=e1517]:
+                            - list [ref=e1518]:
+                              - generic:
+                                - listitem [ref=e1519]:
+                                  - link "I got my first ever talisman for Iris :D I'm really grateful for this section in the store. HeroWarsApp • 좋아요 22개 HeroWarsApp" [ref=e1520] [cursor=pointer]:
+                                    - /url: /r/HeroWarsApp/comments/1mrzvl2/i_got_my_first_ever_talisman_for_iris_d_im_really/?pid=t3_1t0yeby&related_post=1&impressionid=5816830409954034437
+                                    - generic [ref=e1521]:
+                                      - generic [ref=e1523]:
+                                        - generic [ref=e1524]: I got my first ever talisman for Iris :D I'm really grateful for this section in the store.
+                                        - generic [ref=e1525]:
+                                          - text: HeroWarsApp
+                                          - generic [ref=e1526]: •
+                                          - generic [ref=e1527]:
+                                            - text: 좋아요
+                                            - generic [ref=e1528]: "22"
+                                            - text: 개
+                                      - img "HeroWarsApp" [ref=e1529]
+                                - listitem [ref=e1530]:
+                                  - link "Shop update HeroWarsApp • 좋아요 14개 HeroWarsApp" [ref=e1531] [cursor=pointer]:
+                                    - /url: /r/HeroWarsApp/comments/1llwc48/shop_update/?pid=t3_1t0yeby&related_post=1&impressionid=5816830409954034437
+                                    - generic [ref=e1532]:
+                                      - generic [ref=e1534]:
+                                        - generic [ref=e1535]: Shop update
+                                        - generic [ref=e1536]:
+                                          - text: HeroWarsApp
+                                          - generic [ref=e1537]: •
+                                          - generic [ref=e1538]:
+                                            - text: 좋아요
+                                            - generic [ref=e1539]: "14"
+                                            - text: 개
+                                      - img "HeroWarsApp" [ref=e1540]
+                                - listitem [ref=e1541]:
+                                  - link "😃My first \"Legend Draft Trophy\" 😃 HeroWarsApp • 좋아요 29개 HeroWarsApp" [ref=e1542] [cursor=pointer]:
+                                    - /url: /r/HeroWarsApp/comments/1sgt6bc/my_first_legend_draft_trophy/?pid=t3_1t0yeby&related_post=1&impressionid=5816830409954034437
+                                    - generic [ref=e1543]:
+                                      - generic [ref=e1545]:
+                                        - generic [ref=e1546]: 😃My first "Legend Draft Trophy" 😃
+                                        - generic [ref=e1547]:
+                                          - text: HeroWarsApp
+                                          - generic [ref=e1548]: •
+                                          - generic [ref=e1549]:
+                                            - text: 좋아요
+                                            - generic [ref=e1550]: "29"
+                                            - text: 개
+                                      - img "HeroWarsApp" [ref=e1551]
+                                - listitem [ref=e1552]:
+                                  - link "Farming Titan Soul Stones HeroWarsApp • 좋아요 52개" [ref=e1553] [cursor=pointer]:
+                                    - /url: /r/HeroWarsApp/comments/1f2nptu/farming_titan_soul_stones/?pid=t3_1t0yeby&related_post=1&impressionid=5816830409954034437
+                                    - generic [ref=e1556]:
+                                      - generic [ref=e1557]: Farming Titan Soul Stones
+                                      - generic [ref=e1558]:
+                                        - text: HeroWarsApp
+                                        - generic [ref=e1559]: •
+                                        - generic [ref=e1560]:
+                                          - text: 좋아요
+                                          - generic [ref=e1561]: "52"
+                                          - text: 개
+                                - listitem [ref=e1562]:
+                                  - link "Grand Prize 🪿! HeroWarsApp • 좋아요 29개 HeroWarsApp" [ref=e1563] [cursor=pointer]:
+                                    - /url: /r/HeroWarsApp/comments/1qga1bq/grand_prize/?pid=t3_1t0yeby&related_post=1&impressionid=5816830409954034437
+                                    - generic [ref=e1564]:
+                                      - generic [ref=e1566]:
+                                        - generic [ref=e1567]: Grand Prize 🪿!
+                                        - generic [ref=e1568]:
+                                          - text: HeroWarsApp
+                                          - generic [ref=e1569]: •
+                                          - generic [ref=e1570]:
+                                            - text: 좋아요
+                                            - generic [ref=e1571]: "29"
+                                            - text: 개
+                                      - img "HeroWarsApp" [ref=e1572]
+                            - button "다음" [ref=e1573]:
+                              - button "다음" [ref=e1574] [cursor=pointer]:
+                                - img [ref=e1577]
+                          - link "대화 요약이 포함된 광고에 대한 정보" [ref=e1579] [cursor=pointer]:
+                            - /url: https://support.reddithelp.com/hc/articles/37281085885076
+                            - generic [ref=e1580]:
+                              - img [ref=e1581]
+                              - generic [ref=e1583]: 대화 요약이 포함된 광고에 대한 정보
+                        - generic "이 게시물에서 실행할 수 있는 작업" [ref=e1584]:
+                          - generic [ref=e1587]:
+                            - button "좋아요" [ref=e1588] [cursor=pointer]:
+                              - img [ref=e1590]
+                              - generic [ref=e1592]:
+                                - generic: 좋아요
+                            - text: 투표
+                            - button "싫어요" [ref=e1593] [cursor=pointer]:
+                              - img [ref=e1595]
+                              - generic [ref=e1597]:
+                                - generic: 싫어요
+                          - link "0 댓글로 이동" [ref=e1598] [cursor=pointer]:
+                            - /url: /user/HeroWarsDominionEra/comments/1t0yeby/its_not_easy_to_be_a_hero_come_try/?p=1&impressionid=5816830409954034437
+                            - generic [ref=e1599]:
+                              - img [ref=e1601]
+                              - generic [ref=e1604]: "0"
+                            - generic [ref=e1605]:
+                              - generic: 댓글로 이동
+                          - button "공유" [ref=e1609] [cursor=pointer]:
+                            - generic [ref=e1610]:
+                              - img [ref=e1612]
+                              - generic [ref=e1614]: 공유
+                          - link [ref=e1616] [cursor=pointer]:
+                            - /url: https://alb.reddit.com/cr?za=hMVA85opzR-Po4QB83VRoF97oH9exuP8nB9P_7glCqIWSIRPcGOR2SqOosx0fCSvhi8Up6I2tNu34O-7hsxAymuj89Nacl5LxB6a_8Pmxerzc0DTYJ9_WeHaFcKnibWFIUTQ7ribBvYJ8nPbyKNLK1aNpPtM1fcOuOIJN1FYrObWglAfKGYXSVDE7gZNlucufpKU3Sz6Lp-pccI8kofkMRKhs6xEmmLZ1Av0sjevxOHdzWg4tuzEDeT1OepdpVOxpEg5s7p1IDhoapn-PhMWJp0zCUMkNXruurq0AiWz4lSkDs_brdWjdXdS28MVNQgRwWYu6aoP8KiAX4KKHPos7zSll7xQstCPujlw5S2MDpcQhSsn54lMsCbT4fKEIhoNNYpEogwMno8PMSMUKAmWUmFLngDeuaJtWAeSJO6vOJRXEqFcWwm1XPEbIfkwBE28pVt7sJPxNpDO4lpE8-vkLH4g4TbhNa4hhJzv4yndHOjGsURCFt1g1lu6-pWSO3sZYnJgVMyHqN8_D1kUCOc49oWwOwm4CivsbPu1JECU0Cx9sZnsDcwyfb-CGPiuK_pUSQOwr_alDHG3zeyzK1MYS6OSH3_bS23wKf1EIqua_VJAW8f5ruD4rUGr3XmP-SSRtV-Q5NBw2RVzv04AH76A6qs_82ZCAeJNTvqwNFaSYiV9l2nONHCKvs84rrPoKgCV9923M-dZ2G2oSgNfk8bxnRYJpl76hNt_GqZ3Sn-E7sroUpQQUQouEQey7nBIyDljJw&zp=ZUJZOR0ZgUJfcxRnXs_T3kOA5yBz6mLx0E-YqZwnfIva8M3d2-BRwdM3WrmyEplP89JuESFzA3i9eJ0Ypdx53Sol_YnLDFMdu27jsZp6KLcOIuoWOz_gIEAFwlpNWA-JXczVssIgHP730vl-tu9CZk2W4HyFRENt3yxZkqtZQKCB4zDWwvOvmwHPZ3eV7ueug7VY660oGD8-jpbzP_2M0HSZEprVG24eqE96R07DIp0eNASiN67cD4AvThXPCWpJGMbr7yZLVOsYJWVqmCOU5jVIfKK2iJHcGRFfJJmBCQ66cHOUZn-rt9Q-mFZVRb3qEmFG5b0qqwdvldwcu3np-ynxrZPPM6hYiSHsuiHyTwLIQB6F8vzMe6u-xQWk4-LoW1AoSApD_iCEz6FBBT634-QjmGJKErmJ0A3zJxTmvItGKUhUsaVfEHrXzJlH2xbfbN2RJ_0pBRtm_NaEs4pRhMit7SJBUkT_j2DdKFkJyPd1OZHTBlmUB9xsXV1joN7afIche5GYUlCM9y1pdPahQ8Pg18jvv3NzcKz6Hr9kasAlwB9AJDesicyej9nuHKjr5u_jM5vu7SHydysDyTw74lceE8GvL4CUeb9yAN0Q4Dse_hP-BwGqlAECY_gQ1XTEpieNNDfHu3OCzRV75yBT4jAtuL60_a7ggSCCVWwXjW5xT0rCG7oJcz4Te2oedOSPI5nSBVnEfTCuUmSpCq9L-_S95y37WTK89bllkKVOU684cNkRyiu56PEifyTtyln3NfFHJE2GR3gr-3htys-u-1ZK4Tp7MILpTfYX2rmaTsiuBDogjzgmphU
+                      - separator [ref=e1617]
+                      - article "Magnified Sand" [ref=e1618]:
+                        - generic [ref=e1619] [cursor=pointer]:
+                          - link "Magnified Sand" [ref=e1620]:
+                            - /url: /r/InternetIsBeautiful/comments/1t2nq7x/magnified_sand/
+                            - generic [ref=e1621]:
+                              - generic: Magnified Sand
+                          - generic [ref=e1622]:
+                            - generic [ref=e1624]:
+                              - generic [ref=e1625]:
+                                - link "작성자는 u/ddgr815입니다" [ref=e1630]:
+                                  - /url: /user/ddgr815/
+                                  - generic [ref=e1631]:
+                                    - img "u/ddgr815 님의 아바타입니다" [ref=e1634]
+                                    - generic [ref=e1635]: u/ddgr815
+                                - generic [ref=e1636]: •
+                                - time [ref=e1638]: 2일 전
+                              - button "사용자 작업 열기" [ref=e1643]:
+                                - img [ref=e1646]
+                            - generic [ref=e1648]:
+                              - link "Magnified Sand" [ref=e1650]:
+                                - /url: /r/InternetIsBeautiful/comments/1t2nq7x/magnified_sand/
+                              - link "https://magnifiedsand.com/" [ref=e1653]:
+                                - /url: https://magnifiedsand.com/
+                          - generic "이 게시물에서 실행할 수 있는 작업" [ref=e1655]:
+                            - generic [ref=e1658]:
+                              - button "좋아요" [ref=e1659]:
+                                - img [ref=e1661]
+                                - generic [ref=e1663]:
+                                  - generic: 좋아요
+                              - generic [ref=e1665]: "68"
+                              - button "싫어요" [ref=e1666]:
+                                - img [ref=e1668]
+                                - generic [ref=e1670]:
+                                  - generic: 싫어요
+                            - link "6 댓글로 이동" [ref=e1671]:
+                              - /url: /r/InternetIsBeautiful/comments/1t2nq7x/magnified_sand/
+                              - generic [ref=e1672]:
+                                - img [ref=e1674]
+                                - generic [ref=e1677]: "6"
+                              - generic [ref=e1678]:
+                                - generic: 댓글로 이동
+                            - button "어워드 수여" [ref=e1680]:
+                              - img [ref=e1683]
+                            - button "공유" [ref=e1688]:
+                              - generic [ref=e1689]:
+                                - img [ref=e1691]
+                                - generic [ref=e1693]: 공유
+                      - separator [ref=e1694]
+                      - article "I built a website that tracks every stock trade Congress makes" [ref=e1695]:
+                        - generic [ref=e1696] [cursor=pointer]:
+                          - link "I built a website that tracks every stock trade Congress makes" [ref=e1697]:
+                            - /url: /r/InternetIsBeautiful/comments/1sswgar/i_built_a_website_that_tracks_every_stock_trade/
+                            - generic [ref=e1698]:
+                              - generic: I built a website that tracks every stock trade Congress makes
+                          - generic [ref=e1699]:
+                            - generic [ref=e1701]:
+                              - generic [ref=e1702]:
+                                - link "작성자는 u/madredditscientist입니다" [ref=e1707]:
+                                  - /url: /user/madredditscientist/
+                                  - generic [ref=e1708]:
+                                    - img "u/madredditscientist 님의 아바타입니다" [ref=e1711]
+                                    - generic [ref=e1712]: u/madredditscientist
+                                - generic [ref=e1713]: •
+                                - time [ref=e1715]: 13일 전
+                              - button "사용자 작업 열기" [ref=e1720]:
+                                - img [ref=e1723]
+                            - generic [ref=e1725]:
+                              - link "I built a website that tracks every stock trade Congress makes" [ref=e1727]:
+                                - /url: /r/InternetIsBeautiful/comments/1sswgar/i_built_a_website_that_tracks_every_stock_trade/
+                              - link "https://congress.kadoa.com" [ref=e1730]:
+                                - /url: https://congress.kadoa.com
+                          - generic "이 게시물에서 실행할 수 있는 작업" [ref=e1732]:
+                            - generic [ref=e1735]:
+                              - button "좋아요" [ref=e1736]:
+                                - img [ref=e1738]
+                                - generic [ref=e1740]:
+                                  - generic: 좋아요
+                              - generic [ref=e1742]: 2.3천
+                              - button "싫어요" [ref=e1743]:
+                                - img [ref=e1745]
+                                - generic [ref=e1747]:
+                                  - generic: 싫어요
+                            - link "78 댓글로 이동" [ref=e1748]:
+                              - /url: /r/InternetIsBeautiful/comments/1sswgar/i_built_a_website_that_tracks_every_stock_trade/
+                              - generic [ref=e1749]:
+                                - img [ref=e1751]
+                                - generic [ref=e1754]: "78"
+                              - generic [ref=e1755]:
+                                - generic: 댓글로 이동
+                            - button "어워드 수여" [ref=e1757]:
+                              - img [ref=e1760]
+                            - button "공유" [ref=e1765]:
+                              - generic [ref=e1766]:
+                                - img [ref=e1768]
+                                - generic [ref=e1770]: 공유
+                      - separator [ref=e1771]
+                      - article "Free Veteran Benefits Site" [ref=e1772]:
+                        - generic [ref=e1773] [cursor=pointer]:
+                          - link "Free Veteran Benefits Site" [ref=e1774]:
+                            - /url: /r/InternetIsBeautiful/comments/1t1fic5/free_veteran_benefits_site/
+                            - generic [ref=e1775]:
+                              - generic: Free Veteran Benefits Site
+                          - generic [ref=e1776]:
+                            - generic [ref=e1778]:
+                              - generic [ref=e1779]:
+                                - link "작성자는 u/theRealCryWolf입니다" [ref=e1784]:
+                                  - /url: /user/theRealCryWolf/
+                                  - generic [ref=e1785]:
+                                    - img "u/theRealCryWolf 님의 아바타입니다" [ref=e1788]
+                                    - generic [ref=e1789]: u/theRealCryWolf
+                                - generic [ref=e1790]: •
+                                - time [ref=e1792]: 3일 전
+                              - button "사용자 작업 열기" [ref=e1797]:
+                                - img [ref=e1800]
+                            - generic [ref=e1802]:
+                              - link "Free Veteran Benefits Site" [ref=e1804]:
+                                - /url: /r/InternetIsBeautiful/comments/1t1fic5/free_veteran_benefits_site/
+                              - link "https://www.honorearned.com/" [ref=e1807]:
+                                - /url: https://www.honorearned.com/
+                          - generic "이 게시물에서 실행할 수 있는 작업" [ref=e1809]:
+                            - generic [ref=e1812]:
+                              - button "좋아요" [ref=e1813]:
+                                - img [ref=e1815]
+                                - generic [ref=e1817]:
+                                  - generic: 좋아요
+                              - generic [ref=e1819]: "106"
+                              - button "싫어요" [ref=e1820]:
+                                - img [ref=e1822]
+                                - generic [ref=e1824]:
+                                  - generic: 싫어요
+                            - link "28 댓글로 이동" [ref=e1825]:
+                              - /url: /r/InternetIsBeautiful/comments/1t1fic5/free_veteran_benefits_site/
+                              - generic [ref=e1826]:
+                                - img [ref=e1828]
+                                - generic [ref=e1831]: "28"
+                              - generic [ref=e1832]:
+                                - generic: 댓글로 이동
+                            - button "어워드 주기, 1개 어워드 수여됨" [ref=e1834]:
+                              - generic [ref=e1839]: "1"
+                            - button "공유" [ref=e1843]:
+                              - generic [ref=e1844]:
+                                - img [ref=e1846]
+                                - generic [ref=e1848]: 공유
+                      - separator [ref=e1849]
+                      - article "See the hidden world of internet bots. Listen to the \"background radiation of the internet.\"" [ref=e1850]:
+                        - generic [ref=e1851] [cursor=pointer]:
+                          - link "See the hidden world of internet bots. Listen to the \"background radiation of the internet.\"" [ref=e1852]:
+                            - /url: /r/InternetIsBeautiful/comments/1sz1l6w/see_the_hidden_world_of_internet_bots_listen_to/
+                            - generic [ref=e1853]:
+                              - generic: See the hidden world of internet bots. Listen to the "background radiation of the internet."
+                          - generic [ref=e1854]:
+                            - generic [ref=e1856]:
+                              - generic [ref=e1857]:
+                                - link "작성자는 u/Desperate-Second-887입니다" [ref=e1862]:
+                                  - /url: /user/Desperate-Second-887/
+                                  - generic [ref=e1863]:
+                                    - img "u/Desperate-Second-887 님의 아바타입니다" [ref=e1866]
+                                    - generic [ref=e1867]: u/Desperate-Second-887
+                                - generic [ref=e1868]: •
+                                - time [ref=e1870]: 6일 전
+                              - button "사용자 작업 열기" [ref=e1875]:
+                                - img [ref=e1878]
+                            - generic [ref=e1880]:
+                              - link "See the hidden world of internet bots. Listen to the \"background radiation of the internet.\"" [ref=e1882]:
+                                - /url: /r/InternetIsBeautiful/comments/1sz1l6w/see_the_hidden_world_of_internet_bots_listen_to/
+                              - link "https://knock-knock.net" [ref=e1885]:
+                                - /url: https://knock-knock.net
+                            - generic [ref=e1887]:
+                              - link "r/InternetIsBeautiful - See the hidden world of internet bots. Listen to the \"background radiation of the internet.\"" [ref=e1888]:
+                                - /url: https://knock-knock.net
+                                - img "r/InternetIsBeautiful - See the hidden world of internet bots. Listen to the \"background radiation of the internet.\"" [ref=e1889]
+                              - generic:
+                                - generic:
+                                  - img
+                          - generic "이 게시물에서 실행할 수 있는 작업" [ref=e1891]:
+                            - generic [ref=e1894]:
+                              - button "좋아요" [ref=e1895]:
+                                - img [ref=e1897]
+                                - generic [ref=e1899]:
+                                  - generic: 좋아요
+                              - generic [ref=e1901]: "968"
+                              - button "싫어요" [ref=e1902]:
+                                - img [ref=e1904]
+                                - generic [ref=e1906]:
+                                  - generic: 싫어요
+                            - link "91 댓글로 이동" [ref=e1907]:
+                              - /url: /r/InternetIsBeautiful/comments/1sz1l6w/see_the_hidden_world_of_internet_bots_listen_to/
+                              - generic [ref=e1908]:
+                                - img [ref=e1910]
+                                - generic [ref=e1913]: "91"
+                              - generic [ref=e1914]:
+                                - generic: 댓글로 이동
+                            - button "어워드 수여" [ref=e1916]:
+                              - img [ref=e1919]
+                            - button "공유" [ref=e1924]:
+                              - generic [ref=e1925]:
+                                - img [ref=e1927]
+                                - generic [ref=e1929]: 공유
+                      - separator [ref=e1930]
+                      - article "We built a modern aquarium stocking calculator" [ref=e1931]:
+                        - generic [ref=e1932] [cursor=pointer]:
+                          - link "We built a modern aquarium stocking calculator" [ref=e1933]:
+                            - /url: /r/InternetIsBeautiful/comments/1sx5uzh/we_built_a_modern_aquarium_stocking_calculator/
+                            - generic [ref=e1934]:
+                              - generic: We built a modern aquarium stocking calculator
+                          - generic [ref=e1935]:
+                            - generic [ref=e1937]:
+                              - generic [ref=e1938]:
+                                - link "작성자는 u/Silent_Outlook입니다" [ref=e1943]:
+                                  - /url: /user/Silent_Outlook/
+                                  - generic [ref=e1944]:
+                                    - img "u/Silent_Outlook 님의 아바타입니다" [ref=e1947]
+                                    - generic [ref=e1948]: u/Silent_Outlook
+                                - generic [ref=e1949]: •
+                                - time [ref=e1951]: 8일 전
+                              - button "사용자 작업 열기" [ref=e1956]:
+                                - img [ref=e1959]
+                            - generic [ref=e1961]:
+                              - link "We built a modern aquarium stocking calculator" [ref=e1963]:
+                                - /url: /r/InternetIsBeautiful/comments/1sx5uzh/we_built_a_modern_aquarium_stocking_calculator/
+                              - link "https://guidarium.com/stocking-calculator" [ref=e1966]:
+                                - /url: https://guidarium.com/stocking-calculator
+                            - generic [ref=e1968]:
+                              - link "r/InternetIsBeautiful - We built a modern aquarium stocking calculator" [ref=e1969]:
+                                - /url: https://guidarium.com/stocking-calculator
+                                - img "r/InternetIsBeautiful - We built a modern aquarium stocking calculator" [ref=e1970]
+                              - generic:
+                                - generic:
+                                  - img
+                          - generic "이 게시물에서 실행할 수 있는 작업" [ref=e1972]:
+                            - generic [ref=e1975]:
+                              - button "좋아요" [ref=e1976]:
+                                - img [ref=e1978]
+                                - generic [ref=e1980]:
+                                  - generic: 좋아요
+                              - generic [ref=e1982]: "31"
+                              - button "싫어요" [ref=e1983]:
+                                - img [ref=e1985]
+                                - generic [ref=e1987]:
+                                  - generic: 싫어요
+                            - link "4 댓글로 이동" [ref=e1988]:
+                              - /url: /r/InternetIsBeautiful/comments/1sx5uzh/we_built_a_modern_aquarium_stocking_calculator/
+                              - generic [ref=e1989]:
+                                - img [ref=e1991]
+                                - generic [ref=e1994]: "4"
+                              - generic [ref=e1995]:
+                                - generic: 댓글로 이동
+                            - button "어워드 수여" [ref=e1997]:
+                              - img [ref=e2000]
+                            - button "공유" [ref=e2005]:
+                              - generic [ref=e2006]:
+                                - img [ref=e2008]
+                                - generic [ref=e2010]: 공유
+                      - separator [ref=e2011]
+                      - article "I created this website for cinephiles" [ref=e2012]:
+                        - generic [ref=e2013] [cursor=pointer]:
+                          - link "I created this website for cinephiles" [ref=e2014]:
+                            - /url: /r/InternetIsBeautiful/comments/1t13q5g/i_created_this_website_for_cinephiles/
+                            - generic [ref=e2015]:
+                              - generic: I created this website for cinephiles
+                          - generic [ref=e2016]:
+                            - generic [ref=e2018]:
+                              - generic [ref=e2019]:
+                                - link "작성자는 u/darkarrow_sh입니다" [ref=e2024]:
+                                  - /url: /user/darkarrow_sh/
+                                  - generic [ref=e2025]:
+                                    - generic [ref=e2027]:
+                                      - img [ref=e2029]
+                                      - img [ref=e2033]
+                                      - img [ref=e2036]
+                                    - generic [ref=e2038]: u/darkarrow_sh
+                                - generic [ref=e2039]: •
+                                - time [ref=e2041]: 4일 전
+                              - button "사용자 작업 열기" [ref=e2046]:
+                                - img [ref=e2049]
+                            - generic [ref=e2051]:
+                              - link "I created this website for cinephiles" [ref=e2053]:
+                                - /url: /r/InternetIsBeautiful/comments/1t13q5g/i_created_this_website_for_cinephiles/
+                              - link "https://everycinematicuniverse.com/" [ref=e2056]:
+                                - /url: https://everycinematicuniverse.com/
+                          - generic "이 게시물에서 실행할 수 있는 작업" [ref=e2058]:
+                            - generic [ref=e2061]:
+                              - button "좋아요" [ref=e2062]:
+                                - img [ref=e2064]
+                                - generic [ref=e2066]:
+                                  - generic: 좋아요
+                              - generic [ref=e2068]: "7"
+                              - button "싫어요" [ref=e2069]:
+                                - img [ref=e2071]
+                                - generic [ref=e2073]:
+                                  - generic: 싫어요
+                            - link "42 댓글로 이동" [ref=e2074]:
+                              - /url: /r/InternetIsBeautiful/comments/1t13q5g/i_created_this_website_for_cinephiles/
+                              - generic [ref=e2075]:
+                                - img [ref=e2077]
+                                - generic [ref=e2080]: "42"
+                              - generic [ref=e2081]:
+                                - generic: 댓글로 이동
+                            - button "어워드 수여" [ref=e2083]:
+                              - img [ref=e2086]
+                            - button "공유" [ref=e2091]:
+                              - generic [ref=e2092]:
+                                - img [ref=e2094]
+                                - generic [ref=e2096]: 공유
+                      - separator [ref=e2097]
+                      - 'article "Killed by Google, visualized: 49 of 299 retired products clustered in just two specific years" [ref=e2098]':
+                        - generic [ref=e2099] [cursor=pointer]:
+                          - 'link "Killed by Google, visualized: 49 of 299 retired products clustered in just two specific years" [ref=e2100]':
+                            - /url: /r/InternetIsBeautiful/comments/1sgn79d/killed_by_google_visualized_49_of_299_retired/
+                            - generic [ref=e2101]:
+                              - generic: "Killed by Google, visualized: 49 of 299 retired products clustered in just two specific years"
+                          - generic [ref=e2102]:
+                            - generic [ref=e2104]:
+                              - generic [ref=e2105]:
+                                - link "작성자는 u/Mastbubbles입니다" [ref=e2110]:
+                                  - /url: /user/Mastbubbles/
+                                  - generic [ref=e2111]:
+                                    - img [ref=e2116]
+                                    - generic [ref=e2118]: u/Mastbubbles
+                                - generic [ref=e2119]: •
+                                - time [ref=e2121]: 26일 전
+                              - button "사용자 작업 열기" [ref=e2126]:
+                                - img [ref=e2129]
+                            - generic [ref=e2131]:
+                              - 'link "Killed by Google, visualized: 49 of 299 retired products clustered in just two specific years" [ref=e2133]':
+                                - /url: /r/InternetIsBeautiful/comments/1sgn79d/killed_by_google_visualized_49_of_299_retired/
+                              - link "https://sheets.works/data-viz/dead-google" [ref=e2136]:
+                                - /url: https://sheets.works/data-viz/dead-google
+                            - generic [ref=e2138]:
+                              - 'link "r/InternetIsBeautiful - Killed by Google, visualized: 49 of 299 retired products clustered in just two specific years" [ref=e2139]':
+                                - /url: https://sheets.works/data-viz/dead-google
+                                - 'img "r/InternetIsBeautiful - Killed by Google, visualized: 49 of 299 retired products clustered in just two specific years" [ref=e2140]'
+                              - generic:
+                                - generic:
+                                  - img
+                          - generic "이 게시물에서 실행할 수 있는 작업" [ref=e2142]:
+                            - generic [ref=e2145]:
+                              - button "좋아요" [ref=e2146]:
+                                - img [ref=e2148]
+                                - generic [ref=e2150]:
+                                  - generic: 좋아요
+                              - generic [ref=e2152]: "825"
+                              - button "싫어요" [ref=e2153]:
+                                - img [ref=e2155]
+                                - generic [ref=e2157]:
+                                  - generic: 싫어요
+                            - link "132 댓글로 이동" [ref=e2158]:
+                              - /url: /r/InternetIsBeautiful/comments/1sgn79d/killed_by_google_visualized_49_of_299_retired/
+                              - generic [ref=e2159]:
+                                - img [ref=e2161]
+                                - generic [ref=e2164]: "132"
+                              - generic [ref=e2165]:
+                                - generic: 댓글로 이동
+                            - button "어워드 수여" [ref=e2167]:
+                              - img [ref=e2170]
+                            - button "공유" [ref=e2175]:
+                              - generic [ref=e2176]:
+                                - img [ref=e2178]
+                                - generic [ref=e2180]: 공유
+                      - separator [ref=e2181]
+                      - article "Mittens in space." [ref=e2182]:
+                        - generic [ref=e2183] [cursor=pointer]:
+                          - link "Mittens in space." [ref=e2184]:
+                            - /url: /r/InternetIsBeautiful/comments/1svbnz8/mittens_in_space/
+                            - generic [ref=e2185]:
+                              - generic: Mittens in space.
+                          - generic [ref=e2186]:
+                            - generic [ref=e2188]:
+                              - generic [ref=e2189]:
+                                - link "작성자는 u/indydolt입니다" [ref=e2194]:
+                                  - /url: /user/indydolt/
+                                  - generic [ref=e2195]:
+                                    - img "u/indydolt 님의 아바타입니다" [ref=e2198]
+                                    - generic [ref=e2199]: u/indydolt
+                                - generic [ref=e2200]: •
+                                - time [ref=e2202]: 10일 전
+                              - button "사용자 작업 열기" [ref=e2207]:
+                                - img [ref=e2210]
+                            - generic [ref=e2212]:
+                              - link "Mittens in space." [ref=e2214]:
+                                - /url: /r/InternetIsBeautiful/comments/1svbnz8/mittens_in_space/
+                              - link "http://bigblend.com" [ref=e2217]:
+                                - /url: http://bigblend.com
+                            - generic [ref=e2219]:
+                              - link "r/InternetIsBeautiful - Mittens in space." [ref=e2220]:
+                                - /url: http://bigblend.com
+                                - img "r/InternetIsBeautiful - Mittens in space." [ref=e2221]
+                              - generic:
+                                - generic:
+                                  - img
+                          - generic "이 게시물에서 실행할 수 있는 작업" [ref=e2223]:
+                            - generic [ref=e2226]:
+                              - button "좋아요" [ref=e2227]:
+                                - img [ref=e2229]
+                                - generic [ref=e2231]:
+                                  - generic: 좋아요
+                              - generic [ref=e2233]: "129"
+                              - button "싫어요" [ref=e2234]:
+                                - img [ref=e2236]
+                                - generic [ref=e2238]:
+                                  - generic: 싫어요
+                            - link "13 댓글로 이동" [ref=e2239]:
+                              - /url: /r/InternetIsBeautiful/comments/1svbnz8/mittens_in_space/
+                              - generic [ref=e2240]:
+                                - img [ref=e2242]
+                                - generic [ref=e2245]: "13"
+                              - generic [ref=e2246]:
+                                - generic: 댓글로 이동
+                            - button "어워드 수여" [ref=e2248]:
+                              - img [ref=e2251]
+                            - button "공유" [ref=e2256]:
+                              - generic [ref=e2257]:
+                                - img [ref=e2259]
+                                - generic [ref=e2261]: 공유
+                      - separator [ref=e2262]
+                      - generic [ref=e2263]:
+                        - 'generic "Advertisement: Your GPU doesn''t need sleep. While you''re out for 8 hours, a top-tier card can earn $1.74 a night - and that adds up." [ref=e2264]':
+                          - 'link "Advertisement: Your GPU doesn''t need sleep. While you''re out for 8 hours, a top-tier card can earn $1.74 a night - and that adds up." [ref=e2265] [cursor=pointer]':
+                            - /url: https://alb.reddit.com/cr?za=VllnIxRNNOe4LjjWfwuo2RjXrlSb4-uYTVjXKfKSS2ShJ0fZTxd2UpQFv_C5FklJdm9nvCUm0ZuI32lnHEg8AI8GjP-Yn5ck88k3acZ2P6rj41MHQjFaBtDDYMdRKC4MkusyorxRRiqILqoJIoMxW3asskKs6qrMNFRwBNBQp_r9wEH_Q9jccZYK3hp5TO8VGBzyT6YosAbe6fFtHkMaDCuo2rcDJb9IygD-p0clPvWO6UKOzN8U1rjylN8DtWUMfTeA0FRddq8i_sA9WTCOExIqdaIdvIHrHLNymhL5W-DDflhunlBhjn_GojkpEoqv_IeFbtfRC_wQJ9OYoH1Hv7M6rww5i6Zv7LXgJxjJMdw5V0QZvRPRvQp9ldop8Ek5s4G3jxu9rA_-zqFL73c4t7Wv4_PFnI-NZbrVsSfTnU-XwDadKo8nkcTzRRHg6XzmJ9vJF2SCJHXRrK9llH6bTBBFf29H7QrM0BoFvVpHYXLA9LvW4wu2UMZjKuHcYBUxfq6BLQDjuzEfnRSCWGNsUABcLdt1y8Ni8gQ3CRIiMwoHvV4zqMEVoxeztIYKVu_MuEHW3ORVjLtR4qk2jleQKxKtTnSAWYRSciSwruvVQfsNbYkYCK4pZLaJW7hsWdWbWQ6VDxNtmhkw0_pQWcz7pWG5bOaTMKbvCYZ1dFD7PphzbhLnDyGZ3OPyDl7qAtTHZZ--BKtpzGDAqO0DggmZBbyVpyKKgBukMMAw3r7g9wFvKumnOWbVdqfk&zp=BuKd31OvN39VMzolLqkDef-81jrU_gCUjIYdIKnRbWqK21Ix9-6Jo9DWVyDa09CRRqmt3hh-AT2ojVanLyDGK8F85zrqDfp6QFXdngbsJtK8ZLps7xiWJeGQQ_tz5QBqu6aSaUu0PR7bgH-ZRqmxtHSjmhD8BVZWhg33HDE9df2sdEqpuhN4LJMQ_w3DRR28cs69nvLTzc-V8c7yLtKGVMXNKOdHEHZdZgTkxY6wrNOXpOvatCAZtxagv1PcjaQ-Nv2OOR_TG23S3nus-ZTVSb8cvb2KvUq2N9DXrERzTi8lXsF_7dgAgLpz0sNCSL9yyjmy_RQqXYJpzvfViHMEPO_RFDaSrFlrOB_IQaoD_w8XUPGcksSCyotA4HpMmgJplpvR1QzE-YmkLJA
+                        - generic [ref=e2266]:
+                          - generic [ref=e2267]:
+                            - link "u/SaladChefs 님의 아바타입니다 u/SaladChefs" [ref=e2270] [cursor=pointer]:
+                              - /url: /user/SaladChefs/
+                              - img "u/SaladChefs 님의 아바타입니다" [ref=e2273]
+                              - generic [ref=e2274]: u/SaladChefs
+                            - generic [ref=e2275]: •
+                            - link "홍보 광고" [ref=e2277] [cursor=pointer]:
+                              - /url: /user/SaladChefs/
+                              - generic [ref=e2278]: 홍보 광고
+                            - link [ref=e2280] [cursor=pointer]:
+                              - /url: https://alb.reddit.com/cr?za=VllnIxRNNOe4LjjWfwuo2RjXrlSb4-uYTVjXKfKSS2ShJ0fZTxd2UpQFv_C5FklJdm9nvCUm0ZuI32lnHEg8AI8GjP-Yn5ck88k3acZ2P6rj41MHQjFaBtDDYMdRKC4MkusyorxRRiqILqoJIoMxW3asskKs6qrMNFRwBNBQp_r9wEH_Q9jccZYK3hp5TO8VGBzyT6YosAbe6fFtHkMaDCuo2rcDJb9IygD-p0clPvWO6UKOzN8U1rjylN8DtWUMfTeA0FRddq8i_sA9WTCOExIqdaIdvIHrHLNymhL5W-DDflhunlBhjn_GojkpEoqv_IeFbtfRC_wQJ9OYoH1Hv7M6rww5i6Zv7LXgJxjJMdw5V0QZvRPRvQp9ldop8Ek5s4G3jxu9rA_-zqFL73c4t7Wv4_PFnI-NZbrVsSfTnU-XwDadKo8nkcTzRRHg6XzmJ9vJF2SCJHXRrK9llH6bTBBFf29H7QrM0BoFvVpHYXLA9LvW4wu2UMZjKuHcYBUxfq6BLQDjuzEfnRSCWGNsUABcLdt1y8Ni8gQ3CRIiMwoHvV4zqMEVoxeztIYKVu_MuEHW3ORVjLtR4qk2jleQKxKtTnSAWYRSciSwruvVQfsNbYkYCK4pZLaJW7hsWdWbWQ6VDxNtmhkw0_pQWcz7pWG5bOaTMKbvCYZ1dFD7PphzbhLnDyGZ3OPyDl7qAtTHZZ--BKtpzGDAqO0DggmZBbyVpyKKgBukMMAw3r7g9wFvKumnOWbVdqfk&zp=BuKd31OvN39VMzolLqkDef-81jrU_gCUjIYdIKnRbWqK21Ix9-6Jo9DWVyDa09CRRqmt3hh-AT2ojVanLyDGK8F85zrqDfp6QFXdngbsJtK8ZLps7xiWJeGQQ_tz5QBqu6aSaUu0PR7bgH-ZRqmxtHSjmhD8BVZWhg33HDE9df2sdEqpuhN4LJMQ_w3DRR28cs69nvLTzc-V8c7yLtKGVMXNKOdHEHZdZgTkxY6wrNOXpOvatCAZtxagv1PcjaQ-Nv2OOR_TG23S3nus-ZTVSb8cvb2KvUq2N9DXrERzTi8lXsF_7dgAgLpz0sNCSL9yyjmy_RQqXYJpzvfViHMEPO_RFDaSrFlrOB_IQaoD_w8XUPGcksSCyotA4HpMmgJplpvR1QzE-YmkLJA
+                          - button "사용자 작업 열기" [ref=e2285] [cursor=pointer]:
+                            - img [ref=e2288]
+                        - heading "Your GPU doesn't need sleep. While you're out for 8 hours, a top-tier card can earn $1.74 a night - and that adds up." [level=2] [ref=e2292]:
+                          - link "Your GPU doesn't need sleep. While you're out for 8 hours, a top-tier card can earn $1.74 a night - and that adds up." [ref=e2295] [cursor=pointer]:
+                            - /url: https://alb.reddit.com/cr?za=VllnIxRNNOe4LjjWfwuo2RjXrlSb4-uYTVjXKfKSS2ShJ0fZTxd2UpQFv_C5FklJdm9nvCUm0ZuI32lnHEg8AI8GjP-Yn5ck88k3acZ2P6rj41MHQjFaBtDDYMdRKC4MkusyorxRRiqILqoJIoMxW3asskKs6qrMNFRwBNBQp_r9wEH_Q9jccZYK3hp5TO8VGBzyT6YosAbe6fFtHkMaDCuo2rcDJb9IygD-p0clPvWO6UKOzN8U1rjylN8DtWUMfTeA0FRddq8i_sA9WTCOExIqdaIdvIHrHLNymhL5W-DDflhunlBhjn_GojkpEoqv_IeFbtfRC_wQJ9OYoH1Hv7M6rww5i6Zv7LXgJxjJMdw5V0QZvRPRvQp9ldop8Ek5s4G3jxu9rA_-zqFL73c4t7Wv4_PFnI-NZbrVsSfTnU-XwDadKo8nkcTzRRHg6XzmJ9vJF2SCJHXRrK9llH6bTBBFf29H7QrM0BoFvVpHYXLA9LvW4wu2UMZjKuHcYBUxfq6BLQDjuzEfnRSCWGNsUABcLdt1y8Ni8gQ3CRIiMwoHvV4zqMEVoxeztIYKVu_MuEHW3ORVjLtR4qk2jleQKxKtTnSAWYRSciSwruvVQfsNbYkYCK4pZLaJW7hsWdWbWQ6VDxNtmhkw0_pQWcz7pWG5bOaTMKbvCYZ1dFD7PphzbhLnDyGZ3OPyDl7qAtTHZZ--BKtpzGDAqO0DggmZBbyVpyKKgBukMMAw3r7g9wFvKumnOWbVdqfk&zp=BuKd31OvN39VMzolLqkDef-81jrU_gCUjIYdIKnRbWqK21Ix9-6Jo9DWVyDa09CRRqmt3hh-AT2ojVanLyDGK8F85zrqDfp6QFXdngbsJtK8ZLps7xiWJeGQQ_tz5QBqu6aSaUu0PR7bgH-ZRqmxtHSjmhD8BVZWhg33HDE9df2sdEqpuhN4LJMQ_w3DRR28cs69nvLTzc-V8c7yLtKGVMXNKOdHEHZdZgTkxY6wrNOXpOvatCAZtxagv1PcjaQ-Nv2OOR_TG23S3nus-ZTVSb8cvb2KvUq2N9DXrERzTi8lXsF_7dgAgLpz0sNCSL9yyjmy_RQqXYJpzvfViHMEPO_RFDaSrFlrOB_IQaoD_w8XUPGcksSCyotA4HpMmgJplpvR1QzE-YmkLJA
+                            - generic: Your GPU doesn't need sleep. While you're out for 8 hours, a top-tier card can earn $1.74 a night - and that adds up.
+                        - generic [ref=e2296]:
+                          - link "Your GPU doesn't need sleep. While you're out for 8 hours, a top-tier card can earn $1.74 a night - and that adds up." [ref=e2300] [cursor=pointer]:
+                            - /url: https://alb.reddit.com/cr?za=VllnIxRNNOe4LjjWfwuo2RjXrlSb4-uYTVjXKfKSS2ShJ0fZTxd2UpQFv_C5FklJdm9nvCUm0ZuI32lnHEg8AI8GjP-Yn5ck88k3acZ2P6rj41MHQjFaBtDDYMdRKC4MkusyorxRRiqILqoJIoMxW3asskKs6qrMNFRwBNBQp_r9wEH_Q9jccZYK3hp5TO8VGBzyT6YosAbe6fFtHkMaDCuo2rcDJb9IygD-p0clPvWO6UKOzN8U1rjylN8DtWUMfTeA0FRddq8i_sA9WTCOExIqdaIdvIHrHLNymhL5W-DDflhunlBhjn_GojkpEoqv_IeFbtfRC_wQJ9OYoH1Hv7M6rww5i6Zv7LXgJxjJMdw5V0QZvRPRvQp9ldop8Ek5s4G3jxu9rA_-zqFL73c4t7Wv4_PFnI-NZbrVsSfTnU-XwDadKo8nkcTzRRHg6XzmJ9vJF2SCJHXRrK9llH6bTBBFf29H7QrM0BoFvVpHYXLA9LvW4wu2UMZjKuHcYBUxfq6BLQDjuzEfnRSCWGNsUABcLdt1y8Ni8gQ3CRIiMwoHvV4zqMEVoxeztIYKVu_MuEHW3ORVjLtR4qk2jleQKxKtTnSAWYRSciSwruvVQfsNbYkYCK4pZLaJW7hsWdWbWQ6VDxNtmhkw0_pQWcz7pWG5bOaTMKbvCYZ1dFD7PphzbhLnDyGZ3OPyDl7qAtTHZZ--BKtpzGDAqO0DggmZBbyVpyKKgBukMMAw3r7g9wFvKumnOWbVdqfk&zp=BuKd31OvN39VMzolLqkDef-81jrU_gCUjIYdIKnRbWqK21Ix9-6Jo9DWVyDa09CRRqmt3hh-AT2ojVanLyDGK8F85zrqDfp6QFXdngbsJtK8ZLps7xiWJeGQQ_tz5QBqu6aSaUu0PR7bgH-ZRqmxtHSjmhD8BVZWhg33HDE9df2sdEqpuhN4LJMQ_w3DRR28cs69nvLTzc-V8c7yLtKGVMXNKOdHEHZdZgTkxY6wrNOXpOvatCAZtxagv1PcjaQ-Nv2OOR_TG23S3nus-ZTVSb8cvb2KvUq2N9DXrERzTi8lXsF_7dgAgLpz0sNCSL9yyjmy_RQqXYJpzvfViHMEPO_RFDaSrFlrOB_IQaoD_w8XUPGcksSCyotA4HpMmgJplpvR1QzE-YmkLJA
+                            - img "Your GPU doesn't need sleep. While you're out for 8 hours, a top-tier card can earn $1.74 a night - and that adds up." [ref=e2302]
+                          - separator [ref=e2303]
+                          - generic [ref=e2304]:
+                            - link [ref=e2306] [cursor=pointer]:
+                              - /url: https://alb.reddit.com/cr?za=VllnIxRNNOe4LjjWfwuo2RjXrlSb4-uYTVjXKfKSS2ShJ0fZTxd2UpQFv_C5FklJdm9nvCUm0ZuI32lnHEg8AI8GjP-Yn5ck88k3acZ2P6rj41MHQjFaBtDDYMdRKC4MkusyorxRRiqILqoJIoMxW3asskKs6qrMNFRwBNBQp_r9wEH_Q9jccZYK3hp5TO8VGBzyT6YosAbe6fFtHkMaDCuo2rcDJb9IygD-p0clPvWO6UKOzN8U1rjylN8DtWUMfTeA0FRddq8i_sA9WTCOExIqdaIdvIHrHLNymhL5W-DDflhunlBhjn_GojkpEoqv_IeFbtfRC_wQJ9OYoH1Hv7M6rww5i6Zv7LXgJxjJMdw5V0QZvRPRvQp9ldop8Ek5s4G3jxu9rA_-zqFL73c4t7Wv4_PFnI-NZbrVsSfTnU-XwDadKo8nkcTzRRHg6XzmJ9vJF2SCJHXRrK9llH6bTBBFf29H7QrM0BoFvVpHYXLA9LvW4wu2UMZjKuHcYBUxfq6BLQDjuzEfnRSCWGNsUABcLdt1y8Ni8gQ3CRIiMwoHvV4zqMEVoxeztIYKVu_MuEHW3ORVjLtR4qk2jleQKxKtTnSAWYRSciSwruvVQfsNbYkYCK4pZLaJW7hsWdWbWQ6VDxNtmhkw0_pQWcz7pWG5bOaTMKbvCYZ1dFD7PphzbhLnDyGZ3OPyDl7qAtTHZZ--BKtpzGDAqO0DggmZBbyVpyKKgBukMMAw3r7g9wFvKumnOWbVdqfk&zp=BuKd31OvN39VMzolLqkDef-81jrU_gCUjIYdIKnRbWqK21Ix9-6Jo9DWVyDa09CRRqmt3hh-AT2ojVanLyDGK8F85zrqDfp6QFXdngbsJtK8ZLps7xiWJeGQQ_tz5QBqu6aSaUu0PR7bgH-ZRqmxtHSjmhD8BVZWhg33HDE9df2sdEqpuhN4LJMQ_w3DRR28cs69nvLTzc-V8c7yLtKGVMXNKOdHEHZdZgTkxY6wrNOXpOvatCAZtxagv1PcjaQ-Nv2OOR_TG23S3nus-ZTVSb8cvb2KvUq2N9DXrERzTi8lXsF_7dgAgLpz0sNCSL9yyjmy_RQqXYJpzvfViHMEPO_RFDaSrFlrOB_IQaoD_w8XUPGcksSCyotA4HpMmgJplpvR1QzE-YmkLJA
+                            - generic [ref=e2307]:
+                              - link "salad.com" [ref=e2310] [cursor=pointer]:
+                                - /url: https://alb.reddit.com/cr?za=VllnIxRNNOe4LjjWfwuo2RjXrlSb4-uYTVjXKfKSS2ShJ0fZTxd2UpQFv_C5FklJdm9nvCUm0ZuI32lnHEg8AI8GjP-Yn5ck88k3acZ2P6rj41MHQjFaBtDDYMdRKC4MkusyorxRRiqILqoJIoMxW3asskKs6qrMNFRwBNBQp_r9wEH_Q9jccZYK3hp5TO8VGBzyT6YosAbe6fFtHkMaDCuo2rcDJb9IygD-p0clPvWO6UKOzN8U1rjylN8DtWUMfTeA0FRddq8i_sA9WTCOExIqdaIdvIHrHLNymhL5W-DDflhunlBhjn_GojkpEoqv_IeFbtfRC_wQJ9OYoH1Hv7M6rww5i6Zv7LXgJxjJMdw5V0QZvRPRvQp9ldop8Ek5s4G3jxu9rA_-zqFL73c4t7Wv4_PFnI-NZbrVsSfTnU-XwDadKo8nkcTzRRHg6XzmJ9vJF2SCJHXRrK9llH6bTBBFf29H7QrM0BoFvVpHYXLA9LvW4wu2UMZjKuHcYBUxfq6BLQDjuzEfnRSCWGNsUABcLdt1y8Ni8gQ3CRIiMwoHvV4zqMEVoxeztIYKVu_MuEHW3ORVjLtR4qk2jleQKxKtTnSAWYRSciSwruvVQfsNbYkYCK4pZLaJW7hsWdWbWQ6VDxNtmhkw0_pQWcz7pWG5bOaTMKbvCYZ1dFD7PphzbhLnDyGZ3OPyDl7qAtTHZZ--BKtpzGDAqO0DggmZBbyVpyKKgBukMMAw3r7g9wFvKumnOWbVdqfk&zp=BuKd31OvN39VMzolLqkDef-81jrU_gCUjIYdIKnRbWqK21Ix9-6Jo9DWVyDa09CRRqmt3hh-AT2ojVanLyDGK8F85zrqDfp6QFXdngbsJtK8ZLps7xiWJeGQQ_tz5QBqu6aSaUu0PR7bgH-ZRqmxtHSjmhD8BVZWhg33HDE9df2sdEqpuhN4LJMQ_w3DRR28cs69nvLTzc-V8c7yLtKGVMXNKOdHEHZdZgTkxY6wrNOXpOvatCAZtxagv1PcjaQ-Nv2OOR_TG23S3nus-ZTVSb8cvb2KvUq2N9DXrERzTi8lXsF_7dgAgLpz0sNCSL9yyjmy_RQqXYJpzvfViHMEPO_RFDaSrFlrOB_IQaoD_w8XUPGcksSCyotA4HpMmgJplpvR1QzE-YmkLJA
+                                - generic: salad.com
+                              - link "더 알아보기" [ref=e2312] [cursor=pointer]:
+                                - /url: https://alb.reddit.com/cr?za=VllnIxRNNOe4LjjWfwuo2RjXrlSb4-uYTVjXKfKSS2ShJ0fZTxd2UpQFv_C5FklJdm9nvCUm0ZuI32lnHEg8AI8GjP-Yn5ck88k3acZ2P6rj41MHQjFaBtDDYMdRKC4MkusyorxRRiqILqoJIoMxW3asskKs6qrMNFRwBNBQp_r9wEH_Q9jccZYK3hp5TO8VGBzyT6YosAbe6fFtHkMaDCuo2rcDJb9IygD-p0clPvWO6UKOzN8U1rjylN8DtWUMfTeA0FRddq8i_sA9WTCOExIqdaIdvIHrHLNymhL5W-DDflhunlBhjn_GojkpEoqv_IeFbtfRC_wQJ9OYoH1Hv7M6rww5i6Zv7LXgJxjJMdw5V0QZvRPRvQp9ldop8Ek5s4G3jxu9rA_-zqFL73c4t7Wv4_PFnI-NZbrVsSfTnU-XwDadKo8nkcTzRRHg6XzmJ9vJF2SCJHXRrK9llH6bTBBFf29H7QrM0BoFvVpHYXLA9LvW4wu2UMZjKuHcYBUxfq6BLQDjuzEfnRSCWGNsUABcLdt1y8Ni8gQ3CRIiMwoHvV4zqMEVoxeztIYKVu_MuEHW3ORVjLtR4qk2jleQKxKtTnSAWYRSciSwruvVQfsNbYkYCK4pZLaJW7hsWdWbWQ6VDxNtmhkw0_pQWcz7pWG5bOaTMKbvCYZ1dFD7PphzbhLnDyGZ3OPyDl7qAtTHZZ--BKtpzGDAqO0DggmZBbyVpyKKgBukMMAw3r7g9wFvKumnOWbVdqfk&zp=BuKd31OvN39VMzolLqkDef-81jrU_gCUjIYdIKnRbWqK21Ix9-6Jo9DWVyDa09CRRqmt3hh-AT2ojVanLyDGK8F85zrqDfp6QFXdngbsJtK8ZLps7xiWJeGQQ_tz5QBqu6aSaUu0PR7bgH-ZRqmxtHSjmhD8BVZWhg33HDE9df2sdEqpuhN4LJMQ_w3DRR28cs69nvLTzc-V8c7yLtKGVMXNKOdHEHZdZgTkxY6wrNOXpOvatCAZtxagv1PcjaQ-Nv2OOR_TG23S3nus-ZTVSb8cvb2KvUq2N9DXrERzTi8lXsF_7dgAgLpz0sNCSL9yyjmy_RQqXYJpzvfViHMEPO_RFDaSrFlrOB_IQaoD_w8XUPGcksSCyotA4HpMmgJplpvR1QzE-YmkLJA
+                                - generic [ref=e2314]:
+                                  - generic: 더 알아보기
+                        - generic "이 게시물에서 실행할 수 있는 작업" [ref=e2315]:
+                          - generic [ref=e2318]:
+                            - button "좋아요" [ref=e2319] [cursor=pointer]:
+                              - img [ref=e2321]
+                              - generic [ref=e2323]:
+                                - generic: 좋아요
+                            - generic [ref=e2325]: "1"
+                            - button "싫어요" [ref=e2326] [cursor=pointer]:
+                              - img [ref=e2328]
+                              - generic [ref=e2330]:
+                                - generic: 싫어요
+                          - link "0 댓글로 이동" [ref=e2331] [cursor=pointer]:
+                            - /url: /user/SaladChefs/comments/1t3u76a/your_gpu_doesnt_need_sleep_while_youre_out_for_8/?p=1&impressionid=5816830409954099973
+                            - generic [ref=e2332]:
+                              - img [ref=e2334]
+                              - generic [ref=e2337]: "0"
+                            - generic [ref=e2338]:
+                              - generic: 댓글로 이동
+                          - button "공유" [ref=e2342] [cursor=pointer]:
+                            - generic [ref=e2343]:
+                              - img [ref=e2345]
+                              - generic [ref=e2347]: 공유
+                          - link [ref=e2349] [cursor=pointer]:
+                            - /url: https://alb.reddit.com/cr?za=VllnIxRNNOe4LjjWfwuo2RjXrlSb4-uYTVjXKfKSS2ShJ0fZTxd2UpQFv_C5FklJdm9nvCUm0ZuI32lnHEg8AI8GjP-Yn5ck88k3acZ2P6rj41MHQjFaBtDDYMdRKC4MkusyorxRRiqILqoJIoMxW3asskKs6qrMNFRwBNBQp_r9wEH_Q9jccZYK3hp5TO8VGBzyT6YosAbe6fFtHkMaDCuo2rcDJb9IygD-p0clPvWO6UKOzN8U1rjylN8DtWUMfTeA0FRddq8i_sA9WTCOExIqdaIdvIHrHLNymhL5W-DDflhunlBhjn_GojkpEoqv_IeFbtfRC_wQJ9OYoH1Hv7M6rww5i6Zv7LXgJxjJMdw5V0QZvRPRvQp9ldop8Ek5s4G3jxu9rA_-zqFL73c4t7Wv4_PFnI-NZbrVsSfTnU-XwDadKo8nkcTzRRHg6XzmJ9vJF2SCJHXRrK9llH6bTBBFf29H7QrM0BoFvVpHYXLA9LvW4wu2UMZjKuHcYBUxfq6BLQDjuzEfnRSCWGNsUABcLdt1y8Ni8gQ3CRIiMwoHvV4zqMEVoxeztIYKVu_MuEHW3ORVjLtR4qk2jleQKxKtTnSAWYRSciSwruvVQfsNbYkYCK4pZLaJW7hsWdWbWQ6VDxNtmhkw0_pQWcz7pWG5bOaTMKbvCYZ1dFD7PphzbhLnDyGZ3OPyDl7qAtTHZZ--BKtpzGDAqO0DggmZBbyVpyKKgBukMMAw3r7g9wFvKumnOWbVdqfk&zp=BuKd31OvN39VMzolLqkDef-81jrU_gCUjIYdIKnRbWqK21Ix9-6Jo9DWVyDa09CRRqmt3hh-AT2ojVanLyDGK8F85zrqDfp6QFXdngbsJtK8ZLps7xiWJeGQQ_tz5QBqu6aSaUu0PR7bgH-ZRqmxtHSjmhD8BVZWhg33HDE9df2sdEqpuhN4LJMQ_w3DRR28cs69nvLTzc-V8c7yLtKGVMXNKOdHEHZdZgTkxY6wrNOXpOvatCAZtxagv1PcjaQ-Nv2OOR_TG23S3nus-ZTVSb8cvb2KvUq2N9DXrERzTi8lXsF_7dgAgLpz0sNCSL9yyjmy_RQqXYJpzvfViHMEPO_RFDaSrFlrOB_IQaoD_w8XUPGcksSCyotA4HpMmgJplpvR1QzE-YmkLJA
+                      - separator [ref=e2350]
+                      - article "A website where your only job is to pass every pointless task you receive to whoever won't fight back." [ref=e2351]:
+                        - generic [ref=e2352] [cursor=pointer]:
+                          - link "A website where your only job is to pass every pointless task you receive to whoever won't fight back." [ref=e2353]:
+                            - /url: /r/InternetIsBeautiful/comments/1sy273f/a_website_where_your_only_job_is_to_pass_every/
+                            - generic [ref=e2354]:
+                              - generic: A website where your only job is to pass every pointless task you receive to whoever won't fight back.
+                          - generic [ref=e2355]:
+                            - generic [ref=e2357]:
+                              - generic [ref=e2358]:
+                                - link "작성자는 u/booby-dev입니다" [ref=e2363]:
+                                  - /url: /user/booby-dev/
+                                  - generic [ref=e2364]:
+                                    - img "u/booby-dev 님의 아바타입니다" [ref=e2367]
+                                    - generic [ref=e2368]: u/booby-dev
+                                - generic [ref=e2369]: •
+                                - time [ref=e2371]: 7일 전
+                              - button "사용자 작업 열기" [ref=e2376]:
+                                - img [ref=e2379]
+                            - generic [ref=e2381]:
+                              - link "A website where your only job is to pass every pointless task you receive to whoever won't fight back." [ref=e2383]:
+                                - /url: /r/InternetIsBeautiful/comments/1sy273f/a_website_where_your_only_job_is_to_pass_every/
+                              - link "https://otiose.app/en/loop" [ref=e2386]:
+                                - /url: https://otiose.app/en/loop
+                            - generic [ref=e2388]:
+                              - link "r/InternetIsBeautiful - A website where your only job is to pass every pointless task you receive to whoever won't fight back." [ref=e2389]:
+                                - /url: https://otiose.app/en/loop
+                                - img "r/InternetIsBeautiful - A website where your only job is to pass every pointless task you receive to whoever won't fight back." [ref=e2390]
+                              - generic:
+                                - generic:
+                                  - img
+                          - generic "이 게시물에서 실행할 수 있는 작업" [ref=e2392]:
+                            - generic [ref=e2395]:
+                              - button "좋아요" [ref=e2396]:
+                                - img [ref=e2398]
+                                - generic [ref=e2400]:
+                                  - generic: 좋아요
+                              - generic [ref=e2402]: "689"
+                              - button "싫어요" [ref=e2403]:
+                                - img [ref=e2405]
+                                - generic [ref=e2407]:
+                                  - generic: 싫어요
+                            - link "45 댓글로 이동" [ref=e2408]:
+                              - /url: /r/InternetIsBeautiful/comments/1sy273f/a_website_where_your_only_job_is_to_pass_every/
+                              - generic [ref=e2409]:
+                                - img [ref=e2411]
+                                - generic [ref=e2414]: "45"
+                              - generic [ref=e2415]:
+                                - generic: 댓글로 이동
+                            - button "어워드 수여" [ref=e2417]:
+                              - img [ref=e2420]
+                            - button "공유" [ref=e2425]:
+                              - generic [ref=e2426]:
+                                - img [ref=e2428]
+                                - generic [ref=e2430]: 공유
+                      - separator [ref=e2431]
+                      - article "I Built a Civic Issue Reporting/Tracking website" [ref=e2432]:
+                        - generic [ref=e2433] [cursor=pointer]:
+                          - link "I Built a Civic Issue Reporting/Tracking website" [ref=e2434]:
+                            - /url: /r/InternetIsBeautiful/comments/1sueog8/i_built_a_civic_issue_reportingtracking_website/
+                            - generic [ref=e2435]:
+                              - generic: I Built a Civic Issue Reporting/Tracking website
+                          - generic [ref=e2436]:
+                            - generic [ref=e2438]:
+                              - generic [ref=e2439]:
+                                - link "작성자는 u/isitsimple입니다" [ref=e2444]:
+                                  - /url: /user/isitsimple/
+                                  - generic [ref=e2445]:
+                                    - img "u/isitsimple 님의 아바타입니다" [ref=e2448]
+                                    - generic [ref=e2449]: u/isitsimple
+                                - generic [ref=e2450]: •
+                                - time [ref=e2452]: 11일 전
+                              - button "사용자 작업 열기" [ref=e2457]:
+                                - img [ref=e2460]
+                            - generic [ref=e2462]:
+                              - link "I Built a Civic Issue Reporting/Tracking website" [ref=e2464]:
+                                - /url: /r/InternetIsBeautiful/comments/1sueog8/i_built_a_civic_issue_reportingtracking_website/
+                              - link "https://www.punecivicai.in" [ref=e2467]:
+                                - /url: https://www.punecivicai.in
+                          - generic "이 게시물에서 실행할 수 있는 작업" [ref=e2469]:
+                            - generic [ref=e2472]:
+                              - button "좋아요" [ref=e2473]:
+                                - img [ref=e2475]
+                                - generic [ref=e2477]:
+                                  - generic: 좋아요
+                              - generic [ref=e2479]: "11"
+                              - button "싫어요" [ref=e2480]:
+                                - img [ref=e2482]
+                                - generic [ref=e2484]:
+                                  - generic: 싫어요
+                            - link "5 댓글로 이동" [ref=e2485]:
+                              - /url: /r/InternetIsBeautiful/comments/1sueog8/i_built_a_civic_issue_reportingtracking_website/
+                              - generic [ref=e2486]:
+                                - img [ref=e2488]
+                                - generic [ref=e2491]: "5"
+                              - generic [ref=e2492]:
+                                - generic: 댓글로 이동
+                            - button "어워드 수여" [ref=e2494]:
+                              - img [ref=e2497]
+                            - button "공유" [ref=e2502]:
+                              - generic [ref=e2503]:
+                                - img [ref=e2505]
+                                - generic [ref=e2507]: 공유
+                      - separator [ref=e2508]
+                      - article "A website that tracks songs mentioning dates, either in the title or the lyrics" [ref=e2509]:
+                        - generic [ref=e2510] [cursor=pointer]:
+                          - link "A website that tracks songs mentioning dates, either in the title or the lyrics" [ref=e2511]:
+                            - /url: /r/InternetIsBeautiful/comments/1szc1pv/a_website_that_tracks_songs_mentioning_dates/
+                            - generic [ref=e2512]:
+                              - generic: A website that tracks songs mentioning dates, either in the title or the lyrics
+                          - generic [ref=e2513]:
+                            - generic [ref=e2515]:
+                              - generic [ref=e2516]:
+                                - link "작성자는 u/rySeeR4입니다" [ref=e2521]:
+                                  - /url: /user/rySeeR4/
+                                  - generic [ref=e2522]:
+                                    - img [ref=e2527]
+                                    - generic [ref=e2529]: u/rySeeR4
+                                - generic [ref=e2530]: •
+                                - time [ref=e2532]: 6일 전
+                              - button "사용자 작업 열기" [ref=e2537]:
+                                - img [ref=e2540]
+                            - generic [ref=e2542]:
+                              - link "A website that tracks songs mentioning dates, either in the title or the lyrics" [ref=e2544]:
+                                - /url: /r/InternetIsBeautiful/comments/1szc1pv/a_website_that_tracks_songs_mentioning_dates/
+                              - link "http://theyearinsongs.com" [ref=e2547]:
+                                - /url: http://theyearinsongs.com
+                            - generic [ref=e2549]:
+                              - link "r/InternetIsBeautiful - A website that tracks songs mentioning dates, either in the title or the lyrics" [ref=e2550]:
+                                - /url: http://theyearinsongs.com
+                                - img "r/InternetIsBeautiful - A website that tracks songs mentioning dates, either in the title or the lyrics" [ref=e2551]
+                              - generic:
+                                - generic:
+                                  - img
+                          - generic "이 게시물에서 실행할 수 있는 작업" [ref=e2553]:
+                            - generic [ref=e2556]:
+                              - button "좋아요" [ref=e2557]:
+                                - img [ref=e2559]
+                                - generic [ref=e2561]:
+                                  - generic: 좋아요
+                              - generic [ref=e2563]: "112"
+                              - button "싫어요" [ref=e2564]:
+                                - img [ref=e2566]
+                                - generic [ref=e2568]:
+                                  - generic: 싫어요
+                            - link "11 댓글로 이동" [ref=e2569]:
+                              - /url: /r/InternetIsBeautiful/comments/1szc1pv/a_website_that_tracks_songs_mentioning_dates/
+                              - generic [ref=e2570]:
+                                - img [ref=e2572]
+                                - generic [ref=e2575]: "11"
+                              - generic [ref=e2576]:
+                                - generic: 댓글로 이동
+                            - button "어워드 수여" [ref=e2578]:
+                              - img [ref=e2581]
+                            - button "공유" [ref=e2586]:
+                              - generic [ref=e2587]:
+                                - img [ref=e2589]
+                                - generic [ref=e2591]: 공유
+                      - separator [ref=e2592]
+                      - article "Interactive map of every solar eclipse from 2024 to 2100 — animate the shadow across Earth and drag a marker anywhere to see how much of the sun is covered at that point" [ref=e2593]:
+                        - generic [ref=e2594] [cursor=pointer]:
+                          - link "Interactive map of every solar eclipse from 2024 to 2100 — animate the shadow across Earth and drag a marker anywhere to see how much of the sun is covered at that point" [ref=e2595]:
+                            - /url: /r/InternetIsBeautiful/comments/1ste3tj/interactive_map_of_every_solar_eclipse_from_2024/
+                            - generic [ref=e2596]:
+                              - generic: Interactive map of every solar eclipse from 2024 to 2100 — animate the shadow across Earth and drag a marker anywhere to see how much of the sun is covered at that point
+                          - generic [ref=e2597]:
+                            - generic [ref=e2599]:
+                              - generic [ref=e2600]:
+                                - link "작성자는 u/martynasma입니다" [ref=e2605]:
+                                  - /url: /user/martynasma/
+                                  - generic [ref=e2606]:
+                                    - img [ref=e2611]
+                                    - generic [ref=e2613]: u/martynasma
+                                - generic [ref=e2614]: •
+                                - time [ref=e2616]: 12일 전
+                              - button "사용자 작업 열기" [ref=e2621]:
+                                - img [ref=e2624]
+                            - generic [ref=e2626]:
+                              - link "Interactive map of every solar eclipse from 2024 to 2100 — animate the shadow across Earth and drag a marker anywhere to see how much of the sun is covered at that point" [ref=e2628]:
+                                - /url: /r/InternetIsBeautiful/comments/1ste3tj/interactive_map_of_every_solar_eclipse_from_2024/
+                              - link "https://dojo.amcharts.com/solar-eclipses/" [ref=e2631]:
+                                - /url: https://dojo.amcharts.com/solar-eclipses/
+                            - generic [ref=e2633]:
+                              - link "r/InternetIsBeautiful - Interactive map of every solar eclipse from 2024 to 2100 — animate the shadow across Earth and drag a marker anywhere to see how much of the sun is covered at that point" [ref=e2634]:
+                                - /url: https://dojo.amcharts.com/solar-eclipses/
+                                - img "r/InternetIsBeautiful - Interactive map of every solar eclipse from 2024 to 2100 — animate the shadow across Earth and drag a marker anywhere to see how much of the sun is covered at that point" [ref=e2635]
+                              - generic:
+                                - generic:
+                                  - img
+                          - generic "이 게시물에서 실행할 수 있는 작업" [ref=e2637]:
+                            - generic [ref=e2640]:
+                              - button "좋아요" [ref=e2641]:
+                                - img [ref=e2643]
+                                - generic [ref=e2645]:
+                                  - generic: 좋아요
+                              - generic [ref=e2647]: "39"
+                              - button "싫어요" [ref=e2648]:
+                                - img [ref=e2650]
+                                - generic [ref=e2652]:
+                                  - generic: 싫어요
+                            - link "5 댓글로 이동" [ref=e2653]:
+                              - /url: /r/InternetIsBeautiful/comments/1ste3tj/interactive_map_of_every_solar_eclipse_from_2024/
+                              - generic [ref=e2654]:
+                                - img [ref=e2656]
+                                - generic [ref=e2659]: "5"
+                              - generic [ref=e2660]:
+                                - generic: 댓글로 이동
+                            - button "어워드 수여" [ref=e2662]:
+                              - img [ref=e2665]
+                            - button "공유" [ref=e2670]:
+                              - generic [ref=e2671]:
+                                - img [ref=e2673]
+                                - generic [ref=e2675]: 공유
+                      - separator [ref=e2676]
+                      - article "I built a site to see how poor I actually am compared to my country [OC]" [ref=e2677]:
+                        - generic [ref=e2678] [cursor=pointer]:
+                          - link "I built a site to see how poor I actually am compared to my country [OC]" [ref=e2679]:
+                            - /url: /r/InternetIsBeautiful/comments/1sih296/i_built_a_site_to_see_how_poor_i_actually_am/
+                            - generic [ref=e2680]:
+                              - generic: I built a site to see how poor I actually am compared to my country [OC]
+                          - generic [ref=e2681]:
+                            - generic [ref=e2683]:
+                              - generic [ref=e2684]:
+                                - link "작성자는 u/yomrhan입니다" [ref=e2689]:
+                                  - /url: /user/yomrhan/
+                                  - generic [ref=e2690]:
+                                    - img [ref=e2695]
+                                    - generic [ref=e2697]: u/yomrhan
+                                - generic [ref=e2698]: •
+                                - time [ref=e2700]: 24일 전
+                              - button "사용자 작업 열기" [ref=e2705]:
+                                - img [ref=e2708]
+                            - generic [ref=e2710]:
+                              - link "I built a site to see how poor I actually am compared to my country [OC]" [ref=e2712]:
+                                - /url: /r/InternetIsBeautiful/comments/1sih296/i_built_a_site_to_see_how_poor_i_actually_am/
+                              - link "https://howpoorami.org/" [ref=e2715]:
+                                - /url: https://howpoorami.org/
+                            - generic [ref=e2717]:
+                              - link "r/InternetIsBeautiful - I built a site to see how poor I actually am compared to my country [OC]" [ref=e2718]:
+                                - /url: https://howpoorami.org/
+                                - img "r/InternetIsBeautiful - I built a site to see how poor I actually am compared to my country [OC]" [ref=e2719]
+                              - generic:
+                                - generic:
+                                  - img
+                          - generic "이 게시물에서 실행할 수 있는 작업" [ref=e2721]:
+                            - generic [ref=e2724]:
+                              - button "좋아요" [ref=e2725]:
+                                - img [ref=e2727]
+                                - generic [ref=e2729]:
+                                  - generic: 좋아요
+                              - generic [ref=e2731]: "806"
+                              - button "싫어요" [ref=e2732]:
+                                - img [ref=e2734]
+                                - generic [ref=e2736]:
+                                  - generic: 싫어요
+                            - link "148 댓글로 이동" [ref=e2737]:
+                              - /url: /r/InternetIsBeautiful/comments/1sih296/i_built_a_site_to_see_how_poor_i_actually_am/
+                              - generic [ref=e2738]:
+                                - img [ref=e2740]
+                                - generic [ref=e2743]: "148"
+                              - generic [ref=e2744]:
+                                - generic: 댓글로 이동
+                            - button "어워드 주기, 2개 어워드 수여됨" [ref=e2746]:
+                              - generic [ref=e2751]: "2"
+                            - button "공유" [ref=e2755]:
+                              - generic [ref=e2756]:
+                                - img [ref=e2758]
+                                - generic [ref=e2760]: 공유
+                      - separator [ref=e2761]
+                      - article "I built a site that lets you compare hospital procedure prices across the U.S. (for uninsured)" [ref=e2762]:
+                        - generic [ref=e2763] [cursor=pointer]:
+                          - link "I built a site that lets you compare hospital procedure prices across the U.S. (for uninsured)" [ref=e2764]:
+                            - /url: /r/InternetIsBeautiful/comments/1srdt6v/i_built_a_site_that_lets_you_compare_hospital/
+                            - generic [ref=e2765]:
+                              - generic: I built a site that lets you compare hospital procedure prices across the U.S. (for uninsured)
+                          - generic [ref=e2766]:
+                            - generic [ref=e2768]:
+                              - generic [ref=e2769]:
+                                - link "작성자는 u/ihateroomba입니다" [ref=e2774]:
+                                  - /url: /user/ihateroomba/
+                                  - generic [ref=e2775]:
+                                    - img "u/ihateroomba 님의 아바타입니다" [ref=e2778]
+                                    - generic [ref=e2779]: u/ihateroomba
+                                - generic [ref=e2780]: •
+                                - time [ref=e2782]: 14일 전
+                              - button "사용자 작업 열기" [ref=e2787]:
+                                - img [ref=e2790]
+                            - generic [ref=e2792]:
+                              - link "I built a site that lets you compare hospital procedure prices across the U.S. (for uninsured)" [ref=e2794]:
+                                - /url: /r/InternetIsBeautiful/comments/1srdt6v/i_built_a_site_that_lets_you_compare_hospital/
+                              - link "http://medcompare.co" [ref=e2797]:
+                                - /url: http://medcompare.co
+                          - generic "이 게시물에서 실행할 수 있는 작업" [ref=e2799]:
+                            - generic [ref=e2802]:
+                              - button "좋아요" [ref=e2803]:
+                                - img [ref=e2805]
+                                - generic [ref=e2807]:
+                                  - generic: 좋아요
+                              - generic [ref=e2809]: "618"
+                              - button "싫어요" [ref=e2810]:
+                                - img [ref=e2812]
+                                - generic [ref=e2814]:
+                                  - generic: 싫어요
+                            - link "112 댓글로 이동" [ref=e2815]:
+                              - /url: /r/InternetIsBeautiful/comments/1srdt6v/i_built_a_site_that_lets_you_compare_hospital/
+                              - generic [ref=e2816]:
+                                - img [ref=e2818]
+                                - generic [ref=e2821]: "112"
+                              - generic [ref=e2822]:
+                                - generic: 댓글로 이동
+                            - button "어워드 주기, 1개 어워드 수여됨" [ref=e2824]:
+                              - generic [ref=e2829]: "1"
+                            - button "공유" [ref=e2833]:
+                              - generic [ref=e2834]:
+                                - img [ref=e2836]
+                                - generic [ref=e2838]: 공유
+                      - separator [ref=e2839]
+                      - article "UnAtlas — Explore how map projections distort real-world routes" [ref=e2840]:
+                        - generic [ref=e2841] [cursor=pointer]:
+                          - link "UnAtlas — Explore how map projections distort real-world routes" [ref=e2842]:
+                            - /url: /r/InternetIsBeautiful/comments/1ssjue9/unatlas_explore_how_map_projections_distort/
+                            - generic [ref=e2843]:
+                              - generic: UnAtlas — Explore how map projections distort real-world routes
+                          - generic [ref=e2844]:
+                            - generic [ref=e2846]:
+                              - generic [ref=e2847]:
+                                - link "작성자는 u/ronlivne입니다" [ref=e2852]:
+                                  - /url: /user/ronlivne/
+                                  - generic [ref=e2853]:
+                                    - img "u/ronlivne 님의 아바타입니다" [ref=e2856]
+                                    - generic [ref=e2857]: u/ronlivne
+                                - generic [ref=e2858]: •
+                                - time [ref=e2860]: 13일 전
+                              - button "사용자 작업 열기" [ref=e2865]:
+                                - img [ref=e2868]
+                            - generic [ref=e2870]:
+                              - link "UnAtlas — Explore how map projections distort real-world routes" [ref=e2872]:
+                                - /url: /r/InternetIsBeautiful/comments/1ssjue9/unatlas_explore_how_map_projections_distort/
+                              - link "https://unatlas.live/" [ref=e2875]:
+                                - /url: https://unatlas.live/
+                            - generic [ref=e2877]:
+                              - link "r/InternetIsBeautiful - UnAtlas — Explore how map projections distort real-world routes" [ref=e2878]:
+                                - /url: https://unatlas.live/
+                                - img "r/InternetIsBeautiful - UnAtlas — Explore how map projections distort real-world routes" [ref=e2879]
+                              - generic:
+                                - generic:
+                                  - img
+                          - generic "이 게시물에서 실행할 수 있는 작업" [ref=e2881]:
+                            - generic [ref=e2884]:
+                              - button "좋아요" [ref=e2885]:
+                                - img [ref=e2887]
+                                - generic [ref=e2889]:
+                                  - generic: 좋아요
+                              - generic [ref=e2891]: "10"
+                              - button "싫어요" [ref=e2892]:
+                                - img [ref=e2894]
+                                - generic [ref=e2896]:
+                                  - generic: 싫어요
+                            - link "1 댓글로 이동" [ref=e2897]:
+                              - /url: /r/InternetIsBeautiful/comments/1ssjue9/unatlas_explore_how_map_projections_distort/
+                              - generic [ref=e2898]:
+                                - img [ref=e2900]
+                                - generic [ref=e2903]: "1"
+                              - generic [ref=e2904]:
+                                - generic: 댓글로 이동
+                            - button "어워드 수여" [ref=e2906]:
+                              - img [ref=e2909]
+                            - button "공유" [ref=e2914]:
+                              - generic [ref=e2915]:
+                                - img [ref=e2917]
+                                - generic [ref=e2919]: 공유
+                      - separator [ref=e2920]
+                      - article "As feral hogs spread across America, swimming pool drownings have plummeted. Coincidence?" [ref=e2921]:
+                        - generic [ref=e2922] [cursor=pointer]:
+                          - link "As feral hogs spread across America, swimming pool drownings have plummeted. Coincidence?" [ref=e2923]:
+                            - /url: /r/InternetIsBeautiful/comments/1sf9ibk/as_feral_hogs_spread_across_america_swimming_pool/
+                            - generic [ref=e2924]:
+                              - generic: As feral hogs spread across America, swimming pool drownings have plummeted. Coincidence?
+                          - generic [ref=e2925]:
+                            - generic [ref=e2927]:
+                              - generic [ref=e2928]:
+                                - link "작성자는 u/Lieutenant_Bob입니다" [ref=e2933]:
+                                  - /url: /user/Lieutenant_Bob/
+                                  - generic [ref=e2934]:
+                                    - img "u/Lieutenant_Bob 님의 아바타입니다" [ref=e2937]
+                                    - generic [ref=e2938]: u/Lieutenant_Bob
+                                - generic [ref=e2939]: •
+                                - time [ref=e2941]: 28일 전
+                              - button "사용자 작업 열기" [ref=e2946]:
+                                - img [ref=e2949]
+                            - generic [ref=e2951]:
+                              - link "As feral hogs spread across America, swimming pool drownings have plummeted. Coincidence?" [ref=e2953]:
+                                - /url: /r/InternetIsBeautiful/comments/1sf9ibk/as_feral_hogs_spread_across_america_swimming_pool/
+                              - link "https://getspurious.com/correlations/us-states-with-feral-hog-populations-vs-swimming-pool-drowning-deaths-in-the-us" [ref=e2956]:
+                                - /url: https://getspurious.com/correlations/us-states-with-feral-hog-populations-vs-swimming-pool-drowning-deaths-in-the-us
+                          - generic "이 게시물에서 실행할 수 있는 작업" [ref=e2958]:
+                            - generic [ref=e2961]:
+                              - button "좋아요" [ref=e2962]:
+                                - img [ref=e2964]
+                                - generic [ref=e2966]:
+                                  - generic: 좋아요
+                              - generic [ref=e2968]: "453"
+                              - button "싫어요" [ref=e2969]:
+                                - img [ref=e2971]
+                                - generic [ref=e2973]:
+                                  - generic: 싫어요
+                            - link "93 댓글로 이동" [ref=e2974]:
+                              - /url: /r/InternetIsBeautiful/comments/1sf9ibk/as_feral_hogs_spread_across_america_swimming_pool/
+                              - generic [ref=e2975]:
+                                - img [ref=e2977]
+                                - generic [ref=e2980]: "93"
+                              - generic [ref=e2981]:
+                                - generic: 댓글로 이동
+                            - button "어워드 수여" [ref=e2983]:
+                              - img [ref=e2986]
+                            - button "공유" [ref=e2991]:
+                              - generic [ref=e2992]:
+                                - img [ref=e2994]
+                                - generic [ref=e2996]: 공유
+                      - separator [ref=e2997]
+                      - generic [ref=e2998]:
+                        - 'generic "Advertisement: Build Real Interactions, Powered by AI - Try Beta" [ref=e2999]':
+                          - 'link "Advertisement: Build Real Interactions, Powered by AI - Try Beta" [ref=e3000] [cursor=pointer]':
+                            - /url: https://alb.reddit.com/cr?za=RbTKw-f2_3tzQ7iJvwcvzSIgIW9g8FC0iowYfzUu0IVsHoPE_auOnvpvXYgM0xZ1UH0SCtuDvz2u3d0vpGLZLLkgVBjA7oIymmnPSeYyJTwNuZgmlGbrHv5ueq6CyTxxd2nWRq6Ll1SuXpXag1_svLxJyUu9Llx97lpVsDphbOB_dm8nU28YEqElnKf8ZCVzH9YSO3jet_pMTNP1GHjtJJbRI9qSNMJme2Z0_woFEylBHVj1R2z95ndZeucbE9f-_ajtEE60lF4MqBCddJ-9QJeb8069jr57YbGxHgjdGFIn7t7vvM3Vo-MyUblvFzYIMHlVNfk4oHlg7rZZ89Lbcb2XZvBpJjjCL4jamGF7uImo0BpDbFw7gFjU80vdKfS_rqI9Cl_cna28W7AAVr39qlknxEWQrHiJ8KAxXaqZ4_cnJBOZ2Rp4284XdliwGffaAv_X8iV-SUqkjxykOZ4sDs2kNt3CHUO4Tu7Wgqyb4lO4eekS8zDefSyjBKie40wKVgYtACHdIBZiqKJ8NTFGETZqq4bi2s_pclCQT6BttI-6BEgGBUwcIcsT9oq48BDcYpCyYlyVC2YN93I8ud8dpp5NToBHw8e8_pirLrAHtahRDGx4yRTlLLaBXBmjDind6gt3mlQEfOwBauythvGxLY47NcJxD_Q-8cvixYOA9r6nuI5Q5KGD8nJSgk5rJJpK-QGj6nuXhjQSKnXFWpqEh0x5VvthCnrmzm0wI_JAqpyjH4WQrXDNRiYt&zp=Qv6_M9xqTgHV54XcOmGeu9wvD-A-HLpkbM5a9HMLJaNMHzrMr6ehQeqXvaoLA0ta2sQON56XD8c8zDGAggjNuqkzP2kKONufgTxMIKoAWtvkQ67L89M1CuFSDZW_Hel-A6aXpOwch7W43SnFfQqdGdAmr_EegMEnYkDIZV7ELu9hLnmUWfmOozqOgKkCQuKYlUsmzcHY2Uuj4tgvDx7wZtjI5TsvUoHHylmalJ7rCXgEh_4AVaLBPjXCQXoECgmZ799MPUNAIM8RVYN9agHBySuEY1XofYRDkaT7oWzVdGflbdvQ9507vYTE4Zrj1g0_eEhcn4jgC_FVRAFOdOXLyXskeuldNlAtMM2wYcCiXNnDG7VIMM7O-hXoPIeYDDq6
+                        - generic [ref=e3001]:
+                          - generic [ref=e3002]:
+                            - link "u/protopie_official 님의 아바타입니다 u/protopie_official" [ref=e3005] [cursor=pointer]:
+                              - /url: /user/protopie_official/
+                              - img "u/protopie_official 님의 아바타입니다" [ref=e3008]
+                              - generic [ref=e3009]: u/protopie_official
+                            - generic [ref=e3010]: •
+                            - link "홍보 광고" [ref=e3012] [cursor=pointer]:
+                              - /url: /user/protopie_official/
+                              - generic [ref=e3013]: 홍보 광고
+                            - link [ref=e3015] [cursor=pointer]:
+                              - /url: https://alb.reddit.com/cr?za=RbTKw-f2_3tzQ7iJvwcvzSIgIW9g8FC0iowYfzUu0IVsHoPE_auOnvpvXYgM0xZ1UH0SCtuDvz2u3d0vpGLZLLkgVBjA7oIymmnPSeYyJTwNuZgmlGbrHv5ueq6CyTxxd2nWRq6Ll1SuXpXag1_svLxJyUu9Llx97lpVsDphbOB_dm8nU28YEqElnKf8ZCVzH9YSO3jet_pMTNP1GHjtJJbRI9qSNMJme2Z0_woFEylBHVj1R2z95ndZeucbE9f-_ajtEE60lF4MqBCddJ-9QJeb8069jr57YbGxHgjdGFIn7t7vvM3Vo-MyUblvFzYIMHlVNfk4oHlg7rZZ89Lbcb2XZvBpJjjCL4jamGF7uImo0BpDbFw7gFjU80vdKfS_rqI9Cl_cna28W7AAVr39qlknxEWQrHiJ8KAxXaqZ4_cnJBOZ2Rp4284XdliwGffaAv_X8iV-SUqkjxykOZ4sDs2kNt3CHUO4Tu7Wgqyb4lO4eekS8zDefSyjBKie40wKVgYtACHdIBZiqKJ8NTFGETZqq4bi2s_pclCQT6BttI-6BEgGBUwcIcsT9oq48BDcYpCyYlyVC2YN93I8ud8dpp5NToBHw8e8_pirLrAHtahRDGx4yRTlLLaBXBmjDind6gt3mlQEfOwBauythvGxLY47NcJxD_Q-8cvixYOA9r6nuI5Q5KGD8nJSgk5rJJpK-QGj6nuXhjQSKnXFWpqEh0x5VvthCnrmzm0wI_JAqpyjH4WQrXDNRiYt&zp=Qv6_M9xqTgHV54XcOmGeu9wvD-A-HLpkbM5a9HMLJaNMHzrMr6ehQeqXvaoLA0ta2sQON56XD8c8zDGAggjNuqkzP2kKONufgTxMIKoAWtvkQ67L89M1CuFSDZW_Hel-A6aXpOwch7W43SnFfQqdGdAmr_EegMEnYkDIZV7ELu9hLnmUWfmOozqOgKkCQuKYlUsmzcHY2Uuj4tgvDx7wZtjI5TsvUoHHylmalJ7rCXgEh_4AVaLBPjXCQXoECgmZ799MPUNAIM8RVYN9agHBySuEY1XofYRDkaT7oWzVdGflbdvQ9507vYTE4Zrj1g0_eEhcn4jgC_FVRAFOdOXLyXskeuldNlAtMM2wYcCiXNnDG7VIMM7O-hXoPIeYDDq6
+                          - button "사용자 작업 열기" [ref=e3020] [cursor=pointer]:
+                            - img [ref=e3023]
+                        - heading "Build Real Interactions, Powered by AI - Try Beta" [level=2] [ref=e3027]:
+                          - link "Build Real Interactions, Powered by AI - Try Beta" [ref=e3030] [cursor=pointer]:
+                            - /url: https://alb.reddit.com/cr?za=RbTKw-f2_3tzQ7iJvwcvzSIgIW9g8FC0iowYfzUu0IVsHoPE_auOnvpvXYgM0xZ1UH0SCtuDvz2u3d0vpGLZLLkgVBjA7oIymmnPSeYyJTwNuZgmlGbrHv5ueq6CyTxxd2nWRq6Ll1SuXpXag1_svLxJyUu9Llx97lpVsDphbOB_dm8nU28YEqElnKf8ZCVzH9YSO3jet_pMTNP1GHjtJJbRI9qSNMJme2Z0_woFEylBHVj1R2z95ndZeucbE9f-_ajtEE60lF4MqBCddJ-9QJeb8069jr57YbGxHgjdGFIn7t7vvM3Vo-MyUblvFzYIMHlVNfk4oHlg7rZZ89Lbcb2XZvBpJjjCL4jamGF7uImo0BpDbFw7gFjU80vdKfS_rqI9Cl_cna28W7AAVr39qlknxEWQrHiJ8KAxXaqZ4_cnJBOZ2Rp4284XdliwGffaAv_X8iV-SUqkjxykOZ4sDs2kNt3CHUO4Tu7Wgqyb4lO4eekS8zDefSyjBKie40wKVgYtACHdIBZiqKJ8NTFGETZqq4bi2s_pclCQT6BttI-6BEgGBUwcIcsT9oq48BDcYpCyYlyVC2YN93I8ud8dpp5NToBHw8e8_pirLrAHtahRDGx4yRTlLLaBXBmjDind6gt3mlQEfOwBauythvGxLY47NcJxD_Q-8cvixYOA9r6nuI5Q5KGD8nJSgk5rJJpK-QGj6nuXhjQSKnXFWpqEh0x5VvthCnrmzm0wI_JAqpyjH4WQrXDNRiYt&zp=Qv6_M9xqTgHV54XcOmGeu9wvD-A-HLpkbM5a9HMLJaNMHzrMr6ehQeqXvaoLA0ta2sQON56XD8c8zDGAggjNuqkzP2kKONufgTxMIKoAWtvkQ67L89M1CuFSDZW_Hel-A6aXpOwch7W43SnFfQqdGdAmr_EegMEnYkDIZV7ELu9hLnmUWfmOozqOgKkCQuKYlUsmzcHY2Uuj4tgvDx7wZtjI5TsvUoHHylmalJ7rCXgEh_4AVaLBPjXCQXoECgmZ799MPUNAIM8RVYN9agHBySuEY1XofYRDkaT7oWzVdGflbdvQ9507vYTE4Zrj1g0_eEhcn4jgC_FVRAFOdOXLyXskeuldNlAtMM2wYcCiXNnDG7VIMM7O-hXoPIeYDDq6
+                            - generic: Build Real Interactions, Powered by AI - Try Beta
+                        - generic [ref=e3031]:
+                          - link "Build Real Interactions, Powered by AI - Try Beta" [ref=e3035] [cursor=pointer]:
+                            - /url: https://alb.reddit.com/cr?za=RbTKw-f2_3tzQ7iJvwcvzSIgIW9g8FC0iowYfzUu0IVsHoPE_auOnvpvXYgM0xZ1UH0SCtuDvz2u3d0vpGLZLLkgVBjA7oIymmnPSeYyJTwNuZgmlGbrHv5ueq6CyTxxd2nWRq6Ll1SuXpXag1_svLxJyUu9Llx97lpVsDphbOB_dm8nU28YEqElnKf8ZCVzH9YSO3jet_pMTNP1GHjtJJbRI9qSNMJme2Z0_woFEylBHVj1R2z95ndZeucbE9f-_ajtEE60lF4MqBCddJ-9QJeb8069jr57YbGxHgjdGFIn7t7vvM3Vo-MyUblvFzYIMHlVNfk4oHlg7rZZ89Lbcb2XZvBpJjjCL4jamGF7uImo0BpDbFw7gFjU80vdKfS_rqI9Cl_cna28W7AAVr39qlknxEWQrHiJ8KAxXaqZ4_cnJBOZ2Rp4284XdliwGffaAv_X8iV-SUqkjxykOZ4sDs2kNt3CHUO4Tu7Wgqyb4lO4eekS8zDefSyjBKie40wKVgYtACHdIBZiqKJ8NTFGETZqq4bi2s_pclCQT6BttI-6BEgGBUwcIcsT9oq48BDcYpCyYlyVC2YN93I8ud8dpp5NToBHw8e8_pirLrAHtahRDGx4yRTlLLaBXBmjDind6gt3mlQEfOwBauythvGxLY47NcJxD_Q-8cvixYOA9r6nuI5Q5KGD8nJSgk5rJJpK-QGj6nuXhjQSKnXFWpqEh0x5VvthCnrmzm0wI_JAqpyjH4WQrXDNRiYt&zp=Qv6_M9xqTgHV54XcOmGeu9wvD-A-HLpkbM5a9HMLJaNMHzrMr6ehQeqXvaoLA0ta2sQON56XD8c8zDGAggjNuqkzP2kKONufgTxMIKoAWtvkQ67L89M1CuFSDZW_Hel-A6aXpOwch7W43SnFfQqdGdAmr_EegMEnYkDIZV7ELu9hLnmUWfmOozqOgKkCQuKYlUsmzcHY2Uuj4tgvDx7wZtjI5TsvUoHHylmalJ7rCXgEh_4AVaLBPjXCQXoECgmZ799MPUNAIM8RVYN9agHBySuEY1XofYRDkaT7oWzVdGflbdvQ9507vYTE4Zrj1g0_eEhcn4jgC_FVRAFOdOXLyXskeuldNlAtMM2wYcCiXNnDG7VIMM7O-hXoPIeYDDq6
+                            - img "Build Real Interactions, Powered by AI - Try Beta" [ref=e3037]
+                          - separator [ref=e3038]
+                          - generic [ref=e3039]:
+                            - link [ref=e3041] [cursor=pointer]:
+                              - /url: https://alb.reddit.com/cr?za=RbTKw-f2_3tzQ7iJvwcvzSIgIW9g8FC0iowYfzUu0IVsHoPE_auOnvpvXYgM0xZ1UH0SCtuDvz2u3d0vpGLZLLkgVBjA7oIymmnPSeYyJTwNuZgmlGbrHv5ueq6CyTxxd2nWRq6Ll1SuXpXag1_svLxJyUu9Llx97lpVsDphbOB_dm8nU28YEqElnKf8ZCVzH9YSO3jet_pMTNP1GHjtJJbRI9qSNMJme2Z0_woFEylBHVj1R2z95ndZeucbE9f-_ajtEE60lF4MqBCddJ-9QJeb8069jr57YbGxHgjdGFIn7t7vvM3Vo-MyUblvFzYIMHlVNfk4oHlg7rZZ89Lbcb2XZvBpJjjCL4jamGF7uImo0BpDbFw7gFjU80vdKfS_rqI9Cl_cna28W7AAVr39qlknxEWQrHiJ8KAxXaqZ4_cnJBOZ2Rp4284XdliwGffaAv_X8iV-SUqkjxykOZ4sDs2kNt3CHUO4Tu7Wgqyb4lO4eekS8zDefSyjBKie40wKVgYtACHdIBZiqKJ8NTFGETZqq4bi2s_pclCQT6BttI-6BEgGBUwcIcsT9oq48BDcYpCyYlyVC2YN93I8ud8dpp5NToBHw8e8_pirLrAHtahRDGx4yRTlLLaBXBmjDind6gt3mlQEfOwBauythvGxLY47NcJxD_Q-8cvixYOA9r6nuI5Q5KGD8nJSgk5rJJpK-QGj6nuXhjQSKnXFWpqEh0x5VvthCnrmzm0wI_JAqpyjH4WQrXDNRiYt&zp=Qv6_M9xqTgHV54XcOmGeu9wvD-A-HLpkbM5a9HMLJaNMHzrMr6ehQeqXvaoLA0ta2sQON56XD8c8zDGAggjNuqkzP2kKONufgTxMIKoAWtvkQ67L89M1CuFSDZW_Hel-A6aXpOwch7W43SnFfQqdGdAmr_EegMEnYkDIZV7ELu9hLnmUWfmOozqOgKkCQuKYlUsmzcHY2Uuj4tgvDx7wZtjI5TsvUoHHylmalJ7rCXgEh_4AVaLBPjXCQXoECgmZ799MPUNAIM8RVYN9agHBySuEY1XofYRDkaT7oWzVdGflbdvQ9507vYTE4Zrj1g0_eEhcn4jgC_FVRAFOdOXLyXskeuldNlAtMM2wYcCiXNnDG7VIMM7O-hXoPIeYDDq6
+                            - generic [ref=e3042]:
+                              - link "protopie.io" [ref=e3045] [cursor=pointer]:
+                                - /url: https://alb.reddit.com/cr?za=RbTKw-f2_3tzQ7iJvwcvzSIgIW9g8FC0iowYfzUu0IVsHoPE_auOnvpvXYgM0xZ1UH0SCtuDvz2u3d0vpGLZLLkgVBjA7oIymmnPSeYyJTwNuZgmlGbrHv5ueq6CyTxxd2nWRq6Ll1SuXpXag1_svLxJyUu9Llx97lpVsDphbOB_dm8nU28YEqElnKf8ZCVzH9YSO3jet_pMTNP1GHjtJJbRI9qSNMJme2Z0_woFEylBHVj1R2z95ndZeucbE9f-_ajtEE60lF4MqBCddJ-9QJeb8069jr57YbGxHgjdGFIn7t7vvM3Vo-MyUblvFzYIMHlVNfk4oHlg7rZZ89Lbcb2XZvBpJjjCL4jamGF7uImo0BpDbFw7gFjU80vdKfS_rqI9Cl_cna28W7AAVr39qlknxEWQrHiJ8KAxXaqZ4_cnJBOZ2Rp4284XdliwGffaAv_X8iV-SUqkjxykOZ4sDs2kNt3CHUO4Tu7Wgqyb4lO4eekS8zDefSyjBKie40wKVgYtACHdIBZiqKJ8NTFGETZqq4bi2s_pclCQT6BttI-6BEgGBUwcIcsT9oq48BDcYpCyYlyVC2YN93I8ud8dpp5NToBHw8e8_pirLrAHtahRDGx4yRTlLLaBXBmjDind6gt3mlQEfOwBauythvGxLY47NcJxD_Q-8cvixYOA9r6nuI5Q5KGD8nJSgk5rJJpK-QGj6nuXhjQSKnXFWpqEh0x5VvthCnrmzm0wI_JAqpyjH4WQrXDNRiYt&zp=Qv6_M9xqTgHV54XcOmGeu9wvD-A-HLpkbM5a9HMLJaNMHzrMr6ehQeqXvaoLA0ta2sQON56XD8c8zDGAggjNuqkzP2kKONufgTxMIKoAWtvkQ67L89M1CuFSDZW_Hel-A6aXpOwch7W43SnFfQqdGdAmr_EegMEnYkDIZV7ELu9hLnmUWfmOozqOgKkCQuKYlUsmzcHY2Uuj4tgvDx7wZtjI5TsvUoHHylmalJ7rCXgEh_4AVaLBPjXCQXoECgmZ799MPUNAIM8RVYN9agHBySuEY1XofYRDkaT7oWzVdGflbdvQ9507vYTE4Zrj1g0_eEhcn4jgC_FVRAFOdOXLyXskeuldNlAtMM2wYcCiXNnDG7VIMM7O-hXoPIeYDDq6
+                                - generic: protopie.io
+                              - link "더 알아보기" [ref=e3047] [cursor=pointer]:
+                                - /url: https://alb.reddit.com/cr?za=RbTKw-f2_3tzQ7iJvwcvzSIgIW9g8FC0iowYfzUu0IVsHoPE_auOnvpvXYgM0xZ1UH0SCtuDvz2u3d0vpGLZLLkgVBjA7oIymmnPSeYyJTwNuZgmlGbrHv5ueq6CyTxxd2nWRq6Ll1SuXpXag1_svLxJyUu9Llx97lpVsDphbOB_dm8nU28YEqElnKf8ZCVzH9YSO3jet_pMTNP1GHjtJJbRI9qSNMJme2Z0_woFEylBHVj1R2z95ndZeucbE9f-_ajtEE60lF4MqBCddJ-9QJeb8069jr57YbGxHgjdGFIn7t7vvM3Vo-MyUblvFzYIMHlVNfk4oHlg7rZZ89Lbcb2XZvBpJjjCL4jamGF7uImo0BpDbFw7gFjU80vdKfS_rqI9Cl_cna28W7AAVr39qlknxEWQrHiJ8KAxXaqZ4_cnJBOZ2Rp4284XdliwGffaAv_X8iV-SUqkjxykOZ4sDs2kNt3CHUO4Tu7Wgqyb4lO4eekS8zDefSyjBKie40wKVgYtACHdIBZiqKJ8NTFGETZqq4bi2s_pclCQT6BttI-6BEgGBUwcIcsT9oq48BDcYpCyYlyVC2YN93I8ud8dpp5NToBHw8e8_pirLrAHtahRDGx4yRTlLLaBXBmjDind6gt3mlQEfOwBauythvGxLY47NcJxD_Q-8cvixYOA9r6nuI5Q5KGD8nJSgk5rJJpK-QGj6nuXhjQSKnXFWpqEh0x5VvthCnrmzm0wI_JAqpyjH4WQrXDNRiYt&zp=Qv6_M9xqTgHV54XcOmGeu9wvD-A-HLpkbM5a9HMLJaNMHzrMr6ehQeqXvaoLA0ta2sQON56XD8c8zDGAggjNuqkzP2kKONufgTxMIKoAWtvkQ67L89M1CuFSDZW_Hel-A6aXpOwch7W43SnFfQqdGdAmr_EegMEnYkDIZV7ELu9hLnmUWfmOozqOgKkCQuKYlUsmzcHY2Uuj4tgvDx7wZtjI5TsvUoHHylmalJ7rCXgEh_4AVaLBPjXCQXoECgmZ799MPUNAIM8RVYN9agHBySuEY1XofYRDkaT7oWzVdGflbdvQ9507vYTE4Zrj1g0_eEhcn4jgC_FVRAFOdOXLyXskeuldNlAtMM2wYcCiXNnDG7VIMM7O-hXoPIeYDDq6
+                                - generic [ref=e3049]:
+                                  - generic: 더 알아보기
+                        - generic "이 게시물에서 실행할 수 있는 작업" [ref=e3050]:
+                          - generic [ref=e3053]:
+                            - button "좋아요" [ref=e3054] [cursor=pointer]:
+                              - img [ref=e3056]
+                              - generic [ref=e3058]:
+                                - generic: 좋아요
+                            - text: 투표
+                            - button "싫어요" [ref=e3059] [cursor=pointer]:
+                              - img [ref=e3061]
+                              - generic [ref=e3063]:
+                                - generic: 싫어요
+                          - link "0 댓글로 이동" [ref=e3064] [cursor=pointer]:
+                            - /url: /user/protopie_official/comments/1rf66c5/build_real_interactions_powered_by_ai_try_beta/?p=1&impressionid=5816830409954165509
+                            - generic [ref=e3065]:
+                              - img [ref=e3067]
+                              - generic [ref=e3070]: "0"
+                            - generic [ref=e3071]:
+                              - generic: 댓글로 이동
+                          - button "공유" [ref=e3075] [cursor=pointer]:
+                            - generic [ref=e3076]:
+                              - img [ref=e3078]
+                              - generic [ref=e3080]: 공유
+                          - link [ref=e3082] [cursor=pointer]:
+                            - /url: https://alb.reddit.com/cr?za=RbTKw-f2_3tzQ7iJvwcvzSIgIW9g8FC0iowYfzUu0IVsHoPE_auOnvpvXYgM0xZ1UH0SCtuDvz2u3d0vpGLZLLkgVBjA7oIymmnPSeYyJTwNuZgmlGbrHv5ueq6CyTxxd2nWRq6Ll1SuXpXag1_svLxJyUu9Llx97lpVsDphbOB_dm8nU28YEqElnKf8ZCVzH9YSO3jet_pMTNP1GHjtJJbRI9qSNMJme2Z0_woFEylBHVj1R2z95ndZeucbE9f-_ajtEE60lF4MqBCddJ-9QJeb8069jr57YbGxHgjdGFIn7t7vvM3Vo-MyUblvFzYIMHlVNfk4oHlg7rZZ89Lbcb2XZvBpJjjCL4jamGF7uImo0BpDbFw7gFjU80vdKfS_rqI9Cl_cna28W7AAVr39qlknxEWQrHiJ8KAxXaqZ4_cnJBOZ2Rp4284XdliwGffaAv_X8iV-SUqkjxykOZ4sDs2kNt3CHUO4Tu7Wgqyb4lO4eekS8zDefSyjBKie40wKVgYtACHdIBZiqKJ8NTFGETZqq4bi2s_pclCQT6BttI-6BEgGBUwcIcsT9oq48BDcYpCyYlyVC2YN93I8ud8dpp5NToBHw8e8_pirLrAHtahRDGx4yRTlLLaBXBmjDind6gt3mlQEfOwBauythvGxLY47NcJxD_Q-8cvixYOA9r6nuI5Q5KGD8nJSgk5rJJpK-QGj6nuXhjQSKnXFWpqEh0x5VvthCnrmzm0wI_JAqpyjH4WQrXDNRiYt&zp=Qv6_M9xqTgHV54XcOmGeu9wvD-A-HLpkbM5a9HMLJaNMHzrMr6ehQeqXvaoLA0ta2sQON56XD8c8zDGAggjNuqkzP2kKONufgTxMIKoAWtvkQ67L89M1CuFSDZW_Hel-A6aXpOwch7W43SnFfQqdGdAmr_EegMEnYkDIZV7ELu9hLnmUWfmOozqOgKkCQuKYlUsmzcHY2Uuj4tgvDx7wZtjI5TsvUoHHylmalJ7rCXgEh_4AVaLBPjXCQXoECgmZ799MPUNAIM8RVYN9agHBySuEY1XofYRDkaT7oWzVdGflbdvQ9507vYTE4Zrj1g0_eEhcn4jgC_FVRAFOdOXLyXskeuldNlAtMM2wYcCiXNnDG7VIMM7O-hXoPIeYDDq6
+                      - separator [ref=e3083]
+                      - article "I made a Multilingual version of the Wheel of Emotions" [ref=e3084]:
+                        - generic [ref=e3085] [cursor=pointer]:
+                          - link "I made a Multilingual version of the Wheel of Emotions" [ref=e3086]:
+                            - /url: /r/InternetIsBeautiful/comments/1sqnkx5/i_made_a_multilingual_version_of_the_wheel_of/
+                            - generic [ref=e3087]:
+                              - generic: I made a Multilingual version of the Wheel of Emotions
+                          - generic [ref=e3088]:
+                            - generic [ref=e3090]:
+                              - generic [ref=e3091]:
+                                - link "작성자는 u/BizVardy입니다" [ref=e3096]:
+                                  - /url: /user/BizVardy/
+                                  - generic [ref=e3097]:
+                                    - img "u/BizVardy 님의 아바타입니다" [ref=e3100]
+                                    - generic [ref=e3101]: u/BizVardy
+                                - generic [ref=e3102]: •
+                                - time [ref=e3104]: 15일 전
+                              - button "사용자 작업 열기" [ref=e3109]:
+                                - img [ref=e3112]
+                            - generic [ref=e3114]:
+                              - link "I made a Multilingual version of the Wheel of Emotions" [ref=e3116]:
+                                - /url: /r/InternetIsBeautiful/comments/1sqnkx5/i_made_a_multilingual_version_of_the_wheel_of/
+                              - link "https://paste.page/multilingual-emotion-wheel" [ref=e3119]:
+                                - /url: https://paste.page/multilingual-emotion-wheel
+                          - generic "이 게시물에서 실행할 수 있는 작업" [ref=e3121]:
+                            - generic [ref=e3124]:
+                              - button "좋아요" [ref=e3125]:
+                                - img [ref=e3127]
+                                - generic [ref=e3129]:
+                                  - generic: 좋아요
+                              - generic [ref=e3131]: "21"
+                              - button "싫어요" [ref=e3132]:
+                                - img [ref=e3134]
+                                - generic [ref=e3136]:
+                                  - generic: 싫어요
+                            - link "12 댓글로 이동" [ref=e3137]:
+                              - /url: /r/InternetIsBeautiful/comments/1sqnkx5/i_made_a_multilingual_version_of_the_wheel_of/
+                              - generic [ref=e3138]:
+                                - img [ref=e3140]
+                                - generic [ref=e3143]: "12"
+                              - generic [ref=e3144]:
+                                - generic: 댓글로 이동
+                            - button "어워드 수여" [ref=e3146]:
+                              - img [ref=e3149]
+                            - button "공유" [ref=e3154]:
+                              - generic [ref=e3155]:
+                                - img [ref=e3157]
+                                - generic [ref=e3159]: 공유
+                      - separator [ref=e3160]
+                      - article "Every chess game leaves a unique visual fingerprint - I built a tool that makes it visible" [ref=e3161]:
+                        - generic [ref=e3162] [cursor=pointer]:
+                          - link "Every chess game leaves a unique visual fingerprint - I built a tool that makes it visible" [ref=e3163]:
+                            - /url: /r/InternetIsBeautiful/comments/1sv7s38/every_chess_game_leaves_a_unique_visual/
+                            - generic [ref=e3164]:
+                              - generic: Every chess game leaves a unique visual fingerprint - I built a tool that makes it visible
+                          - generic [ref=e3165]:
+                            - generic [ref=e3167]:
+                              - generic [ref=e3168]:
+                                - link "작성자는 u/Helpful_Election_586입니다" [ref=e3173]:
+                                  - /url: /user/Helpful_Election_586/
+                                  - generic [ref=e3174]:
+                                    - img [ref=e3179]
+                                    - generic [ref=e3181]: u/Helpful_Election_586
+                                - generic [ref=e3182]: •
+                                - time [ref=e3184]: 10일 전
+                              - button "사용자 작업 열기" [ref=e3189]:
+                                - img [ref=e3192]
+                            - generic [ref=e3194]:
+                              - link "Every chess game leaves a unique visual fingerprint - I built a tool that makes it visible" [ref=e3196]:
+                                - /url: /r/InternetIsBeautiful/comments/1sv7s38/every_chess_game_leaves_a_unique_visual/
+                              - link "https://plottedart.com/" [ref=e3199]:
+                                - /url: https://plottedart.com/
+                            - generic [ref=e3201]:
+                              - link "r/InternetIsBeautiful - Every chess game leaves a unique visual fingerprint - I built a tool that makes it visible" [ref=e3202]:
+                                - /url: https://plottedart.com/
+                                - img "r/InternetIsBeautiful - Every chess game leaves a unique visual fingerprint - I built a tool that makes it visible" [ref=e3203]
+                              - generic:
+                                - generic:
+                                  - img
+                          - generic "이 게시물에서 실행할 수 있는 작업" [ref=e3205]:
+                            - generic [ref=e3208]:
+                              - button "좋아요" [ref=e3209]:
+                                - img [ref=e3211]
+                                - generic [ref=e3213]:
+                                  - generic: 좋아요
+                              - generic [ref=e3215]: "1"
+                              - button "싫어요" [ref=e3216]:
+                                - img [ref=e3218]
+                                - generic [ref=e3220]:
+                                  - generic: 싫어요
+                            - link "5 댓글로 이동" [ref=e3221]:
+                              - /url: /r/InternetIsBeautiful/comments/1sv7s38/every_chess_game_leaves_a_unique_visual/
+                              - generic [ref=e3222]:
+                                - img [ref=e3224]
+                                - generic [ref=e3227]: "5"
+                              - generic [ref=e3228]:
+                                - generic: 댓글로 이동
+                            - button "어워드 수여" [ref=e3230]:
+                              - img [ref=e3233]
+                            - button "공유" [ref=e3238]:
+                              - generic [ref=e3239]:
+                                - img [ref=e3241]
+                                - generic [ref=e3243]: 공유
+                      - separator [ref=e3244]
+                      - article "Interactive map of every major hip-hop beef, collab, and label connection — find the shortest path between any two artists" [ref=e3245]:
+                        - generic [ref=e3246] [cursor=pointer]:
+                          - link "Interactive map of every major hip-hop beef, collab, and label connection — find the shortest path between any two artists" [ref=e3247]:
+                            - /url: /r/InternetIsBeautiful/comments/1sng3kt/interactive_map_of_every_major_hiphop_beef_collab/
+                            - generic [ref=e3248]:
+                              - generic: Interactive map of every major hip-hop beef, collab, and label connection — find the shortest path between any two artists
+                          - generic [ref=e3249]:
+                            - generic [ref=e3251]:
+                              - generic [ref=e3252]:
+                                - link "작성자는 u/lucas_sawyer입니다" [ref=e3257]:
+                                  - /url: /user/lucas_sawyer/
+                                  - generic [ref=e3258]:
+                                    - generic [ref=e3260]:
+                                      - img [ref=e3262]
+                                      - img [ref=e3266]
+                                      - img [ref=e3269]
+                                    - generic [ref=e3271]: u/lucas_sawyer
+                                - generic [ref=e3272]: •
+                                - time [ref=e3274]: 19일 전
+                              - button "사용자 작업 열기" [ref=e3279]:
+                                - img [ref=e3282]
+                            - generic [ref=e3284]:
+                              - link "Interactive map of every major hip-hop beef, collab, and label connection — find the shortest path between any two artists" [ref=e3286]:
+                                - /url: /r/InternetIsBeautiful/comments/1sng3kt/interactive_map_of_every_major_hiphop_beef_collab/
+                              - link "https://sixdegreesofhiphop.com" [ref=e3289]:
+                                - /url: https://sixdegreesofhiphop.com
+                          - generic "이 게시물에서 실행할 수 있는 작업" [ref=e3291]:
+                            - generic [ref=e3294]:
+                              - button "좋아요" [ref=e3295]:
+                                - img [ref=e3297]
+                                - generic [ref=e3299]:
+                                  - generic: 좋아요
+                              - generic [ref=e3301]: "14"
+                              - button "싫어요" [ref=e3302]:
+                                - img [ref=e3304]
+                                - generic [ref=e3306]:
+                                  - generic: 싫어요
+                            - link "6 댓글로 이동" [ref=e3307]:
+                              - /url: /r/InternetIsBeautiful/comments/1sng3kt/interactive_map_of_every_major_hiphop_beef_collab/
+                              - generic [ref=e3308]:
+                                - img [ref=e3310]
+                                - generic [ref=e3313]: "6"
+                              - generic [ref=e3314]:
+                                - generic: 댓글로 이동
+                            - button "어워드 수여" [ref=e3316]:
+                              - img [ref=e3319]
+                            - button "공유" [ref=e3324]:
+                              - generic [ref=e3325]:
+                                - img [ref=e3327]
+                                - generic [ref=e3329]: 공유
+                      - separator [ref=e3330]
+                      - article "NASA has a real-time tracker for the Artemis II crew that's flying to the Moon right now" [ref=e3331]:
+                        - generic [ref=e3332] [cursor=pointer]:
+                          - link "NASA has a real-time tracker for the Artemis II crew that's flying to the Moon right now" [ref=e3333]:
+                            - /url: /r/InternetIsBeautiful/comments/1scebib/nasa_has_a_realtime_tracker_for_the_artemis_ii/
+                            - generic [ref=e3334]:
+                              - generic: NASA has a real-time tracker for the Artemis II crew that's flying to the Moon right now
+                          - generic [ref=e3335]:
+                            - generic [ref=e3337]:
+                              - generic [ref=e3338]:
+                                - link "작성자는 u/AykutSek입니다" [ref=e3343]:
+                                  - /url: /user/AykutSek/
+                                  - generic [ref=e3344]:
+                                    - img [ref=e3349]
+                                    - generic [ref=e3351]: u/AykutSek
+                                - generic [ref=e3352]: •
+                                - time [ref=e3354]: 1개월 전
+                              - button "사용자 작업 열기" [ref=e3359]:
+                                - img [ref=e3362]
+                            - generic [ref=e3364]:
+                              - link "NASA has a real-time tracker for the Artemis II crew that's flying to the Moon right now" [ref=e3366]:
+                                - /url: /r/InternetIsBeautiful/comments/1scebib/nasa_has_a_realtime_tracker_for_the_artemis_ii/
+                              - link "https://nasa.gov/trackartemis" [ref=e3369]:
+                                - /url: https://nasa.gov/trackartemis
+                          - generic "이 게시물에서 실행할 수 있는 작업" [ref=e3371]:
+                            - generic [ref=e3374]:
+                              - button "좋아요" [ref=e3375]:
+                                - img [ref=e3377]
+                                - generic [ref=e3379]:
+                                  - generic: 좋아요
+                              - generic [ref=e3381]: "396"
+                              - button "싫어요" [ref=e3382]:
+                                - img [ref=e3384]
+                                - generic [ref=e3386]:
+                                  - generic: 싫어요
+                            - link "18 댓글로 이동" [ref=e3387]:
+                              - /url: /r/InternetIsBeautiful/comments/1scebib/nasa_has_a_realtime_tracker_for_the_artemis_ii/
+                              - generic [ref=e3388]:
+                                - img [ref=e3390]
+                                - generic [ref=e3393]: "18"
+                              - generic [ref=e3394]:
+                                - generic: 댓글로 이동
+                            - button "어워드 수여" [ref=e3396]:
+                              - img [ref=e3399]
+                            - button "공유" [ref=e3404]:
+                              - generic [ref=e3405]:
+                                - img [ref=e3407]
+                                - generic [ref=e3409]: 공유
+                      - separator [ref=e3410]
+                      - article "Ferry network tracker/visualizer for San Francisco, Seattle, New York, Brisbane, Sydney, and Auckland" [ref=e3411]:
+                        - generic [ref=e3412] [cursor=pointer]:
+                          - link "Ferry network tracker/visualizer for San Francisco, Seattle, New York, Brisbane, Sydney, and Auckland" [ref=e3413]:
+                            - /url: /r/InternetIsBeautiful/comments/1t0untw/ferry_network_trackervisualizer_for_san_francisco/
+                            - generic [ref=e3414]:
+                              - generic: Ferry network tracker/visualizer for San Francisco, Seattle, New York, Brisbane, Sydney, and Auckland
+                          - generic [ref=e3415]:
+                            - generic [ref=e3417]:
+                              - generic [ref=e3418]:
+                                - link "작성자는 u/DerHund57입니다" [ref=e3423]:
+                                  - /url: /user/DerHund57/
+                                  - generic [ref=e3424]:
+                                    - img [ref=e3429]
+                                    - generic [ref=e3431]: u/DerHund57
+                                - generic [ref=e3432]: •
+                                - time [ref=e3434]: 4일 전
+                              - button "사용자 작업 열기" [ref=e3439]:
+                                - img [ref=e3442]
+                            - generic [ref=e3444]:
+                              - link "Ferry network tracker/visualizer for San Francisco, Seattle, New York, Brisbane, Sydney, and Auckland" [ref=e3446]:
+                                - /url: /r/InternetIsBeautiful/comments/1t0untw/ferry_network_trackervisualizer_for_san_francisco/
+                              - link "https://www.waketrace.xyz/" [ref=e3449]:
+                                - /url: https://www.waketrace.xyz/
+                          - generic "이 게시물에서 실행할 수 있는 작업" [ref=e3451]:
+                            - generic [ref=e3454]:
+                              - button "좋아요" [ref=e3455]:
+                                - img [ref=e3457]
+                                - generic [ref=e3459]:
+                                  - generic: 좋아요
+                              - generic [ref=e3461]: "81"
+                              - button "싫어요" [ref=e3462]:
+                                - img [ref=e3464]
+                                - generic [ref=e3466]:
+                                  - generic: 싫어요
+                            - link "9 댓글로 이동" [ref=e3467]:
+                              - /url: /r/InternetIsBeautiful/comments/1t0untw/ferry_network_trackervisualizer_for_san_francisco/
+                              - generic [ref=e3468]:
+                                - img [ref=e3470]
+                                - generic [ref=e3473]: "9"
+                              - generic [ref=e3474]:
+                                - generic: 댓글로 이동
+                            - button "어워드 수여" [ref=e3476]:
+                              - img [ref=e3479]
+                            - button "공유" [ref=e3484]:
+                              - generic [ref=e3485]:
+                                - img [ref=e3487]
+                                - generic [ref=e3489]: 공유
+                      - separator [ref=e3490]
+                - img [ref=e3496]
+          - generic [ref=e3509]:
+            - complementary "커뮤니티 정보" [ref=e3513]:
+              - generic [ref=e3514]:
+                - generic [ref=e3516]:
+                  - heading "커뮤니티 정보 섹션" [level=1] [ref=e3517]
+                  - generic [ref=e3518]:
+                    - generic [ref=e3519]: 10/10 would bookmark again
+                    - generic [ref=e3520]:
+                      - generic [ref=e3522]:
+                        - img [ref=e3523]
+                        - text: "생성일: 2012년 7월 25일"
+                      - generic [ref=e3526]:
+                        - img [ref=e3527]
+                        - text: 공개
+                  - generic [ref=e3529]:
+                    - generic [ref=e3530]:
+                      - strong [ref=e3532]:
+                        - generic: 12만
+                      - generic [ref=e3533]: 주간 방문자 수
+                    - generic [ref=e3534]:
+                      - strong [ref=e3536]:
+                        - generic: 1.1천
+                      - generic [ref=e3537]: 주간 기여 수
+                - separator [ref=e3538]
+                - generic [ref=e3539]:
+                  - heading "What to Post" [level=2] [ref=e3541]:
+                    - generic [ref=e3542]: What to Post
+                  - list [ref=e3545]:
+                    - listitem [ref=e3546]: Single purpose websites.
+                    - listitem [ref=e3547]: Top-level domains.
+                    - listitem [ref=e3548]: Web Tools.
+                    - listitem [ref=e3549]: Minimal or beautifully designed websites.
+                    - listitem [ref=e3550]: Awesome websites that offer a unique service.
+                - separator [ref=e3551]
+                - generic [ref=e3552]:
+                  - heading "r/InternetIsBeautiful 이용 수칙" [level=2] [ref=e3554]:
+                    - generic [ref=e3555]: r/InternetIsBeautiful 이용 수칙
+                  - generic [ref=e3556]:
+                    - group [ref=e3558]:
+                      - generic "1 No Aggregations or Collections" [ref=e3559] [cursor=pointer]:
+                        - generic [ref=e3561]:
+                          - generic [ref=e3562]:
+                            - generic [ref=e3564]: "1"
+                            - heading "No Aggregations or Collections" [level=2] [ref=e3568]
+                          - img [ref=e3571]
+                    - group [ref=e3574]:
+                      - generic "2 Not Unique" [ref=e3575] [cursor=pointer]:
+                        - generic [ref=e3577]:
+                          - generic [ref=e3578]:
+                            - generic [ref=e3580]: "2"
+                            - heading "Not Unique" [level=2] [ref=e3584]
+                          - img [ref=e3587]
+                    - group [ref=e3590]:
+                      - generic "3 No Webgames" [ref=e3591] [cursor=pointer]:
+                        - generic [ref=e3593]:
+                          - generic [ref=e3594]:
+                            - generic [ref=e3596]: "3"
+                            - heading "No Webgames" [level=2] [ref=e3600]
+                          - img [ref=e3603]
+                    - group [ref=e3606]:
+                      - generic "4 No Articles, Videos or Images" [ref=e3607] [cursor=pointer]:
+                        - generic [ref=e3609]:
+                          - generic [ref=e3610]:
+                            - generic [ref=e3612]: "4"
+                            - heading "No Articles, Videos or Images" [level=2] [ref=e3616]
+                          - img [ref=e3619]
+                    - group [ref=e3622]:
+                      - generic "5 No Stores or Demos" [ref=e3623] [cursor=pointer]:
+                        - generic [ref=e3625]:
+                          - generic [ref=e3626]:
+                            - generic [ref=e3628]: "5"
+                            - heading "No Stores or Demos" [level=2] [ref=e3632]
+                          - img [ref=e3635]
+                    - group [ref=e3638]:
+                      - generic "6 No sites that require personal information" [ref=e3639] [cursor=pointer]:
+                        - generic [ref=e3641]:
+                          - generic [ref=e3642]:
+                            - generic [ref=e3644]: "6"
+                            - heading "No sites that require personal information" [level=2] [ref=e3648]
+                          - img [ref=e3651]
+                    - group [ref=e3654]:
+                      - generic "7 No Extensions or Downloads" [ref=e3655] [cursor=pointer]:
+                        - generic [ref=e3657]:
+                          - generic [ref=e3658]:
+                            - generic [ref=e3660]: "7"
+                            - heading "No Extensions or Downloads" [level=2] [ref=e3664]
+                          - img [ref=e3667]
+                    - group [ref=e3670]:
+                      - generic "8 Hug of Death (╯°□°)╯︵ ┻━┻" [ref=e3671] [cursor=pointer]:
+                        - generic [ref=e3673]:
+                          - generic [ref=e3674]:
+                            - generic [ref=e3676]: "8"
+                            - heading "Hug of Death (╯°□°)╯︵ ┻━┻" [level=2] [ref=e3680]
+                          - img [ref=e3683]
+                    - group [ref=e3686]:
+                      - generic "9 No Politics" [ref=e3687] [cursor=pointer]:
+                        - generic [ref=e3689]:
+                          - generic [ref=e3690]:
+                            - generic [ref=e3692]: "9"
+                            - heading "No Politics" [level=2] [ref=e3696]
+                          - img [ref=e3699]
+                    - group [ref=e3702]:
+                      - generic "10 AI-Generated Content" [ref=e3703] [cursor=pointer]:
+                        - generic [ref=e3705]:
+                          - generic [ref=e3706]:
+                            - generic [ref=e3708]: "10"
+                            - heading "AI-Generated Content" [level=2] [ref=e3712]
+                          - img [ref=e3715]
+                    - group [ref=e3718]:
+                      - generic "11 No accounts designed for self-promotion" [ref=e3719] [cursor=pointer]:
+                        - generic [ref=e3721]:
+                          - generic [ref=e3722]:
+                            - generic [ref=e3724]: "11"
+                            - heading "No accounts designed for self-promotion" [level=2] [ref=e3728]
+                          - img [ref=e3731]
+                    - group [ref=e3734]:
+                      - generic "12 No Business Tools" [ref=e3735] [cursor=pointer]:
+                        - generic [ref=e3737]:
+                          - generic [ref=e3738]:
+                            - generic [ref=e3740]: "12"
+                            - heading "No Business Tools" [level=2] [ref=e3744]
+                          - img [ref=e3747]
+                    - group [ref=e3750]:
+                      - generic "13 Civility" [ref=e3751] [cursor=pointer]:
+                        - generic [ref=e3753]:
+                          - generic [ref=e3754]:
+                            - generic [ref=e3756]: "13"
+                            - heading "Civility" [level=2] [ref=e3760]
+                          - img [ref=e3763]
+                - separator [ref=e3765]
+                - generic [ref=e3766]:
+                  - heading "Rule Explanations" [level=2] [ref=e3768]:
+                    - generic [ref=e3769]: Rule Explanations
+                  - paragraph [ref=e3772]:
+                    - text: Detailed explanations of our rules can be found
+                    - link "here" [ref=e3773] [cursor=pointer]:
+                      - /url: /r/InternetIsBeautiful/w/rules
+                - separator [ref=e3774]
+                - generic [ref=e3775]:
+                  - heading "Moderator Discretion" [level=2] [ref=e3777]:
+                    - generic [ref=e3778]: Moderator Discretion
+                  - paragraph [ref=e3781]: Beauty is in the eye of the beholder, but we have beheld a lot! This subreddit is highly curated and the moderators frequently must use their discretion and judgement when enforcing our rules.
+                - separator [ref=e3782]
+                - generic [ref=e3783]:
+                  - heading "모더레이터" [level=2] [ref=e3785]:
+                    - generic [ref=e3786]: 모더레이터
+                  - link "모더레이터에게 메시지 보내기" [ref=e3788] [cursor=pointer]:
+                    - /url: https://www.reddit.com/message/compose?to=r/InternetIsBeautiful
+                    - generic [ref=e3789]:
+                      - img [ref=e3791]
+                      - generic [ref=e3793]: 모더레이터에게 메시지 보내기
+                  - generic [ref=e3795]:
+                    - img [ref=e3802]
+                    - generic [ref=e3806]:
+                      - link "u/Kesha_Paul" [ref=e3807] [cursor=pointer]:
+                        - /url: /user/Kesha_Paul/
+                      - generic "I moderated for 10 years and all I got was this lousy flair 플레어입니다" [ref=e3809]: I moderated for 10 years and all I got was this lousy flair
+                  - generic [ref=e3811]:
+                    - img "u/SudoSudonym 님의 아바타입니다" [ref=e3816]
+                    - generic [ref=e3819]:
+                      - link "u/SudoSudonym" [ref=e3820] [cursor=pointer]:
+                        - /url: /user/SudoSudonym/
+                      - generic "Veni Vidi Iudico 플레어입니다" [ref=e3822]: Veni Vidi Iudico
+                  - generic [ref=e3824]:
+                    - generic [ref=e3828]:
+                      - img [ref=e3830]
+                      - img [ref=e3834]
+                      - img [ref=e3837]
+                    - generic [ref=e3839]:
+                      - generic [ref=e3841]:
+                        - link "u/esoterix_luke" [ref=e3842] [cursor=pointer]:
+                          - /url: /user/esoterix_luke/
+                        - generic "best mod 플레어입니다" [ref=e3844]: best mod
+                      - generic [ref=e3846]: +++
+                  - generic [ref=e3848]:
+                    - img [ref=e3855]
+                    - link "u/djshadesuk" [ref=e3860] [cursor=pointer]:
+                      - /url: /user/djshadesuk/
+                  - link "모더레이터 모두 보기" [ref=e3861] [cursor=pointer]:
+                    - /url: /mod/InternetIsBeautiful/moderators/
+                    - generic [ref=e3863]: 모더레이터 모두 보기
+            - generic [ref=e3865]:
+              - link "Reddit 콘텐츠 규정" [ref=e3868] [cursor=pointer]:
+                - /url: https://www.redditinc.com/policies/content-policy
+              - link "개인정보 처리방침" [ref=e3871] [cursor=pointer]:
+                - /url: https://www.reddit.com/policies/privacy-policy
+              - link "이용 약관" [ref=e3874] [cursor=pointer]:
+                - /url: https://www.redditinc.com/policies/user-agreement
+              - link "접근성" [ref=e3877] [cursor=pointer]:
+                - /url: https://support.reddithelp.com/hc/sections/38303584022676-Accessibility
+              - link "Reddit, Inc. © 2026. All rights reserved." [ref=e3879] [cursor=pointer]:
+                - /url: https://redditinc.com
+      - dialog "교체 게시 넛지 대화입니다" [ref=e3882]:
+        - generic [ref=e3883]:
+          - generic [ref=e3885]:
+            - generic:
+              - button "교차 게시 넛지 종료 대화입니다" [active] [ref=e3889] [cursor=pointer]:
+                - img [ref=e3892]
+                - generic [ref=e3894]:
+                  - generic: 교차 게시 넛지 종료 대화입니다
+              - generic [ref=e3895]:
+                - heading "게시물을 더 많은 사람들에게 공유하세요" [level=2] [ref=e3898]
+                - generic [ref=e3900]: 다른 커뮤니티에 게시물을 교차 게시하여 더 많은 사람들이 볼 수 있도록 하세요.
+          - link "교차 게시" [ref=e3904] [cursor=pointer]:
+            - /url: /submit?source_id=t3_1t4e1lt&composer_entry=crosspost_nudge
+            - generic [ref=e3906]: 교차 게시

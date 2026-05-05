@@ -1,0 +1,208 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "topAI.tools logo" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "topAI.tools logo" [ref=e5]
+        - img [ref=e6]:
+          - generic [ref=e7]: TopAI.tools
+      - navigation [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link " Browse " [ref=e11] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e12]:
+                - generic [ref=e13]: 
+                - text: Browse
+              - generic [ref=e14]: 
+            - text:      
+          - listitem [ref=e15]: 
+          - listitem [ref=e16]:
+            - link " Deals" [ref=e17] [cursor=pointer]:
+              - /url: /deals
+              - generic [ref=e18]: 
+              - text: Deals
+          - listitem [ref=e19]:
+            - link " Search" [ref=e20] [cursor=pointer]:
+              - /url: /ai-assist
+              - generic [ref=e21]: 
+              - text: Search
+          - listitem [ref=e22]: 
+          - listitem [ref=e23]:
+            - link " Submit" [ref=e24] [cursor=pointer]:
+              - /url: /submit
+              - generic [ref=e25]: 
+              - text: Submit
+      - generic [ref=e26]:
+        - link "" [ref=e27] [cursor=pointer]:
+          - /url: https://twitter.com/ToolsTopai
+          - generic [ref=e28]: 
+        - link "" [ref=e29] [cursor=pointer]:
+          - /url: https://instagram.com/topaitools
+          - generic [ref=e30]: 
+        - link "" [ref=e31] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/topaitools/
+          - generic [ref=e32]: 
+      - generic [ref=e33] [cursor=pointer]: 
+      - text: 
+  - main [ref=e34]:
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - heading "Submit your tool" [level=2] [ref=e39]
+        - paragraph [ref=e40]: Submit your tool and reach 2M+ qualified users actively searching for AI tools like yours every month.
+      - generic [ref=e42]:
+        - heading "$47 One time" [level=2] [ref=e43]
+        - heading "Fast Listing" [level=3] [ref=e44]
+        - paragraph [ref=e45]:
+          - generic [ref=e46]: 
+          - text: Live within 48hrs
+        - paragraph [ref=e47]:
+          - generic [ref=e48]: 
+          - text: Home page visibility (Just landed section)
+        - paragraph [ref=e49]:
+          - link "Submit Now" [ref=e50] [cursor=pointer]:
+            - /url: https://buy.stripe.com/dR62b87SJaNz1POfZ4
+      - generic [ref=e52]:
+        - heading "$229 One time" [level=2] [ref=e53]
+        - heading "Premium Listing" [level=3] [ref=e54]
+        - paragraph [ref=e55]:
+          - generic [ref=e56]: 
+          - text: Premium placement for 7 days
+        - paragraph [ref=e57]:
+          - generic [ref=e58]: 
+          - text: Top spots in category pages for 7 days
+        - paragraph [ref=e59]:
+          - link "Get Boosted" [ref=e60] [cursor=pointer]:
+            - /url: https://buy.stripe.com/dR6174dd3f3P5204gl
+    - paragraph [ref=e64]:
+      - text: All tool submissions are subject to editorial review. You receive an automated refund if your tool is not accepted. By submitting your tool you agree to our
+      - link "Terms of Service" [ref=e65] [cursor=pointer]:
+        - /url: /terms
+      - text: .
+    - generic [ref=e66]:
+      - generic [ref=e67]:
+        - heading "Why TopAI.tools Drives Growth" [level=2] [ref=e68]
+        - paragraph [ref=e69]: Join 10K+ AI tools already growing their user base through our platform
+      - generic [ref=e70]:
+        - generic [ref=e73]:
+          - generic [ref=e75]: 
+          - generic [ref=e76]:
+            - heading "Proven Traffic Engine" [level=3] [ref=e77]
+            - generic [ref=e78]: 2M+ Monthly Visitors
+            - paragraph [ref=e79]: Consistent growth in qualified traffic
+            - generic [ref=e80]:
+              - generic [ref=e83]: Millions of monthly AI tool seekers
+              - generic [ref=e86]: Top 3 AI tools directories by traffic
+              - generic [ref=e89]: 20K+ outbound link clicks per day
+        - generic [ref=e92]:
+          - generic [ref=e94]: 
+          - generic [ref=e95]:
+            - heading "Quality Lead Generation" [level=3] [ref=e96]
+            - generic [ref=e97]: Active AI Community
+            - paragraph [ref=e98]: Reach real AI tool users
+            - generic [ref=e99]:
+              - generic [ref=e102]: 100K+ high intent searches daily
+              - generic [ref=e105]: 3.5 min average time on site
+              - generic [ref=e108]: Global reach with focus on tech hubs
+        - generic [ref=e111]:
+          - generic [ref=e113]: 
+          - generic [ref=e114]:
+            - heading "Lasting ROI" [level=3] [ref=e115]
+            - generic [ref=e116]: Lifetime Value
+            - paragraph [ref=e117]: One-time fee, lasting benefits
+            - generic [ref=e118]:
+              - generic [ref=e121]: Regular exposure through search & related tools
+              - generic [ref=e124]: SEO performance boost for your business
+              - generic [ref=e127]: Discounted feature opportunities
+    - generic [ref=e128]:
+      - generic [ref=e129]:
+        - heading "Frequently Asked Questions" [level=2] [ref=e130]
+        - paragraph [ref=e131]: Everything you need to know about listing your AI tool
+      - generic [ref=e132]:
+        - generic [ref=e133]:
+          - heading "What are the benefits of listing with TopAI.tools?" [level=3] [ref=e134]:
+            - button "What are the benefits of listing with TopAI.tools?" [ref=e135] [cursor=pointer]
+          - list [ref=e138]:
+            - listitem [ref=e139]: "✨ Massive Exposure: Reach millions of AI enthusiasts actively searching for tools like yours."
+            - listitem [ref=e140]: "🔍 SEO Boost: Benefit from our high domain authority and targeted AI traffic."
+            - listitem [ref=e141]: "🎯 Qualified Traffic: Connect with users actively seeking AI solutions."
+            - listitem [ref=e142]: "🌱 Growth Platform: Join the fastest-growing AI tools directory."
+        - heading "What types of tools qualify for listing?" [level=3] [ref=e144]:
+          - button "What types of tools qualify for listing?" [ref=e145] [cursor=pointer]
+        - heading "How quickly will my tool be listed?" [level=3] [ref=e147]:
+          - button "How quickly will my tool be listed?" [ref=e148] [cursor=pointer]
+        - heading "How can I maximize my tool's exposure?" [level=3] [ref=e150]:
+          - button "How can I maximize my tool's exposure?" [ref=e151] [cursor=pointer]
+        - heading "How long does my listing remain active?" [level=3] [ref=e153]:
+          - button "How long does my listing remain active?" [ref=e154] [cursor=pointer]
+        - heading "Can I update my listing later?" [level=3] [ref=e156]:
+          - button "Can I update my listing later?" [ref=e157] [cursor=pointer]
+        - heading "How can I boost my tool visibility further?" [level=3] [ref=e159]:
+          - button "How can I boost my tool visibility further?" [ref=e160] [cursor=pointer]
+        - heading "Will my tool be removed from the directory?" [level=3] [ref=e162]:
+          - button "Will my tool be removed from the directory?" [ref=e163] [cursor=pointer]
+  - contentinfo [ref=e164]:
+    - generic [ref=e165]:
+      - generic [ref=e166]:
+        - generic [ref=e167]:
+          - link "topai.tools logo TopAI.tools" [ref=e168] [cursor=pointer]:
+            - /url: /
+            - img "topai.tools logo" [ref=e169]
+            - text: TopAI.tools
+          - paragraph [ref=e170]: Easily find AI tools for every task you do.
+        - generic [ref=e171]:
+          - heading "Resources" [level=6] [ref=e172]
+          - link "AI Tools Deals" [ref=e174] [cursor=pointer]:
+            - /url: /deals
+          - link "All AI Categories" [ref=e176] [cursor=pointer]:
+            - /url: /categories
+          - link "AI Usecases" [ref=e178] [cursor=pointer]:
+            - /url: /usecases
+          - link "Most popular AI" [ref=e180] [cursor=pointer]:
+            - /url: /browse?sort=2
+          - link "Top 100 AI tools list" [ref=e182] [cursor=pointer]:
+            - /url: /top-100-ai-tools
+          - link "Free AI tools" [ref=e184] [cursor=pointer]:
+            - /url: /free-ai-tools
+        - generic [ref=e185]:
+          - heading "Support" [level=6] [ref=e186]
+          - link "Submit Tool" [ref=e188] [cursor=pointer]:
+            - /url: /submit
+          - link "Update Tool" [ref=e190] [cursor=pointer]:
+            - /url: /update-ai
+          - link "About Us" [ref=e192] [cursor=pointer]:
+            - /url: /about
+          - link "FAQ" [ref=e194] [cursor=pointer]:
+            - /url: /faq
+        - generic [ref=e195]:
+          - heading "Social links" [level=6] [ref=e196]
+          - generic [ref=e197]:
+            - link "" [ref=e198] [cursor=pointer]:
+              - /url: https://twitter.com/ToolsTopai
+              - generic [ref=e199]: 
+            - link "" [ref=e200] [cursor=pointer]:
+              - /url: https://facebook.com/topaitools
+              - generic [ref=e201]: 
+            - link "" [ref=e202] [cursor=pointer]:
+              - /url: https://instagram.com/topaitools
+              - generic [ref=e203]: 
+            - link "" [ref=e204] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/topaitools/
+              - generic [ref=e205]: 
+      - generic [ref=e206]:
+        - text: © Copyright
+        - strong [ref=e207]: TopAI.tools
+        - text: . All Rights Reserved
+        - link "Privacy policy" [ref=e208] [cursor=pointer]:
+          - /url: /privacy
+        - link "Service terms" [ref=e209] [cursor=pointer]:
+          - /url: /terms
+  - generic: 
+  - generic:
+    - generic:
+      - button "Search" [ref=e210] [cursor=pointer]:
+        - img [ref=e211]
+      - generic:
+        - generic:
+          - searchbox "Find AI Tools"
+  - generic: 🔍 Looking for AI tools? Try searching!

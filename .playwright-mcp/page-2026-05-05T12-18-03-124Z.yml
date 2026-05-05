@@ -1,0 +1,189 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "Product Hunt Logo" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - img [ref=e7]
+          - button [ref=e11] [cursor=pointer]:
+            - img [ref=e12]
+        - navigation "Main Navigation" [ref=e14]:
+          - list [ref=e15]:
+            - listitem [ref=e16]:
+              - link "Best Products" [ref=e17] [cursor=pointer]:
+                - /url: /categories?ref=header_nav
+                - text: Best Products
+                - img [ref=e18]
+            - listitem [ref=e20]:
+              - link "Launches" [ref=e21] [cursor=pointer]:
+                - /url: /leaderboard/daily/2026/5/5?ref=header_nav
+                - text: Launches
+                - img [ref=e22]
+            - listitem [ref=e24]:
+              - link "News" [ref=e25] [cursor=pointer]:
+                - /url: /newsletters?ref=header_nav
+                - text: News
+                - img [ref=e26]
+            - listitem [ref=e28]:
+              - link "Forums" [ref=e29] [cursor=pointer]:
+                - /url: /forums?ref=header_nav
+                - text: Forums
+                - img [ref=e30]
+        - generic [ref=e32]:
+          - button [ref=e33] [cursor=pointer]:
+            - link [ref=e34]:
+              - /url: /posts/new
+              - img [ref=e35]
+          - button [ref=e38] [cursor=pointer]:
+            - link [ref=e39]:
+              - /url: /notifications
+              - img
+          - button "Orara ToT" [ref=e40] [cursor=pointer]:
+            - link "Orara ToT" [ref=e41]:
+              - /url: /@orara_tot
+              - img "Orara ToT" [ref=e42]
+    - generic [ref=e44]:
+      - main [ref=e45]:
+        - generic [ref=e46]:
+          - generic [ref=e47]:
+            - generic [ref=e49]:
+              - img "Arcana Insight" [ref=e50]
+              - generic [ref=e51]:
+                - heading "Arcana Insight" [level=1] [ref=e53]
+                - generic [ref=e54]:
+                  - heading "78 tarot cards. Your question. Your reading. 8 languages." [level=2] [ref=e55]
+                  - paragraph [ref=e57]: 1 follower
+            - link "Visit website" [ref=e59] [cursor=pointer]:
+              - /url: https://tarot-bzi.pages.dev/?ref=producthunt
+          - generic [ref=e61]: Free AI-powered tarot reading online. Draw from 78 real tarot cards and get an instant personalized reading in 8 languages. No signup needed. ดูดวงไพ่ทาโรต์ AI ฟรี | 無料AIタロット占い
+          - list [ref=e62]:
+            - listitem [ref=e63]:
+              - link "Overview" [ref=e64] [cursor=pointer]:
+                - /url: /products/arcana-insight
+                - generic [ref=e65]: Overview
+            - listitem [ref=e66]:
+              - link "Reviews" [ref=e67] [cursor=pointer]:
+                - /url: /products/arcana-insight/reviews
+                - generic [ref=e68]: Reviews
+            - listitem [ref=e69]:
+              - link "Team" [ref=e70] [cursor=pointer]:
+                - /url: /products/arcana-insight/makers
+                - generic [ref=e71]: Team
+            - listitem [ref=e72]:
+              - button "More" [ref=e73] [cursor=pointer]
+        - generic [ref=e74]:
+          - generic [ref=e78]:
+            - generic "Arcana Insight gallery media" [ref=e79] [cursor=pointer]:
+              - img "Arcana Insight gallery image" [ref=e81]
+            - generic "Arcana Insight gallery media" [ref=e82] [cursor=pointer]:
+              - img "Arcana Insight gallery image" [ref=e84]
+          - generic [ref=e87]: Free Options
+          - generic [ref=e90]:
+            - img [ref=e92]
+            - generic [ref=e94]: Launch Team
+            - generic [ref=e95]:
+              - link "Orara ToT" [ref=e96] [cursor=pointer]:
+                - /url: /@orara_tot
+                - button "Orara ToT" [ref=e97]:
+                  - img "Orara ToT" [ref=e98]
+                - img [ref=e99]
+                - img [ref=e103]
+              - button "Show more" [ref=e107] [cursor=pointer]:
+                - text: Show more
+                - img [ref=e108]
+      - complementary [ref=e114]:
+        - generic [ref=e115]:
+          - generic [ref=e117]: Company Info
+          - link "tarot-bzi.pages.dev" [ref=e118] [cursor=pointer]:
+            - /url: https://tarot-bzi.pages.dev/?ref=producthunt
+            - img [ref=e119]
+            - generic [ref=e121]: tarot-bzi.pages.dev
+        - generic [ref=e122]:
+          - generic [ref=e123]: Arcana Insight Info
+          - generic [ref=e124]:
+            - img [ref=e125]
+            - text: Launched in 2026
+        - generic [ref=e129]:
+          - generic [ref=e130]: Forum
+          - link "p/arcana-insight" [ref=e131] [cursor=pointer]:
+            - /url: /p/arcana-insight
+            - img [ref=e132]
+            - generic [ref=e135]: p/arcana-insight
+    - contentinfo [ref=e136]:
+      - generic [ref=e137]:
+        - generic [ref=e138]: Top Product Categories
+        - generic [ref=e139]:
+          - button "Engineering & Development" [ref=e141] [cursor=pointer]:
+            - generic [ref=e142]: Engineering & Development
+            - img [ref=e143]
+          - button "LLMs" [ref=e146] [cursor=pointer]:
+            - generic [ref=e147]: LLMs
+            - img [ref=e148]
+          - button "Productivity" [ref=e151] [cursor=pointer]:
+            - generic [ref=e152]: Productivity
+            - img [ref=e153]
+          - button "Marketing & Sales" [ref=e156] [cursor=pointer]:
+            - generic [ref=e157]: Marketing & Sales
+            - img [ref=e158]
+          - button "Design & Creative" [ref=e161] [cursor=pointer]:
+            - generic [ref=e162]: Design & Creative
+            - img [ref=e163]
+          - button "Social & Community" [ref=e166] [cursor=pointer]:
+            - generic [ref=e167]: Social & Community
+            - img [ref=e168]
+          - button "Finance" [ref=e171] [cursor=pointer]:
+            - generic [ref=e172]: Finance
+            - img [ref=e173]
+          - button "AI Agents" [ref=e176] [cursor=pointer]:
+            - generic [ref=e177]: AI Agents
+            - img [ref=e178]
+      - generic [ref=e182]:
+        - button "Trending categories" [ref=e184] [cursor=pointer]:
+          - generic [ref=e185]: Trending categories
+          - img [ref=e186]
+        - button "Top reviewed" [ref=e189] [cursor=pointer]:
+          - generic [ref=e190]: Top reviewed
+          - img [ref=e191]
+        - button "Trending products" [ref=e194] [cursor=pointer]:
+          - generic [ref=e195]: Trending products
+          - img [ref=e196]
+        - button "Top forum threads" [ref=e199] [cursor=pointer]:
+          - generic [ref=e200]: Top forum threads
+          - img [ref=e201]
+      - generic [ref=e205]:
+        - generic [ref=e206]: © 2026 Product Hunt
+        - generic [ref=e207]:
+          - link "Newsletter" [ref=e208] [cursor=pointer]:
+            - /url: /newsletters
+          - link "Apps" [ref=e209] [cursor=pointer]:
+            - /url: /apps
+          - link "About" [ref=e210] [cursor=pointer]:
+            - /url: /about
+          - link "FAQ" [ref=e211] [cursor=pointer]:
+            - /url: https://help.producthunt.com
+          - link "Terms" [ref=e212] [cursor=pointer]:
+            - /url: /legal#terms
+          - link "Privacy & Cookies" [ref=e213] [cursor=pointer]:
+            - /url: /legal#privacy
+          - link "Privacy Choices" [ref=e214] [cursor=pointer]:
+            - /url: /privacy/do-not-sell
+          - link "Advertise" [ref=e215] [cursor=pointer]:
+            - /url: /sponsor?utm_content=sf
+          - link "llms.txt" [ref=e216] [cursor=pointer]:
+            - /url: /llms.txt
+          - generic [ref=e217]:
+            - text: "Contact us:"
+            - link "hello@producthunt.com" [ref=e218] [cursor=pointer]:
+              - /url: mailto:hello@producthunt.com
+        - generic [ref=e219]:
+          - link [ref=e220] [cursor=pointer]:
+            - /url: https://x.com/ProductHunt
+            - img [ref=e221]
+          - link [ref=e223] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/producthunt
+            - img [ref=e224]
+  - generic [ref=e227] [cursor=pointer]:
+    - text: Arcana Insight Launch tips 🚀
+    - img [ref=e228]
+  - alert [ref=e230]

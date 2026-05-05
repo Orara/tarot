@@ -1,0 +1,39 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "Product Hunt Logo" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - img [ref=e7]
+          - button [ref=e11] [cursor=pointer]:
+            - img [ref=e12]
+        - navigation "Main Navigation" [ref=e14]:
+          - list [ref=e15]:
+            - listitem [ref=e16]:
+              - link "Best Products" [ref=e17] [cursor=pointer]:
+                - /url: /categories?ref=header_nav
+                - text: Best Products
+                - img [ref=e18]
+            - listitem [ref=e20]:
+              - link "Launches" [ref=e21] [cursor=pointer]:
+                - /url: /leaderboard/daily/2026/5/5?ref=header_nav
+                - text: Launches
+                - img [ref=e22]
+            - listitem [ref=e24]:
+              - link "News" [ref=e25] [cursor=pointer]:
+                - /url: /newsletters?ref=header_nav
+                - text: News
+                - img [ref=e26]
+            - listitem [ref=e28]:
+              - link "Forums" [ref=e29] [cursor=pointer]:
+                - /url: /forums?ref=header_nav
+                - text: Forums
+                - img [ref=e30]
+    - generic [ref=e34]:
+      - heading "404" [level=2] [ref=e35]
+      - heading "We seem to have lost this page" [level=1] [ref=e36]
+      - paragraph [ref=e37]: Please accept these adorable photos of our PH team's furry friend as our humble apology for the inconvenience. Let's get you back to the homepage
+      - link "Go to the homepage" [ref=e38] [cursor=pointer]:
+        - /url: /
+  - alert [ref=e40]

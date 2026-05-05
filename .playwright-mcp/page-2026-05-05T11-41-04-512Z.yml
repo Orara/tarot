@@ -1,0 +1,230 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "Product Hunt Logo" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - img [ref=e7]
+          - button [ref=e158] [cursor=pointer]:
+            - img [ref=e159]
+        - navigation "Main Navigation" [ref=e15]:
+          - list [ref=e16]:
+            - listitem [ref=e17]:
+              - link "Best Products" [ref=e18] [cursor=pointer]:
+                - /url: /categories?ref=header_nav
+                - text: Best Products
+                - img [ref=e19]
+            - listitem [ref=e21]:
+              - link "Launches" [ref=e22] [cursor=pointer]:
+                - /url: /leaderboard/daily/2026/5/5?ref=header_nav
+                - text: Launches
+                - img [ref=e23]
+            - listitem [ref=e25]:
+              - link "News" [ref=e26] [cursor=pointer]:
+                - /url: /newsletters?ref=header_nav
+                - text: News
+                - img [ref=e27]
+            - listitem [ref=e29]:
+              - link "Forums" [ref=e30] [cursor=pointer]:
+                - /url: /forums?ref=header_nav
+                - text: Forums
+                - img [ref=e31]
+        - generic [ref=e33]:
+          - button [ref=e166] [cursor=pointer]:
+            - link [ref=e167]:
+              - /url: /posts/new
+              - img [ref=e168]
+          - button [ref=e171] [cursor=pointer]:
+            - link [ref=e172]:
+              - /url: /notifications
+              - img
+          - button "Orara ToT" [ref=e173] [cursor=pointer]:
+            - link "Orara ToT" [ref=e174]:
+              - /url: /@orara_tot
+              - img "Orara ToT" [ref=e175]
+    - generic [ref=e178]:
+      - generic [ref=e179]:
+        - generic [ref=e180]:
+          - img "Arcana Insight" [ref=e181]
+          - generic [ref=e182]:
+            - generic [ref=e183]: Arcana Insight
+            - generic [ref=e184]: In progress
+        - generic [ref=e185] [cursor=pointer]:
+          - img [ref=e187]
+          - generic [ref=e191]: Main info
+        - generic [ref=e192] [cursor=pointer]:
+          - img [ref=e194]
+          - generic [ref=e200]: Images and media
+        - generic [ref=e201] [cursor=pointer]:
+          - img [ref=e203]
+          - generic [ref=e208]: Makers
+        - generic [ref=e209] [cursor=pointer]:
+          - img [ref=e211]
+          - generic [ref=e213]: Extras
+        - generic [ref=e214] [cursor=pointer]:
+          - img [ref=e216]
+          - generic [ref=e220]: Launch checklist
+      - generic [ref=e221]:
+        - generic [ref=e573]:
+          - generic [ref=e574]:
+            - generic [ref=e575]: Thumbnail
+            - generic [ref=e576]: Let's make your product look nice
+            - generic [ref=e577]:
+              - generic [ref=e579]:
+                - img "preview" [ref=e581] [cursor=pointer]
+                - generic [ref=e582]:
+                  - generic [ref=e584]:
+                    - button "Select an image" [ref=e585] [cursor=pointer]
+                    - generic [ref=e586]:
+                      - generic [ref=e587]: or
+                      - button "Paste a URL" [ref=e588] [cursor=pointer]
+                  - generic [ref=e589]: "Recommended size: 240x240 | JPG, PNG, GIF. Max size: 2MB"
+              - generic [ref=e590]:
+                - generic [ref=e591]:
+                  - img "Sparkles Emoji" [ref=e592]
+                  - paragraph [ref=e593]: Preview of your launch on the homepage. Animated images will only play on hover.
+                - generic [ref=e594]:
+                  - img "Arcana Insight" [ref=e595]
+                  - generic [ref=e596]:
+                    - generic [ref=e597]: 1. Arcana Insight
+                    - generic [ref=e598]: 78 tarot cards. Your question. Your reading. 8 languages.
+                  - generic [ref=e599]:
+                    - img [ref=e600]
+                    - paragraph [ref=e602]: "54"
+                  - button "123" [ref=e603] [cursor=pointer]:
+                    - generic [ref=e604]:
+                      - img [ref=e605]
+                      - paragraph [ref=e607]: "123"
+          - generic [ref=e608]:
+            - generic [ref=e609]: Gallery
+            - generic [ref=e610]:
+              - text: The first image will be used as the social preview when your link is shared online.
+              - text: We recommend at least 3 or more images.
+            - generic [ref=e611]:
+              - generic [ref=e612]:
+                - img [ref=e613]
+                - generic [ref=e623]:
+                  - generic [ref=e624]:
+                    - button "Browse for files" [ref=e625] [cursor=pointer]
+                    - generic [ref=e626]: or
+                    - button "Paste a URL" [ref=e627] [cursor=pointer]
+                  - generic [ref=e628]:
+                    - generic [ref=e629]: Upload at least one image
+                    - generic [ref=e630]: 1270x760px or higher recommended
+                    - generic [ref=e631]: The first image will be used as preview
+              - status [ref=e633]
+          - generic [ref=e643]:
+            - generic [ref=e644]: Video / Loom (recommended)
+            - generic [ref=e645]: Upload an optional video from YouTube or Loom to show people how to use your launch or share your maker story. Video helps you connect with viewers.
+            - generic [ref=e647]:
+              - generic [ref=e648]:
+                - generic [ref=e650]: Link to the video / loom
+                - generic [ref=e651]: Optional
+              - textbox "Link to the video / loom Optional" [ref=e654]:
+                - /placeholder: Video/Loom of the launch
+          - generic [ref=e655]:
+            - generic [ref=e656]: Interactive demo (optional)
+            - generic [ref=e657]:
+              - text: Add an interactive demo (optional) to showcase your launch's functionality and tell the story of your launch better. Build your demo with
+              - link "Arcade" [ref=e658] [cursor=pointer]:
+                - /url: https://www.arcade.software/?ref=producthunt
+              - text: ","
+              - link "Storylane" [ref=e659] [cursor=pointer]:
+                - /url: https://app.storylane.io/sign-up?utm_source=producthunt&utm_medium=organic&utm_campaign=launchpage
+              - text: ","
+              - link "Hexus," [ref=e660] [cursor=pointer]:
+                - /url: https://www.hexus.ai/product-hunt/?ref=producthunt
+              - link "Supademo," [ref=e661] [cursor=pointer]:
+                - /url: https://supademo.com/?ref=producthunt
+              - link "Layerpath," [ref=e662] [cursor=pointer]:
+                - /url: https://www.layerpath.com/?ref=producthunt
+              - link "ScreenSpace," [ref=e663] [cursor=pointer]:
+                - /url: https://screenspace.io/?ref=ph
+              - link "Guideflow" [ref=e664] [cursor=pointer]:
+                - /url: https://www.guideflow.com/?ref=producthunt
+              - text: "- all are free for Product Hunt launches. Learn more about interactive demos on Product Hunt"
+              - link "Launch Guide." [ref=e665] [cursor=pointer]:
+                - /url: /launch/preparing-for-launch?ref=interactive-demo-input#content-checklist
+            - generic [ref=e667]:
+              - generic [ref=e668]:
+                - generic [ref=e670]: Link to the demo
+                - generic [ref=e671]: Optional
+              - textbox "Link to the demo Optional" [ref=e674]:
+                - /placeholder: Demo of the launch
+        - button "• Image is required" [ref=e676] [cursor=pointer]
+        - 'button "Next step: Makers" [disabled] [ref=e677]'
+    - contentinfo [ref=e68]:
+      - generic [ref=e69]:
+        - generic [ref=e70]: Top Product Categories
+        - generic [ref=e71]:
+          - button "Engineering & Development" [ref=e73] [cursor=pointer]:
+            - generic [ref=e74]: Engineering & Development
+            - img [ref=e75]
+          - button "LLMs" [ref=e78] [cursor=pointer]:
+            - generic [ref=e79]: LLMs
+            - img [ref=e80]
+          - button "Productivity" [ref=e83] [cursor=pointer]:
+            - generic [ref=e84]: Productivity
+            - img [ref=e85]
+          - button "Marketing & Sales" [ref=e88] [cursor=pointer]:
+            - generic [ref=e89]: Marketing & Sales
+            - img [ref=e90]
+          - button "Design & Creative" [ref=e93] [cursor=pointer]:
+            - generic [ref=e94]: Design & Creative
+            - img [ref=e95]
+          - button "Social & Community" [ref=e98] [cursor=pointer]:
+            - generic [ref=e99]: Social & Community
+            - img [ref=e100]
+          - button "Finance" [ref=e103] [cursor=pointer]:
+            - generic [ref=e104]: Finance
+            - img [ref=e105]
+          - button "AI Agents" [ref=e108] [cursor=pointer]:
+            - generic [ref=e109]: AI Agents
+            - img [ref=e110]
+      - generic [ref=e114]:
+        - button "Trending categories" [ref=e116] [cursor=pointer]:
+          - generic [ref=e117]: Trending categories
+          - img [ref=e118]
+        - button "Top reviewed" [ref=e121] [cursor=pointer]:
+          - generic [ref=e122]: Top reviewed
+          - img [ref=e123]
+        - button "Trending products" [ref=e126] [cursor=pointer]:
+          - generic [ref=e127]: Trending products
+          - img [ref=e128]
+        - button "Top forum threads" [ref=e131] [cursor=pointer]:
+          - generic [ref=e132]: Top forum threads
+          - img [ref=e133]
+      - generic [ref=e137]:
+        - generic [ref=e138]: © 2026 Product Hunt
+        - generic [ref=e139]:
+          - link "Newsletter" [ref=e140] [cursor=pointer]:
+            - /url: /newsletters
+          - link "Apps" [ref=e141] [cursor=pointer]:
+            - /url: /apps
+          - link "About" [ref=e142] [cursor=pointer]:
+            - /url: /about
+          - link "FAQ" [ref=e143] [cursor=pointer]:
+            - /url: https://help.producthunt.com
+          - link "Terms" [ref=e144] [cursor=pointer]:
+            - /url: /legal#terms
+          - link "Privacy & Cookies" [ref=e145] [cursor=pointer]:
+            - /url: /legal#privacy
+          - link "Privacy Choices" [ref=e146] [cursor=pointer]:
+            - /url: /privacy/do-not-sell
+          - link "Advertise" [ref=e147] [cursor=pointer]:
+            - /url: /sponsor?utm_content=sf
+          - link "llms.txt" [ref=e148] [cursor=pointer]:
+            - /url: /llms.txt
+          - generic [ref=e149]:
+            - text: "Contact us:"
+            - link "hello@producthunt.com" [ref=e150] [cursor=pointer]:
+              - /url: mailto:hello@producthunt.com
+        - generic [ref=e151]:
+          - link [ref=e152] [cursor=pointer]:
+            - /url: https://x.com/ProductHunt
+            - img [ref=e153]
+          - link [ref=e155] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/producthunt
+            - img [ref=e156]
+  - alert [ref=e161]

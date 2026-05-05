@@ -1,0 +1,206 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "Product Hunt Logo" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - img [ref=e7]
+          - button [ref=e158] [cursor=pointer]:
+            - img [ref=e159]
+        - navigation "Main Navigation" [ref=e15]:
+          - list [ref=e16]:
+            - listitem [ref=e17]:
+              - link "Best Products" [ref=e18] [cursor=pointer]:
+                - /url: /categories?ref=header_nav
+                - text: Best Products
+                - img [ref=e19]
+            - listitem [ref=e21]:
+              - link "Launches" [ref=e22] [cursor=pointer]:
+                - /url: /leaderboard/daily/2026/5/5?ref=header_nav
+                - text: Launches
+                - img [ref=e23]
+            - listitem [ref=e25]:
+              - link "News" [ref=e26] [cursor=pointer]:
+                - /url: /newsletters?ref=header_nav
+                - text: News
+                - img [ref=e27]
+            - listitem [ref=e29]:
+              - link "Forums" [ref=e30] [cursor=pointer]:
+                - /url: /forums?ref=header_nav
+                - text: Forums
+                - img [ref=e31]
+        - generic [ref=e33]:
+          - button [ref=e166] [cursor=pointer]:
+            - link [ref=e167]:
+              - /url: /posts/new
+              - img [ref=e168]
+          - button [ref=e171] [cursor=pointer]:
+            - link [ref=e172]:
+              - /url: /notifications
+              - img
+          - button "Orara ToT" [ref=e173] [cursor=pointer]:
+            - link "Orara ToT" [ref=e174]:
+              - /url: /@orara_tot
+              - img "Orara ToT" [ref=e175]
+    - generic [ref=e178]:
+      - generic [ref=e179]:
+        - generic [ref=e180]:
+          - img "Arcana Insight" [ref=e181]
+          - generic [ref=e182]:
+            - generic [ref=e183]: Arcana Insight
+            - generic [ref=e184]: In progress
+        - generic [ref=e185] [cursor=pointer]:
+          - img [ref=e187]
+          - generic [ref=e191]: Main info
+        - generic [ref=e192] [cursor=pointer]:
+          - img [ref=e194]
+          - generic [ref=e200]: Images and media
+        - generic [ref=e201] [cursor=pointer]:
+          - img [ref=e203]
+          - generic [ref=e208]: Makers
+        - generic [ref=e209] [cursor=pointer]:
+          - img [ref=e211]
+          - generic [ref=e213]: Extras
+        - generic [ref=e214] [cursor=pointer]:
+          - img [ref=e216]
+          - generic [ref=e220]: Launch checklist
+      - generic [ref=e221]:
+        - generic [ref=e222]:
+          - generic [ref=e223]:
+            - generic [ref=e224]: Tell us more about this launch
+            - generic [ref=e225]: We’ll need its name, tagline, links, launch tags, and description.
+            - generic [ref=e226]:
+              - generic [ref=e227]:
+                - generic [ref=e228]:
+                  - generic [ref=e230]: Name of the launch
+                  - generic [ref=e231]: 14/40
+                - textbox "Name of the launch 14/40" [ref=e233]:
+                  - /placeholder: Simply the name of the launch
+                  - text: Arcana Insight
+              - generic [ref=e234]:
+                - generic [ref=e235]:
+                  - generic [ref=e236]:
+                    - generic [ref=e237]: Tagline
+                    - img [ref=e239]
+                  - generic [ref=e241]: 0/60
+                - textbox "Tagline 0/60" [ref=e243]:
+                  - /placeholder: Concise and descriptive tagline for the launch
+          - generic [ref=e244]:
+            - generic [ref=e245]: Links
+            - generic [ref=e246]:
+              - generic [ref=e247]:
+                - generic [ref=e248]:
+                  - generic [ref=e251]: Links to the launch
+                  - textbox "Links to the launch" [disabled] [ref=e253]: https://tarot-bzi.pages.dev
+                - generic [ref=e255]:
+                  - button "+ Add more links" [ref=e256] [cursor=pointer]
+                  - generic [ref=e257]: "\"App Store, Google Play, Steam, Amazon…\""
+              - generic [ref=e262]: Is this an open source project?
+              - generic [ref=e264]:
+                - generic [ref=e267]: X account of the launch
+                - generic [ref=e269]:
+                  - generic [ref=e270]: x.com/
+                  - textbox "X account of the launch x.com/" [ref=e271]:
+                    - /placeholder: "@launch"
+          - generic [ref=e272]:
+            - generic [ref=e273]: Description
+            - generic [ref=e274]: What’s new or different about your launch compared to existing products? Which features make it stand out?
+            - generic [ref=e276]:
+              - generic [ref=e277]:
+                - generic [ref=e279]: Description of the launch
+                - generic [ref=e280]: 176/500
+              - textbox "Description of the launch 176/500" [ref=e282]:
+                - /placeholder: Highlight what’s new or unique about your launch.
+                - text: Free AI-powered tarot reading online. Draw from 78 real tarot cards and get an instant personalized reading in 8 languages. No signup needed. ดูดวงไพ่ทาโรต์ AI ฟรี | 無料AIタロット占い
+          - generic [ref=e283]:
+            - generic [ref=e284]: Launch tags
+            - generic [ref=e286]:
+              - generic [ref=e289]: Select up to three launch tags
+              - generic [ref=e293]:
+                - generic:
+                  - img
+                - textbox "Select up to three launch tags" [ref=e294]:
+                  - /placeholder: Select a launch tag
+          - generic [ref=e295]:
+            - generic [ref=e296]: Write the first comment
+            - generic [ref=e297]: This comment will be posted upon launch. Adding a first comment is essential to get the discussion started.
+            - textbox "What inspired you to build this? What problem were you trying to solve? How did your approach or process evolve while working on this launch?" [ref=e300]
+        - generic [ref=e301]:
+          - button "• Tagline is required" [ref=e302] [cursor=pointer]
+          - button "• Launch tag is required" [ref=e303] [cursor=pointer]
+        - 'button "Next step: Images and media" [disabled] [ref=e304]'
+    - contentinfo [ref=e68]:
+      - generic [ref=e69]:
+        - generic [ref=e70]: Top Product Categories
+        - generic [ref=e71]:
+          - button "Engineering & Development" [ref=e73] [cursor=pointer]:
+            - generic [ref=e74]: Engineering & Development
+            - img [ref=e75]
+          - button "LLMs" [ref=e78] [cursor=pointer]:
+            - generic [ref=e79]: LLMs
+            - img [ref=e80]
+          - button "Productivity" [ref=e83] [cursor=pointer]:
+            - generic [ref=e84]: Productivity
+            - img [ref=e85]
+          - button "Marketing & Sales" [ref=e88] [cursor=pointer]:
+            - generic [ref=e89]: Marketing & Sales
+            - img [ref=e90]
+          - button "Design & Creative" [ref=e93] [cursor=pointer]:
+            - generic [ref=e94]: Design & Creative
+            - img [ref=e95]
+          - button "Social & Community" [ref=e98] [cursor=pointer]:
+            - generic [ref=e99]: Social & Community
+            - img [ref=e100]
+          - button "Finance" [ref=e103] [cursor=pointer]:
+            - generic [ref=e104]: Finance
+            - img [ref=e105]
+          - button "AI Agents" [ref=e108] [cursor=pointer]:
+            - generic [ref=e109]: AI Agents
+            - img [ref=e110]
+      - generic [ref=e114]:
+        - button "Trending categories" [ref=e116] [cursor=pointer]:
+          - generic [ref=e117]: Trending categories
+          - img [ref=e118]
+        - button "Top reviewed" [ref=e121] [cursor=pointer]:
+          - generic [ref=e122]: Top reviewed
+          - img [ref=e123]
+        - button "Trending products" [ref=e126] [cursor=pointer]:
+          - generic [ref=e127]: Trending products
+          - img [ref=e128]
+        - button "Top forum threads" [ref=e131] [cursor=pointer]:
+          - generic [ref=e132]: Top forum threads
+          - img [ref=e133]
+      - generic [ref=e137]:
+        - generic [ref=e138]: © 2026 Product Hunt
+        - generic [ref=e139]:
+          - link "Newsletter" [ref=e140] [cursor=pointer]:
+            - /url: /newsletters
+          - link "Apps" [ref=e141] [cursor=pointer]:
+            - /url: /apps
+          - link "About" [ref=e142] [cursor=pointer]:
+            - /url: /about
+          - link "FAQ" [ref=e143] [cursor=pointer]:
+            - /url: https://help.producthunt.com
+          - link "Terms" [ref=e144] [cursor=pointer]:
+            - /url: /legal#terms
+          - link "Privacy & Cookies" [ref=e145] [cursor=pointer]:
+            - /url: /legal#privacy
+          - link "Privacy Choices" [ref=e146] [cursor=pointer]:
+            - /url: /privacy/do-not-sell
+          - link "Advertise" [ref=e147] [cursor=pointer]:
+            - /url: /sponsor?utm_content=sf
+          - link "llms.txt" [ref=e148] [cursor=pointer]:
+            - /url: /llms.txt
+          - generic [ref=e149]:
+            - text: "Contact us:"
+            - link "hello@producthunt.com" [ref=e150] [cursor=pointer]:
+              - /url: mailto:hello@producthunt.com
+        - generic [ref=e151]:
+          - link [ref=e152] [cursor=pointer]:
+            - /url: https://x.com/ProductHunt
+            - img [ref=e153]
+          - link [ref=e155] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/producthunt
+            - img [ref=e156]
+  - alert [ref=e161]

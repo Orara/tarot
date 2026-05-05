@@ -1,0 +1,371 @@
+- generic [ref=e2]:
+  - navigation [ref=e4]:
+    - generic [ref=e6]:
+      - generic:
+        - link:
+          - /url: /
+      - navigation [ref=e7]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "Launchpad" [ref=e11] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e12]: Launchpad
+          - listitem [ref=e13]:
+            - link "Community" [ref=e14] [cursor=pointer]:
+              - /url: /community
+              - generic [ref=e15]: Community
+          - listitem [ref=e16]:
+            - link "Pricing" [ref=e17] [cursor=pointer]:
+              - /url: /pricing
+              - generic [ref=e18]: Pricing
+          - listitem [ref=e19]:
+            - button "Products" [ref=e20] [cursor=pointer]:
+              - generic [ref=e21]: Products
+          - listitem [ref=e24]:
+            - button "More" [ref=e25] [cursor=pointer]:
+              - generic [ref=e26]: More
+  - generic [ref=e35]:
+    - generic [ref=e37]:
+      - heading "Submit your Product" [level=1] [ref=e39]
+      - generic [ref=e40]: Let our robots do the work and gather all your product's data for you 🤩.
+    - generic [ref=e41]:
+      - generic [ref=e42]:
+        - paragraph [ref=e43]: You must have an account to submit a product to Uneed 😄. This will allow you to modify it later.
+        - generic [ref=e44]:
+          - link "Create an account" [ref=e45] [cursor=pointer]:
+            - /url: /signup
+          - link "Log in" [ref=e46] [cursor=pointer]:
+            - /url: /login
+      - generic [ref=e47]:
+        - heading "Testimonials" [level=2] [ref=e48]
+        - generic [ref=e49]:
+          - link "Nico Jeannen Nico Jeannen" [ref=e50] [cursor=pointer]:
+            - /url: https://www.producthunt.com/posts/uneed-2?comment=3274733
+            - figure "Nico Jeannen Nico Jeannen" [ref=e51]:
+              - blockquote [ref=e52]:
+                - paragraph [ref=e53]: "\"Uneed still generate a bit of traffic every month for my websites even after almost a year!\""
+              - generic [ref=e54]:
+                - img "Nico Jeannen" [ref=e55]
+                - generic [ref=e57]: Nico Jeannen
+          - link "John Rush John Rush" [ref=e58] [cursor=pointer]:
+            - /url: https://www.producthunt.com/posts/uneed-2?comment=3271821
+            - figure "John Rush John Rush" [ref=e59]:
+              - blockquote [ref=e60]:
+                - paragraph [ref=e61]: "\"One of my 3 launchpads I check every day. PH, DH and Uneed. More people should know about this one.\""
+              - generic [ref=e62]:
+                - img "John Rush" [ref=e63]
+                - generic [ref=e65]: John Rush
+          - link "Yoanna Yoanna" [ref=e66] [cursor=pointer]:
+            - /url: https://x.com/YoannaJuille/status/2038982991825785093?s=20
+            - figure "Yoanna Yoanna" [ref=e67]:
+              - blockquote [ref=e68]:
+                - paragraph [ref=e69]: "\"So happy to have won first place!!! It was a fantastic launch, reaching 22 countries. Uneed brings global visibility, it's truly a great platform :)\""
+              - generic [ref=e70]:
+                - img "Yoanna" [ref=e71]
+                - generic [ref=e73]: Yoanna
+          - link "Matteo Matteo" [ref=e74] [cursor=pointer]:
+            - /url: https://x.com/TechWithMatteo/status/2041473080325714161
+            - figure "Matteo Matteo" [ref=e75]:
+              - blockquote [ref=e76]:
+                - paragraph [ref=e77]: "\"PH feels kinda hollow now and Uneed actually brings engaged people who care about what you built\""
+              - generic [ref=e78]:
+                - img "Matteo" [ref=e79]
+                - generic [ref=e81]: Matteo
+          - link "Lucius Lucius" [ref=e82] [cursor=pointer]:
+            - /url: https://x.com/LuciusHQ/status/1935250116639867352
+            - figure "Lucius Lucius" [ref=e83]:
+              - blockquote [ref=e84]:
+                - paragraph [ref=e85]: "\"Way better launch experience with Uneed than PH!\""
+              - generic [ref=e86]:
+                - img "Lucius" [ref=e87]
+                - generic [ref=e89]: Lucius
+          - link "Vince Jos Vince Jos" [ref=e90] [cursor=pointer]:
+            - /url: https://x.com/vince_jos/status/1985574995293323479
+            - figure "Vince Jos Vince Jos" [ref=e91]:
+              - blockquote [ref=e92]:
+                - paragraph [ref=e93]: "\"☝️One of the reasons why Uneed is better than most launch platforms is because Thomas always make sure there’s no cheating.\""
+              - generic [ref=e94]:
+                - img "Vince Jos" [ref=e95]
+                - generic [ref=e97]: Vince Jos
+          - link "Sebastian Kraus Sebastian Kraus" [ref=e98] [cursor=pointer]:
+            - /url: https://x.com/sekraus/status/1961093327266172951
+            - figure "Sebastian Kraus Sebastian Kraus" [ref=e99]:
+              - blockquote [ref=e100]:
+                - paragraph [ref=e101]: "\"I really like Uneed by Thomas. I launched my project lately and it gave me far more attention then producthunt.\""
+              - generic [ref=e102]:
+                - img "Sebastian Kraus" [ref=e103]
+                - generic [ref=e105]: Sebastian Kraus
+          - link "Ramy Wafaa Ramy Wafaa" [ref=e106] [cursor=pointer]:
+            - /url: https://x.com/RamyWafaa/status/1881692442841506087
+            - figure "Ramy Wafaa Ramy Wafaa" [ref=e107]:
+              - blockquote [ref=e108]:
+                - paragraph [ref=e109]: "\"Woho that worked fast! First custom illustration order from a client who follows @UneedLists and saw our launch today! @T_Zahil What you built is awesome and it works how it should.. great work buddy 🥰\""
+              - generic [ref=e110]:
+                - img "Ramy Wafaa" [ref=e111]
+                - generic [ref=e113]: Ramy Wafaa
+          - link "Simon Gurcke Simon Gurcke" [ref=e114] [cursor=pointer]:
+            - /url: https://x.com/simongurcke/status/1876054932065063252
+            - figure "Simon Gurcke Simon Gurcke" [ref=e115]:
+              - blockquote [ref=e116]:
+                - paragraph [ref=e117]: "\"I bought a product review for Apitally on http://Uneed.best and @T_Zahil did a fantastic job writing it. Highly recommended!\""
+              - generic [ref=e118]:
+                - img "Simon Gurcke" [ref=e119]
+                - generic [ref=e121]: Simon Gurcke
+          - link "The Indie CEO ⚡️ The Indie CEO ⚡️" [ref=e122] [cursor=pointer]:
+            - /url: https://x.com/IndieCEO/status/1876542332474122429
+            - figure "The Indie CEO ⚡️ The Indie CEO ⚡️" [ref=e123]:
+              - blockquote [ref=e124]:
+                - paragraph [ref=e125]: "\"I just listed my main product on Uneed, and I can tell you that the experience is so much better than Product Hunt that I'm never going back.\""
+              - generic [ref=e126]:
+                - img "The Indie CEO ⚡️" [ref=e127]
+                - generic [ref=e129]: The Indie CEO ⚡️
+          - link "Alexander Bogdanovski Alexander Bogdanovski" [ref=e130] [cursor=pointer]:
+            - /url: https://x.com/albogdano/status/1862055546645299630
+            - figure "Alexander Bogdanovski Alexander Bogdanovski" [ref=e131]:
+              - blockquote [ref=e132]:
+                - paragraph [ref=e133]: "\"I’ve known Uneed since 2021, and the consistent UI/UX improvements have been 🔥.\""
+              - generic [ref=e134]:
+                - img "Alexander Bogdanovski" [ref=e135]
+                - generic [ref=e137]: Alexander Bogdanovski
+          - link "Sharvin Shag Sharvin Shag" [ref=e138] [cursor=pointer]:
+            - /url: https://x.com/sharvinshah26/status/1856366184511484008
+            - figure "Sharvin Shag Sharvin Shag" [ref=e139]:
+              - blockquote [ref=e140]:
+                - paragraph [ref=e141]: "\"However try out Uneed. I recently launched my product there and got decent number of visitors but visitor to sales ratio was really good.\""
+              - generic [ref=e142]:
+                - img "Sharvin Shag" [ref=e143]
+                - generic [ref=e145]: Sharvin Shag
+          - link "Nathan Nathan" [ref=e146] [cursor=pointer]:
+            - /url: https://x.com/natension/status/1844785298758111291
+            - figure "Nathan Nathan" [ref=e147]:
+              - blockquote [ref=e148]:
+                - paragraph [ref=e149]: "\"One of the things I'm looking forward to most, when I finally launch a product is getting it listed on uneed, getting a review and buying ad-space on uneed and it's newsletter.\""
+              - generic [ref=e150]:
+                - img "Nathan" [ref=e151]
+                - generic [ref=e153]: Nathan
+          - link "Alexandre Grisey Alexandre Grisey" [ref=e154] [cursor=pointer]:
+            - /url: https://x.com/nomalex_/status/1840665191064748272
+            - figure "Alexandre Grisey Alexandre Grisey" [ref=e155]:
+              - blockquote [ref=e156]:
+                - paragraph [ref=e157]: "\"I've always thought Uneed would be a big competitor of Product Hunt in the future. This is why I rushed (and paid) to launch my products on it months ago. Most of them reached the top 3 and have now a nice badge on the landing page [...]\""
+              - generic [ref=e158]:
+                - img "Alexandre Grisey" [ref=e159]
+                - generic [ref=e161]: Alexandre Grisey
+          - link "Rem Kim Rem Kim" [ref=e162] [cursor=pointer]:
+            - /url: https://x.com/remkim_/status/1651964518497677312
+            - figure "Rem Kim Rem Kim" [ref=e163]:
+              - blockquote [ref=e164]:
+                - paragraph [ref=e165]: "\"Gotta say @UneedLists drives insane amount of quality traffic to @ResolveAI_. Loving it\""
+              - generic [ref=e166]:
+                - img "Rem Kim" [ref=e167]
+                - generic [ref=e169]: Rem Kim
+          - link "Nilan Saha Nilan Saha" [ref=e170] [cursor=pointer]:
+            - /url: https://x.com/nilansaha/status/1705271087758705090?s=20
+            - figure "Nilan Saha Nilan Saha" [ref=e171]:
+              - blockquote [ref=e172]:
+                - paragraph [ref=e173]: "\"Can confirm. Uneed is incredible.\""
+              - generic [ref=e174]:
+                - img "Nilan Saha" [ref=e175]
+                - generic [ref=e177]: Nilan Saha
+          - link "Sergiu Chiriac Sergiu Chiriac" [ref=e178] [cursor=pointer]:
+            - /url: https://indiemaker.space/sergiu/post/52224baa-dc92-11ee-b54a-0200555c4945
+            - figure "Sergiu Chiriac Sergiu Chiriac" [ref=e179]:
+              - blockquote [ref=e180]:
+                - paragraph [ref=e181]: "\"That's soo cool, I get traffic from Uneed everyday, definitely worth the launch :)\""
+              - generic [ref=e182]:
+                - img "Sergiu Chiriac" [ref=e183]
+                - generic [ref=e185]: Sergiu Chiriac
+          - link "Aleksandar Balalovski Aleksandar Balalovski" [ref=e186] [cursor=pointer]:
+            - /url: https://www.producthunt.com/posts/uneed-2?comment=3272502
+            - figure "Aleksandar Balalovski Aleksandar Balalovski" [ref=e187]:
+              - blockquote [ref=e188]:
+                - paragraph [ref=e189]: "\"Uneed is a constant traffic referrer to my landing page! Calm and passionate builder and great product!\""
+              - generic [ref=e190]:
+                - img "Aleksandar Balalovski" [ref=e191]
+                - generic [ref=e193]: Aleksandar Balalovski
+          - link "Harry Harry" [ref=e194] [cursor=pointer]:
+            - /url: https://x.com/harryblucas/status/1620028715542659073?s=20
+            - figure "Harry Harry" [ref=e195]:
+              - blockquote [ref=e196]:
+                - paragraph [ref=e197]: "\"To anyone wondering if it\\'s worth upgrading - I\\'d say definitely. Seeing some good conversion rates so far.\""
+              - generic [ref=e198]:
+                - img "Harry" [ref=e199]
+                - generic [ref=e201]: Harry
+          - link "Mathew Gaucher Mathew Gaucher" [ref=e202] [cursor=pointer]:
+            - /url: https://twitter.com/itsmatt_g/status/1790199030858797092
+            - figure "Mathew Gaucher Mathew Gaucher" [ref=e203]:
+              - blockquote [ref=e204]:
+                - paragraph [ref=e205]: "\"Uneed has unironically given me 20+ of the apps I use to run my small development studio\""
+              - generic [ref=e206]:
+                - img "Mathew Gaucher" [ref=e207]
+                - generic [ref=e209]: Mathew Gaucher
+  - contentinfo [ref=e211]:
+    - generic [ref=e212]:
+      - generic [ref=e213]:
+        - generic [ref=e214]:
+          - link:
+            - /url: /
+          - paragraph [ref=e215]: Uneed is a social launchpad for tech products. Get guaranteed homepage visibility, powerful SEO juice with a 74 DR backlink, and feedback from a community that actually cares
+          - paragraph [ref=e216]: Made in EU 🇪🇺
+          - list [ref=e217]:
+            - listitem [ref=e218]:
+              - link [ref=e219] [cursor=pointer]:
+                - /url: https://bsky.app/profile/uneed.best
+            - listitem [ref=e221]:
+              - link [ref=e222] [cursor=pointer]:
+                - /url: https://x.com/UneedLists
+            - listitem [ref=e224]:
+              - button "Open chat" [ref=e225] [cursor=pointer]
+          - radiogroup "Theme" [ref=e227]:
+            - radio "Light" [checked] [ref=e228] [cursor=pointer]
+            - radio "Dark" [ref=e231] [cursor=pointer]
+            - radio "System" [ref=e234] [cursor=pointer]
+        - generic [ref=e237]:
+          - heading "Categories" [level=4] [ref=e238]
+          - list [ref=e239]:
+            - listitem [ref=e240]:
+              - link "Development products" [ref=e241] [cursor=pointer]:
+                - /url: /categories/development
+            - listitem [ref=e242]:
+              - link "Design products" [ref=e243] [cursor=pointer]:
+                - /url: /categories/design
+            - listitem [ref=e244]:
+              - link "Marketing products" [ref=e245] [cursor=pointer]:
+                - /url: /categories/marketing
+            - listitem [ref=e246]:
+              - link "Business products" [ref=e247] [cursor=pointer]:
+                - /url: /categories/business
+            - listitem [ref=e248]:
+              - link "Personal life products" [ref=e249] [cursor=pointer]:
+                - /url: /categories/personal-life
+            - listitem [ref=e250]:
+              - link "Products For Sale" [ref=e251] [cursor=pointer]:
+                - /url: /for-sale
+        - generic [ref=e252]:
+          - heading "Alternatives" [level=4] [ref=e253]
+          - list [ref=e254]:
+            - listitem [ref=e255]:
+              - link "Supabase alternatives" [ref=e256] [cursor=pointer]:
+                - /url: /alternatives/supabase
+            - listitem [ref=e257]:
+              - link "Stripe alternatives" [ref=e258] [cursor=pointer]:
+                - /url: /alternatives/stripe
+            - listitem [ref=e259]:
+              - link "Vercel alternatives" [ref=e260] [cursor=pointer]:
+                - /url: /alternatives/vercel
+            - listitem [ref=e261]:
+              - link "Bubble alternatives" [ref=e262] [cursor=pointer]:
+                - /url: /alternatives/bubble
+            - listitem [ref=e263]:
+              - link "Ahrefs alternatives" [ref=e264] [cursor=pointer]:
+                - /url: /alternatives/ahrefs
+            - listitem [ref=e265]:
+              - link "Zapier alternatives" [ref=e266] [cursor=pointer]:
+                - /url: /alternatives/zapier
+            - listitem [ref=e267]:
+              - link "Mailchimp alternatives" [ref=e268] [cursor=pointer]:
+                - /url: /alternatives/mailchimp
+            - listitem [ref=e269]:
+              - link "All our alternatives" [ref=e270] [cursor=pointer]:
+                - /url: /alternatives
+        - generic [ref=e271]:
+          - heading "Best tags" [level=4] [ref=e272]
+          - list [ref=e273]:
+            - listitem [ref=e274]:
+              - link "AI Products" [ref=e275] [cursor=pointer]:
+                - /url: /tags/ai
+            - listitem [ref=e276]:
+              - link "Analytics Tools" [ref=e277] [cursor=pointer]:
+                - /url: /tags/analytics
+            - listitem [ref=e278]:
+              - link "SEO Tools" [ref=e279] [cursor=pointer]:
+                - /url: /tags/seo
+            - listitem [ref=e280]:
+              - link "Productivity" [ref=e281] [cursor=pointer]:
+                - /url: /tags/productivity
+            - listitem [ref=e282]:
+              - link "Open Source" [ref=e283] [cursor=pointer]:
+                - /url: /tags/open-source
+            - listitem [ref=e284]:
+              - link "All tags" [ref=e285] [cursor=pointer]:
+                - /url: /tags
+        - generic [ref=e286]:
+          - heading "Uneed" [level=4] [ref=e287]
+          - list [ref=e288]:
+            - listitem [ref=e289]:
+              - link "How it works" [ref=e290] [cursor=pointer]:
+                - /url: /how-it-works
+            - listitem [ref=e291]:
+              - link "Launch Guide" [ref=e292] [cursor=pointer]:
+                - /url: /launch-guide
+            - listitem [ref=e293]:
+              - link "Our blog" [ref=e294] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=e295]:
+              - link "Advertise your product" [ref=e296] [cursor=pointer]:
+                - /url: /pricing
+            - listitem [ref=e297]:
+              - link "Add your product" [ref=e298] [cursor=pointer]:
+                - /url: /submit-a-tool
+            - listitem [ref=e299]:
+              - link "Become an affiliate" [ref=e300] [cursor=pointer]:
+                - /url: /affiliates
+            - listitem [ref=e301]:
+              - link "FAQs" [ref=e302] [cursor=pointer]:
+                - /url: /faqs
+            - listitem [ref=e303]:
+              - button "Contact" [ref=e304] [cursor=pointer]
+            - listitem [ref=e305]:
+              - link "Changelog" [ref=e306] [cursor=pointer]:
+                - /url: /changelog
+            - listitem [ref=e307]:
+              - link "Community Leaderboard" [ref=e308] [cursor=pointer]:
+                - /url: /streaks-leaderboard
+      - generic [ref=e309]:
+        - generic [ref=e310]:
+          - heading "Free tools" [level=4] [ref=e311]
+          - list [ref=e312]:
+            - listitem [ref=e313]:
+              - link "Product Launch Checklist" [ref=e314] [cursor=pointer]:
+                - /url: /free-tools/product-launch-checklist
+            - listitem [ref=e315]:
+              - link "Fake Notification Generator" [ref=e316] [cursor=pointer]:
+                - /url: /free-tools/fake-notification-generator
+            - listitem [ref=e317]:
+              - link "Startup Name Generator" [ref=e318] [cursor=pointer]:
+                - /url: /free-tools/startup-name-generator
+            - listitem [ref=e319]:
+              - link "Fake Analytics Generator" [ref=e320] [cursor=pointer]:
+                - /url: /free-tools/fake-analytics-generator
+            - listitem [ref=e321]:
+              - link "Reaction Time Test" [ref=e322] [cursor=pointer]:
+                - /url: /free-tools/reaction-time-test
+            - listitem [ref=e323]:
+              - link "YouTube Playlist Length Calculator" [ref=e324] [cursor=pointer]:
+                - /url: /free-tools/youtube-playlist-length-calculator
+            - listitem [ref=e325]:
+              - link "All free tools" [ref=e326] [cursor=pointer]:
+                - /url: /free-tools
+        - generic [ref=e327]:
+          - heading "Best products" [level=4] [ref=e328]
+          - list [ref=e329]:
+            - listitem [ref=e330]:
+              - link "Best AI products" [ref=e331] [cursor=pointer]:
+                - /url: /best-products-by-tag/ai
+            - listitem [ref=e332]:
+              - link "Best Analytics tools" [ref=e333] [cursor=pointer]:
+                - /url: /best-products-by-tag/analytics
+            - listitem [ref=e334]:
+              - link "Best SEO tools" [ref=e335] [cursor=pointer]:
+                - /url: /best-products-by-tag/seo
+            - listitem [ref=e336]:
+              - link "Best Productivity tools" [ref=e337] [cursor=pointer]:
+                - /url: /best-products-by-tag/productivity
+      - separator [ref=e338]
+      - generic [ref=e339]:
+        - text: © 2019-2026 Uneed™. All Rights Reserved.
+        - link "Privacy Policy" [ref=e340] [cursor=pointer]:
+          - /url: /privacy-policy
+        - text: "-"
+        - link "Terms of Use" [ref=e341] [cursor=pointer]:
+          - /url: /terms-of-use

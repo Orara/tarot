@@ -1,0 +1,104 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e5]:
+        - link [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img [ref=e8]
+        - generic [ref=e10]:
+          - link "Submit" [ref=e13] [cursor=pointer]:
+            - /url: https://boostmytool.com/submit-my-tool
+          - button "Menu" [ref=e14] [cursor=pointer]:
+            - img [ref=e15]
+    - main [ref=e17]:
+      - navigation [ref=e19]:
+        - list [ref=e20]:
+          - listitem [ref=e21]:
+            - link "Home" [ref=e22] [cursor=pointer]:
+              - /url: /
+              - img [ref=e23]
+              - text: Home
+          - listitem [ref=e25]:
+            - img [ref=e27]
+            - generic [ref=e29]: Submit
+      - generic [ref=e30]:
+        - heading "Get your tool amongst the best!" [level=1] [ref=e31]
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e34]: 500,000+
+            - generic [ref=e35]: visits/month
+          - generic [ref=e36]:
+            - generic [ref=e37]: 45%+
+            - generic [ref=e38]: click through rate
+          - generic [ref=e39]:
+            - generic [ref=e40]: 10600+
+            - generic [ref=e41]: tools listed
+          - generic [ref=e42]:
+            - generic [ref=e43]: 21,600+
+            - generic [ref=e44]: newsletter subscribers
+        - generic [ref=e48]:
+          - heading "Fast-Track" [level=3] [ref=e49]
+          - paragraph [ref=e50]: Skip the line and Get your tool listed ASAP! 🚀
+          - paragraph [ref=e51]: $30
+          - paragraph [ref=e52]: One Time Payment
+          - link "Submit Now" [ref=e54] [cursor=pointer]:
+            - /url: https://boostmytool.com/submit-my-tool
+        - generic [ref=e56]:
+          - text: All plans are subject to availability. Please refer to our
+          - link "Terms & Conditions" [ref=e57] [cursor=pointer]:
+            - /url: /terms
+          - text: for more information.
+    - contentinfo [ref=e58]:
+      - generic [ref=e59]:
+        - generic [ref=e60]:
+          - generic [ref=e62]:
+            - link [ref=e63] [cursor=pointer]:
+              - /url: /
+              - img [ref=e64]
+            - generic [ref=e66]: Find Best AI Tools That Make Your Life Easy!
+            - generic [ref=e67]:
+              - text: Made with ❤️ by
+              - link "Rishit" [ref=e68] [cursor=pointer]:
+                - /url: https://twitter.com/imrishit98
+          - generic [ref=e70]:
+            - link "Home" [ref=e71] [cursor=pointer]:
+              - /url: /
+            - link "Advertise with us" [ref=e72] [cursor=pointer]:
+              - /url: /advertise
+            - link "Trending" [ref=e73] [cursor=pointer]:
+              - /url: /trending
+            - link "Top AI Tools" [ref=e74] [cursor=pointer]:
+              - /url: /tasks
+            - link "Recently added" [ref=e75] [cursor=pointer]:
+              - /url: /recently-added
+            - link "Blog" [ref=e76] [cursor=pointer]:
+              - /url: /blog
+            - link "Deals" [ref=e77] [cursor=pointer]:
+              - /url: /deals
+            - link "Categories" [ref=e78] [cursor=pointer]:
+              - /url: /category
+            - link "Tags" [ref=e79] [cursor=pointer]:
+              - /url: /tag
+            - link "Technologies" [ref=e80] [cursor=pointer]:
+              - /url: /technology
+            - link "Creators" [ref=e81] [cursor=pointer]:
+              - /url: /creator
+            - link "Submit a tool" [ref=e82] [cursor=pointer]:
+              - /url: /submit
+            - link "Submit a blog post" [ref=e83] [cursor=pointer]:
+              - /url: https://tally.so/r/3jb99x
+            - link "Contact us" [ref=e84] [cursor=pointer]:
+              - /url: /contact
+            - link "Terms" [ref=e85] [cursor=pointer]:
+              - /url: /terms
+            - link "Privacy" [ref=e86] [cursor=pointer]:
+              - /url: /privacy
+            - link "Product Hunt" [ref=e87] [cursor=pointer]:
+              - /url: /ph
+            - link "Amazing Newsletters" [ref=e88] [cursor=pointer]:
+              - /url: https://amazingnewsletters.com?ref=aitools.fyi&utm_source=aitools.fyi
+        - generic [ref=e89]: © 2026 aitools.fyi. All rights reserved.
+    - link "By Rishit Patel":
+      - /url: https://twitter.com/imrishit98
+      - generic [ref=e90] [cursor=pointer]: By Rishit Patel
+  - alert [ref=e91]

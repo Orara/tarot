@@ -1,0 +1,292 @@
+- generic [active] [ref=e1]:
+  - link "메인 콘텐츠로 바로가기" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+    - generic [ref=e4]: 메인 콘텐츠로 바로가기
+  - generic [ref=e6]:
+    - generic:
+      - generic [ref=e7]:
+        - generic: r/artificial에 제출
+      - banner [ref=e10]:
+        - navigation [ref=e11]:
+          - generic [ref=e12]:
+            - button "메뉴 열기" [ref=e16] [cursor=pointer]:
+              - img [ref=e19]
+              - generic [ref=e21]:
+                - generic: 메뉴 열기
+            - link "홈" [ref=e26] [cursor=pointer]:
+              - /url: /
+              - img [ref=e28]
+          - search [ref=e45]:
+            - generic [ref=e47]:
+              - img [ref=e50]
+              - generic [ref=e53]:
+                - 'button "현재 검색 범위: r/artificial" [ref=e54] [cursor=pointer]':
+                  - generic [ref=e55]:
+                    - img [ref=e59]
+                    - generic [ref=e63]: r/artificial
+                  - generic [ref=e64]:
+                    - generic: "현재 검색 범위: r/artificial"
+                - button "r/artificial 필터를 제거하고 Reddit 전체로 검색 범위를 확대합니다" [ref=e66] [cursor=pointer]:
+                  - img [ref=e69]
+                  - generic [ref=e71]:
+                    - generic: r/artificial 필터를 제거하고 Reddit 전체로 검색 범위를 확대합니다
+              - 'textbox "현재 검색 범위: r/artificial r/artificial 필터를 제거하고 Reddit 전체로 검색 범위를 확대합니다" [ref=e73]':
+                - /placeholder: "검색 범위: r/artificial"
+          - generic [ref=e74]:
+            - generic [ref=e75]:
+              - button "채팅 열기" [ref=e81] [cursor=pointer]:
+                - img [ref=e84]
+                - generic [ref=e86]:
+                  - generic: 채팅 열기
+              - link "게시물 만들기" [ref=e91] [cursor=pointer]:
+                - /url: /r/artificial/submit/
+                - generic [ref=e92]:
+                  - img [ref=e94]
+                  - generic [ref=e96]: 만들기
+                - generic [ref=e97]:
+                  - generic: 게시물 만들기
+              - link "받은 편지함 열기" [ref=e101] [cursor=pointer]:
+                - /url: /notifications
+                - img [ref=e104]
+                - generic [ref=e106]:
+                  - generic: 받은 편지함 열기
+            - button "사용자 아바타 사용자 메뉴 펼치기" [ref=e111] [cursor=pointer]:
+              - img "사용자 아바타" [ref=e119]
+              - generic [ref=e121]:
+                - generic: 사용자 메뉴 펼치기
+      - generic [ref=e125]:
+        - main [ref=e126]:
+          - generic "r/artificial에 제출"
+          - generic [ref=e127]:
+            - heading "게시물 만들기" [level=1] [ref=e128]
+            - button "임시 저장본" [ref=e131] [cursor=pointer]:
+              - generic [ref=e133]: 임시 저장본
+          - generic [ref=e134]:
+            - generic:
+              - button "r/artificial" [ref=e138] [cursor=pointer]:
+                - generic [ref=e144]: r/artificial
+                - img [ref=e146]
+              - tablist [ref=e149]:
+                - tab "텍스트" [selected] [ref=e151] [cursor=pointer]:
+                  - generic [ref=e157]: 텍스트
+                - tab "이미지 및 동영상" [ref=e159] [cursor=pointer]:
+                  - generic [ref=e165]: 이미지 및 동영상
+                - tab "링크" [ref=e167] [cursor=pointer]:
+                  - generic [ref=e173]: 링크
+                - tab "설문조사" [ref=e175] [cursor=pointer]:
+                  - generic [ref=e181]: 설문조사
+                - tab "AMA" [ref=e183] [cursor=pointer]:
+                  - generic [ref=e189]: AMA
+              - generic [ref=e190]:
+                - group [ref=e192]:
+                  - generic [ref=e193]:
+                    - generic [ref=e197]:
+                      - generic [ref=e198]:
+                        - generic:
+                          - generic: 제목
+                          - text: "*"
+                        - textbox "제목" [ref=e200]: I used Gemini to build a tarot reading app that actually personalizes interpretations to your question
+                      - img [ref=e585]
+                    - generic [ref=e205]: 102/300
+                  - button "플레어 및 태그 추가 *" [ref=e210] [cursor=pointer]:
+                    - generic [ref=e212]:
+                      - generic:
+                        - text: 플레어 및 태그 추가
+                        - generic: "*"
+                  - list [ref=e654]:
+                    - listitem [ref=e655]:
+                      - generic [ref=e656]:
+                        - img [ref=e658]
+                        - paragraph [ref=e660]: 게시물에는 게시물 플레어가 포함되어 있어야 합니다.
+                - group [ref=e214]:
+                  - generic [ref=e217]:
+                    - textbox "게시물 본문 텍스트 필드" [ref=e221]:
+                      - paragraph [ref=e222]:
+                        - text: Most tarot apps I tried just spit out the same card meanings regardless of what you actually asked. So I built one that works differently. You type your actual question or situation first, then draw cards. The AI (Gemini) reads those specific cards in the context of what you wrote — so the output is actually about your situation, not a copy-paste from a tarot book. Full 78-card deck, 8 languages, free 1-card reading with no login.
+                        - link "https://tarot-bzi.pages.dev/" [ref=e587]:
+                          - /url: https://tarot-bzi.pages.dev/
+                        - text: Curious what people here think about using LLMs for this kind of personalized interpretation work — does the framing/prompting approach matter a lot, or does the model just flatten everything out anyway?
+                    - toolbar "텍스트 서식 툴바" [ref=e223]:
+                      - generic [ref=e226]:
+                        - generic [ref=e227]:
+                          - button "굵게" [ref=e230] [cursor=pointer]:
+                            - img [ref=e233]
+                            - generic [ref=e235]:
+                              - generic: 굵게
+                          - button "기울임꼴" [ref=e238] [cursor=pointer]:
+                            - img [ref=e241]
+                            - generic [ref=e243]:
+                              - generic: 기울임꼴
+                          - button "취소선" [ref=e246] [cursor=pointer]:
+                            - img [ref=e249]
+                            - generic [ref=e251]:
+                              - generic: 취소선
+                          - button "위 첨자" [ref=e254] [cursor=pointer]:
+                            - img [ref=e257]
+                            - generic [ref=e259]:
+                              - generic: 위 첨자
+                          - button "제목" [ref=e262] [cursor=pointer]:
+                            - img [ref=e265]
+                            - generic [ref=e267]:
+                              - generic: 제목
+                          - button "링크" [ref=e270] [cursor=pointer]:
+                            - img [ref=e273]
+                            - generic [ref=e275]:
+                              - generic: 링크
+                          - generic:
+                            - generic:
+                              - button "이미지" [ref=e278] [cursor=pointer]:
+                                - img [ref=e281]
+                                - generic [ref=e283]:
+                                  - generic: 이미지
+                              - button "동영상" [ref=e286] [cursor=pointer]:
+                                - img [ref=e289]
+                                - generic [ref=e291]:
+                                  - generic: 동영상
+                          - button "글머리 기호 목록" [ref=e294] [cursor=pointer]:
+                            - img [ref=e297]
+                            - generic [ref=e299]:
+                              - generic: 글머리 기호 목록
+                          - button "숫자 리스트" [ref=e302] [cursor=pointer]:
+                            - img [ref=e305]
+                            - generic [ref=e307]:
+                              - generic: 숫자 리스트
+                          - button "스포일러" [ref=e310] [cursor=pointer]:
+                            - img [ref=e313]
+                            - generic [ref=e315]:
+                              - generic: 스포일러
+                          - button "인용 블록" [ref=e318] [cursor=pointer]:
+                            - img [ref=e321]
+                            - generic [ref=e323]:
+                              - generic: 인용 블록
+                          - button "코드" [ref=e326] [cursor=pointer]:
+                            - img [ref=e329]
+                            - generic [ref=e332]:
+                              - generic: 코드
+                          - button "코드 블록" [ref=e335] [cursor=pointer]:
+                            - img [ref=e338]
+                            - generic [ref=e340]:
+                              - generic: 코드 블록
+                          - button "표" [ref=e343] [cursor=pointer]:
+                            - img [ref=e346]
+                            - generic [ref=e348]:
+                              - generic: 표
+                        - generic [ref=e349]:
+                          - generic:
+                            - button "옵션 더 보기" [ref=e350] [cursor=pointer]:
+                              - img [ref=e353]
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: Markdown으로 전환
+                - generic [ref=e356]:
+                  - generic [ref=e357]:
+                    - button "게시하기" [ref=e661] [cursor=pointer]:
+                      - generic [ref=e663]: 게시하기
+                    - button "임시 저장하기" [ref=e591] [cursor=pointer]:
+                      - generic [ref=e593]: 임시 저장하기
+                  - list
+        - generic [ref=e361]:
+          - generic [ref=e363]:
+            - heading "모더레이터의 가이드라인 r/artificial" [level=2] [ref=e364]
+            - generic [ref=e365]: Please read the rules before posting.
+          - generic [ref=e367]:
+            - heading "r/artificial 이용 수칙" [level=2] [ref=e369]:
+              - generic [ref=e370]: r/artificial 이용 수칙
+            - generic [ref=e371]:
+              - group [ref=e373]:
+                - generic "1 Be civil and follow Reddiquette (read full)" [ref=e374] [cursor=pointer]:
+                  - generic [ref=e376]:
+                    - generic [ref=e377]:
+                      - generic [ref=e379]: "1"
+                      - heading "Be civil and follow Reddiquette (read full)" [level=2] [ref=e383]
+                    - img [ref=e386]
+              - group [ref=e389]:
+                - generic "2 Self-advertisement (read full)" [ref=e390] [cursor=pointer]:
+                  - generic [ref=e392]:
+                    - generic [ref=e393]:
+                      - generic [ref=e395]: "2"
+                      - heading "Self-advertisement (read full)" [level=2] [ref=e399]
+                    - img [ref=e402]
+              - group [ref=e405]:
+                - generic "3 No spam or off-topic posts" [ref=e406] [cursor=pointer]:
+                  - generic [ref=e408]:
+                    - generic [ref=e409]:
+                      - generic [ref=e411]: "3"
+                      - heading "No spam or off-topic posts" [level=2] [ref=e415]
+                    - img [ref=e418]
+              - group [ref=e421]:
+                - generic "4 No selling" [ref=e422] [cursor=pointer]:
+                  - generic [ref=e424]:
+                    - generic [ref=e425]:
+                      - generic [ref=e427]: "4"
+                      - heading "No selling" [level=2] [ref=e431]
+                    - img [ref=e434]
+              - group [ref=e437]:
+                - generic "5 Low-effort / low-quality content" [ref=e438] [cursor=pointer]:
+                  - generic [ref=e440]:
+                    - generic [ref=e441]:
+                      - generic [ref=e443]: "5"
+                      - heading "Low-effort / low-quality content" [level=2] [ref=e447]
+                    - img [ref=e450]
+              - group [ref=e453]:
+                - generic "6 NSFW content" [ref=e454] [cursor=pointer]:
+                  - generic [ref=e456]:
+                    - generic [ref=e457]:
+                      - generic [ref=e459]: "6"
+                      - heading "NSFW content" [level=2] [ref=e463]
+                    - img [ref=e466]
+              - group [ref=e469]:
+                - generic "7 Not an AI art gallery" [ref=e470] [cursor=pointer]:
+                  - generic [ref=e472]:
+                    - generic [ref=e473]:
+                      - generic [ref=e475]: "7"
+                      - heading "Not an AI art gallery" [level=2] [ref=e479]
+                    - img [ref=e482]
+              - group [ref=e485]:
+                - generic "8 Not your anti-AI soapbox" [ref=e486] [cursor=pointer]:
+                  - generic [ref=e488]:
+                    - generic [ref=e489]:
+                      - generic [ref=e491]: "8"
+                      - heading "Not your anti-AI soapbox" [level=2] [ref=e495]
+                    - img [ref=e498]
+              - group [ref=e501]:
+                - generic "9 No false/misleading content" [ref=e502] [cursor=pointer]:
+                  - generic [ref=e504]:
+                    - generic [ref=e505]:
+                      - generic [ref=e507]: "9"
+                      - heading "No false/misleading content" [level=2] [ref=e511]
+                    - img [ref=e514]
+              - group [ref=e517]:
+                - generic "10 No tool requests / reading material requests" [ref=e518] [cursor=pointer]:
+                  - generic [ref=e520]:
+                    - generic [ref=e521]:
+                      - generic [ref=e523]: "10"
+                      - heading "No tool requests / reading material requests" [level=2] [ref=e527]
+                    - img [ref=e530]
+              - group [ref=e533]:
+                - generic "11 Automod" [ref=e534] [cursor=pointer]:
+                  - generic [ref=e536]:
+                    - generic [ref=e537]:
+                      - generic [ref=e539]: "11"
+                      - heading "Automod" [level=2] [ref=e543]
+                    - img [ref=e546]
+          - generic [ref=e549]:
+            - heading "사용자 플레어 설정" [level=2] [ref=e551]:
+              - generic [ref=e552]: 사용자 플레어 설정
+            - button "u/Intrepid_Diver1032 님의 아바타입니다 Intrepid_Diver1032" [ref=e554]:
+              - generic [ref=e556]:
+                - img "u/Intrepid_Diver1032 님의 아바타입니다" [ref=e561]
+                - generic [ref=e563]: Intrepid_Diver1032
+        - generic [ref=e565]:
+          - link "Reddit 콘텐츠 규정" [ref=e568] [cursor=pointer]:
+            - /url: https://www.redditinc.com/policies/content-policy
+          - link "개인정보 처리방침" [ref=e571] [cursor=pointer]:
+            - /url: https://www.reddit.com/policies/privacy-policy
+          - link "이용 약관" [ref=e574] [cursor=pointer]:
+            - /url: https://www.redditinc.com/policies/user-agreement
+          - link "접근성" [ref=e577] [cursor=pointer]:
+            - /url: https://support.reddithelp.com/hc/sections/38303584022676-Accessibility
+          - generic [ref=e578]: •
+          - link "Reddit, Inc. © 2026. All rights reserved." [ref=e580] [cursor=pointer]:
+            - /url: https://redditinc.com

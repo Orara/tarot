@@ -1,0 +1,72 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5] [cursor=pointer]: Arcana Insight
+    - combobox [active] [ref=e7] [cursor=pointer]:
+      - option "🇰🇷 한국어" [selected]
+      - option "🇺🇸 English"
+      - option "🇯🇵 日本語"
+      - option "🇨🇳 中文"
+      - option "🇪🇸 Español"
+      - option "🇫🇷 Français"
+      - option "🇹🇭 ภาษาไทย"
+      - option "🇻🇳 Tiếng Việt"
+  - generic [ref=e8]:
+    - generic [ref=e9]:
+      - heading "전 세계 타로 데이터 기반의 정확한 운세 안내" [level=1] [ref=e10]:
+        - generic [ref=e11]: 전
+        - generic [ref=e12]: 세계
+        - generic [ref=e13]: 타로
+        - generic [ref=e14]: 데이터
+        - generic [ref=e15]: 기반의
+        - generic [ref=e16]: 정확한
+        - generic [ref=e17]: 운세
+        - generic [ref=e18]: 안내
+      - paragraph [ref=e19]: 수백 년간 축적된 전 세계의 방대한 타로 데이터와 해석학을 바탕으로, 당신의 현재 상황을 정확하게 꿰뚫어보고 나아갈 길을 안내합니다. AI의 빠름과 전통 타로의 깊이를 결합한 최상의 인사이트를 경험하세요.
+      - button "지금 바로 당신의 운명을 확인하세요" [ref=e21] [cursor=pointer]
+    - generic [ref=e24]:
+      - generic [ref=e26]:
+        - generic [ref=e29]: ✦
+        - generic [ref=e32]: ☽
+        - generic [ref=e35]: ✧
+      - paragraph [ref=e37]: ARCANA INSIGHT
+  - generic [ref=e39]:
+    - heading "왜 아르카나 인사이트인가?" [level=2] [ref=e40]
+    - generic [ref=e41]:
+      - generic [ref=e42]:
+        - generic [ref=e43]: 🌍
+        - heading "글로벌 데이터베이스" [level=3] [ref=e44]
+        - paragraph [ref=e45]: 동서양을 아우르는 수만 건의 타로 리딩 데이터를 기반으로 가장 객관적이고 정확한 해석을 제공합니다.
+      - generic [ref=e46]:
+        - generic [ref=e47]: 👁️
+        - heading "심층적인 통찰력" [level=3] [ref=e48]
+        - paragraph [ref=e49]: 단순한 운세가 아닌, 심리학과 상징학이 결합된 깊이 있는 조언으로 당신의 고민을 실질적으로 해결합니다.
+      - generic [ref=e50]:
+        - generic [ref=e51]: ✨
+        - heading "개인 맞춤형 리딩" [level=3] [ref=e52]
+        - paragraph [ref=e53]: 당신의 고유한 상황과 질문의 흐름을 분석하여 지금 당장 가장 알맞은 타로 해답을 제시합니다.
+  - generic [ref=e54]:
+    - heading "지금 바로 당신의 운명을 확인하세요" [level=2] [ref=e55]
+    - generic [ref=e56]:
+      - generic [ref=e57]:
+        - generic [ref=e58]:
+          - heading "오늘의 인사이트 (무료)" [level=2] [ref=e59]
+          - paragraph [ref=e60]: 가볍게 1장을 뽑아 현재 당신에게 가장 필요한 팩폭 조언을 확인하세요.
+        - button "1장 무료 뽑기" [ref=e61] [cursor=pointer]
+      - generic [ref=e62]:
+        - generic [ref=e63]:
+          - heading "베이직 리딩 (3장)" [level=2] [ref=e64]
+          - paragraph [ref=e65]: 과거, 현재, 미래의 흐름을 파악하여 당면한 문제의 원인과 결과를 분석합니다.
+        - button "3장 심층 상담 ($2.99)" [ref=e66] [cursor=pointer]
+      - generic [ref=e67]:
+        - generic [ref=e68]: BEST SELLER
+        - generic [ref=e69]:
+          - heading "프리미엄 리딩 (5장)" [level=2] [ref=e70]
+          - paragraph [ref=e71]: 주변 상황, 숨겨진 의미, 구체적인 행동 지침까지 종합적인 해결책을 제시합니다.
+        - button "5장 정밀 분석 ($4.99)" [ref=e72] [cursor=pointer]
+      - generic [ref=e73]:
+        - generic [ref=e74]: VIP ONLY
+        - generic [ref=e75]:
+          - heading "VIP 켈틱 크로스 (10장)" [level=2] [ref=e76]
+          - paragraph [ref=e77]: 타로 최고 권위의 10장 배열법으로 당신의 무의식부터 최종 결과까지 완벽히 해부합니다.
+        - button "10장 궁극의 상담 ($8.99)" [ref=e78] [cursor=pointer]
+  - contentinfo [ref=e79]: © 2026 Arcana Insight. All rights reserved.

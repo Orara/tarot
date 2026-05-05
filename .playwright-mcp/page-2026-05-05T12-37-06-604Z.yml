@@ -1,0 +1,353 @@
+- generic [ref=e1]:
+  - link "메인 콘텐츠로 바로가기" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+    - generic [ref=e4]: 메인 콘텐츠로 바로가기
+  - generic [ref=e6]:
+    - generic:
+      - generic [ref=e7]:
+        - generic: Intrepid_Diver1032 (u/Intrepid_Diver1032) - Reddit
+      - banner [ref=e10]:
+        - navigation [ref=e11]:
+          - generic [ref=e12]:
+            - button "메뉴 열기" [ref=e16] [cursor=pointer]:
+              - img [ref=e19]
+              - generic [ref=e21]:
+                - generic: 메뉴 열기
+            - link "홈" [ref=e26] [cursor=pointer]:
+              - /url: /
+              - img [ref=e28]
+          - search [ref=e45]:
+            - generic [ref=e47]:
+              - img [ref=e50]
+              - generic [ref=e53]:
+                - 'button "현재 검색 범위: u/Intrepid_Diver1032" [ref=e54] [cursor=pointer]':
+                  - generic [ref=e62]: u/Intrepid_Diver1032
+                  - generic [ref=e63]:
+                    - generic: "현재 검색 범위: u/Intrepid_Diver1032"
+                - button "u/Intrepid_Diver1032 필터를 제거하고 Reddit 전체로 검색 범위를 확대합니다" [ref=e65] [cursor=pointer]:
+                  - img [ref=e68]
+                  - generic [ref=e70]:
+                    - generic: u/Intrepid_Diver1032 필터를 제거하고 Reddit 전체로 검색 범위를 확대합니다
+              - 'textbox "현재 검색 범위: u/Intrepid_Diver1032 u/Intrepid_Diver1032 필터를 제거하고 Reddit 전체로 검색 범위를 확대합니다" [ref=e72]':
+                - /placeholder: "검색 범위: u/Intrepid_Diver1032"
+          - generic [ref=e73]:
+            - generic [ref=e74]:
+              - button "채팅 열기" [ref=e80] [cursor=pointer]:
+                - img [ref=e83]
+                - generic [ref=e85]:
+                  - generic: 채팅 열기
+              - link "게시물 만들기" [ref=e90] [cursor=pointer]:
+                - /url: /submit
+                - generic [ref=e91]:
+                  - img [ref=e93]
+                  - generic [ref=e95]: 만들기
+                - generic [ref=e96]:
+                  - generic: 게시물 만들기
+              - link "받은 편지함 열기" [ref=e100] [cursor=pointer]:
+                - /url: /notifications
+                - img [ref=e103]
+                - generic [ref=e105]:
+                  - generic: 받은 편지함 열기
+            - button "사용자 아바타 사용자 메뉴 펼치기" [ref=e110] [cursor=pointer]:
+              - img "사용자 아바타" [ref=e118]
+              - generic [ref=e120]:
+                - generic: 사용자 메뉴 펼치기
+      - generic [ref=e124]:
+        - main [ref=e125]:
+          - generic [ref=e126]:
+            - generic [ref=e128]:
+              - generic [ref=e129]:
+                - img "Intrepid_Diver1032 u/Intrepid_Diver1032 님의 아바타입니다" [ref=e130]
+                - button "avatar 프로필 수정" [ref=e133] [cursor=pointer]:
+                  - img [ref=e136]
+              - generic [ref=e141]:
+                - heading "Intrepid_Diver1032" [level=1] [ref=e144]
+                - paragraph [ref=e145]: u/Intrepid_Diver1032
+            - generic [ref=e146]:
+              - generic [ref=e148]:
+                - tablist [ref=e149]:
+                  - tab "개요" [ref=e150]:
+                    - link "개요" [ref=e151] [cursor=pointer]:
+                      - /url: /user/Intrepid_Diver1032/
+                      - generic [ref=e155]: 개요
+                  - tab "게시물" [selected] [ref=e156]:
+                    - link "게시물" [active] [ref=e157] [cursor=pointer]:
+                      - /url: /user/Intrepid_Diver1032/submitted/
+                      - generic [ref=e161]: 게시물
+                  - tab "댓글" [ref=e162]:
+                    - link "댓글" [ref=e163] [cursor=pointer]:
+                      - /url: /user/Intrepid_Diver1032/comments/
+                      - generic [ref=e167]: 댓글
+                  - tab "저장됨" [ref=e168]:
+                    - link "저장됨" [ref=e169] [cursor=pointer]:
+                      - /url: /user/Intrepid_Diver1032/saved/
+                      - generic [ref=e173]: 저장됨
+                  - tab "기록" [ref=e174]:
+                    - link "기록" [ref=e175] [cursor=pointer]:
+                      - /url: /user/Intrepid_Diver1032/history/
+                      - generic [ref=e179]: 기록
+                  - tab "숨겨짐" [ref=e180]:
+                    - link "숨겨짐" [ref=e181] [cursor=pointer]:
+                      - /url: /user/Intrepid_Diver1032/hidden/
+                      - generic [ref=e185]: 숨겨짐
+                  - tab "좋아요 누른 게시물" [ref=e186]:
+                    - link "좋아요 누른 게시물" [ref=e187] [cursor=pointer]:
+                      - /url: /user/Intrepid_Diver1032/upvoted/
+                      - generic [ref=e191]: 좋아요 누른 게시물
+                  - tab "싫어요 누른 게시물" [ref=e192]:
+                    - link "싫어요 누른 게시물" [ref=e193] [cursor=pointer]:
+                      - /url: /user/Intrepid_Diver1032/downvoted/
+                      - generic [ref=e197]: 싫어요 누른 게시물
+                - button "앞으로 가기 버튼입니다" [ref=e199] [cursor=pointer]:
+                  - img [ref=e202]
+                  - generic [ref=e204]:
+                    - generic: 앞으로 가기 버튼입니다
+                - button "뒤로 가기 버튼입니다" [ref=e206] [cursor=pointer]:
+                  - img [ref=e209]
+                  - generic [ref=e211]:
+                    - generic: 뒤로 가기 버튼입니다
+              - generic:
+                - generic:
+                  - tabpanel
+            - link "모든 게시물 표시 중" [ref=e212] [cursor=pointer]:
+              - /url: /settings/profile/#visibility
+              - img [ref=e213]
+              - generic [ref=e216]: 모든 게시물 표시 중
+              - img [ref=e217]
+            - generic [ref=e219]:
+              - generic "Intrepid_Diver1032 (u/Intrepid_Diver1032) - Reddit"
+              - generic [ref=e221]:
+                - link "게시물 만들기" [ref=e224] [cursor=pointer]:
+                  - /url: /user/Intrepid_Diver1032/submit
+                  - generic [ref=e225]:
+                    - img [ref=e227]
+                    - generic [ref=e229]: 게시물 만들기
+                - button "피드 옵션" [ref=e232] [cursor=pointer]:
+                  - img [ref=e235]
+              - separator [ref=e237]
+              - generic [ref=e238]:
+                - heading "피드" [level=1] [ref=e240]
+                - generic:
+                  - article "Built an AI tarot reading site with PayPal monetization — launched it, here's what I learned" [ref=e241]:
+                    - generic [ref=e242] [cursor=pointer]:
+                      - link "Built an AI tarot reading site with PayPal monetization — launched it, here's what I learned" [ref=e243]:
+                        - /url: /r/SideProject/comments/1t4e5nj/built_an_ai_tarot_reading_site_with_paypal/
+                        - generic [ref=e244]:
+                          - generic: Built an AI tarot reading site with PayPal monetization — launched it, here's what I learned
+                      - generic [ref=e245]:
+                        - generic [ref=e246]:
+                          - link "r/SideProject" [ref=e249]:
+                            - /url: /r/SideProject/
+                            - generic [ref=e253]: r/SideProject
+                          - generic [ref=e254]: •
+                          - time [ref=e256]: 2분 전
+                        - generic [ref=e257]:
+                          - button "가입" [ref=e259]
+                          - button "사용자 작업 열기" [ref=e263]:
+                            - img [ref=e266]
+                      - generic [ref=e269]:
+                        - heading "Built an AI tarot reading site with PayPal monetization — launched it, here's what I learned" [level=2] [ref=e270]:
+                          - link "Built an AI tarot reading site with PayPal monetization — launched it, here's what I learned" [ref=e271]:
+                            - /url: /r/SideProject/comments/1t4e5nj/built_an_ai_tarot_reading_site_with_paypal/
+                            - text: Built an AI tarot reading site with PayPal monetization — launched it, here's what I learned
+                        - generic [ref=e272]:
+                          - generic:
+                            - link "Been working on side projects for a while, but this is the first one I actually monetized. Figured I'd share what I ran into. **What I built:** https://tarot-bzi.pages.dev/ — an AI tarot reading site that takes your actual question and gives a personalized reading from a real 78-card deck. Supports 8 languages (EN, JP, TH, KO, ZH, ES, FR, VI). **Stack:** React + Vite + Gemini AI + PayPal + Cloudflare Pages (free tier) **The thing that actually worked:** making the free tier genuinely useful. 1 card, no signup, no email capture. People actually try it instead of bouncing immediately. **What was harder than expected:** getting the AI to give readings that feel personal, not like a horoscope copy-paste. Spent most of my time on the prompt. **Monetization:** tiered pricing ($2.99 / $4.99 / $8.99) via PayPal. Still early but getting some conversions. Happy to answer questions about the build.":
+                              - /url: /r/SideProject/comments/1t4e5nj/built_an_ai_tarot_reading_site_with_paypal/
+                              - generic:
+                                - generic:
+                                  - paragraph: Been working on side projects for a while, but this is the first one I actually monetized. Figured I'd share what I ran into.
+                                  - paragraph:
+                                    - text: "**What I built:**"
+                                    - link "https://tarot-bzi.pages.dev/":
+                                      - /url: https://tarot-bzi.pages.dev/
+                                    - text: — an AI tarot reading site that takes your actual question and gives a personalized reading from a real 78-card deck. Supports 8 languages (EN, JP, TH, KO, ZH, ES, FR, VI).
+                                  - paragraph: "**Stack:** React + Vite + Gemini AI + PayPal + Cloudflare Pages (free tier)"
+                                  - paragraph: "**The thing that actually worked:** making the free tier genuinely useful. 1 card, no signup, no email capture. People actually try it instead of bouncing immediately."
+                                  - paragraph: "**What was harder than expected:** getting the AI to give readings that feel personal, not like a horoscope copy-paste. Spent most of my time on the prompt."
+                                  - paragraph: "**Monetization:** tiered pricing ($2.99 / $4.99 / $8.99) via PayPal. Still early but getting some conversions."
+                                  - paragraph: Happy to answer questions about the build.
+                      - generic [ref=e274]:
+                        - img [ref=e275]
+                        - generic [ref=e277]: 죄송합니다. Reddit 필터로 제거된 게시물입니다.
+                      - generic "이 게시물에서 실행할 수 있는 작업" [ref=e278]:
+                        - generic [ref=e281]:
+                          - button "좋아요" [pressed] [ref=e282]:
+                            - img [ref=e284]
+                            - generic [ref=e286]:
+                              - generic: 좋아요
+                          - generic [ref=e288]: "1"
+                          - button "싫어요" [ref=e289]:
+                            - img [ref=e291]
+                            - generic [ref=e293]:
+                              - generic: 싫어요
+                        - link "0 댓글로 이동" [ref=e294]:
+                          - /url: /r/SideProject/comments/1t4e5nj/built_an_ai_tarot_reading_site_with_paypal/
+                          - generic [ref=e295]:
+                            - img [ref=e297]
+                            - generic [ref=e300]: "0"
+                          - generic [ref=e301]:
+                            - generic: 댓글로 이동
+                        - button "공유" [ref=e305]:
+                          - generic [ref=e306]:
+                            - img [ref=e308]
+                            - generic [ref=e310]: 공유
+                  - separator [ref=e311]
+                  - article "This free tarot site reads your actual question — not just generic card meanings. Full 78-card deck, 8 languages." [ref=e312]:
+                    - generic [ref=e313] [cursor=pointer]:
+                      - link "This free tarot site reads your actual question — not just generic card meanings. Full 78-card deck, 8 languages." [ref=e314]:
+                        - /url: /r/InternetIsBeautiful/comments/1t4e1lt/this_free_tarot_site_reads_your_actual_question/
+                        - generic [ref=e315]:
+                          - generic: This free tarot site reads your actual question — not just generic card meanings. Full 78-card deck, 8 languages.
+                      - generic:
+                        - generic [ref=e316]:
+                          - generic [ref=e318]:
+                            - generic [ref=e319]:
+                              - link "r/InternetIsBeautiful" [ref=e322]:
+                                - /url: /r/InternetIsBeautiful/
+                                - generic [ref=e326]: r/InternetIsBeautiful
+                              - generic [ref=e327]: •
+                              - time [ref=e329]: 7분 전
+                            - generic [ref=e330]:
+                              - button "가입" [ref=e332]
+                              - button "사용자 작업 열기" [ref=e336]:
+                                - img [ref=e339]
+                          - generic [ref=e341]:
+                            - link "This free tarot site reads your actual question — not just generic card meanings. Full 78-card deck, 8 languages." [ref=e343]:
+                              - /url: /r/InternetIsBeautiful/comments/1t4e1lt/this_free_tarot_site_reads_your_actual_question/
+                            - link "https://tarot-bzi.pages.dev/" [ref=e346]:
+                              - /url: https://tarot-bzi.pages.dev/
+                        - generic [ref=e348]:
+                          - img [ref=e349]
+                          - generic [ref=e351]: 죄송합니다. r/InternetIsBeautiful 모더레이터가 제거한 게시물입니다.
+                        - link "다른 커뮤니티에 게시해보세요" [ref=e353]:
+                          - /url: /submit/?post_id=t3_1t4e1lt&composer_entry=retry_prompt
+                          - img [ref=e354]
+                          - generic [ref=e356]: 다른 커뮤니티에 게시해보세요
+                          - img [ref=e357]
+                      - generic "이 게시물에서 실행할 수 있는 작업" [ref=e360]:
+                        - generic [ref=e363]:
+                          - button "좋아요" [pressed] [ref=e364]:
+                            - img [ref=e366]
+                            - generic [ref=e368]:
+                              - generic: 좋아요
+                          - generic [ref=e370]: "1"
+                          - button "싫어요" [ref=e371]:
+                            - img [ref=e373]
+                            - generic [ref=e375]:
+                              - generic: 싫어요
+                        - link "0 댓글로 이동" [ref=e376]:
+                          - /url: /r/InternetIsBeautiful/comments/1t4e1lt/this_free_tarot_site_reads_your_actual_question/
+                          - generic [ref=e377]:
+                            - img [ref=e379]
+                            - generic [ref=e382]: "0"
+                          - generic [ref=e383]:
+                            - generic: 댓글로 이동
+                        - button "공유" [ref=e387]:
+                          - generic [ref=e388]:
+                            - img [ref=e390]
+                            - generic [ref=e392]: 공유
+                  - separator [ref=e393]
+        - generic [ref=e394]:
+          - complementary "프로필 정보" [ref=e396]:
+            - generic [ref=e397]:
+              - button "banner 프로필 수정" [ref=e401] [cursor=pointer]:
+                - img [ref=e404]
+              - generic [ref=e406]:
+                - heading "Intrepid_Diver1032" [level=2] [ref=e408]: Intrepid_Diver1032
+                - button "프로필 공유" [ref=e413] [cursor=pointer]:
+                  - generic [ref=e414]:
+                    - img [ref=e416]
+                    - generic [ref=e418]: 공유
+                - generic [ref=e422] [cursor=pointer]: 팔로워 0명
+                - generic [ref=e423]:
+                  - generic [ref=e424]:
+                    - paragraph [ref=e425]:
+                      - generic [ref=e426]:
+                        - generic: "1"
+                    - paragraph [ref=e427]: 카르마
+                  - generic [ref=e429] [cursor=pointer]:
+                    - paragraph [ref=e430]: "0"
+                    - paragraph [ref=e431]: 기여
+                  - generic [ref=e432]:
+                    - paragraph [ref=e433]:
+                      - time [ref=e436]: 0일
+                    - paragraph [ref=e437]: Reddit 나이
+                  - generic [ref=e439] [cursor=pointer]:
+                    - paragraph [ref=e440]:
+                      - generic [ref=e447]: "2"
+                    - paragraph [ref=e448]: 활동 중 >
+                  - generic [ref=e449]:
+                    - paragraph [ref=e450]: "0"
+                    - paragraph [ref=e451]: 획득한 골드
+                - separator [ref=e452]
+                - heading "설정" [level=2] [ref=e453]
+                - list [ref=e454]:
+                  - listitem:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img "Intrepid_Diver1032 님의 사용자 아바타입니다."
+                      - generic:
+                        - generic: 프로필
+                        - generic: 프로필을 맞춤 설정하세요
+                    - link "프로필 설정을 업데이트합니다" [ref=e455] [cursor=pointer]:
+                      - /url: /settings/profile
+                      - generic [ref=e457]: 업데이트
+                  - listitem:
+                    - generic:
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: 프로필 관리
+                        - generic: 내 프로필을 방문하는 사용자들이 볼 수 있는 항목을 관리하세요
+                    - link "프로필 관리 설정을 업데이트합니다" [ref=e458] [cursor=pointer]:
+                      - /url: /settings/profile/#visibility
+                      - generic [ref=e460]: 업데이트
+                  - listitem:
+                    - generic:
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: 아바타
+                        - generic: 아바타 스타일링하기
+                    - link "아바타 설정을 업데이트합니다" [ref=e461] [cursor=pointer]:
+                      - /url: /avatar
+                      - generic [ref=e463]: 업데이트
+                  - listitem:
+                    - generic:
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: 모더레이터 도구
+                        - generic: 프로필 관리하기
+                    - link "모더레이터 도구 설정을 업데이트합니다" [ref=e464] [cursor=pointer]:
+                      - /url: /user/Intrepid_Diver1032/about/edit/moderation/
+                      - generic [ref=e466]: 업데이트
+                - separator [ref=e467]
+                - heading "소셜 링크" [level=2] [ref=e468]
+                - link "소셜 링크 추가" [ref=e472] [cursor=pointer]:
+                  - /url: /settings/profile
+                  - generic [ref=e473]:
+                    - img [ref=e475]
+                    - generic [ref=e478]: 소셜 링크 추가
+                - separator [ref=e479]
+                - heading "트로피 케이스" [level=2] [ref=e480]
+                - menu [ref=e482]:
+                  - menuitem "신규 사용자":
+                    - generic:
+                      - generic:
+                        - generic: 신규 사용자
+          - generic [ref=e484]:
+            - link "Reddit 콘텐츠 규정" [ref=e487] [cursor=pointer]:
+              - /url: https://www.redditinc.com/policies/content-policy
+            - link "개인정보 처리방침" [ref=e490] [cursor=pointer]:
+              - /url: https://www.reddit.com/policies/privacy-policy
+            - link "이용 약관" [ref=e493] [cursor=pointer]:
+              - /url: https://www.redditinc.com/policies/user-agreement
+            - link "접근성" [ref=e496] [cursor=pointer]:
+              - /url: https://support.reddithelp.com/hc/sections/38303584022676-Accessibility
+            - link "Reddit, Inc. © 2026. All rights reserved." [ref=e498] [cursor=pointer]:
+              - /url: https://redditinc.com

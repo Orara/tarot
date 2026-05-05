@@ -1,0 +1,67 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "Product Hunt Logo" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - img [ref=e7]
+          - button [ref=e11] [cursor=pointer]:
+            - img [ref=e12]
+        - navigation "Main Navigation" [ref=e14]:
+          - list [ref=e15]:
+            - listitem [ref=e16]:
+              - link "Best Products" [ref=e17] [cursor=pointer]:
+                - /url: /categories?ref=header_nav
+                - text: Best Products
+                - img [ref=e18]
+            - listitem [ref=e20]:
+              - link "Launches" [ref=e21] [cursor=pointer]:
+                - /url: /leaderboard/daily/2026/5/5?ref=header_nav
+                - text: Launches
+                - img [ref=e22]
+            - listitem [ref=e24]:
+              - link "News" [ref=e25] [cursor=pointer]:
+                - /url: /newsletters?ref=header_nav
+                - text: News
+                - img [ref=e26]
+            - listitem [ref=e28]:
+              - link "Forums" [ref=e29] [cursor=pointer]:
+                - /url: /forums?ref=header_nav
+                - text: Forums
+                - img [ref=e30]
+        - generic [ref=e32]:
+          - button [ref=e33] [cursor=pointer]:
+            - link [ref=e34]:
+              - /url: /posts/new
+              - img [ref=e35]
+          - button [ref=e38] [cursor=pointer]:
+            - link [ref=e39]:
+              - /url: /notifications
+              - img
+          - button "Orara ToT" [ref=e40] [cursor=pointer]:
+            - link "Orara ToT" [ref=e41]:
+              - /url: /@orara_tot
+              - img "Orara ToT" [ref=e42]
+    - generic [ref=e45]:
+      - generic [ref=e47]:
+        - paragraph [ref=e48]: Submit a product
+        - paragraph [ref=e49]: Found a cool product you want everyone to know about? Or maybe you made one yourself and want the world to know about it? You're in the right place. So relax and follow the steps.
+        - generic [ref=e50]:
+          - generic [ref=e51]:
+            - generic [ref=e54]: Link to the product
+            - textbox "Link to the product" [ref=e56]:
+              - /placeholder: www.producthunt.com
+          - button "Get started" [disabled] [ref=e57]
+      - generic [ref=e58]:
+        - img "Screenshot of a product on Product Hunt" [ref=e59]
+        - generic [ref=e60]:
+          - heading "Questions about launching?" [level=4] [ref=e61]
+          - paragraph [ref=e62]:
+            - text: Our
+            - link "Launch Guide" [ref=e63] [cursor=pointer]:
+              - /url: /launch
+            - text: has all the information and official suggestions for a successful launch on Product Hunt. You can also watch videos recorded by our team.
+          - link "Visit Guide" [ref=e64] [cursor=pointer]:
+            - /url: /launch
+  - alert [ref=e65]

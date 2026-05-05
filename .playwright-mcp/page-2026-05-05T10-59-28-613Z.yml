@@ -1,0 +1,208 @@
+- generic [ref=e105]:
+  - generic [ref=e107]:
+    - link "logo" [ref=e108] [cursor=pointer]:
+      - /url: /
+      - img "logo" [ref=e109]
+    - generic [ref=e112]:
+      - link "Submit Tool" [ref=e113] [cursor=pointer]:
+        - /url: /submit-tool
+      - link "Advertise" [ref=e114] [cursor=pointer]:
+        - /url: /ads
+  - generic [ref=e119]:
+    - heading "Submit AI Tool" [level=1] [ref=e120]
+    - paragraph [ref=e121]: Got a cool AI tool that’s not listed on our site? Or do you love an AI-related product that you would like to share with others? Here’s how you can submit your creation. Fill out the form below with all the necessary details, and I’ll review your submission according to the guidelines (read below).
+    - paragraph [ref=e122]:
+      - text: Once everything checks out, we’ll publish your tool as soon as possible.
+      - text: "Note: every tool is manually reviewed. Submitting a tool is not a guarantee that it will be published on the AI Tools Directory website."
+    - generic [ref=e124]:
+      - heading "✅ Fast Track Option" [level=2] [ref=e125]
+      - paragraph [ref=e126]:
+        - text: We receive dozens of new AI tools every single day. Each one is manually reviewed, tested, and given a unique description written by our team. This process takes time, but it ensures every tool gets a fair shot. If you’d rather not wait, you can skip the line with
+        - link "Fast Track" [ref=e127] [cursor=pointer]:
+          - /url: https://aitoolsdirectory.com/ads
+        - text: . In many cases, your tool can be reviewed and published the same day.
+      - paragraph [ref=e128]:
+        - strong [ref=e129]: "Please note:"
+        - text: we only list AI-related tools. Non-AI submissions won’t be approved, so don’t order Fast Track unless your product clearly qualifies.
+      - generic [ref=e130]:
+        - text: Skip the queue and get your tool listed on AI Tools Directory in 3 days or less
+        - heading "✅ Fast Track" [level=3] [ref=e131]:
+          - text: ✅
+          - link "Fast Track" [ref=e132] [cursor=pointer]:
+            - /url: https://aitoolsdirectory.com/ads
+    - paragraph [ref=e133]:
+      - strong [ref=e134]: "How to get your tool placed on the list:"
+    - list [ref=e135]:
+      - listitem [ref=e136]: It must be clear what your product or services does. If regular people can’t figure it out in 5 seconds, it’s not going on the directory.
+      - listitem [ref=e137]:
+        - strong [ref=e138]: PLEASE READ
+        - text: ":"
+    - paragraph [ref=e139]:
+      - text: 👉 Write
+      - strong [ref=e140]:
+        - strong [ref=e141]: unique descriptions
+      - text: . If the descriptions are copied from another website, your tool will go to the bottom of the list (or discarded) and you’ll be waiting longer while I write a description.
+    - paragraph [ref=e143]: 👉 Content written using AI tools or copied content will be detected and discarded.
+    - list [ref=e144]:
+      - listitem [ref=e145]: Display transparent pricing without any hidden fees. If we need to call you to get the pricing, it won’t be included. Please do not submit a tool that has a waiting list or hidden pricing. It will not be added to the list.
+      - listitem [ref=e146]: Have a practical and user-friendly product, free from technical jargon or excessive corporate language. It should be for end users and consumers in general.
+      - listitem [ref=e147]: Please do not submit crypto-related products.
+    - paragraph [ref=e148]: Thanks for your contribution to the AI tools directory.
+    - paragraph [ref=e149]:
+      - text: NEW:🔥 Show your product in the
+      - link "Featured Tool homepage spot" [ref=e150] [cursor=pointer]:
+        - /url: https://aitoolsdirectory.com/ads
+      - text: and get added in the organic listings immediately.
+    - iframe [active] [ref=e152]:
+      - generic [ref=f45e3]:
+        - generic [ref=f45e4]:
+          - img
+        - figure [ref=f45e10]:
+          - generic [ref=f45e11]:
+            - generic [ref=f45e13] [cursor=pointer]:
+              - generic [ref=f45e22]: Name of product*
+              - textbox "Name of product*" [ref=f45e24]: Arcana Insight
+            - generic [ref=f45e27] [cursor=pointer]:
+              - generic [ref=f45e36]: URL*
+              - textbox "URL*" [ref=f45e38]: https://tarot-bzi.pages.dev
+            - generic [ref=f45e40] [cursor=pointer]:
+              - generic [ref=f45e41]:
+                - generic [ref=f45e50]: Pricing*
+                - generic [ref=f45e55]:
+                  - generic [ref=f45e56]: Select...
+                  - combobox "Pricing*" [ref=f45e58]
+              - generic: This question is required
+            - generic [ref=f45e62] [cursor=pointer]:
+              - generic [ref=f45e63]:
+                - generic [ref=f45e72]: Short description (20-30 words)*
+                - generic [ref=f45e78]:
+                  - generic [ref=f45e80]:
+                    - generic [ref=f45e81]: Original content only please. Text generated by AI systems or plagiarized will be deleted.
+                    - generic [ref=f45e82]: Do not try to "sell" the product or talk about how "amazing" the tool is. Do not overly promote the product. Be impartial and descriptive. Do not use "we", "us", "our", or "I", etc
+                  - generic [ref=f45e85]: "Note: No crypto, p*rn, or AI girlfriend products will be accepted."
+                  - generic [ref=f45e88]: Content will be edited for editorial reasons.
+                - textbox "Short description (20-30 words)*" [ref=f45e90]:
+                  - /placeholder: "Example: Generate keyword-optimized bullet points and descriptions for Amazon listings using smart data and artificial intelligence."
+                  - text: Tarot reading tool that draws from a 78-card deck and generates personalized card interpretations using AI. Supports 8 languages including Thai, Japanese, and Korean. Free tier available with no account required.
+              - generic [ref=f45e91]: "Original content only please. Text generated by AI systems or plagiarized will be deleted. Do not try to \"sell\" the product or talk about how \"amazing\" the tool is. Do not overly promote the product. Be impartial and descriptive. Do not use \"we\", \"us\", \"our\", or \"I\", etc Note: No crypto, p*rn, or AI girlfriend products will be accepted. Content will be edited for editorial reasons."
+            - generic [ref=f45e92] [cursor=pointer]:
+              - generic [ref=f45e93]:
+                - generic [ref=f45e102]: Long description (50-500 words)*
+                - generic [ref=f45e108]:
+                  - generic [ref=f45e110]:
+                    - generic [ref=f45e111]: Write an original description. Content written using AI tools or copied content will be detected.
+                    - generic [ref=f45e112]: Do not try to "sell" the product or talk about how great the tool is. Do not overly promote the product. Be impartial and descriptive. Do not use "we", "us", "our", or "I", etc.
+                  - generic [ref=f45e115]: Content will be edited for editorial reasons
+                - textbox "Long description (50-500 words)*" [ref=f45e117]: "Arcana Insight is an online tarot reading platform powered by AI. Users select cards from a shuffled 78-card deck displayed on screen, then receive a detailed reading based on their chosen cards and an optional question they enter beforehand. Four reading tiers are available. The free tier gives one card with no account required. The Basic tier ($2.99) covers a 3-card past/present/future spread. Premium ($4.99) offers a 5-card reading with a hidden influence card. The VIP tier ($8.99) runs a full 10-card Celtic Cross spread. The platform supports 8 languages: English, Korean, Japanese, Chinese, Spanish, French, Thai, and Vietnamese. Language is selectable from the homepage. Readings adapt fully to the chosen language. The card selection interface shows all 78 cards laid out horizontally and lets users scroll through and pick their cards before the AI generates the reading. Payment for paid tiers is handled through PayPal."
+              - generic [ref=f45e118]: Write an original description. Content written using AI tools or copied content will be detected. Do not try to "sell" the product or talk about how great the tool is. Do not overly promote the product. Be impartial and descriptive. Do not use "we", "us", "our", or "I", etc. Content will be edited for editorial reasons
+            - generic [ref=f45e119] [cursor=pointer]:
+              - generic [ref=f45e120]:
+                - generic [ref=f45e129]: Tags / Keywords / Hashtags*
+                - generic [ref=f45e138]: "Write 1-3. Examples: #summarizer #productivity #imagegeneration"
+                - textbox "Tags / Keywords / Hashtags*" [active] [ref=f45e140]: "#tarot #divination #spirituality"
+              - generic [ref=f45e141]: "Write 1-3. Examples: #summarizer #productivity #imagegeneration"
+            - generic [ref=f45e143] [cursor=pointer]:
+              - generic [ref=f45e152]: Your name*
+              - textbox "Your name*" [ref=f45e154]: Arcana Insight
+            - generic [ref=f45e157] [cursor=pointer]:
+              - generic [ref=f45e166]: Your email*
+              - group "Your email*" [ref=f45e168]:
+                - textbox "Your email*" [ref=f45e169]: orara82@gmail.com
+            - generic [ref=f45e171] [cursor=pointer]:
+              - generic [ref=f45e172]:
+                - generic [ref=f45e181]: X/Twitter handle (@handle)
+                - generic [ref=f45e190]: Please use @handle format. Do not put the full URL
+                - textbox "X/Twitter handle (@handle)" [ref=f45e192]
+              - generic [ref=f45e193]: Please use @handle format. Do not put the full URL
+            - generic [ref=f45e194] [cursor=pointer]:
+              - generic [ref=f45e195]:
+                - generic [ref=f45e204]: Affiliate program URL or contact details
+                - generic [ref=f45e212]:
+                  - generic [ref=f45e213]: If you
+                  - generic [ref=f45e214]: do not
+                  - generic [ref=f45e215]: have an affiliate program,
+                  - generic [ref=f45e216]: do not add anything here
+                  - generic [ref=f45e217]: .
+                - textbox "Affiliate program URL or contact details" [ref=f45e219]
+              - generic [ref=f45e220]: If you do not have an affiliate program, do not add anything here.
+            - generic [ref=f45e221] [cursor=pointer]:
+              - generic [ref=f45e222]:
+                - generic [ref=f45e231]: How is this tool unique or different?*
+                - generic [ref=f45e237]:
+                  - generic [ref=f45e240]: Adding a list of features here will ensure that your tool is NOT published. Please show why the AI tool is unique. What makes it better than the competitors.
+                  - generic [ref=f45e243]: There are many carbon copies of AI tools appearing every day, most of these do not last long, and we want to keep this directory free of tools that appear and dissapear quickly.
+                  - generic [ref=f45e248]: Please do not submit your tool if there's a waiting list to use it. It will not be published.
+                - textbox "How is this tool unique or different?*" [ref=f45e250]: Most AI tarot tools generate readings from text prompts alone. Arcana Insight shows users an actual scrollable 78-card deck on screen and has them physically choose their cards first, then generates the reading based on those specific cards plus their personal question. The multi-language support (8 languages including Thai and Vietnamese, which most tarot tools skip entirely) makes it accessible to non-English-speaking markets that have strong tarot and divination cultures.
+              - generic [ref=f45e251]: Adding a list of features here will ensure that your tool is NOT published. Please show why the AI tool is unique. What makes it better than the competitors. There are many carbon copies of AI tools appearing every day, most of these do not last long, and we want to keep this directory free of tools that appear and dissapear quickly. Please do not submit your tool if there's a waiting list to use it. It will not be published.
+            - generic [ref=f45e252] [cursor=pointer]:
+              - generic [ref=f45e253]:
+                - generic [ref=f45e261]:
+                  - generic [ref=f45e262]: Are you interested in
+                  - link "buying ad space" [ref=f45e263]:
+                    - /url: ""
+                    - generic [ref=f45e264]: buying ad space
+                  - generic [ref=f45e265]: on the homepage?*
+                - generic [ref=f45e274]: Your product is the first thing visitors see on the homepage — highest visibility across desktop and mobile.
+                - radiogroup "Are you interested in buying ad space on the homepage?* Your product is the first thing visitors see on the homepage — highest visibility across desktop and mobile." [ref=f45e276]:
+                  - radio "Yes" [ref=f45e277]
+                  - radio "No" [checked] [ref=f45e278]
+              - generic [ref=f45e279]: Your product is the first thing visitors see on the homepage — highest visibility across desktop and mobile.
+            - button "submit" [ref=f45e281] [cursor=pointer]: Submit
+        - generic:
+          - generic: ✕
+  - generic [ref=e155]:
+    - generic [ref=e156]:
+      - heading "AI Tools Newsletter" [level=3] [ref=e157]
+      - paragraph [ref=e158]:
+        - text: Get the latest updates on
+        - strong [ref=e159]: AI software
+        - text: — specifically curated for entrepreneurs, creators, and innovators like you.
+      - paragraph [ref=e160]: Whether your goal is to automate workflows, enhance creative output, or boost productivity, it’s all here.
+      - paragraph
+      - paragraph [ref=e161]:
+        - link "Subscribe" [ref=e162] [cursor=pointer]:
+          - /url: https://forms.aitoolsdirectory.com/form.html
+    - paragraph [ref=e163]:
+      - text: 🔥 Get your AI product in the
+      - link "Featured Tools Premium Placement" [ref=e164] [cursor=pointer]:
+        - /url: https://aitoolsdirectory.com/ads
+      - text: ⚒️ Submit a tool
+      - link "here" [ref=e165] [cursor=pointer]:
+        - /url: https://aitoolsdirectory.com/submit-tool
+      - text: 👉 Read the
+      - link "AI Tools Blog" [ref=e166] [cursor=pointer]:
+        - /url: https://aitoolsdirectory.com/blog
+      - text: 🤖 Check out the latest
+      - link "AI Trends" [ref=e167] [cursor=pointer]:
+        - /url: https://aitoolsdirectory.com/trends
+      - text: 🌍 Explore
+      - link "AI-related communities" [ref=e168] [cursor=pointer]:
+        - /url: https://aitoolsdirectory.com/communities
+      - text: .
+      - text: 💰
+      - link "Find marketplaces" [ref=e169] [cursor=pointer]:
+        - /url: https://aitoolsdirectory.com/marketplace-directory
+      - text: to buy and sell AI businesses.
+      - text: 🖤 Check out the best
+      - link "AI tool Black Friday deals" [ref=e170] [cursor=pointer]:
+        - /url: https://aitoolsdirectory.com/black-friday
+      - text: for 2026
+      - text: Follow us on
+      - link "X" [ref=e171] [cursor=pointer]:
+        - /url: https://x.com/aitoolsdirect
+      - text: "Contact us:"
+      - link "hello@aitoolsdirectory.com" [ref=e172] [cursor=pointer]:
+        - /url: mailto:hello@aitoolsdirectory.com
+      - text: Copyright © AI Tools Directory. All rights reserved
+      - link "Privacy Policy" [ref=e173] [cursor=pointer]:
+        - /url: https://aitoolsdirectory.com/privacy-policy
+      - text: "|"
+      - link "Terms of Use" [ref=e174] [cursor=pointer]:
+        - /url: https://aitoolsdirectory.com/terms-of-use
+    - paragraph [ref=e175]:
+      - strong [ref=e176]: Aitoolsdirectory.com
+      - text: is a free resource and does not charge subscription fees.
+      - text: We are not affiliated with aitoolsdirectory.net.
+    - paragraph [ref=e177]:
+      - img "AI Tools Directory Banner" [ref=e178]
+  - button "" [ref=e180] [cursor=pointer]

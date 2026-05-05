@@ -1,0 +1,65 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - link "logo" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - img "logo" [ref=e6]
+    - generic [ref=e9]:
+      - link "Submit Tool" [ref=e10] [cursor=pointer]:
+        - /url: /submit-tool
+      - link "Advertise" [ref=e11] [cursor=pointer]:
+        - /url: /ads
+  - generic [ref=e117]:
+    - generic [ref=e118]:
+      - heading "AI Tools Newsletter" [level=3] [ref=e119]
+      - paragraph [ref=e120]:
+        - text: Get the latest updates on
+        - strong [ref=e121]: AI software
+        - text: — specifically curated for entrepreneurs, creators, and innovators like you.
+      - paragraph [ref=e122]: Whether your goal is to automate workflows, enhance creative output, or boost productivity, it’s all here.
+      - paragraph
+      - paragraph [ref=e123]:
+        - link "Subscribe" [ref=e124] [cursor=pointer]:
+          - /url: https://forms.aitoolsdirectory.com/form.html
+    - paragraph [ref=e125]:
+      - text: 🔥 Get your AI product in the
+      - link "Featured Tools Premium Placement" [ref=e126] [cursor=pointer]:
+        - /url: https://aitoolsdirectory.com/ads
+      - text: ⚒️ Submit a tool
+      - link "here" [ref=e127] [cursor=pointer]:
+        - /url: https://aitoolsdirectory.com/submit-tool
+      - text: 👉 Read the
+      - link "AI Tools Blog" [ref=e128] [cursor=pointer]:
+        - /url: https://aitoolsdirectory.com/blog
+      - text: 🤖 Check out the latest
+      - link "AI Trends" [ref=e129] [cursor=pointer]:
+        - /url: https://aitoolsdirectory.com/trends
+      - text: 🌍 Explore
+      - link "AI-related communities" [ref=e130] [cursor=pointer]:
+        - /url: https://aitoolsdirectory.com/communities
+      - text: .
+      - text: 💰
+      - link "Find marketplaces" [ref=e131] [cursor=pointer]:
+        - /url: https://aitoolsdirectory.com/marketplace-directory
+      - text: to buy and sell AI businesses.
+      - text: 🖤 Check out the best
+      - link "AI tool Black Friday deals" [ref=e132] [cursor=pointer]:
+        - /url: https://aitoolsdirectory.com/black-friday
+      - text: for 2026
+      - text: Follow us on
+      - link "X" [ref=e133] [cursor=pointer]:
+        - /url: https://x.com/aitoolsdirect
+      - text: "Contact us:"
+      - link "hello@aitoolsdirectory.com" [ref=e134] [cursor=pointer]:
+        - /url: mailto:hello@aitoolsdirectory.com
+      - text: Copyright © AI Tools Directory. All rights reserved
+      - link "Privacy Policy" [ref=e135] [cursor=pointer]:
+        - /url: https://aitoolsdirectory.com/privacy-policy
+      - text: "|"
+      - link "Terms of Use" [ref=e136] [cursor=pointer]:
+        - /url: https://aitoolsdirectory.com/terms-of-use
+    - paragraph [ref=e137]:
+      - strong [ref=e138]: Aitoolsdirectory.com
+      - text: is a free resource and does not charge subscription fees.
+      - text: We are not affiliated with aitoolsdirectory.net.
+    - paragraph [ref=e139]:
+      - img "AI Tools Directory Banner" [ref=e140]

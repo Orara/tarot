@@ -1,0 +1,161 @@
+- generic [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e9]:
+        - generic [ref=e12]:
+          - link "Ai Valley" [ref=e13] [cursor=pointer]:
+            - /url: https://aivalley.ai/
+            - img "Ai Valley" [ref=e14]
+          - link "Ai Valley" [ref=e17] [cursor=pointer]:
+            - /url: https://aivalley.ai/
+        - navigation "Header Menu" [ref=e20]:
+          - menubar [ref=e21]:
+            - menuitem "Home" [ref=e22] [cursor=pointer]
+            - menuitem "AI Tools" [ref=e23] [cursor=pointer]
+            - menuitem "Prompts" [ref=e24] [cursor=pointer]
+        - button "Open search form" [ref=e27] [cursor=pointer]:
+          - img [ref=e28]
+    - main [ref=e30]:
+      - article [ref=e32]:
+        - heading "Submit Tool" [level=1] [ref=e35]
+        - generic [ref=e36]:
+          - paragraph
+          - heading "Submit Tool" [level=1] [ref=e40]
+          - generic [ref=e43]:
+            - generic [ref=e44]:
+              - heading "Submit any Tools Here" [level=2] [ref=e45]
+              - generic [ref=e47]:
+                - generic [ref=e48]:
+                  - status [ref=e102]: There was an error trying to send your message. Please try again later.
+                  - list
+                - form "Contact form" [ref=e49]:
+                  - paragraph [ref=e50]:
+                    - generic [ref=e51] [cursor=pointer]:
+                      - text: Name *
+                      - textbox "Name *" [ref=e53]:
+                        - /placeholder: Name
+                        - text: Arcana Insight
+                  - paragraph [ref=e54]:
+                    - generic [ref=e55] [cursor=pointer]:
+                      - text: Email *
+                      - textbox "Email *" [ref=e57]:
+                        - /placeholder: username@gmail.com
+                        - text: orara82@gmail.com
+                  - paragraph [ref=e58]:
+                    - generic [ref=e59] [cursor=pointer]:
+                      - text: Tool Name *
+                      - textbox "Tool Name *" [ref=e61]:
+                        - /placeholder: Tool Name
+                        - text: Arcana Insight
+                  - paragraph [ref=e62]:
+                    - generic [ref=e63] [cursor=pointer]:
+                      - text: Tool URL *
+                      - textbox "Tool URL *" [ref=e65]:
+                        - /placeholder: Tool URL
+                        - text: https://tarot-bzi.pages.dev
+                  - paragraph [ref=e66]:
+                    - generic [ref=e67] [cursor=pointer]:
+                      - text: Tool Description (optional)
+                      - textbox "Tool Description (optional)" [ref=e69]: "Arcana Insight is a free AI-powered tarot reading platform where you draw from a real 78-card deck and receive instant personalized readings. Powered by advanced AI, it delivers sharp, honest interpretations — not generic definitions. 4 tiers available: Free (1 card, no signup), Basic 3-card reading ($2.99), Premium 5-card reading ($4.99), and VIP 10-card Celtic Cross ($8.99). Fully available in 8 languages: English, Korean, Japanese, Chinese, Spanish, French, Thai, and Vietnamese. Great for daily guidance, relationships, career decisions, and spiritual insight."
+                  - paragraph [ref=e70]:
+                    - generic [ref=e71] [cursor=pointer]:
+                      - text: Tool Short Description (optional)
+                      - textbox "Tool Short Description (optional)" [ref=e73]: Free AI tarot reading from a real 78-card deck. Instant personalized insights in 8 languages. No signup needed.
+                  - paragraph [ref=e74]:
+                    - button "Submit" [active] [ref=e75] [cursor=pointer]
+                  - generic [ref=e103]: There was an error trying to send your message. Please try again later.
+            - figure [ref=e76]:
+              - img "Ai Valley" [ref=e77]
+    - contentinfo [ref=e78]:
+      - generic [ref=e80]:
+        - paragraph [ref=e83]: ✨ Discover more categories
+        - generic [ref=e86]:
+          - generic [ref=e87] [cursor=pointer]: Categories
+          - combobox "Categories" [ref=e88] [cursor=pointer]:
+            - option "Select Category" [selected]
+            - option "AI Tools"
+            - option "AI Assistant"
+            - option "Art"
+            - option "Audio"
+            - option "Automation"
+            - option "Avatar"
+            - option "Build AI"
+            - option "Career"
+            - option "ChatBots"
+            - option "Code Assistant"
+            - option "Content Creation"
+            - option "Copywriting"
+            - option "Data Analyst"
+            - option "Design"
+            - option "Developer Tools"
+            - option "Ecommerce"
+            - option "Educational"
+            - option "Email Assistant"
+            - option "Experiments"
+            - option "Fashion"
+            - option "Finance"
+            - option "Fun Tools"
+            - option "Gaming"
+            - option "Gift Ideas"
+            - option "Healthcare"
+            - option "Image Editing"
+            - option "Image Generator"
+            - option "Lead Generation"
+            - option "Legal Assistant"
+            - option "Life Assistant"
+            - option "Logo Generator"
+            - option "Marketing"
+            - option "Music"
+            - option "Open-Source"
+            - option "Presentations"
+            - option "Productivity"
+            - option "Prompt Tool"
+            - option "Real Estate"
+            - option "Research"
+            - option "Resources"
+            - option "Search Engine"
+            - option "SEO"
+            - option "Social Media Assistant"
+            - option "Spreadsheets"
+            - option "Startup Tools"
+            - option "Storytelling"
+            - option "Summarizer"
+            - option "Text-to-image"
+            - option "Text-to-speech"
+            - option "Travel"
+            - option "Video Editing"
+            - option "Video Generator"
+            - option "Writing"
+            - option "ChatGPT Plugins"
+            - option "News"
+            - option "Prompt"
+            - option "Assistant Prompt"
+            - option "Business Prompt"
+            - option "Career Prompt"
+            - option "Coding Prompt"
+            - option "Content Creation Prompt"
+            - option "Cooking Prompt"
+            - option "Copywriting Prompt"
+            - option "Design Prompt"
+            - option "Education Prompt"
+            - option "Email Prompt"
+            - option "Fun Prompts"
+            - option "Health Prompt"
+            - option "Idea Prompt"
+            - option "Marketing Prompt"
+            - option "Productivity Prompt"
+            - option "Relationship Prompt"
+            - option "Screenwriter Prompt"
+            - option "SEO Prompt"
+            - option "Storytelling Prompt"
+            - option "Travel Prompt"
+            - option "Visual Prompt"
+            - option "Writing Prompt"
+      - navigation "Footer Menu" [ref=e92]:
+        - menubar [ref=e93]:
+          - menuitem "About" [ref=e94] [cursor=pointer]
+          - menuitem "Terms Of Use" [ref=e95] [cursor=pointer]
+          - menuitem "Privacy Policy" [ref=e96] [cursor=pointer]
+      - paragraph [ref=e101]: © 2026 - AI Valley | All Rights Reserved

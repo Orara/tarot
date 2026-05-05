@@ -1,0 +1,192 @@
+- generic [active] [ref=e1]:
+  - link "메인 콘텐츠로 바로가기" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+    - generic [ref=e4]: 메인 콘텐츠로 바로가기
+  - generic [ref=e6]:
+    - generic:
+      - generic [ref=e7]:
+        - generic: r/SideProject에 제출
+      - banner [ref=e10]:
+        - navigation [ref=e11]:
+          - generic [ref=e12]:
+            - button "메뉴 열기" [ref=e16] [cursor=pointer]:
+              - img [ref=e19]
+              - generic [ref=e21]:
+                - generic: 메뉴 열기
+            - link "홈" [ref=e26] [cursor=pointer]:
+              - /url: /
+              - img [ref=e28]
+          - search [ref=e45]:
+            - generic [ref=e47]:
+              - img [ref=e50]
+              - generic [ref=e53]:
+                - 'button "현재 검색 범위: r/SideProject" [ref=e54] [cursor=pointer]':
+                  - generic [ref=e55]:
+                    - img [ref=e59]
+                    - generic [ref=e63]: r/SideProject
+                  - generic [ref=e64]:
+                    - generic: "현재 검색 범위: r/SideProject"
+                - button "r/SideProject 필터를 제거하고 Reddit 전체로 검색 범위를 확대합니다" [ref=e66] [cursor=pointer]:
+                  - img [ref=e69]
+                  - generic [ref=e71]:
+                    - generic: r/SideProject 필터를 제거하고 Reddit 전체로 검색 범위를 확대합니다
+              - 'textbox "현재 검색 범위: r/SideProject r/SideProject 필터를 제거하고 Reddit 전체로 검색 범위를 확대합니다" [ref=e73]':
+                - /placeholder: "검색 범위: r/SideProject"
+          - generic [ref=e74]:
+            - generic [ref=e75]:
+              - button "채팅 열기" [ref=e83] [cursor=pointer]:
+                - img [ref=e86]
+                - generic [ref=e88]:
+                  - generic: 채팅 열기
+              - link "게시물 만들기" [ref=e93] [cursor=pointer]:
+                - /url: /r/SideProject/submit/
+                - generic [ref=e94]:
+                  - img [ref=e96]
+                  - generic [ref=e98]: 만들기
+                - generic [ref=e99]:
+                  - generic: 게시물 만들기
+              - link "받은 편지함 열기" [ref=e103] [cursor=pointer]:
+                - /url: /notifications
+                - img [ref=e106]
+                - generic [ref=e108]:
+                  - generic: 받은 편지함 열기
+            - button "사용자 아바타 사용자 메뉴 펼치기" [ref=e113] [cursor=pointer]:
+              - img "사용자 아바타" [ref=e121]
+              - generic [ref=e123]:
+                - generic: 사용자 메뉴 펼치기
+      - generic [ref=e127]:
+        - main [ref=e128]:
+          - generic "r/SideProject에 제출"
+          - generic [ref=e129]:
+            - heading "게시물 만들기" [level=1] [ref=e130]
+            - button "임시 저장본" [ref=e133] [cursor=pointer]:
+              - generic [ref=e135]: 임시 저장본
+          - generic [ref=e136]:
+            - generic:
+              - button "r/SideProject" [ref=e140] [cursor=pointer]:
+                - generic [ref=e146]: r/SideProject
+                - img [ref=e148]
+              - tablist [ref=e151]:
+                - tab "텍스트" [selected] [ref=e153] [cursor=pointer]:
+                  - generic [ref=e159]: 텍스트
+                - tab "동영상" [ref=e161] [cursor=pointer]:
+                  - generic [ref=e167]: 동영상
+                - tab "링크" [ref=e169] [cursor=pointer]:
+                  - generic [ref=e175]: 링크
+                - generic [ref=e176]:
+                  - tab "설문조사" [disabled]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 설문조사
+              - generic [ref=e177]:
+                - group [ref=e179]:
+                  - generic [ref=e180]:
+                    - generic [ref=e185]:
+                      - generic:
+                        - generic: 제목
+                        - text: "*"
+                      - textbox "제목" [ref=e187]
+                    - generic [ref=e192]: 0/300
+                  - button "이 커뮤니티에서는 사용할 수 없음" [ref=e196] [cursor=pointer]:
+                    - generic [ref=e198]:
+                      - generic: 태그 추가
+                - group [ref=e200]:
+                  - generic [ref=e203]:
+                    - generic [ref=e204]:
+                      - paragraph [ref=e205]:
+                        - generic [ref=e206]: 본문 텍스트*
+                      - textbox "게시물 본문 텍스트 필드" [ref=e207]:
+                        - paragraph [ref=e208]
+                    - toolbar "텍스트 서식 툴바" [ref=e209]:
+                      - generic [ref=e212]:
+                        - generic [ref=e213]:
+                          - button "굵게" [ref=e216] [cursor=pointer]:
+                            - img [ref=e219]
+                            - generic [ref=e221]:
+                              - generic: 굵게
+                          - button "기울임꼴" [ref=e224] [cursor=pointer]:
+                            - img [ref=e227]
+                            - generic [ref=e229]:
+                              - generic: 기울임꼴
+                          - button "취소선" [ref=e232] [cursor=pointer]:
+                            - img [ref=e235]
+                            - generic [ref=e237]:
+                              - generic: 취소선
+                          - button "위 첨자" [ref=e240] [cursor=pointer]:
+                            - img [ref=e243]
+                            - generic [ref=e245]:
+                              - generic: 위 첨자
+                          - button "제목" [ref=e248] [cursor=pointer]:
+                            - img [ref=e251]
+                            - generic [ref=e253]:
+                              - generic: 제목
+                          - button "링크" [ref=e256] [cursor=pointer]:
+                            - img [ref=e259]
+                            - generic [ref=e261]:
+                              - generic: 링크
+                          - button "동영상" [ref=e264] [cursor=pointer]:
+                            - img [ref=e267]
+                            - generic [ref=e269]:
+                              - generic: 동영상
+                          - button "글머리 기호 목록" [ref=e272] [cursor=pointer]:
+                            - img [ref=e275]
+                            - generic [ref=e277]:
+                              - generic: 글머리 기호 목록
+                          - button "숫자 리스트" [ref=e280] [cursor=pointer]:
+                            - img [ref=e283]
+                            - generic [ref=e285]:
+                              - generic: 숫자 리스트
+                          - button "스포일러" [ref=e288] [cursor=pointer]:
+                            - img [ref=e291]
+                            - generic [ref=e293]:
+                              - generic: 스포일러
+                          - button "인용 블록" [ref=e296] [cursor=pointer]:
+                            - img [ref=e299]
+                            - generic [ref=e301]:
+                              - generic: 인용 블록
+                          - button "코드" [ref=e304] [cursor=pointer]:
+                            - img [ref=e307]
+                            - generic [ref=e310]:
+                              - generic: 코드
+                          - button "코드 블록" [ref=e313] [cursor=pointer]:
+                            - img [ref=e316]
+                            - generic [ref=e318]:
+                              - generic: 코드 블록
+                          - button "표" [ref=e321] [cursor=pointer]:
+                            - img [ref=e324]
+                            - generic [ref=e326]:
+                              - generic: 표
+                        - generic [ref=e327]:
+                          - generic:
+                            - button "옵션 더 보기" [ref=e328] [cursor=pointer]:
+                              - img [ref=e331]
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: Markdown으로 전환
+                - generic [ref=e334]:
+                  - generic [ref=e335]:
+                    - generic [ref=e336]:
+                      - button "게시하기" [disabled]:
+                        - generic:
+                          - generic: 게시하기
+                    - generic [ref=e337]:
+                      - button "임시 저장하기" [disabled]:
+                        - generic:
+                          - generic: 임시 저장하기
+                  - list
+        - generic [ref=e340]:
+          - link "Reddit 콘텐츠 규정" [ref=e343] [cursor=pointer]:
+            - /url: https://www.redditinc.com/policies/content-policy
+          - link "개인정보 처리방침" [ref=e346] [cursor=pointer]:
+            - /url: https://www.reddit.com/policies/privacy-policy
+          - link "이용 약관" [ref=e349] [cursor=pointer]:
+            - /url: https://www.redditinc.com/policies/user-agreement
+          - link "접근성" [ref=e352] [cursor=pointer]:
+            - /url: https://support.reddithelp.com/hc/sections/38303584022676-Accessibility
+          - generic [ref=e353]: •
+          - link "Reddit, Inc. © 2026. All rights reserved." [ref=e355] [cursor=pointer]:
+            - /url: https://redditinc.com

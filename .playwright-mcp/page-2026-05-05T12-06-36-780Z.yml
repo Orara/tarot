@@ -1,0 +1,2775 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - link "Product Hunt Logo" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img [ref=e7]
+        - generic [ref=e11]:
+          - img [ref=e12]
+          - textbox "Search" [ref=e14] [cursor=pointer]
+      - navigation "Main Navigation" [ref=e15]:
+        - list [ref=e16]:
+          - listitem [ref=e17]:
+            - link "Best Products" [ref=e18] [cursor=pointer]:
+              - /url: /categories?ref=header_nav
+              - text: Best Products
+              - img [ref=e19]
+          - listitem [ref=e21]:
+            - link "Launches" [ref=e22] [cursor=pointer]:
+              - /url: /leaderboard/daily/2026/5/5?ref=header_nav
+              - text: Launches
+              - img [ref=e23]
+          - listitem [ref=e25]:
+            - link "News" [ref=e26] [cursor=pointer]:
+              - /url: /newsletters?ref=header_nav
+              - text: News
+              - img [ref=e27]
+          - listitem [ref=e29]:
+            - link "Forums" [ref=e30] [cursor=pointer]:
+              - /url: /forums?ref=header_nav
+              - text: Forums
+              - img [ref=e31]
+      - generic [ref=e33]:
+        - button [ref=e34] [cursor=pointer]:
+          - link [ref=e35]:
+            - /url: /posts/new
+            - img [ref=e36]
+        - button "1" [ref=e39] [cursor=pointer]:
+          - link "1" [ref=e40]:
+            - /url: /notifications
+            - img
+            - generic [ref=e41]: "1"
+        - button "Orara ToT" [ref=e42] [cursor=pointer]:
+          - link "Orara ToT" [ref=e43]:
+            - /url: /@orara_tot
+            - img "Orara ToT" [ref=e44]
+  - generic [ref=e45]:
+    - generic [ref=e47]:
+      - generic [ref=e49]:
+        - textbox "Look for a product that does ....." [ref=e50]
+        - button "Ask" [disabled] [ref=e51]:
+          - img [ref=e52]
+          - text: Ask
+      - generic:
+        - generic:
+          - heading [level=2]
+          - generic:
+            - button "✕"
+        - generic:
+          - textbox "Look for a product that does ....."
+          - button [disabled]:
+            - img
+    - generic [ref=e54]:
+      - main [ref=e55]:
+        - generic [ref=e57]:
+          - img [ref=e58]
+          - generic [ref=e60]:
+            - generic [ref=e61]: Welcome to Product Hunt!
+            - generic [ref=e62]:
+              - text: The place to launch and discover new tech products.
+              - button "Take a tour." [ref=e63] [cursor=pointer]
+          - button "close" [ref=e64] [cursor=pointer]:
+            - img [ref=e65]
+        - generic [ref=e67]:
+          - generic [ref=e68]:
+            - heading "Top Products Launching Today" [level=1] [ref=e69]
+            - generic [ref=e70] [cursor=pointer]:
+              - generic "Kilo Code v7 for VS Code" [ref=e71]
+              - generic [ref=e72]:
+                - link "1. Kilo Code v7 for VS Code" [ref=e74]:
+                  - /url: /products/kilocode
+                  - text: 1. Kilo Code v7 for VS Code
+                - generic [ref=e76]: Parallel agents, diff reviewer, and multi-model comparisons
+                - generic [ref=e78]:
+                  - img "Promoted" [ref=e80]
+                  - generic [ref=e81]:
+                    - img [ref=e82]
+                    - link "Open Source" [ref=e84]:
+                      - /url: /topics/open-source
+                    - generic [ref=e85]: •
+                    - link "Software Engineering" [ref=e86]:
+                      - /url: /topics/software-engineering
+                    - generic [ref=e87]: •
+                    - link "Developer Tools" [ref=e88]:
+                      - /url: /topics/developer-tools
+              - button "39" [ref=e89]:
+                - generic [ref=e90]:
+                  - img [ref=e91]
+                  - paragraph [ref=e93]: "39"
+              - button "248" [ref=e94]:
+                - generic [ref=e95]:
+                  - img [ref=e96]
+                  - paragraph [ref=e98]: "248"
+            - generic [ref=e99] [cursor=pointer]:
+              - img "Velo 2.0" [ref=e100]
+              - generic [ref=e101]:
+                - link "2. Velo 2.0" [ref=e103]:
+                  - /url: /products/velo-4
+                  - text: 2. Velo 2.0
+                - generic [ref=e105]: Turn your voice and screen into shareable videos instantly.
+                - generic [ref=e107]:
+                  - img "Promoted" [ref=e109]
+                  - generic [ref=e110]:
+                    - img [ref=e111]
+                    - link "Productivity" [ref=e113]:
+                      - /url: /topics/productivity
+                    - generic [ref=e114]: •
+                    - link "Sales" [ref=e115]:
+                      - /url: /topics/sales
+                    - generic [ref=e116]: •
+                    - link "Video" [ref=e117]:
+                      - /url: /topics/video
+              - button "37" [ref=e118]:
+                - generic [ref=e119]:
+                  - img [ref=e120]
+                  - paragraph [ref=e122]: "37"
+              - button "189" [ref=e123]:
+                - generic [ref=e124]:
+                  - img [ref=e125]
+                  - paragraph [ref=e127]: "189"
+            - generic [ref=e128] [cursor=pointer]:
+              - img "Flowstep 1.0" [ref=e129]
+              - generic [ref=e130]:
+                - link "3. Flowstep 1.0" [ref=e132]:
+                  - /url: /products/flowstep
+                  - text: 3. Flowstep 1.0
+                - generic [ref=e134]: AI design engineer. Design & ship real UI.
+                - generic [ref=e136]:
+                  - img "Promoted" [ref=e138]
+                  - generic [ref=e139]:
+                    - img [ref=e140]
+                    - link "Developer Tools" [ref=e142]:
+                      - /url: /topics/developer-tools
+                    - generic [ref=e143]: •
+                    - link "Artificial Intelligence" [ref=e144]:
+                      - /url: /topics/artificial-intelligence
+                    - generic [ref=e145]: •
+                    - link "Vibe coding" [ref=e146]:
+                      - /url: /topics/vibe-coding
+              - button "34" [ref=e147]:
+                - generic [ref=e148]:
+                  - img [ref=e149]
+                  - paragraph [ref=e151]: "34"
+              - button "165" [ref=e152]:
+                - generic [ref=e153]:
+                  - img [ref=e154]
+                  - paragraph [ref=e156]: "165"
+            - generic [ref=e157] [cursor=pointer]:
+              - img "Waydev Agent" [ref=e158]
+              - generic [ref=e159]:
+                - generic [ref=e160]:
+                  - link "4. Waydev Agent" [ref=e161]:
+                    - /url: /products/waydev
+                    - text: 4. Waydev Agent
+                  - link "The Pitch" [ref=e164]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e165]: Is your AI spend actually paying off? Prove ROI
+                - img "Promoted" [ref=e169]
+              - button "3" [ref=e170]:
+                - generic [ref=e171]:
+                  - img [ref=e172]
+                  - paragraph [ref=e174]: "3"
+              - button "135" [ref=e175]:
+                - generic [ref=e176]:
+                  - img [ref=e177]
+                  - paragraph [ref=e179]: "135"
+            - img "Deel" [ref=e182] [cursor=pointer]
+            - generic [ref=e183] [cursor=pointer]:
+              - img "Ghostwriter" [ref=e184]
+              - generic [ref=e185]:
+                - link "5. Ghostwriter" [ref=e187]:
+                  - /url: /products/ghostwriter-5
+                  - text: 5. Ghostwriter
+                - generic [ref=e189]: Write and publish posts on LinkedIn & X
+                - generic [ref=e191]:
+                  - img "Promoted" [ref=e193]
+                  - generic [ref=e194]:
+                    - img [ref=e195]
+                    - link "Productivity" [ref=e197]:
+                      - /url: /topics/productivity
+                    - generic [ref=e198]: •
+                    - link "Writing" [ref=e199]:
+                      - /url: /topics/writing
+                    - generic [ref=e200]: •
+                    - link "Social Media" [ref=e201]:
+                      - /url: /topics/social-media
+              - button "16" [ref=e202]:
+                - generic [ref=e203]:
+                  - img [ref=e204]
+                  - paragraph [ref=e206]: "16"
+              - button "108" [ref=e207]:
+                - generic [ref=e208]:
+                  - img [ref=e209]
+                  - paragraph [ref=e211]: "108"
+            - generic [ref=e212] [cursor=pointer]:
+              - img "Intuned Agent" [ref=e213]
+              - generic [ref=e214]:
+                - link "6. Intuned Agent" [ref=e216]:
+                  - /url: /products/intuned
+                  - text: 6. Intuned Agent
+                - generic [ref=e218]: Production browser automation, built and maintained by AI
+                - generic [ref=e220]:
+                  - img "Promoted" [ref=e222]
+                  - generic [ref=e223]:
+                    - img [ref=e224]
+                    - link "Productivity" [ref=e226]:
+                      - /url: /topics/productivity
+                    - generic [ref=e227]: •
+                    - link "Developer Tools" [ref=e228]:
+                      - /url: /topics/developer-tools
+                    - generic [ref=e229]: •
+                    - link "Artificial Intelligence" [ref=e230]:
+                      - /url: /topics/artificial-intelligence
+              - button "13" [ref=e231]:
+                - generic [ref=e232]:
+                  - img [ref=e233]
+                  - paragraph [ref=e235]: "13"
+              - button "96" [ref=e236]:
+                - generic [ref=e237]:
+                  - img [ref=e238]
+                  - paragraph [ref=e240]: "96"
+            - generic [ref=e241] [cursor=pointer]:
+              - img "Oriane" [ref=e242]
+              - generic [ref=e243]:
+                - generic [ref=e244]:
+                  - link "7. Oriane" [ref=e245]:
+                    - /url: /products/oriane
+                    - text: 7. Oriane
+                  - link "The Pitch" [ref=e248]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e249]: The perception layer for Marketers and their AIs
+                - generic [ref=e251]:
+                  - img "Promoted" [ref=e253]
+                  - generic [ref=e254]:
+                    - img [ref=e255]
+                    - link "Influencer marketing" [ref=e257]:
+                      - /url: /topics/influencer-marketing
+                    - generic [ref=e258]: •
+                    - link "Social media marketing" [ref=e259]:
+                      - /url: /topics/social-media-marketing
+              - button "12" [ref=e260]:
+                - generic [ref=e261]:
+                  - img [ref=e262]
+                  - paragraph [ref=e264]: "12"
+              - button "94" [ref=e265]:
+                - generic [ref=e266]:
+                  - img [ref=e267]
+                  - paragraph [ref=e269]: "94"
+            - generic [ref=e270] [cursor=pointer]:
+              - img "Hestus" [ref=e271]
+              - generic [ref=e272]:
+                - generic [ref=e273]:
+                  - link "8. Hestus" [ref=e274]:
+                    - /url: /products/hestus
+                    - text: 8. Hestus
+                  - link "The Pitch" [ref=e277]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e278]: Native CAD autocomplete — 2.5x faster, 4x fewer clicks
+                - generic [ref=e280]:
+                  - img "Promoted" [ref=e282]
+                  - generic [ref=e283]:
+                    - img [ref=e284]
+                    - link "Design Tools" [ref=e286]:
+                      - /url: /topics/design-tools
+                    - generic [ref=e287]: •
+                    - link "3D Printer" [ref=e288]:
+                      - /url: /topics/3d-printer
+              - button "2" [ref=e289]:
+                - generic [ref=e290]:
+                  - img [ref=e291]
+                  - paragraph [ref=e293]: "2"
+              - button "85" [ref=e294]:
+                - generic [ref=e295]:
+                  - img [ref=e296]
+                  - paragraph [ref=e298]: "85"
+            - generic [ref=e299] [cursor=pointer]:
+              - img "PaceBar" [ref=e300]
+              - generic [ref=e301]:
+                - link "9. PaceBar" [ref=e303]:
+                  - /url: /products/pacebar
+                  - text: 9. PaceBar
+                - generic [ref=e305]: A quiet pace instrument for your Mac
+                - generic [ref=e307]:
+                  - img "Promoted" [ref=e309]
+                  - generic [ref=e310]:
+                    - img [ref=e311]
+                    - link "Mac" [ref=e313]:
+                      - /url: /topics/mac
+                    - generic [ref=e314]: •
+                    - link "Productivity" [ref=e315]:
+                      - /url: /topics/productivity
+                    - generic [ref=e316]: •
+                    - link "Menu Bar Apps" [ref=e317]:
+                      - /url: /topics/menu-bar-apps
+              - button "1" [ref=e318]:
+                - generic [ref=e319]:
+                  - img [ref=e320]
+                  - paragraph [ref=e322]: "1"
+              - button "80" [ref=e323]:
+                - generic [ref=e324]:
+                  - img [ref=e325]
+                  - paragraph [ref=e327]: "80"
+            - generic [ref=e329] [cursor=pointer]:
+              - 'img "Wispr Flow: Dictation That Works Everywhere" [ref=e330]'
+              - generic [ref=e331]:
+                - 'link "Wispr Flow: Dictation That Works Everywhere" [ref=e333]':
+                  - /url: /products/wisprflow
+                  - text: "Wispr Flow: Dictation That Works Everywhere"
+                - generic [ref=e335]: Stop typing. Start speaking. 4x faster.
+                - generic [ref=e336]:
+                  - generic [ref=e337]:
+                    - img "Promoted" [ref=e339]
+                    - generic [ref=e340]:
+                      - img [ref=e341]
+                      - link "Productivity" [ref=e343]:
+                        - /url: /topics/productivity
+                      - generic [ref=e344]: •
+                      - link "Artificial Intelligence" [ref=e345]:
+                        - /url: /topics/artificial-intelligence
+                      - generic [ref=e346]: •
+                      - link "Audio" [ref=e347]:
+                        - /url: /topics/audio
+                  - link [ref=e349]:
+                    - /url: /products/wisprflow?comment=3956824
+                    - button "Tanay Kothari" [ref=e350]:
+                      - img "Tanay Kothari" [ref=e351]
+                    - button "Tanay Kothari" [ref=e352]:
+                      - paragraph [ref=e353]: Tanay Kothari
+                    - paragraph [ref=e354]: "Hey Product Hunt 🎉 I’m Tanay, co-founder & CEO of Wispr Flow, a Mac dictation app that lets you speak naturally, and writes in your style, in every application — with auto-edits, command mode, and over 100 languages. ⭐ The founding story Ever since I watched the first Ironman movie in 2008 at age 10, I've wanted to build Jarvis. It drove me to pull my first all-nighter and start teaching myself how to code. 16 years later, I think we’ve found a way to make a voice experience delightful for all-day use. And there's no one else I'd build this with than my college roommate and closest friend @sahaj_garg2 Our vision is to make voice interfaces both useful (so you trust them) and ubiquitous (so you can use them everywhere). This is how we can move from screen-first technologies to voice-first technologies and build a future where we aren't stuck looking at our phones all day long. ⭐ Using Flow is super simple: 1. Download Flow for Mac 2. Press and hold [Fn] to start speaking in any app 3. Release [Fn] to enter text ⭐ What users love Flow for - 🛠️ Developers using Cursor / Claude / ChatGPT: Speak with AI assistants faster than typing. - ✉️ Professionals breezing through their inbox: Flow accurately captures names and formats your emails and Slack messages. - 🧑‍🎓 Students chatting with AI and finishing assignments even faster: We have a special student discount. - 📄 Product Managers drafting PRDs and sharing thoughts: Flow turns your rambles into clear ideas. - 👶 Parents with busy lives: Time is precious. Every second you save writing is an extra second you have for family. - 🤖 Tech-lovers who want to use voice with every AI tool ⭐ Here’s all you’ll get with Flow 1.0 — and we’re just getting started. 1. ⚡ Blazing fast dictation: Powered by Flow’s ultra-fast inference engine 2. 🎨 Tone match: You speak differently than you write. Flow learns your writing style across every application 3. 🔧 Auto-edits when you change your mind: “Hey lets meet at 5pm, actually lets do 6pm” → “Hey, lets meet at 6pm” 4. 😎 Command Mode for selected text: Say commands like “Flow, make this crisper and more assertive” without copy-pasting into other tools. 5. 🧩 Native integrations: Select text anywhere and just say: “Ask perplexity, what does this mean?” 6. 😶 Whispering mode: Use Flow around others by quietly whispering to your computer. 7. 🔒 Private by design: Your recordings locally on your computer by default. Only you have access to it. You can allow Flow to use your data to improve our models (disabled by default). Learn more: wispr.ai/data-usage For technical users, most voice dictation tools focus on technical metrics like \"word error rate.\" At Flow, we prioritize what truly matters to users: zero-edit messages. With Flow, you rarely need to return to your keyboard for edits. Our new approach has made Flow the first consumer voice dictation platform that makes people enjoy using voice more than their keyboards. ⭐ A final note Our dream is to create a world where interacting with technology feels as natural as interacting with people. I'd love your help to make this a reality. Try out Flow and share your feedback — we're eager to make it even more magical with your input. PS: A huge shoutout to our thousands of beta users who've showered us with love and feedback over the last few months. We wouldn't be here without you."
+              - button "527" [ref=e355]:
+                - generic [ref=e356]:
+                  - img [ref=e357]
+                  - paragraph [ref=e359]: "527"
+              - button "2,290" [ref=e360]:
+                - generic [ref=e361]:
+                  - img [ref=e362]
+                  - paragraph [ref=e364]: 2,290
+            - generic [ref=e365] [cursor=pointer]:
+              - img "Firstwork" [ref=e366]
+              - generic [ref=e367]:
+                - generic [ref=e368]:
+                  - link "10. Firstwork" [ref=e369]:
+                    - /url: /products/firstwork-2
+                    - text: 10. Firstwork
+                  - link "The Pitch" [ref=e372]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e373]: Agentic AI for frontline hiring and onboarding
+                - generic [ref=e375]:
+                  - img "Promoted" [ref=e377]
+                  - generic [ref=e378]:
+                    - img [ref=e379]
+                    - link "Hiring" [ref=e381]:
+                      - /url: /topics/hiring
+                    - generic [ref=e382]: •
+                    - link "Human Resources" [ref=e383]:
+                      - /url: /topics/human-resources
+              - button "5" [ref=e384]:
+                - generic [ref=e385]:
+                  - img [ref=e386]
+                  - paragraph [ref=e388]: "5"
+              - button "78" [ref=e389]:
+                - generic [ref=e390]:
+                  - img [ref=e391]
+                  - paragraph [ref=e393]: "78"
+            - generic [ref=e394] [cursor=pointer]:
+              - img "Dina" [ref=e395]
+              - generic [ref=e396]:
+                - link "11. Dina" [ref=e398]:
+                  - /url: /products/dina
+                  - text: 11. Dina
+                - generic [ref=e400]: From screen to polished video in minutes
+                - generic [ref=e402]:
+                  - img "Promoted" [ref=e404]
+                  - generic [ref=e405]:
+                    - img [ref=e406]
+                    - link "Productivity" [ref=e408]:
+                      - /url: /topics/productivity
+                    - generic [ref=e409]: •
+                    - link "Marketing" [ref=e410]:
+                      - /url: /topics/marketing
+                    - generic [ref=e411]: •
+                    - link "Video" [ref=e412]:
+                      - /url: /topics/video
+              - button "4" [ref=e413]:
+                - generic [ref=e414]:
+                  - img [ref=e415]
+                  - paragraph [ref=e417]: "4"
+              - button "78" [ref=e418]:
+                - generic [ref=e419]:
+                  - img [ref=e420]
+                  - paragraph [ref=e422]: "78"
+            - generic [ref=e423] [cursor=pointer]:
+              - img "Unity AI" [ref=e424]
+              - generic [ref=e425]:
+                - link "12. Unity AI" [ref=e427]:
+                  - /url: /products/unity
+                  - text: 12. Unity AI
+                - generic [ref=e429]: AI agents built directly into Unity workflows
+                - generic [ref=e431]:
+                  - img "Promoted" [ref=e433]
+                  - generic [ref=e434]:
+                    - img [ref=e435]
+                    - link "Artificial Intelligence" [ref=e437]:
+                      - /url: /topics/artificial-intelligence
+                    - generic [ref=e438]: •
+                    - link "Games" [ref=e439]:
+                      - /url: /topics/games
+                    - generic [ref=e440]: •
+                    - link "Development" [ref=e441]:
+                      - /url: /topics/development
+              - button "2" [ref=e442]:
+                - generic [ref=e443]:
+                  - img [ref=e444]
+                  - paragraph [ref=e446]: "2"
+              - button "74" [ref=e447]:
+                - generic [ref=e448]:
+                  - img [ref=e449]
+                  - paragraph [ref=e451]: "74"
+            - generic [ref=e452] [cursor=pointer]:
+              - img "AWEAR" [ref=e453]
+              - generic [ref=e454]:
+                - generic [ref=e455]:
+                  - link "13. AWEAR" [ref=e456]:
+                    - /url: /products/awear
+                    - text: 13. AWEAR
+                  - link "The Pitch" [ref=e459]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e460]: Discreet brainwave wearable for real-time mental insights
+                - generic [ref=e462]:
+                  - img "Promoted" [ref=e464]
+                  - generic [ref=e465]:
+                    - img [ref=e466]
+                    - link "Wearables" [ref=e468]:
+                      - /url: /topics/wearables
+                    - generic [ref=e469]: •
+                    - link "Biohacking" [ref=e470]:
+                      - /url: /topics/biohacking
+              - button "0" [ref=e471]:
+                - generic [ref=e472]:
+                  - img [ref=e473]
+                  - paragraph [ref=e475]: "0"
+              - button "74" [ref=e476]:
+                - generic [ref=e477]:
+                  - img [ref=e478]
+                  - paragraph [ref=e480]: "74"
+            - generic [ref=e481] [cursor=pointer]:
+              - img "MyARC" [ref=e482]
+              - generic [ref=e483]:
+                - generic [ref=e484]:
+                  - link "14. MyARC" [ref=e485]:
+                    - /url: /products/myarc
+                    - text: 14. MyARC
+                  - link "The Pitch" [ref=e488]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e489]: Enabling creators to train their communities at scale.
+                - img "Promoted" [ref=e493]
+              - button "2" [ref=e494]:
+                - generic [ref=e495]:
+                  - img [ref=e496]
+                  - paragraph [ref=e498]: "2"
+              - button "73" [ref=e499]:
+                - generic [ref=e500]:
+                  - img [ref=e501]
+                  - paragraph [ref=e503]: "73"
+            - generic [ref=e505] [cursor=pointer]:
+              - img "ElevenAgents by ElevenLabs" [ref=e506]
+              - generic [ref=e507]:
+                - link "ElevenAgents by ElevenLabs" [ref=e509]:
+                  - /url: /products/elevenlabs
+                  - text: ElevenAgents by ElevenLabs
+                - generic [ref=e511]: Scale conversations without scaling your team
+                - generic [ref=e513]:
+                  - img "Promoted" [ref=e515]
+                  - generic [ref=e516]:
+                    - img [ref=e517]
+                    - link "Artificial Intelligence" [ref=e519]:
+                      - /url: /topics/artificial-intelligence
+                    - generic [ref=e520]: •
+                    - link "Audio" [ref=e521]:
+                      - /url: /topics/audio
+              - button "10" [ref=e522]:
+                - generic [ref=e523]:
+                  - img [ref=e524]
+                  - paragraph [ref=e526]: "10"
+              - button "456" [ref=e527]:
+                - generic [ref=e528]:
+                  - img [ref=e529]
+                  - paragraph [ref=e531]: "456"
+            - generic [ref=e532] [cursor=pointer]:
+              - generic "Hutsy" [ref=e533]
+              - generic [ref=e534]:
+                - generic [ref=e535]:
+                  - link "15. Hutsy" [ref=e536]:
+                    - /url: /products/hutsy
+                    - text: 15. Hutsy
+                  - link "The Pitch" [ref=e539]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e540]: Stop guessing where your money goes — Hutsy tells you
+                - img "Promoted" [ref=e544]
+              - button "1" [ref=e545]:
+                - generic [ref=e546]:
+                  - img [ref=e547]
+                  - paragraph [ref=e549]: "1"
+              - button "72" [ref=e550]:
+                - generic [ref=e551]:
+                  - img [ref=e552]
+                  - paragraph [ref=e554]: "72"
+            - generic [ref=e555] [cursor=pointer]:
+              - img "Breathwrk" [ref=e556]
+              - generic [ref=e557]:
+                - link "16. Breathwrk" [ref=e559]:
+                  - /url: /products/breathwrk
+                  - text: 16. Breathwrk
+                - generic [ref=e561]: Learn and master breathwork with guided breathing exercises
+                - generic [ref=e563]:
+                  - img "Promoted" [ref=e565]
+                  - generic [ref=e566]:
+                    - img [ref=e567]
+                    - link "Android" [ref=e569]:
+                      - /url: /topics/android
+                    - generic [ref=e570]: •
+                    - link "Health & Fitness" [ref=e571]:
+                      - /url: /topics/health-fitness
+                    - generic [ref=e572]: •
+                    - link "Meditation" [ref=e573]:
+                      - /url: /topics/meditation
+              - button "1" [ref=e574]:
+                - generic [ref=e575]:
+                  - img [ref=e576]
+                  - paragraph [ref=e578]: "1"
+              - button "72" [ref=e579]:
+                - generic [ref=e580]:
+                  - img [ref=e581]
+                  - paragraph [ref=e583]: "72"
+            - generic [ref=e584] [cursor=pointer]:
+              - img "Kodezi" [ref=e585]
+              - generic [ref=e586]:
+                - generic [ref=e587]:
+                  - link "17. Kodezi" [ref=e588]:
+                    - /url: /products/kodezi
+                    - text: 17. Kodezi
+                  - link "The Pitch" [ref=e591]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e592]: AI CTO for codebases
+                - img "Promoted" [ref=e596]
+              - button "1" [ref=e597]:
+                - generic [ref=e598]:
+                  - img [ref=e599]
+                  - paragraph [ref=e601]: "1"
+              - button "72" [ref=e602]:
+                - generic [ref=e603]:
+                  - img [ref=e604]
+                  - paragraph [ref=e606]: "72"
+            - generic [ref=e607] [cursor=pointer]:
+              - img "Vyrill Agentic Video Commerce Platform" [ref=e608]
+              - generic [ref=e609]:
+                - generic [ref=e610]:
+                  - link "18. Vyrill Agentic Video Commerce Platform" [ref=e611]:
+                    - /url: /products/vyrill
+                    - text: 18. Vyrill Agentic Video Commerce Platform
+                  - link "The Pitch" [ref=e614]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e615]: Agentic infrastructure powering video search & monetization.
+                - generic [ref=e617]:
+                  - img "Promoted" [ref=e619]
+                  - generic [ref=e620]:
+                    - img [ref=e621]
+                    - link "Productivity" [ref=e623]:
+                      - /url: /topics/productivity
+                    - generic [ref=e624]: •
+                    - link "E-Commerce" [ref=e625]:
+                      - /url: /topics/e-commerce
+              - button "1" [ref=e626]:
+                - generic [ref=e627]:
+                  - img [ref=e628]
+                  - paragraph [ref=e630]: "1"
+              - button "71" [ref=e631]:
+                - generic [ref=e632]:
+                  - img [ref=e633]
+                  - paragraph [ref=e635]: "71"
+            - generic [ref=e636] [cursor=pointer]:
+              - img "Docket" [ref=e637]
+              - generic [ref=e638]:
+                - generic [ref=e639]:
+                  - link "19. Docket" [ref=e640]:
+                    - /url: /products/docket-6
+                    - text: 19. Docket
+                  - link "The Pitch" [ref=e643]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e644]: Vision-first QA testing across web and mobile
+                - img "Promoted" [ref=e648]
+              - button "0" [ref=e649]:
+                - generic [ref=e650]:
+                  - img [ref=e651]
+                  - paragraph [ref=e653]: "0"
+              - button "70" [ref=e654]:
+                - generic [ref=e655]:
+                  - img [ref=e656]
+                  - paragraph [ref=e658]: "70"
+            - generic [ref=e660] [cursor=pointer]:
+              - img "Mintlify" [ref=e661]
+              - generic [ref=e662]:
+                - link "Mintlify" [ref=e664]:
+                  - /url: /products/mintlify
+                  - text: Mintlify
+                - generic [ref=e666]: Knowledge infrastructure for AI agents
+                - generic [ref=e667]:
+                  - generic [ref=e668]:
+                    - img "Promoted" [ref=e670]
+                    - generic [ref=e671]:
+                      - img [ref=e672]
+                      - link "Notes" [ref=e674]:
+                        - /url: /topics/notes
+                      - generic [ref=e675]: •
+                      - link "Text Editors" [ref=e676]:
+                        - /url: /topics/text-editors
+                      - generic [ref=e677]: •
+                      - link "GitHub" [ref=e678]:
+                        - /url: /topics/github
+                  - link "Justin Torre Justin Torre We have been using the editor every day and it's an absolute game changer!!! I love this product and I think it's one of the leading editor experiences I have tried. Also, the ability to publish customer facing docs is just amazing." [ref=e680]:
+                    - /url: /products/mintlify?comment=5334099
+                    - button "Justin Torre" [ref=e681]:
+                      - img "Justin Torre" [ref=e682]
+                    - button "Justin Torre" [ref=e683]:
+                      - paragraph [ref=e684]: Justin Torre
+                    - paragraph [ref=e685]: We have been using the editor every day and it's an absolute game changer!!! I love this product and I think it's one of the leading editor experiences I have tried. Also, the ability to publish customer facing docs is just amazing.
+              - button "23" [ref=e686]:
+                - generic [ref=e687]:
+                  - img [ref=e688]
+                  - paragraph [ref=e690]: "23"
+              - button "353" [ref=e691]:
+                - generic [ref=e692]:
+                  - img [ref=e693]
+                  - paragraph [ref=e695]: "353"
+            - generic [ref=e696] [cursor=pointer]:
+              - generic "Mona" [ref=e697]
+              - generic [ref=e698]:
+                - generic [ref=e699]:
+                  - link "20. Mona" [ref=e700]:
+                    - /url: /products/mona-8
+                    - text: 20. Mona
+                  - link "The Pitch" [ref=e703]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e704]: Automating business capital access with AI agents
+                - img "Promoted" [ref=e708]
+              - button "0" [ref=e709]:
+                - generic [ref=e710]:
+                  - img [ref=e711]
+                  - paragraph [ref=e713]: "0"
+              - button "70" [ref=e714]:
+                - generic [ref=e715]:
+                  - img [ref=e716]
+                  - paragraph [ref=e718]: "70"
+            - generic [ref=e719] [cursor=pointer]:
+              - img "Nucleo" [ref=e720]
+              - generic [ref=e721]:
+                - generic [ref=e722]:
+                  - link "21. Nucleo" [ref=e723]:
+                    - /url: /products/nucleo-research-inc
+                    - text: 21. Nucleo
+                  - link "The Pitch" [ref=e726]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e727]: Automated cancer diagnostics
+                - img "Promoted" [ref=e731]
+              - button "0" [ref=e732]:
+                - generic [ref=e733]:
+                  - img [ref=e734]
+                  - paragraph [ref=e736]: "0"
+              - button "70" [ref=e737]:
+                - generic [ref=e738]:
+                  - img [ref=e739]
+                  - paragraph [ref=e741]: "70"
+            - generic [ref=e742] [cursor=pointer]:
+              - img "Pickle" [ref=e743]
+              - generic [ref=e744]:
+                - generic [ref=e745]:
+                  - link "22. Pickle" [ref=e746]:
+                    - /url: /products/pickle-10
+                    - text: 22. Pickle
+                  - link "The Pitch" [ref=e749]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e750]: Personal memory layer that works across AI apps
+                - img "Promoted" [ref=e754]
+              - button "0" [ref=e755]:
+                - generic [ref=e756]:
+                  - img [ref=e757]
+                  - paragraph [ref=e759]: "0"
+              - button "70" [ref=e760]:
+                - generic [ref=e761]:
+                  - img [ref=e762]
+                  - paragraph [ref=e764]: "70"
+            - generic [ref=e765] [cursor=pointer]:
+              - img "Slice Technologies" [ref=e766]
+              - generic [ref=e767]:
+                - generic [ref=e768]:
+                  - link "23. Slice Technologies" [ref=e769]:
+                    - /url: /products/slice-3
+                    - text: 23. Slice Technologies
+                  - link "The Pitch" [ref=e772]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e773]: Home-buying software for first-time buyers
+                - img "Promoted" [ref=e777]
+              - button "0" [ref=e778]:
+                - generic [ref=e779]:
+                  - img [ref=e780]
+                  - paragraph [ref=e782]: "0"
+              - button "69" [ref=e783]:
+                - generic [ref=e784]:
+                  - img [ref=e785]
+                  - paragraph [ref=e787]: "69"
+            - generic [ref=e788] [cursor=pointer]:
+              - img "Openclick" [ref=e789]
+              - generic [ref=e790]:
+                - link "24. Openclick" [ref=e792]:
+                  - /url: /products/openclick
+                  - text: 24. Openclick
+                - generic [ref=e794]: macOS agent that turns prompts into automated clicks
+                - generic [ref=e796]:
+                  - img "Promoted" [ref=e798]
+                  - generic [ref=e799]:
+                    - img [ref=e800]
+                    - link "Open Source" [ref=e802]:
+                      - /url: /topics/open-source
+                    - generic [ref=e803]: •
+                    - link "Developer Tools" [ref=e804]:
+                      - /url: /topics/developer-tools
+                    - generic [ref=e805]: •
+                    - link "GitHub" [ref=e806]:
+                      - /url: /topics/github
+              - button "3" [ref=e807]:
+                - generic [ref=e808]:
+                  - img [ref=e809]
+                  - paragraph [ref=e811]: "3"
+              - button "69" [ref=e812]:
+                - generic [ref=e813]:
+                  - img [ref=e814]
+                  - paragraph [ref=e816]: "69"
+            - generic [ref=e818] [cursor=pointer]:
+              - img "Kinetik" [ref=e819]
+              - generic [ref=e820]:
+                - link "Kinetik" [ref=e822]:
+                  - /url: /products/kinetik
+                  - text: Kinetik
+                - generic [ref=e824]: "AI agent to rule them all: content, ops, growth"
+                - generic [ref=e825]:
+                  - generic [ref=e826]:
+                    - img "Promoted" [ref=e828]
+                    - generic [ref=e829]:
+                      - img [ref=e830]
+                      - link "Social Media" [ref=e832]:
+                        - /url: /topics/social-media
+                      - generic [ref=e833]: •
+                      - link "Artificial Intelligence" [ref=e834]:
+                        - /url: /topics/artificial-intelligence
+                      - generic [ref=e835]: •
+                      - link "Business" [ref=e836]:
+                        - /url: /topics/business
+                  - link [ref=e838]:
+                    - /url: /products/kinetik?comment=5331738
+                    - button "Chris Messina" [ref=e839]:
+                      - img "Chris Messina" [ref=e840]
+                    - button "Chris Messina" [ref=e841]:
+                      - paragraph [ref=e842]: Chris Messina
+                    - paragraph [ref=e843]: "I gave Kinetik a try and was pretty impressed! I connected my long dormant Instagram account and it whipped up a plan for how I could get it back on track after I suggested that I could mine my 2004-2018 Flickr archive for interesting screenshots: Oh that's a goldmine. 2004-2018 Flickr screenshots from you means we're talking about the birth of basically everything — Twitter, early Facebook, the hashtag proposal, Product Hunt, the whole social web evolution captured by someone who was shaping it. That changes the strategy from \"good\" to \"nobody else on earth could do this. We're still in the plotting and scheming phase, but I appreciate how it went deep on my background as a reluctant creator and offered proactive suggestions to unblock me: What I can do right now without you lifting a finger: Start building a \"greatest hits\" shortlist. If you can share even a small batch of screenshots — say 50-100 from different eras — I'll: •⁠ ⁠Tag them by era, platform, and theme •⁠ ⁠Rank them by IG potential (nostalgia factor, \"wow I forgot that existed\" factor, historical significance) •⁠ ⁠Draft captions in your voice (short, punchy, zero hashtag spam — obviously) •⁠ ⁠Mock up a first month of posts What do you think? Should I pull the trigger? 😅"
+              - button "16" [ref=e844]:
+                - generic [ref=e845]:
+                  - img [ref=e846]
+                  - paragraph [ref=e848]: "16"
+              - button "50" [ref=e849]:
+                - generic [ref=e850]:
+                  - img [ref=e851]
+                  - paragraph [ref=e853]: "50"
+            - generic [ref=e854] [cursor=pointer]:
+              - img "Steam Controller" [ref=e855]
+              - generic [ref=e856]:
+                - link "25. Steam Controller" [ref=e858]:
+                  - /url: /products/steam-machine
+                  - text: 25. Steam Controller
+                - generic [ref=e860]: Steam Input, now in controller form
+                - generic [ref=e862]:
+                  - img "Promoted" [ref=e864]
+                  - generic [ref=e865]:
+                    - img [ref=e866]
+                    - link "Home" [ref=e868]:
+                      - /url: /topics/home
+                    - generic [ref=e869]: •
+                    - link "Hardware" [ref=e870]:
+                      - /url: /topics/hardware
+                    - generic [ref=e871]: •
+                    - link "Games" [ref=e872]:
+                      - /url: /topics/games
+              - button "1" [ref=e873]:
+                - generic [ref=e874]:
+                  - img [ref=e875]
+                  - paragraph [ref=e877]: "1"
+              - button "69" [ref=e878]:
+                - generic [ref=e879]:
+                  - img [ref=e880]
+                  - paragraph [ref=e882]: "69"
+            - generic [ref=e883] [cursor=pointer]:
+              - img "AskSia Inc." [ref=e884]
+              - generic [ref=e885]:
+                - generic [ref=e886]:
+                  - link "26. AskSia Inc." [ref=e887]:
+                    - /url: /products/asksia-ai
+                    - text: 26. AskSia Inc.
+                  - link "The Pitch" [ref=e890]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e891]: AI study copilot for college coursework
+                - img "Promoted" [ref=e895]
+              - button "1" [ref=e896]:
+                - generic [ref=e897]:
+                  - img [ref=e898]
+                  - paragraph [ref=e900]: "1"
+              - button "68" [ref=e901]:
+                - generic [ref=e902]:
+                  - img [ref=e903]
+                  - paragraph [ref=e905]: "68"
+            - generic [ref=e906] [cursor=pointer]:
+              - img "Art House" [ref=e907]
+              - generic [ref=e908]:
+                - generic [ref=e909]:
+                  - link "27. Art House" [ref=e910]:
+                    - /url: /products/art-house
+                    - text: 27. Art House
+                  - link "The Pitch" [ref=e913]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e914]: App-free AR publishing for brand campaigns
+                - img "Promoted" [ref=e918]
+              - button "0" [ref=e919]:
+                - generic [ref=e920]:
+                  - img [ref=e921]
+                  - paragraph [ref=e923]: "0"
+              - button "68" [ref=e924]:
+                - generic [ref=e925]:
+                  - img [ref=e926]
+                  - paragraph [ref=e928]: "68"
+            - generic [ref=e929] [cursor=pointer]:
+              - img "DeepXL Corp" [ref=e930]
+              - generic [ref=e931]:
+                - generic [ref=e932]:
+                  - link "28. DeepXL Corp" [ref=e933]:
+                    - /url: /products/deepxl-ai
+                    - text: 28. DeepXL Corp
+                  - link "The Pitch" [ref=e936]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e937]: AI fraud detection for documents, IDs, and images
+                - img "Promoted" [ref=e941]
+              - button "0" [ref=e942]:
+                - generic [ref=e943]:
+                  - img [ref=e944]
+                  - paragraph [ref=e946]: "0"
+              - button "68" [ref=e947]:
+                - generic [ref=e948]:
+                  - img [ref=e949]
+                  - paragraph [ref=e951]: "68"
+            - generic [ref=e952] [cursor=pointer]:
+              - img "Oasis Learning AI" [ref=e953]
+              - generic [ref=e954]:
+                - generic [ref=e955]:
+                  - link "29. Oasis Learning AI" [ref=e956]:
+                    - /url: /products/oasis-learning-ai
+                    - text: 29. Oasis Learning AI
+                  - link "The Pitch" [ref=e959]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e960]: Turns business updates into training content
+                - img "Promoted" [ref=e964]
+              - button "0" [ref=e965]:
+                - generic [ref=e966]:
+                  - img [ref=e967]
+                  - paragraph [ref=e969]: "0"
+              - button "67" [ref=e970]:
+                - generic [ref=e971]:
+                  - img [ref=e972]
+                  - paragraph [ref=e974]: "67"
+            - generic [ref=e976] [cursor=pointer]:
+              - 'img "Wispr Flow: Dictation That Works Everywhere" [ref=e977]'
+              - generic [ref=e978]:
+                - 'link "Wispr Flow: Dictation That Works Everywhere" [ref=e980]':
+                  - /url: /products/wisprflow
+                  - text: "Wispr Flow: Dictation That Works Everywhere"
+                - generic [ref=e982]: Stop typing. Start speaking. 4x faster.
+                - generic [ref=e983]:
+                  - generic [ref=e984]:
+                    - img "Promoted" [ref=e986]
+                    - generic [ref=e987]:
+                      - img [ref=e988]
+                      - link "Productivity" [ref=e990]:
+                        - /url: /topics/productivity
+                      - generic [ref=e991]: •
+                      - link "Artificial Intelligence" [ref=e992]:
+                        - /url: /topics/artificial-intelligence
+                      - generic [ref=e993]: •
+                      - link "Audio" [ref=e994]:
+                        - /url: /topics/audio
+                  - link [ref=e996]:
+                    - /url: /products/wisprflow?comment=3956824
+                    - button "Tanay Kothari" [ref=e997]:
+                      - img "Tanay Kothari" [ref=e998]
+                    - button "Tanay Kothari" [ref=e999]:
+                      - paragraph [ref=e1000]: Tanay Kothari
+                    - paragraph [ref=e1001]: "Hey Product Hunt 🎉 I’m Tanay, co-founder & CEO of Wispr Flow, a Mac dictation app that lets you speak naturally, and writes in your style, in every application — with auto-edits, command mode, and over 100 languages. ⭐ The founding story Ever since I watched the first Ironman movie in 2008 at age 10, I've wanted to build Jarvis. It drove me to pull my first all-nighter and start teaching myself how to code. 16 years later, I think we’ve found a way to make a voice experience delightful for all-day use. And there's no one else I'd build this with than my college roommate and closest friend @sahaj_garg2 Our vision is to make voice interfaces both useful (so you trust them) and ubiquitous (so you can use them everywhere). This is how we can move from screen-first technologies to voice-first technologies and build a future where we aren't stuck looking at our phones all day long. ⭐ Using Flow is super simple: 1. Download Flow for Mac 2. Press and hold [Fn] to start speaking in any app 3. Release [Fn] to enter text ⭐ What users love Flow for - 🛠️ Developers using Cursor / Claude / ChatGPT: Speak with AI assistants faster than typing. - ✉️ Professionals breezing through their inbox: Flow accurately captures names and formats your emails and Slack messages. - 🧑‍🎓 Students chatting with AI and finishing assignments even faster: We have a special student discount. - 📄 Product Managers drafting PRDs and sharing thoughts: Flow turns your rambles into clear ideas. - 👶 Parents with busy lives: Time is precious. Every second you save writing is an extra second you have for family. - 🤖 Tech-lovers who want to use voice with every AI tool ⭐ Here’s all you’ll get with Flow 1.0 — and we’re just getting started. 1. ⚡ Blazing fast dictation: Powered by Flow’s ultra-fast inference engine 2. 🎨 Tone match: You speak differently than you write. Flow learns your writing style across every application 3. 🔧 Auto-edits when you change your mind: “Hey lets meet at 5pm, actually lets do 6pm” → “Hey, lets meet at 6pm” 4. 😎 Command Mode for selected text: Say commands like “Flow, make this crisper and more assertive” without copy-pasting into other tools. 5. 🧩 Native integrations: Select text anywhere and just say: “Ask perplexity, what does this mean?” 6. 😶 Whispering mode: Use Flow around others by quietly whispering to your computer. 7. 🔒 Private by design: Your recordings locally on your computer by default. Only you have access to it. You can allow Flow to use your data to improve our models (disabled by default). Learn more: wispr.ai/data-usage For technical users, most voice dictation tools focus on technical metrics like \"word error rate.\" At Flow, we prioritize what truly matters to users: zero-edit messages. With Flow, you rarely need to return to your keyboard for edits. Our new approach has made Flow the first consumer voice dictation platform that makes people enjoy using voice more than their keyboards. ⭐ A final note Our dream is to create a world where interacting with technology feels as natural as interacting with people. I'd love your help to make this a reality. Try out Flow and share your feedback — we're eager to make it even more magical with your input. PS: A huge shoutout to our thousands of beta users who've showered us with love and feedback over the last few months. We wouldn't be here without you."
+              - button "527" [ref=e1002]:
+                - generic [ref=e1003]:
+                  - img [ref=e1004]
+                  - paragraph [ref=e1006]: "527"
+              - button "2,290" [ref=e1007]:
+                - generic [ref=e1008]:
+                  - img [ref=e1009]
+                  - paragraph [ref=e1011]: 2,290
+            - generic [ref=e1012] [cursor=pointer]:
+              - img "Boxtree, Inc." [ref=e1013]
+              - generic [ref=e1014]:
+                - generic [ref=e1015]:
+                  - link "30. Boxtree, Inc." [ref=e1016]:
+                    - /url: /products/table-space-by-boxtree
+                    - text: 30. Boxtree, Inc.
+                  - link "The Pitch" [ref=e1019]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e1020]: Mixed reality tabletop sandbox for XR on Quest & Vision Pro
+                - img "Promoted" [ref=e1024]
+              - button "2" [ref=e1025]:
+                - generic [ref=e1026]:
+                  - img [ref=e1027]
+                  - paragraph [ref=e1029]: "2"
+              - button "67" [ref=e1030]:
+                - generic [ref=e1031]:
+                  - img [ref=e1032]
+                  - paragraph [ref=e1034]: "67"
+            - generic [ref=e1035] [cursor=pointer]:
+              - generic "Vitract" [ref=e1036]
+              - generic [ref=e1037]:
+                - generic [ref=e1038]:
+                  - link "31. Vitract" [ref=e1039]:
+                    - /url: /products/vitract
+                    - text: 31. Vitract
+                  - link "The Pitch" [ref=e1042]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e1043]: Microbiome test kits with AI nutrition guidance
+                - img "Promoted" [ref=e1047]
+              - button "0" [ref=e1048]:
+                - generic [ref=e1049]:
+                  - img [ref=e1050]
+                  - paragraph [ref=e1052]: "0"
+              - button "67" [ref=e1053]:
+                - generic [ref=e1054]:
+                  - img [ref=e1055]
+                  - paragraph [ref=e1057]: "67"
+            - generic [ref=e1058] [cursor=pointer]:
+              - img "Facts" [ref=e1059]
+              - generic [ref=e1060]:
+                - link "32. Facts" [ref=e1062]:
+                  - /url: /products/facts-fc3505e0-6206-4a1b-b6b4-01b7ffbb7783
+                  - text: 32. Facts
+                - generic [ref=e1064]: The antidote to fluffy specs.
+                - generic [ref=e1066]:
+                  - img "Promoted" [ref=e1068]
+                  - generic [ref=e1069]:
+                    - img [ref=e1070]
+                    - link "Developer Tools" [ref=e1072]:
+                      - /url: /topics/developer-tools
+                    - generic [ref=e1073]: •
+                    - link "Artificial Intelligence" [ref=e1074]:
+                      - /url: /topics/artificial-intelligence
+                    - generic [ref=e1075]: •
+                    - link "GitHub" [ref=e1076]:
+                      - /url: /topics/github
+              - button "1" [ref=e1077]:
+                - generic [ref=e1078]:
+                  - img [ref=e1079]
+                  - paragraph [ref=e1081]: "1"
+              - button "66" [ref=e1082]:
+                - generic [ref=e1083]:
+                  - img [ref=e1084]
+                  - paragraph [ref=e1086]: "66"
+            - generic [ref=e1087] [cursor=pointer]:
+              - img "Gecko" [ref=e1088]
+              - generic [ref=e1089]:
+                - generic [ref=e1090]:
+                  - link "33. Gecko" [ref=e1091]:
+                    - /url: /products/gecko
+                    - text: 33. Gecko
+                  - link "The Pitch" [ref=e1094]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e1095]: AI that runs equipment rental businesses
+                - img "Promoted" [ref=e1099]
+              - button "0" [ref=e1100]:
+                - generic [ref=e1101]:
+                  - img [ref=e1102]
+                  - paragraph [ref=e1104]: "0"
+              - button "66" [ref=e1105]:
+                - generic [ref=e1106]:
+                  - img [ref=e1107]
+                  - paragraph [ref=e1109]: "66"
+            - generic [ref=e1110] [cursor=pointer]:
+              - img "Blaze" [ref=e1111]
+              - generic [ref=e1112]:
+                - link "34. Blaze" [ref=e1114]:
+                  - /url: /products/blaze-your-new-calendar
+                  - text: 34. Blaze
+                - generic [ref=e1116]: The AI-powered calendar that plans your day for you.
+                - generic [ref=e1118]:
+                  - img "Promoted" [ref=e1120]
+                  - generic [ref=e1121]:
+                    - img [ref=e1122]
+                    - link "Productivity" [ref=e1124]:
+                      - /url: /topics/productivity
+                    - generic [ref=e1125]: •
+                    - link "Calendar" [ref=e1126]:
+                      - /url: /topics/calendar
+                    - generic [ref=e1127]: •
+                    - link "Artificial Intelligence" [ref=e1128]:
+                      - /url: /topics/artificial-intelligence
+              - button "1" [ref=e1129]:
+                - generic [ref=e1130]:
+                  - img [ref=e1131]
+                  - paragraph [ref=e1133]: "1"
+              - button "66" [ref=e1134]:
+                - generic [ref=e1135]:
+                  - img [ref=e1136]
+                  - paragraph [ref=e1138]: "66"
+            - generic [ref=e1140] [cursor=pointer]:
+              - img "getviktor.com" [ref=e1141]
+              - generic [ref=e1142]:
+                - link "getviktor.com" [ref=e1144]:
+                  - /url: /products/viktor
+                  - text: getviktor.com
+                - generic [ref=e1146]: An AI coworker that actually does the work
+                - generic [ref=e1147]:
+                  - generic [ref=e1148]:
+                    - img "Promoted" [ref=e1150]
+                    - generic [ref=e1151]:
+                      - img [ref=e1152]
+                      - link "Productivity" [ref=e1154]:
+                        - /url: /topics/productivity
+                      - generic [ref=e1155]: •
+                      - link "Artificial Intelligence" [ref=e1156]:
+                        - /url: /topics/artificial-intelligence
+                      - generic [ref=e1157]: •
+                      - link "Business" [ref=e1158]:
+                        - /url: /topics/business
+                  - link [ref=e1160]:
+                    - /url: /products/viktor?comment=5181837
+                    - button "Matt Swulinski" [ref=e1161]:
+                      - img "Matt Swulinski" [ref=e1162]
+                    - button "Matt Swulinski" [ref=e1163]:
+                      - paragraph [ref=e1164]: Matt Swulinski
+                    - paragraph [ref=e1165]: I run growth at Wispr Flow, so I spend most of my time deep in AI tools and automation. I'd been following Fryderyk and the Zeta Labs team since Jace, their AI email assistant, and was impressed by how fast they shipped product. When Fryderyk showed me Viktor, it clicked immediately. I'd been spending hours building automations in Claude Code - stitching together context, writing scripts, trying to make things persistent and scheduled. Viktor did all of that natively. It just lives in Slack, already has the context from your tools and conversations, and runs on its own. But the thing that genuinely blew me away was the proactive behavior. Viktor doesn't just wait for you to ask. It observes how your team works, chimes in when it spots something relevant, and suggests automations you didn't think to set up. I've never seen an AI tool take initiative like that. I ended up advising the team on growth strategy because I believe this is how every team will work within a few years. Not another tab. Not another tool. A coworker that lives where your team already communicates. If you're skeptical, give it your worst task. That's what convinced me.
+              - button "128" [ref=e1166]:
+                - generic [ref=e1167]:
+                  - img [ref=e1168]
+                  - paragraph [ref=e1170]: "128"
+              - button "429" [ref=e1171]:
+                - generic [ref=e1172]:
+                  - img [ref=e1173]
+                  - paragraph [ref=e1175]: "429"
+            - generic [ref=e1176] [cursor=pointer]:
+              - img "Feyenally" [ref=e1177]
+              - generic [ref=e1178]:
+                - generic [ref=e1179]:
+                  - link "35. Feyenally" [ref=e1180]:
+                    - /url: /products/feyenally
+                    - text: 35. Feyenally
+                  - link "The Pitch" [ref=e1183]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e1184]: Smartphone eye tests for refractive errors
+                - img "Promoted" [ref=e1188]
+              - button "0" [ref=e1189]:
+                - generic [ref=e1190]:
+                  - img [ref=e1191]
+                  - paragraph [ref=e1193]: "0"
+              - button "65" [ref=e1194]:
+                - generic [ref=e1195]:
+                  - img [ref=e1196]
+                  - paragraph [ref=e1198]: "65"
+            - generic [ref=e1199] [cursor=pointer]:
+              - img "SupplyMango" [ref=e1200]
+              - generic [ref=e1201]:
+                - generic [ref=e1202]:
+                  - link "36. SupplyMango" [ref=e1203]:
+                    - /url: /products/supplymango
+                    - text: 36. SupplyMango
+                  - link "The Pitch" [ref=e1206]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e1207]: Procurement marketplace for hotel purchasing teams
+                - img "Promoted" [ref=e1211]
+              - button "0" [ref=e1212]:
+                - generic [ref=e1213]:
+                  - img [ref=e1214]
+                  - paragraph [ref=e1216]: "0"
+              - button "65" [ref=e1217]:
+                - generic [ref=e1218]:
+                  - img [ref=e1219]
+                  - paragraph [ref=e1221]: "65"
+            - generic [ref=e1222] [cursor=pointer]:
+              - img "FLUIX AI" [ref=e1223]
+              - generic [ref=e1224]:
+                - generic [ref=e1225]:
+                  - link "37. FLUIX AI" [ref=e1226]:
+                    - /url: /products/fluix-ai
+                    - text: 37. FLUIX AI
+                  - link "The Pitch" [ref=e1229]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e1230]: AI agents for data center cooling and power
+                - img "Promoted" [ref=e1234]
+              - button "0" [ref=e1235]:
+                - generic [ref=e1236]:
+                  - img [ref=e1237]
+                  - paragraph [ref=e1239]: "0"
+              - button "65" [ref=e1240]:
+                - generic [ref=e1241]:
+                  - img [ref=e1242]
+                  - paragraph [ref=e1244]: "65"
+            - generic [ref=e1245] [cursor=pointer]:
+              - img "Mentium.io" [ref=e1246]
+              - generic [ref=e1247]:
+                - generic [ref=e1248]:
+                  - link "38. Mentium.io" [ref=e1249]:
+                    - /url: /products/mentium-io
+                    - text: 38. Mentium.io
+                  - link "The Pitch" [ref=e1252]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e1253]: AI workers for freight broker operations
+                - img "Promoted" [ref=e1257]
+              - button "0" [ref=e1258]:
+                - generic [ref=e1259]:
+                  - img [ref=e1260]
+                  - paragraph [ref=e1262]: "0"
+              - button "64" [ref=e1263]:
+                - generic [ref=e1264]:
+                  - img [ref=e1265]
+                  - paragraph [ref=e1267]: "64"
+            - generic [ref=e1268] [cursor=pointer]:
+              - img "Zyphe" [ref=e1269]
+              - generic [ref=e1270]:
+                - generic [ref=e1271]:
+                  - link "39. Zyphe" [ref=e1272]:
+                    - /url: /products/zyphe
+                    - text: 39. Zyphe
+                  - link "The Pitch" [ref=e1275]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e1276]: Privacy-first KYC and KYB verification API
+                - img "Promoted" [ref=e1280]
+              - button "0" [ref=e1281]:
+                - generic [ref=e1282]:
+                  - img [ref=e1283]
+                  - paragraph [ref=e1285]: "0"
+              - button "64" [ref=e1286]:
+                - generic [ref=e1287]:
+                  - img [ref=e1288]
+                  - paragraph [ref=e1290]: "64"
+            - generic [ref=e1292] [cursor=pointer]:
+              - img "Framer" [ref=e1293]
+              - generic [ref=e1294]:
+                - link "Framer" [ref=e1296]:
+                  - /url: /products/framer
+                  - text: Framer
+                - generic [ref=e1298]: Launch websites with enterprise needs at startup speeds.
+                - generic [ref=e1300]:
+                  - img "Promoted" [ref=e1302]
+                  - generic [ref=e1303]:
+                    - img [ref=e1304]
+                    - link "Design Tools" [ref=e1306]:
+                      - /url: /topics/design-tools
+                    - generic [ref=e1307]: •
+                    - link "Website Builder" [ref=e1308]:
+                      - /url: /topics/website-builder
+                    - generic [ref=e1309]: •
+                    - link "Artificial Intelligence" [ref=e1310]:
+                      - /url: /topics/artificial-intelligence
+              - button "103" [ref=e1311]:
+                - generic [ref=e1312]:
+                  - img [ref=e1313]
+                  - paragraph [ref=e1315]: "103"
+              - button "1,570" [ref=e1316]:
+                - generic [ref=e1317]:
+                  - img [ref=e1318]
+                  - paragraph [ref=e1320]: 1,570
+            - generic [ref=e1321] [cursor=pointer]:
+              - img "Spikerz" [ref=e1322]
+              - generic [ref=e1323]:
+                - generic [ref=e1324]:
+                  - link "40. Spikerz" [ref=e1325]:
+                    - /url: /products/spikerz
+                    - text: 40. Spikerz
+                  - link "The Pitch" [ref=e1328]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e1329]: Social media security for brand accounts
+                - img "Promoted" [ref=e1333]
+              - button "1" [ref=e1334]:
+                - generic [ref=e1335]:
+                  - img [ref=e1336]
+                  - paragraph [ref=e1338]: "1"
+              - button "64" [ref=e1339]:
+                - generic [ref=e1340]:
+                  - img [ref=e1341]
+                  - paragraph [ref=e1343]: "64"
+            - generic [ref=e1344] [cursor=pointer]:
+              - img "Zumma" [ref=e1345]
+              - generic [ref=e1346]:
+                - generic [ref=e1347]:
+                  - link "41. Zumma" [ref=e1348]:
+                    - /url: /products/zumma
+                    - text: 41. Zumma
+                  - link "The Pitch" [ref=e1351]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e1352]: WhatsApp expense invoicing for company teams
+                - img "Promoted" [ref=e1356]
+              - button "0" [ref=e1357]:
+                - generic [ref=e1358]:
+                  - img [ref=e1359]
+                  - paragraph [ref=e1361]: "0"
+              - button "65" [ref=e1362]:
+                - generic [ref=e1363]:
+                  - img [ref=e1364]
+                  - paragraph [ref=e1366]: "65"
+            - generic [ref=e1367] [cursor=pointer]:
+              - img "Airbyte Agents" [ref=e1368]
+              - generic [ref=e1369]:
+                - link "42. Airbyte Agents" [ref=e1371]:
+                  - /url: /products/airbyte-agents
+                  - text: 42. Airbyte Agents
+                - generic [ref=e1373]: The context layer for production-grade AI agent
+                - generic [ref=e1375]:
+                  - img "Promoted" [ref=e1377]
+                  - generic [ref=e1378]:
+                    - img [ref=e1379]
+                    - link "Productivity" [ref=e1381]:
+                      - /url: /topics/productivity
+                    - generic [ref=e1382]: •
+                    - link "Developer Tools" [ref=e1383]:
+                      - /url: /topics/developer-tools
+                    - generic [ref=e1384]: •
+                    - link "Artificial Intelligence" [ref=e1385]:
+                      - /url: /topics/artificial-intelligence
+              - button "1" [ref=e1386]:
+                - generic [ref=e1387]:
+                  - img [ref=e1388]
+                  - paragraph [ref=e1390]: "1"
+              - button "64" [ref=e1391]:
+                - generic [ref=e1392]:
+                  - img [ref=e1393]
+                  - paragraph [ref=e1395]: "64"
+            - generic [ref=e1396] [cursor=pointer]:
+              - img "Vibranium Labs" [ref=e1397]
+              - generic [ref=e1398]:
+                - generic [ref=e1399]:
+                  - link "43. Vibranium Labs" [ref=e1400]:
+                    - /url: /products/vibranium-labs
+                    - text: 43. Vibranium Labs
+                  - link "The Pitch" [ref=e1403]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e1404]: AI pager that investigates incidents before wakeups
+                - img "Promoted" [ref=e1408]
+              - button "1" [ref=e1409]:
+                - generic [ref=e1410]:
+                  - img [ref=e1411]
+                  - paragraph [ref=e1413]: "1"
+              - button "64" [ref=e1414]:
+                - generic [ref=e1415]:
+                  - img [ref=e1416]
+                  - paragraph [ref=e1418]: "64"
+            - generic [ref=e1419] [cursor=pointer]:
+              - img "Lety.ai" [ref=e1420]
+              - generic [ref=e1421]:
+                - generic [ref=e1422]:
+                  - link "44. Lety.ai" [ref=e1423]:
+                    - /url: /products/lety-ai
+                    - text: 44. Lety.ai
+                  - link "The Pitch" [ref=e1426]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e1427]: The Infrastructure Behind AI Agencies | White-Label Platform
+                - img "Promoted" [ref=e1431]
+              - button "0" [ref=e1432]:
+                - generic [ref=e1433]:
+                  - img [ref=e1434]
+                  - paragraph [ref=e1436]: "0"
+              - button "63" [ref=e1437]:
+                - generic [ref=e1438]:
+                  - img [ref=e1439]
+                  - paragraph [ref=e1441]: "63"
+            - generic [ref=e1443] [cursor=pointer]:
+              - img "Trupeer AI" [ref=e1444]
+              - generic [ref=e1445]:
+                - link "Trupeer AI" [ref=e1447]:
+                  - /url: "#"
+                  - text: Trupeer AI
+                - generic [ref=e1449]: Create Stunning Demo Video with AI in minutes
+                - img "Promoted" [ref=e1453]
+            - generic [ref=e1454] [cursor=pointer]:
+              - img "Arcana Labs" [ref=e1455]
+              - generic [ref=e1456]:
+                - generic [ref=e1457]:
+                  - link "45. Arcana Labs" [ref=e1458]:
+                    - /url: /products/arcana-labs
+                    - text: 45. Arcana Labs
+                  - link "The Pitch" [ref=e1461]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e1462]: AI studio for image and video creation
+                - generic [ref=e1464]:
+                  - img "Promoted" [ref=e1466]
+                  - generic [ref=e1467]:
+                    - img [ref=e1468]
+                    - link "Design Tools" [ref=e1470]:
+                      - /url: /topics/design-tools
+                    - generic [ref=e1471]: •
+                    - link "Marketing" [ref=e1472]:
+                      - /url: /topics/marketing
+              - button "0" [ref=e1473]:
+                - generic [ref=e1474]:
+                  - img [ref=e1475]
+                  - paragraph [ref=e1477]: "0"
+              - button "63" [ref=e1478]:
+                - generic [ref=e1479]:
+                  - img [ref=e1480]
+                  - paragraph [ref=e1482]: "63"
+            - generic [ref=e1483] [cursor=pointer]:
+              - generic "Truck Parking Club" [ref=e1484]
+              - generic [ref=e1485]:
+                - generic [ref=e1486]:
+                  - link "46. Truck Parking Club" [ref=e1487]:
+                    - /url: /products/truck-parking-club
+                    - text: 46. Truck Parking Club
+                  - link "The Pitch" [ref=e1490]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e1491]: Truck parking reservations for commercial drivers
+                - img "Promoted" [ref=e1495]
+              - button "0" [ref=e1496]:
+                - generic [ref=e1497]:
+                  - img [ref=e1498]
+                  - paragraph [ref=e1500]: "0"
+              - button "63" [ref=e1501]:
+                - generic [ref=e1502]:
+                  - img [ref=e1503]
+                  - paragraph [ref=e1505]: "63"
+            - generic [ref=e1506] [cursor=pointer]:
+              - img "Armeta Inc." [ref=e1507]
+              - generic [ref=e1508]:
+                - generic [ref=e1509]:
+                  - link "47. Armeta Inc." [ref=e1510]:
+                    - /url: /products/armeta-inc
+                    - text: 47. Armeta Inc.
+                  - link "The Pitch" [ref=e1513]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e1514]: Turns PDF P&IDs into queryable engineering data
+                - img "Promoted" [ref=e1518]
+              - button "0" [ref=e1519]:
+                - generic [ref=e1520]:
+                  - img [ref=e1521]
+                  - paragraph [ref=e1523]: "0"
+              - button "63" [ref=e1524]:
+                - generic [ref=e1525]:
+                  - img [ref=e1526]
+                  - paragraph [ref=e1528]: "63"
+            - generic [ref=e1529] [cursor=pointer]:
+              - img "Scalestack" [ref=e1530]
+              - generic [ref=e1531]:
+                - generic [ref=e1532]:
+                  - link "48. Scalestack" [ref=e1533]:
+                    - /url: /products/scalestack
+                    - text: 48. Scalestack
+                  - link "The Pitch" [ref=e1536]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e1537]: AI revenue workflows for enterprise GTM teams
+                - img "Promoted" [ref=e1541]
+              - button "0" [ref=e1542]:
+                - generic [ref=e1543]:
+                  - img [ref=e1544]
+                  - paragraph [ref=e1546]: "0"
+              - button "63" [ref=e1547]:
+                - generic [ref=e1548]:
+                  - img [ref=e1549]
+                  - paragraph [ref=e1551]: "63"
+            - generic [ref=e1552] [cursor=pointer]:
+              - img "Tely AI" [ref=e1553]
+              - generic [ref=e1554]:
+                - generic [ref=e1555]:
+                  - link "49. Tely AI" [ref=e1556]:
+                    - /url: /products/tely-ai
+                    - text: 49. Tely AI
+                  - link "The Pitch" [ref=e1559]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e1560]: Autonomous SEO and lead generation for B2B teams
+                - img "Promoted" [ref=e1564]
+              - button "0" [ref=e1565]:
+                - generic [ref=e1566]:
+                  - img [ref=e1567]
+                  - paragraph [ref=e1569]: "0"
+              - button "62" [ref=e1570]:
+                - generic [ref=e1571]:
+                  - img [ref=e1572]
+                  - paragraph [ref=e1574]: "62"
+            - generic [ref=e1576] [cursor=pointer]:
+              - img "Tines" [ref=e1577]
+              - generic [ref=e1578]:
+                - link "Tines" [ref=e1580]:
+                  - /url: /products/tines
+                  - text: Tines
+                - generic [ref=e1582]: Build agents & automations integrated across your workspace
+                - generic [ref=e1583]:
+                  - generic [ref=e1584]:
+                    - img "Promoted" [ref=e1586]
+                    - generic [ref=e1587]:
+                      - img [ref=e1588]
+                      - link "Developer Tools" [ref=e1590]:
+                        - /url: /topics/developer-tools
+                      - generic [ref=e1591]: •
+                      - link "Artificial Intelligence" [ref=e1592]:
+                        - /url: /topics/artificial-intelligence
+                      - generic [ref=e1593]: •
+                      - link "Security" [ref=e1594]:
+                        - /url: /topics/security
+                  - link "Anupam Singh Anupam Singh This feels like automation built for real teams, not just perfect demos and it’s great to see it opened up to smaller teams too." [ref=e1596]:
+                    - /url: /products/tines?comment=5147481
+                    - button "Anupam Singh" [ref=e1597]:
+                      - img "Anupam Singh" [ref=e1598]
+                    - button "Anupam Singh" [ref=e1599]:
+                      - paragraph [ref=e1600]: Anupam Singh
+                    - paragraph [ref=e1601]: This feels like automation built for real teams, not just perfect demos and it’s great to see it opened up to smaller teams too.
+              - button "44" [ref=e1602]:
+                - generic [ref=e1603]:
+                  - img [ref=e1604]
+                  - paragraph [ref=e1606]: "44"
+              - button "456" [ref=e1607]:
+                - generic [ref=e1608]:
+                  - img [ref=e1609]
+                  - paragraph [ref=e1611]: "456"
+            - generic [ref=e1612] [cursor=pointer]:
+              - img "Hubble Technologies Inc." [ref=e1613]
+              - generic [ref=e1614]:
+                - generic [ref=e1615]:
+                  - link "50. Hubble Technologies Inc." [ref=e1616]:
+                    - /url: /products/hubble-technologies-inc
+                    - text: 50. Hubble Technologies Inc.
+                  - link "The Pitch" [ref=e1619]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e1620]: Enterprise user research platform for product teams
+                - img "Promoted" [ref=e1624]
+              - button "0" [ref=e1625]:
+                - generic [ref=e1626]:
+                  - img [ref=e1627]
+                  - paragraph [ref=e1629]: "0"
+              - button "62" [ref=e1630]:
+                - generic [ref=e1631]:
+                  - img [ref=e1632]
+                  - paragraph [ref=e1634]: "62"
+            - generic [ref=e1635] [cursor=pointer]:
+              - img "Peppr AI" [ref=e1636]
+              - generic [ref=e1637]:
+                - generic [ref=e1638]:
+                  - link "51. Peppr AI" [ref=e1639]:
+                    - /url: /products/peppr-ai
+                    - text: 51. Peppr AI
+                  - link "The Pitch" [ref=e1642]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e1643]: Real-time AI answers during sales calls
+                - img "Promoted" [ref=e1647]
+              - button "0" [ref=e1648]:
+                - generic [ref=e1649]:
+                  - img [ref=e1650]
+                  - paragraph [ref=e1652]: "0"
+              - button "62" [ref=e1653]:
+                - generic [ref=e1654]:
+                  - img [ref=e1655]
+                  - paragraph [ref=e1657]: "62"
+            - generic [ref=e1658] [cursor=pointer]:
+              - img "Self AI" [ref=e1659]
+              - generic [ref=e1660]:
+                - generic [ref=e1661]:
+                  - link "52. Self AI" [ref=e1662]:
+                    - /url: /products/mox-data
+                    - text: 52. Self AI
+                  - link "The Pitch" [ref=e1665]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e1666]: Talent OS that predicts performance, not just parses resumes
+                - img "Promoted" [ref=e1670]
+              - button "1" [ref=e1671]:
+                - generic [ref=e1672]:
+                  - img [ref=e1673]
+                  - paragraph [ref=e1675]: "1"
+              - button "62" [ref=e1676]:
+                - generic [ref=e1677]:
+                  - img [ref=e1678]
+                  - paragraph [ref=e1680]: "62"
+            - generic [ref=e1681] [cursor=pointer]:
+              - img "OrderEAT" [ref=e1682]
+              - generic [ref=e1683]:
+                - generic [ref=e1684]:
+                  - link "53. OrderEAT" [ref=e1685]:
+                    - /url: /products/ordereat
+                    - text: 53. OrderEAT
+                  - link "The Pitch" [ref=e1688]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e1689]: School cafeteria ordering and payments platform
+                - img "Promoted" [ref=e1693]
+              - button "0" [ref=e1694]:
+                - generic [ref=e1695]:
+                  - img [ref=e1696]
+                  - paragraph [ref=e1698]: "0"
+              - button "62" [ref=e1699]:
+                - generic [ref=e1700]:
+                  - img [ref=e1701]
+                  - paragraph [ref=e1703]: "62"
+            - generic [ref=e1704] [cursor=pointer]:
+              - img "StackBob.ai" [ref=e1705]
+              - generic [ref=e1706]:
+                - generic [ref=e1707]:
+                  - link "54. StackBob.ai" [ref=e1708]:
+                    - /url: /products/stackbob
+                    - text: 54. StackBob.ai
+                  - link "The Pitch" [ref=e1711]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e1712]: Identity governance for apps without SCIM
+                - img "Promoted" [ref=e1716]
+              - button "0" [ref=e1717]:
+                - generic [ref=e1718]:
+                  - img [ref=e1719]
+                  - paragraph [ref=e1721]: "0"
+              - button "62" [ref=e1722]:
+                - generic [ref=e1723]:
+                  - img [ref=e1724]
+                  - paragraph [ref=e1726]: "62"
+            - generic [ref=e1728] [cursor=pointer]:
+              - 'img "Wispr Flow: Dictation That Works Everywhere" [ref=e1729]'
+              - generic [ref=e1730]:
+                - 'link "Wispr Flow: Dictation That Works Everywhere" [ref=e1732]':
+                  - /url: /products/wisprflow
+                  - text: "Wispr Flow: Dictation That Works Everywhere"
+                - generic [ref=e1734]: Stop typing. Start speaking. 4x faster.
+                - generic [ref=e1735]:
+                  - generic [ref=e1736]:
+                    - img "Promoted" [ref=e1738]
+                    - generic [ref=e1739]:
+                      - img [ref=e1740]
+                      - link "Productivity" [ref=e1742]:
+                        - /url: /topics/productivity
+                      - generic [ref=e1743]: •
+                      - link "Artificial Intelligence" [ref=e1744]:
+                        - /url: /topics/artificial-intelligence
+                      - generic [ref=e1745]: •
+                      - link "Audio" [ref=e1746]:
+                        - /url: /topics/audio
+                  - link [ref=e1748]:
+                    - /url: /products/wisprflow?comment=3956824
+                    - button "Tanay Kothari" [ref=e1749]:
+                      - img "Tanay Kothari" [ref=e1750]
+                    - button "Tanay Kothari" [ref=e1751]:
+                      - paragraph [ref=e1752]: Tanay Kothari
+                    - paragraph [ref=e1753]: "Hey Product Hunt 🎉 I’m Tanay, co-founder & CEO of Wispr Flow, a Mac dictation app that lets you speak naturally, and writes in your style, in every application — with auto-edits, command mode, and over 100 languages. ⭐ The founding story Ever since I watched the first Ironman movie in 2008 at age 10, I've wanted to build Jarvis. It drove me to pull my first all-nighter and start teaching myself how to code. 16 years later, I think we’ve found a way to make a voice experience delightful for all-day use. And there's no one else I'd build this with than my college roommate and closest friend @sahaj_garg2 Our vision is to make voice interfaces both useful (so you trust them) and ubiquitous (so you can use them everywhere). This is how we can move from screen-first technologies to voice-first technologies and build a future where we aren't stuck looking at our phones all day long. ⭐ Using Flow is super simple: 1. Download Flow for Mac 2. Press and hold [Fn] to start speaking in any app 3. Release [Fn] to enter text ⭐ What users love Flow for - 🛠️ Developers using Cursor / Claude / ChatGPT: Speak with AI assistants faster than typing. - ✉️ Professionals breezing through their inbox: Flow accurately captures names and formats your emails and Slack messages. - 🧑‍🎓 Students chatting with AI and finishing assignments even faster: We have a special student discount. - 📄 Product Managers drafting PRDs and sharing thoughts: Flow turns your rambles into clear ideas. - 👶 Parents with busy lives: Time is precious. Every second you save writing is an extra second you have for family. - 🤖 Tech-lovers who want to use voice with every AI tool ⭐ Here’s all you’ll get with Flow 1.0 — and we’re just getting started. 1. ⚡ Blazing fast dictation: Powered by Flow’s ultra-fast inference engine 2. 🎨 Tone match: You speak differently than you write. Flow learns your writing style across every application 3. 🔧 Auto-edits when you change your mind: “Hey lets meet at 5pm, actually lets do 6pm” → “Hey, lets meet at 6pm” 4. 😎 Command Mode for selected text: Say commands like “Flow, make this crisper and more assertive” without copy-pasting into other tools. 5. 🧩 Native integrations: Select text anywhere and just say: “Ask perplexity, what does this mean?” 6. 😶 Whispering mode: Use Flow around others by quietly whispering to your computer. 7. 🔒 Private by design: Your recordings locally on your computer by default. Only you have access to it. You can allow Flow to use your data to improve our models (disabled by default). Learn more: wispr.ai/data-usage For technical users, most voice dictation tools focus on technical metrics like \"word error rate.\" At Flow, we prioritize what truly matters to users: zero-edit messages. With Flow, you rarely need to return to your keyboard for edits. Our new approach has made Flow the first consumer voice dictation platform that makes people enjoy using voice more than their keyboards. ⭐ A final note Our dream is to create a world where interacting with technology feels as natural as interacting with people. I'd love your help to make this a reality. Try out Flow and share your feedback — we're eager to make it even more magical with your input. PS: A huge shoutout to our thousands of beta users who've showered us with love and feedback over the last few months. We wouldn't be here without you."
+              - button "527" [ref=e1754]:
+                - generic [ref=e1755]:
+                  - img [ref=e1756]
+                  - paragraph [ref=e1758]: "527"
+              - button "2,290" [ref=e1759]:
+                - generic [ref=e1760]:
+                  - img [ref=e1761]
+                  - paragraph [ref=e1763]: 2,290
+            - generic [ref=e1764] [cursor=pointer]:
+              - img "Enrichly" [ref=e1765]
+              - generic [ref=e1766]:
+                - generic [ref=e1767]:
+                  - link "55. Enrichly" [ref=e1768]:
+                    - /url: /products/enrichly-2
+                    - text: 55. Enrichly
+                  - link "The Pitch" [ref=e1771]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e1772]: Gamified mental health support for kids
+                - img "Promoted" [ref=e1776]
+              - button "0" [ref=e1777]:
+                - generic [ref=e1778]:
+                  - img [ref=e1779]
+                  - paragraph [ref=e1781]: "0"
+              - button "61" [ref=e1782]:
+                - generic [ref=e1783]:
+                  - img [ref=e1784]
+                  - paragraph [ref=e1786]: "61"
+            - generic [ref=e1787] [cursor=pointer]:
+              - img "Collimate Space" [ref=e1788]
+              - generic [ref=e1789]:
+                - generic [ref=e1790]:
+                  - link "55. Collimate Space" [ref=e1791]:
+                    - /url: /products/collimate-space
+                    - text: 55. Collimate Space
+                  - link "The Pitch" [ref=e1794]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e1795]: AI orchestration for satellite data networks
+                - img "Promoted" [ref=e1799]
+              - button "0" [ref=e1800]:
+                - generic [ref=e1801]:
+                  - img [ref=e1802]
+                  - paragraph [ref=e1804]: "0"
+              - button "61" [ref=e1805]:
+                - generic [ref=e1806]:
+                  - img [ref=e1807]
+                  - paragraph [ref=e1809]: "61"
+            - generic [ref=e1810] [cursor=pointer]:
+              - img "ViewMind Inc." [ref=e1811]
+              - generic [ref=e1812]:
+                - generic [ref=e1813]:
+                  - link "57. ViewMind Inc." [ref=e1814]:
+                    - /url: /products/viewmind-inc
+                    - text: 57. ViewMind Inc.
+                  - link "The Pitch" [ref=e1817]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e1818]: Eye-tracking assessments for brain health
+                - img "Promoted" [ref=e1822]
+              - button "0" [ref=e1823]:
+                - generic [ref=e1824]:
+                  - img [ref=e1825]
+                  - paragraph [ref=e1827]: "0"
+              - button "61" [ref=e1828]:
+                - generic [ref=e1829]:
+                  - img [ref=e1830]
+                  - paragraph [ref=e1832]: "61"
+            - generic [ref=e1833] [cursor=pointer]:
+              - img "Pardon AI" [ref=e1834]
+              - generic [ref=e1835]:
+                - generic [ref=e1836]:
+                  - link "58. Pardon AI" [ref=e1837]:
+                    - /url: /products/pardon-ai
+                    - text: 58. Pardon AI
+                  - link "The Pitch" [ref=e1840]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e1841]: AI analytics agent for hospitality revenue teams
+                - img "Promoted" [ref=e1845]
+              - button "0" [ref=e1846]:
+                - generic [ref=e1847]:
+                  - img [ref=e1848]
+                  - paragraph [ref=e1850]: "0"
+              - button "61" [ref=e1851]:
+                - generic [ref=e1852]:
+                  - img [ref=e1853]
+                  - paragraph [ref=e1855]: "61"
+            - generic [ref=e1856] [cursor=pointer]:
+              - img "OneSafe" [ref=e1857]
+              - generic [ref=e1858]:
+                - generic [ref=e1859]:
+                  - link "58. OneSafe" [ref=e1860]:
+                    - /url: /products/crypto-corporate-cards-by-onesafe
+                    - text: 58. OneSafe
+                  - link "The Pitch" [ref=e1863]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e1864]: Global Neobank for digital businesses
+                - generic [ref=e1866]:
+                  - img "Promoted" [ref=e1868]
+                  - generic [ref=e1869]:
+                    - img [ref=e1870]
+                    - link "Fintech" [ref=e1872]:
+                      - /url: /topics/fintech
+                    - generic [ref=e1873]: •
+                    - link "Web3" [ref=e1874]:
+                      - /url: /topics/web3
+              - button "0" [ref=e1875]:
+                - generic [ref=e1876]:
+                  - img [ref=e1877]
+                  - paragraph [ref=e1879]: "0"
+              - button "61" [ref=e1880]:
+                - generic [ref=e1881]:
+                  - img [ref=e1882]
+                  - paragraph [ref=e1884]: "61"
+            - generic [ref=e1886] [cursor=pointer]:
+              - img "ElevenAgents by ElevenLabs" [ref=e1887]
+              - generic [ref=e1888]:
+                - link "ElevenAgents by ElevenLabs" [ref=e1890]:
+                  - /url: /products/elevenlabs
+                  - text: ElevenAgents by ElevenLabs
+                - generic [ref=e1892]: Scale conversations without scaling your team
+                - generic [ref=e1894]:
+                  - img "Promoted" [ref=e1896]
+                  - generic [ref=e1897]:
+                    - img [ref=e1898]
+                    - link "Artificial Intelligence" [ref=e1900]:
+                      - /url: /topics/artificial-intelligence
+                    - generic [ref=e1901]: •
+                    - link "Audio" [ref=e1902]:
+                      - /url: /topics/audio
+              - button "10" [ref=e1903]:
+                - generic [ref=e1904]:
+                  - img [ref=e1905]
+                  - paragraph [ref=e1907]: "10"
+              - button "456" [ref=e1908]:
+                - generic [ref=e1909]:
+                  - img [ref=e1910]
+                  - paragraph [ref=e1912]: "456"
+            - generic [ref=e1913] [cursor=pointer]:
+              - img "The Grid" [ref=e1914]
+              - generic [ref=e1915]:
+                - generic [ref=e1916]:
+                  - link "60. The Grid" [ref=e1917]:
+                    - /url: /products/the-grid-7
+                    - text: 60. The Grid
+                  - link "The Pitch" [ref=e1920]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e1921]: Spot market API for cheaper LLM inference
+                - img "Promoted" [ref=e1925]
+              - button "0" [ref=e1926]:
+                - generic [ref=e1927]:
+                  - img [ref=e1928]
+                  - paragraph [ref=e1930]: "0"
+              - button "61" [ref=e1931]:
+                - generic [ref=e1932]:
+                  - img [ref=e1933]
+                  - paragraph [ref=e1935]: "61"
+            - generic [ref=e1936] [cursor=pointer]:
+              - img "iCardio.ai" [ref=e1937]
+              - generic [ref=e1938]:
+                - generic [ref=e1939]:
+                  - link "60. iCardio.ai" [ref=e1940]:
+                    - /url: /products/icardio-ai
+                    - text: 60. iCardio.ai
+                  - link "The Pitch" [ref=e1943]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e1944]: AI ultrasound analysis for echo reports
+                - img "Promoted" [ref=e1948]
+              - button "0" [ref=e1949]:
+                - generic [ref=e1950]:
+                  - img [ref=e1951]
+                  - paragraph [ref=e1953]: "0"
+              - button "61" [ref=e1954]:
+                - generic [ref=e1955]:
+                  - img [ref=e1956]
+                  - paragraph [ref=e1958]: "61"
+            - generic [ref=e1959] [cursor=pointer]:
+              - img "Electrokare" [ref=e1960]
+              - generic [ref=e1961]:
+                - generic [ref=e1962]:
+                  - link "62. Electrokare" [ref=e1963]:
+                    - /url: /products/electrokare
+                    - text: 62. Electrokare
+                  - link "The Pitch" [ref=e1966]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e1967]: Real-time electrolyte monitoring from existing wearables
+                - img "Promoted" [ref=e1971]
+              - button "1" [ref=e1972]:
+                - generic [ref=e1973]:
+                  - img [ref=e1974]
+                  - paragraph [ref=e1976]: "1"
+              - button "60" [ref=e1977]:
+                - generic [ref=e1978]:
+                  - img [ref=e1979]
+                  - paragraph [ref=e1981]: "60"
+            - generic [ref=e1982] [cursor=pointer]:
+              - img "PanicMode" [ref=e1983]
+              - generic [ref=e1984]:
+                - link "63. PanicMode" [ref=e1986]:
+                  - /url: /products/panicmode
+                  - text: 63. PanicMode
+                - generic [ref=e1988]: Protect your screen in public with one shortcut
+                - generic [ref=e1990]:
+                  - img "Promoted" [ref=e1992]
+                  - generic [ref=e1993]:
+                    - img [ref=e1994]
+                    - link "Productivity" [ref=e1996]:
+                      - /url: /topics/productivity
+                    - generic [ref=e1997]: •
+                    - link "Privacy" [ref=e1998]:
+                      - /url: /topics/privacy
+                    - generic [ref=e1999]: •
+                    - link "Developer Tools" [ref=e2000]:
+                      - /url: /topics/developer-tools
+              - button "5" [ref=e2001]:
+                - generic [ref=e2002]:
+                  - img [ref=e2003]
+                  - paragraph [ref=e2005]: "5"
+              - button "60" [ref=e2006]:
+                - generic [ref=e2007]:
+                  - img [ref=e2008]
+                  - paragraph [ref=e2010]: "60"
+            - generic [ref=e2011] [cursor=pointer]:
+              - img "Efektiva" [ref=e2012]
+              - generic [ref=e2013]:
+                - generic [ref=e2014]:
+                  - link "64. Efektiva" [ref=e2015]:
+                    - /url: /products/efektiva
+                    - text: 64. Efektiva
+                  - link "The Pitch" [ref=e2018]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e2019]: B2B client and supplier verification platform
+                - img "Promoted" [ref=e2023]
+              - button "1" [ref=e2024]:
+                - generic [ref=e2025]:
+                  - img [ref=e2026]
+                  - paragraph [ref=e2028]: "1"
+              - button "60" [ref=e2029]:
+                - generic [ref=e2030]:
+                  - img [ref=e2031]
+                  - paragraph [ref=e2033]: "60"
+            - generic [ref=e2035] [cursor=pointer]:
+              - img "Mintlify" [ref=e2036]
+              - generic [ref=e2037]:
+                - link "Mintlify" [ref=e2039]:
+                  - /url: /products/mintlify
+                  - text: Mintlify
+                - generic [ref=e2041]: Knowledge infrastructure for AI agents
+                - generic [ref=e2042]:
+                  - generic [ref=e2043]:
+                    - img "Promoted" [ref=e2045]
+                    - generic [ref=e2046]:
+                      - img [ref=e2047]
+                      - link "Notes" [ref=e2049]:
+                        - /url: /topics/notes
+                      - generic [ref=e2050]: •
+                      - link "Text Editors" [ref=e2051]:
+                        - /url: /topics/text-editors
+                      - generic [ref=e2052]: •
+                      - link "GitHub" [ref=e2053]:
+                        - /url: /topics/github
+                  - link "Justin Torre Justin Torre We have been using the editor every day and it's an absolute game changer!!! I love this product and I think it's one of the leading editor experiences I have tried. Also, the ability to publish customer facing docs is just amazing." [ref=e2055]:
+                    - /url: /products/mintlify?comment=5334099
+                    - button "Justin Torre" [ref=e2056]:
+                      - img "Justin Torre" [ref=e2057]
+                    - button "Justin Torre" [ref=e2058]:
+                      - paragraph [ref=e2059]: Justin Torre
+                    - paragraph [ref=e2060]: We have been using the editor every day and it's an absolute game changer!!! I love this product and I think it's one of the leading editor experiences I have tried. Also, the ability to publish customer facing docs is just amazing.
+              - button "23" [ref=e2061]:
+                - generic [ref=e2062]:
+                  - img [ref=e2063]
+                  - paragraph [ref=e2065]: "23"
+              - button "353" [ref=e2066]:
+                - generic [ref=e2067]:
+                  - img [ref=e2068]
+                  - paragraph [ref=e2070]: "353"
+            - generic [ref=e2071] [cursor=pointer]:
+              - img "Debbie Rewards" [ref=e2072]
+              - generic [ref=e2073]:
+                - generic [ref=e2074]:
+                  - link "65. Debbie Rewards" [ref=e2075]:
+                    - /url: /products/rewards-for-the-99
+                    - text: 65. Debbie Rewards
+                  - link "The Pitch" [ref=e2078]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e2079]: Cash rewards app for saving and paying off debt
+                - img "Promoted" [ref=e2083]
+              - button "0" [ref=e2084]:
+                - generic [ref=e2085]:
+                  - img [ref=e2086]
+                  - paragraph [ref=e2088]: "0"
+              - button "59" [ref=e2089]:
+                - generic [ref=e2090]:
+                  - img [ref=e2091]
+                  - paragraph [ref=e2093]: "59"
+            - generic [ref=e2094] [cursor=pointer]:
+              - img "Chain" [ref=e2095]
+              - generic [ref=e2096]:
+                - generic [ref=e2097]:
+                  - link "65. Chain" [ref=e2098]:
+                    - /url: /products/chain-5
+                    - text: 65. Chain
+                  - link "The Pitch" [ref=e2101]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e2102]: WhatsApp collections and transfers for independents
+                - img "Promoted" [ref=e2106]
+              - button "0" [ref=e2107]:
+                - generic [ref=e2108]:
+                  - img [ref=e2109]
+                  - paragraph [ref=e2111]: "0"
+              - button "59" [ref=e2112]:
+                - generic [ref=e2113]:
+                  - img [ref=e2114]
+                  - paragraph [ref=e2116]: "59"
+            - generic [ref=e2117] [cursor=pointer]:
+              - img "Flex Finance" [ref=e2118]
+              - generic [ref=e2119]:
+                - generic [ref=e2120]:
+                  - link "67. Flex Finance" [ref=e2121]:
+                    - /url: /products/flex-finance-2
+                    - text: 67. Flex Finance
+                  - link "The Pitch" [ref=e2124]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e2125]: Business spend management with cards and approvals
+                - img "Promoted" [ref=e2129]
+              - button "0" [ref=e2130]:
+                - generic [ref=e2131]:
+                  - img [ref=e2132]
+                  - paragraph [ref=e2134]: "0"
+              - button "59" [ref=e2135]:
+                - generic [ref=e2136]:
+                  - img [ref=e2137]
+                  - paragraph [ref=e2139]: "59"
+            - generic [ref=e2140] [cursor=pointer]:
+              - img "Little Place Labs" [ref=e2141]
+              - generic [ref=e2142]:
+                - generic [ref=e2143]:
+                  - link "67. Little Place Labs" [ref=e2144]:
+                    - /url: /products/little-place-labs
+                    - text: 67. Little Place Labs
+                  - link "The Pitch" [ref=e2147]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e2148]: AI space insights from satellite data
+                - img "Promoted" [ref=e2152]
+              - button "0" [ref=e2153]:
+                - generic [ref=e2154]:
+                  - img [ref=e2155]
+                  - paragraph [ref=e2157]: "0"
+              - button "59" [ref=e2158]:
+                - generic [ref=e2159]:
+                  - img [ref=e2160]
+                  - paragraph [ref=e2162]: "59"
+            - generic [ref=e2163] [cursor=pointer]:
+              - img "Omniscope" [ref=e2164]
+              - generic [ref=e2165]:
+                - generic [ref=e2166]:
+                  - link "69. Omniscope" [ref=e2167]:
+                    - /url: /products/omniscope
+                    - text: 69. Omniscope
+                  - link "The Pitch" [ref=e2170]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e2171]: Foundation model of the Immune System
+                - img "Promoted" [ref=e2175]
+              - button "0" [ref=e2176]:
+                - generic [ref=e2177]:
+                  - img [ref=e2178]
+                  - paragraph [ref=e2180]: "0"
+              - button "59" [ref=e2181]:
+                - generic [ref=e2182]:
+                  - img [ref=e2183]
+                  - paragraph [ref=e2185]: "59"
+            - generic [ref=e2187] [cursor=pointer]:
+              - img "Kinetik" [ref=e2188]
+              - generic [ref=e2189]:
+                - link "Kinetik" [ref=e2191]:
+                  - /url: /products/kinetik
+                  - text: Kinetik
+                - generic [ref=e2193]: "AI agent to rule them all: content, ops, growth"
+                - generic [ref=e2194]:
+                  - generic [ref=e2195]:
+                    - img "Promoted" [ref=e2197]
+                    - generic [ref=e2198]:
+                      - img [ref=e2199]
+                      - link "Social Media" [ref=e2201]:
+                        - /url: /topics/social-media
+                      - generic [ref=e2202]: •
+                      - link "Artificial Intelligence" [ref=e2203]:
+                        - /url: /topics/artificial-intelligence
+                      - generic [ref=e2204]: •
+                      - link "Business" [ref=e2205]:
+                        - /url: /topics/business
+                  - link [ref=e2207]:
+                    - /url: /products/kinetik?comment=5331738
+                    - button "Chris Messina" [ref=e2208]:
+                      - img "Chris Messina" [ref=e2209]
+                    - button "Chris Messina" [ref=e2210]:
+                      - paragraph [ref=e2211]: Chris Messina
+                    - paragraph [ref=e2212]: "I gave Kinetik a try and was pretty impressed! I connected my long dormant Instagram account and it whipped up a plan for how I could get it back on track after I suggested that I could mine my 2004-2018 Flickr archive for interesting screenshots: Oh that's a goldmine. 2004-2018 Flickr screenshots from you means we're talking about the birth of basically everything — Twitter, early Facebook, the hashtag proposal, Product Hunt, the whole social web evolution captured by someone who was shaping it. That changes the strategy from \"good\" to \"nobody else on earth could do this. We're still in the plotting and scheming phase, but I appreciate how it went deep on my background as a reluctant creator and offered proactive suggestions to unblock me: What I can do right now without you lifting a finger: Start building a \"greatest hits\" shortlist. If you can share even a small batch of screenshots — say 50-100 from different eras — I'll: •⁠ ⁠Tag them by era, platform, and theme •⁠ ⁠Rank them by IG potential (nostalgia factor, \"wow I forgot that existed\" factor, historical significance) •⁠ ⁠Draft captions in your voice (short, punchy, zero hashtag spam — obviously) •⁠ ⁠Mock up a first month of posts What do you think? Should I pull the trigger? 😅"
+              - button "16" [ref=e2213]:
+                - generic [ref=e2214]:
+                  - img [ref=e2215]
+                  - paragraph [ref=e2217]: "16"
+              - button "50" [ref=e2218]:
+                - generic [ref=e2219]:
+                  - img [ref=e2220]
+                  - paragraph [ref=e2222]: "50"
+            - generic [ref=e2223] [cursor=pointer]:
+              - img "Tollecode" [ref=e2224]
+              - generic [ref=e2225]:
+                - link "70. Tollecode" [ref=e2227]:
+                  - /url: /products/tollecode
+                  - text: 70. Tollecode
+                - generic [ref=e2229]: A local AI coding assistant to delegate tasks to AI agents
+                - generic [ref=e2231]:
+                  - img "Promoted" [ref=e2233]
+                  - generic [ref=e2234]:
+                    - img [ref=e2235]
+                    - link "Developer Tools" [ref=e2237]:
+                      - /url: /topics/developer-tools
+                    - generic [ref=e2238]: •
+                    - link "Artificial Intelligence" [ref=e2239]:
+                      - /url: /topics/artificial-intelligence
+                    - generic [ref=e2240]: •
+                    - link "Tech" [ref=e2241]:
+                      - /url: /topics/tech
+              - button "3" [ref=e2242]:
+                - generic [ref=e2243]:
+                  - img [ref=e2244]
+                  - paragraph [ref=e2246]: "3"
+              - button "58" [ref=e2247]:
+                - generic [ref=e2248]:
+                  - img [ref=e2249]
+                  - paragraph [ref=e2251]: "58"
+            - generic [ref=e2252] [cursor=pointer]:
+              - img "NxtCure" [ref=e2253]
+              - generic [ref=e2254]:
+                - generic [ref=e2255]:
+                  - link "71. NxtCure" [ref=e2256]:
+                    - /url: /products/nxtcure
+                    - text: 71. NxtCure
+                  - link "The Pitch" [ref=e2259]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e2260]: AI clinical trial matching for patients
+                - img "Promoted" [ref=e2264]
+              - button "0" [ref=e2265]:
+                - generic [ref=e2266]:
+                  - img [ref=e2267]
+                  - paragraph [ref=e2269]: "0"
+              - button "58" [ref=e2270]:
+                - generic [ref=e2271]:
+                  - img [ref=e2272]
+                  - paragraph [ref=e2274]: "58"
+            - generic [ref=e2275] [cursor=pointer]:
+              - img "Perf" [ref=e2276]
+              - generic [ref=e2277]:
+                - generic [ref=e2278]:
+                  - link "72. Perf" [ref=e2279]:
+                    - /url: /products/perf-technology-inc
+                    - text: 72. Perf
+                  - link "The Pitch" [ref=e2282]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e2283]: Verify and correct AI outputs before users see them
+                - generic [ref=e2285]:
+                  - img "Promoted" [ref=e2287]
+                  - generic [ref=e2288]:
+                    - img [ref=e2289]
+                    - link "Developer Tools" [ref=e2291]:
+                      - /url: /topics/developer-tools
+                    - generic [ref=e2292]: •
+                    - link "Artificial Intelligence" [ref=e2293]:
+                      - /url: /topics/artificial-intelligence
+              - button "2" [ref=e2294]:
+                - generic [ref=e2295]:
+                  - img [ref=e2296]
+                  - paragraph [ref=e2298]: "2"
+              - button "58" [ref=e2299]:
+                - generic [ref=e2300]:
+                  - img [ref=e2301]
+                  - paragraph [ref=e2303]: "58"
+            - generic [ref=e2304] [cursor=pointer]:
+              - img "hypercubic.ai" [ref=e2305]
+              - generic [ref=e2306]:
+                - generic [ref=e2307]:
+                  - link "73. hypercubic.ai" [ref=e2308]:
+                    - /url: /products/hypercubic-ai
+                    - text: 73. hypercubic.ai
+                  - link "The Pitch" [ref=e2311]:
+                    - /url: /contests/the-pitch-nyc
+                - generic [ref=e2312]: Extract, document and modernize legacy mainframe systems
+                - img "Promoted" [ref=e2316]
+              - button "0" [ref=e2317]:
+                - generic [ref=e2318]:
+                  - img [ref=e2319]
+                  - paragraph [ref=e2321]: "0"
+              - button "58" [ref=e2322]:
+                - generic [ref=e2323]:
+                  - img [ref=e2324]
+                  - paragraph [ref=e2326]: "58"
+            - generic [ref=e2327] [cursor=pointer]:
+              - generic "Agentic API Grader by SaaStr.ai" [ref=e2328]
+              - generic [ref=e2329]:
+                - link "74. Agentic API Grader by SaaStr.ai" [ref=e2331]:
+                  - /url: /products/saastr-ai-your-ai-powered-b2b-advisor
+                  - text: 74. Agentic API Grader by SaaStr.ai
+                - generic [ref=e2333]: "Your #1 new customer is an AI agent. Are they getting an A?"
+                - generic [ref=e2335]:
+                  - img "Promoted" [ref=e2337]
+                  - generic [ref=e2338]:
+                    - img [ref=e2339]
+                    - link "API" [ref=e2341]:
+                      - /url: /topics/api-1
+                    - generic [ref=e2342]: •
+                    - link "Developer Tools" [ref=e2343]:
+                      - /url: /topics/developer-tools
+                    - generic [ref=e2344]: •
+                    - link "Artificial Intelligence" [ref=e2345]:
+                      - /url: /topics/artificial-intelligence
+              - button "1" [ref=e2346]:
+                - generic [ref=e2347]:
+                  - img [ref=e2348]
+                  - paragraph [ref=e2350]: "1"
+              - button "57" [ref=e2351]:
+                - generic [ref=e2352]:
+                  - img [ref=e2353]
+                  - paragraph [ref=e2355]: "57"
+            - generic [ref=e2357] [cursor=pointer]:
+              - 'img "Wispr Flow: Dictation That Works Everywhere" [ref=e2358]'
+              - generic [ref=e2359]:
+                - 'link "Wispr Flow: Dictation That Works Everywhere" [ref=e2361]':
+                  - /url: /products/wisprflow
+                  - text: "Wispr Flow: Dictation That Works Everywhere"
+                - generic [ref=e2363]: Stop typing. Start speaking. 4x faster.
+                - generic [ref=e2364]:
+                  - generic [ref=e2365]:
+                    - img "Promoted" [ref=e2367]
+                    - generic [ref=e2368]:
+                      - img [ref=e2369]
+                      - link "Productivity" [ref=e2371]:
+                        - /url: /topics/productivity
+                      - generic [ref=e2372]: •
+                      - link "Artificial Intelligence" [ref=e2373]:
+                        - /url: /topics/artificial-intelligence
+                      - generic [ref=e2374]: •
+                      - link "Audio" [ref=e2375]:
+                        - /url: /topics/audio
+                  - link [ref=e2377]:
+                    - /url: /products/wisprflow?comment=3956824
+                    - button "Tanay Kothari" [ref=e2378]:
+                      - img "Tanay Kothari" [ref=e2379]
+                    - button "Tanay Kothari" [ref=e2380]:
+                      - paragraph [ref=e2381]: Tanay Kothari
+                    - paragraph [ref=e2382]: "Hey Product Hunt 🎉 I’m Tanay, co-founder & CEO of Wispr Flow, a Mac dictation app that lets you speak naturally, and writes in your style, in every application — with auto-edits, command mode, and over 100 languages. ⭐ The founding story Ever since I watched the first Ironman movie in 2008 at age 10, I've wanted to build Jarvis. It drove me to pull my first all-nighter and start teaching myself how to code. 16 years later, I think we’ve found a way to make a voice experience delightful for all-day use. And there's no one else I'd build this with than my college roommate and closest friend @sahaj_garg2 Our vision is to make voice interfaces both useful (so you trust them) and ubiquitous (so you can use them everywhere). This is how we can move from screen-first technologies to voice-first technologies and build a future where we aren't stuck looking at our phones all day long. ⭐ Using Flow is super simple: 1. Download Flow for Mac 2. Press and hold [Fn] to start speaking in any app 3. Release [Fn] to enter text ⭐ What users love Flow for - 🛠️ Developers using Cursor / Claude / ChatGPT: Speak with AI assistants faster than typing. - ✉️ Professionals breezing through their inbox: Flow accurately captures names and formats your emails and Slack messages. - 🧑‍🎓 Students chatting with AI and finishing assignments even faster: We have a special student discount. - 📄 Product Managers drafting PRDs and sharing thoughts: Flow turns your rambles into clear ideas. - 👶 Parents with busy lives: Time is precious. Every second you save writing is an extra second you have for family. - 🤖 Tech-lovers who want to use voice with every AI tool ⭐ Here’s all you’ll get with Flow 1.0 — and we’re just getting started. 1. ⚡ Blazing fast dictation: Powered by Flow’s ultra-fast inference engine 2. 🎨 Tone match: You speak differently than you write. Flow learns your writing style across every application 3. 🔧 Auto-edits when you change your mind: “Hey lets meet at 5pm, actually lets do 6pm” → “Hey, lets meet at 6pm” 4. 😎 Command Mode for selected text: Say commands like “Flow, make this crisper and more assertive” without copy-pasting into other tools. 5. 🧩 Native integrations: Select text anywhere and just say: “Ask perplexity, what does this mean?” 6. 😶 Whispering mode: Use Flow around others by quietly whispering to your computer. 7. 🔒 Private by design: Your recordings locally on your computer by default. Only you have access to it. You can allow Flow to use your data to improve our models (disabled by default). Learn more: wispr.ai/data-usage For technical users, most voice dictation tools focus on technical metrics like \"word error rate.\" At Flow, we prioritize what truly matters to users: zero-edit messages. With Flow, you rarely need to return to your keyboard for edits. Our new approach has made Flow the first consumer voice dictation platform that makes people enjoy using voice more than their keyboards. ⭐ A final note Our dream is to create a world where interacting with technology feels as natural as interacting with people. I'd love your help to make this a reality. Try out Flow and share your feedback — we're eager to make it even more magical with your input. PS: A huge shoutout to our thousands of beta users who've showered us with love and feedback over the last few months. We wouldn't be here without you."
+              - button "527" [ref=e2383]:
+                - generic [ref=e2384]:
+                  - img [ref=e2385]
+                  - paragraph [ref=e2387]: "527"
+              - button "2,290" [ref=e2388]:
+                - generic [ref=e2389]:
+                  - img [ref=e2390]
+                  - paragraph [ref=e2392]: 2,290
+            - generic [ref=e2393] [cursor=pointer]:
+              - img "Quanto" [ref=e2394]
+              - generic [ref=e2395]:
+                - link "75. Quanto" [ref=e2397]:
+                  - /url: /products/quanto
+                  - text: 75. Quanto
+                - generic [ref=e2399]: AI agents for accounting firms
+                - img "Promoted" [ref=e2403]
+              - button "0" [ref=e2404]:
+                - generic [ref=e2405]:
+                  - img [ref=e2406]
+                  - paragraph [ref=e2408]: "0"
+              - button "55" [ref=e2409]:
+                - generic [ref=e2410]:
+                  - img [ref=e2411]
+                  - paragraph [ref=e2413]: "55"
+            - button "See all of today's products" [ref=e2414] [cursor=pointer]
+          - img "Deel" [ref=e2417] [cursor=pointer]
+          - generic [ref=e2418]:
+            - heading "Yesterday's Top Products" [level=2] [ref=e2419]
+            - generic [ref=e2420] [cursor=pointer]:
+              - img "Mindra" [ref=e2421]
+              - generic [ref=e2422]:
+                - link "1. Mindra" [ref=e2424]:
+                  - /url: /products/mindra
+                  - text: 1. Mindra
+                - generic [ref=e2426]: Agent Teams You Can Actually Delegate To
+                - generic [ref=e2428]:
+                  - img "Promoted" [ref=e2430]
+                  - generic [ref=e2431]:
+                    - img [ref=e2432]
+                    - link "Productivity" [ref=e2434]:
+                      - /url: /topics/productivity
+                    - generic [ref=e2435]: •
+                    - link "Marketing" [ref=e2436]:
+                      - /url: /topics/marketing
+                    - generic [ref=e2437]: •
+                    - link "Artificial Intelligence" [ref=e2438]:
+                      - /url: /topics/artificial-intelligence
+              - button "44" [ref=e2439]:
+                - generic [ref=e2440]:
+                  - img [ref=e2441]
+                  - paragraph [ref=e2443]: "44"
+              - button "330" [ref=e2444]:
+                - generic [ref=e2445]:
+                  - img [ref=e2446]
+                  - paragraph [ref=e2448]: "330"
+            - generic [ref=e2449] [cursor=pointer]:
+              - img "Aaavatar" [ref=e2450]
+              - generic [ref=e2451]:
+                - link "2. Aaavatar" [ref=e2453]:
+                  - /url: /products/aaavatar
+                  - text: 2. Aaavatar
+                - generic [ref=e2455]: Branded team headshots in one drop
+                - generic [ref=e2457]:
+                  - img "Promoted" [ref=e2459]
+                  - generic [ref=e2460]:
+                    - img [ref=e2461]
+                    - link "Design Tools" [ref=e2463]:
+                      - /url: /topics/design-tools
+                    - generic [ref=e2464]: •
+                    - link "Productivity" [ref=e2465]:
+                      - /url: /topics/productivity
+                    - generic [ref=e2466]: •
+                    - link "Artificial Intelligence" [ref=e2467]:
+                      - /url: /topics/artificial-intelligence
+              - button "13" [ref=e2468]:
+                - generic [ref=e2469]:
+                  - img [ref=e2470]
+                  - paragraph [ref=e2472]: "13"
+              - button "274" [ref=e2473]:
+                - generic [ref=e2474]:
+                  - img [ref=e2475]
+                  - paragraph [ref=e2477]: "274"
+            - generic [ref=e2478] [cursor=pointer]:
+              - img "Codex Pets" [ref=e2479]
+              - generic [ref=e2480]:
+                - link "3. Codex Pets" [ref=e2482]:
+                  - /url: /products/openai
+                  - text: 3. Codex Pets
+                - generic [ref=e2484]: Animated companions for your Codex workflow
+                - generic [ref=e2486]:
+                  - img "Promoted" [ref=e2488]
+                  - generic [ref=e2489]:
+                    - img [ref=e2490]
+                    - link "Pets" [ref=e2492]:
+                      - /url: /topics/pets
+                    - generic [ref=e2493]: •
+                    - link "Artificial Intelligence" [ref=e2494]:
+                      - /url: /topics/artificial-intelligence
+              - button "3" [ref=e2495]:
+                - generic [ref=e2496]:
+                  - img [ref=e2497]
+                  - paragraph [ref=e2499]: "3"
+              - button "254" [ref=e2500]:
+                - generic [ref=e2501]:
+                  - img [ref=e2502]
+                  - paragraph [ref=e2504]: "254"
+            - generic [ref=e2505] [cursor=pointer]:
+              - img "Flowly" [ref=e2506]
+              - generic [ref=e2507]:
+                - link "4. Flowly" [ref=e2509]:
+                  - /url: /products/flowly-6
+                  - text: 4. Flowly
+                - generic [ref=e2511]: Your personal AI assistant, native to your desktop
+                - generic [ref=e2513]:
+                  - img "Promoted" [ref=e2515]
+                  - generic [ref=e2516]:
+                    - img [ref=e2517]
+                    - link "Android" [ref=e2519]:
+                      - /url: /topics/android
+                    - generic [ref=e2520]: •
+                    - link "Productivity" [ref=e2521]:
+                      - /url: /topics/productivity
+                    - generic [ref=e2522]: •
+                    - link "Artificial Intelligence" [ref=e2523]:
+                      - /url: /topics/artificial-intelligence
+              - button "9" [ref=e2524]:
+                - generic [ref=e2525]:
+                  - img [ref=e2526]
+                  - paragraph [ref=e2528]: "9"
+              - button "204" [ref=e2529]:
+                - generic [ref=e2530]:
+                  - img [ref=e2531]
+                  - paragraph [ref=e2533]: "204"
+            - generic [ref=e2535] [cursor=pointer]:
+              - img "getviktor.com" [ref=e2536]
+              - generic [ref=e2537]:
+                - link "getviktor.com" [ref=e2539]:
+                  - /url: /products/viktor
+                  - text: getviktor.com
+                - generic [ref=e2541]: An AI coworker that actually does the work
+                - generic [ref=e2542]:
+                  - generic [ref=e2543]:
+                    - img "Promoted" [ref=e2545]
+                    - generic [ref=e2546]:
+                      - img [ref=e2547]
+                      - link "Productivity" [ref=e2549]:
+                        - /url: /topics/productivity
+                      - generic [ref=e2550]: •
+                      - link "Artificial Intelligence" [ref=e2551]:
+                        - /url: /topics/artificial-intelligence
+                      - generic [ref=e2552]: •
+                      - link "Business" [ref=e2553]:
+                        - /url: /topics/business
+                  - link [ref=e2555]:
+                    - /url: /products/viktor?comment=5181837
+                    - button "Matt Swulinski" [ref=e2556]:
+                      - img "Matt Swulinski" [ref=e2557]
+                    - button "Matt Swulinski" [ref=e2558]:
+                      - paragraph [ref=e2559]: Matt Swulinski
+                    - paragraph [ref=e2560]: I run growth at Wispr Flow, so I spend most of my time deep in AI tools and automation. I'd been following Fryderyk and the Zeta Labs team since Jace, their AI email assistant, and was impressed by how fast they shipped product. When Fryderyk showed me Viktor, it clicked immediately. I'd been spending hours building automations in Claude Code - stitching together context, writing scripts, trying to make things persistent and scheduled. Viktor did all of that natively. It just lives in Slack, already has the context from your tools and conversations, and runs on its own. But the thing that genuinely blew me away was the proactive behavior. Viktor doesn't just wait for you to ask. It observes how your team works, chimes in when it spots something relevant, and suggests automations you didn't think to set up. I've never seen an AI tool take initiative like that. I ended up advising the team on growth strategy because I believe this is how every team will work within a few years. Not another tab. Not another tool. A coworker that lives where your team already communicates. If you're skeptical, give it your worst task. That's what convinced me.
+              - button "128" [ref=e2561]:
+                - generic [ref=e2562]:
+                  - img [ref=e2563]
+                  - paragraph [ref=e2565]: "128"
+              - button "429" [ref=e2566]:
+                - generic [ref=e2567]:
+                  - img [ref=e2568]
+                  - paragraph [ref=e2570]: "429"
+            - generic [ref=e2571] [cursor=pointer]:
+              - img "Claude Code & Codex Usage Trading Cards by Rudel" [ref=e2572]
+              - generic [ref=e2573]:
+                - link "5. Claude Code & Codex Usage Trading Cards by Rudel" [ref=e2575]:
+                  - /url: /products/rudel
+                  - text: 5. Claude Code & Codex Usage Trading Cards by Rudel
+                - generic [ref=e2577]: Get your trading card based on your CC & codex usage
+                - generic [ref=e2579]:
+                  - img "Promoted" [ref=e2581]
+                  - generic [ref=e2582]:
+                    - img [ref=e2583]
+                    - link "Open Source" [ref=e2585]:
+                      - /url: /topics/open-source
+                    - generic [ref=e2586]: •
+                    - link "Developer Tools" [ref=e2587]:
+                      - /url: /topics/developer-tools
+                    - generic [ref=e2588]: •
+                    - link "Artificial Intelligence" [ref=e2589]:
+                      - /url: /topics/artificial-intelligence
+              - button "5" [ref=e2590]:
+                - generic [ref=e2591]:
+                  - img [ref=e2592]
+                  - paragraph [ref=e2594]: "5"
+              - button "172" [ref=e2595]:
+                - generic [ref=e2596]:
+                  - img [ref=e2597]
+                  - paragraph [ref=e2599]: "172"
+            - button "See all of yesterday's top products" [ref=e2600] [cursor=pointer]
+          - generic [ref=e2601]:
+            - heading "Last Week's Top Products" [level=2] [ref=e2602]
+            - generic [ref=e2603] [cursor=pointer]:
+              - img "Plurai" [ref=e2604]
+              - generic [ref=e2605]:
+                - link "1. Plurai" [ref=e2607]:
+                  - /url: /products/plurai
+                  - text: 1. Plurai
+                - generic [ref=e2609]: Vibe-train evals and guardrails tailored to your use case
+                - generic [ref=e2611]:
+                  - img "Promoted" [ref=e2613]
+                  - generic [ref=e2614]:
+                    - img [ref=e2615]
+                    - link "API" [ref=e2617]:
+                      - /url: /topics/api-1
+                    - generic [ref=e2618]: •
+                    - link "Developer Tools" [ref=e2619]:
+                      - /url: /topics/developer-tools
+                    - generic [ref=e2620]: •
+                    - link "Artificial Intelligence" [ref=e2621]:
+                      - /url: /topics/artificial-intelligence
+              - button "227" [ref=e2622]:
+                - generic [ref=e2623]:
+                  - img [ref=e2624]
+                  - paragraph [ref=e2626]: "227"
+              - button "717" [ref=e2627]:
+                - generic [ref=e2628]:
+                  - img [ref=e2629]
+                  - paragraph [ref=e2631]: "717"
+            - generic [ref=e2632] [cursor=pointer]:
+              - img "Clera" [ref=e2633]
+              - generic [ref=e2634]:
+                - link "2. Clera" [ref=e2636]:
+                  - /url: /products/clera
+                  - text: 2. Clera
+                - generic [ref=e2638]: An AI agent matching candidates to the right roles.
+                - generic [ref=e2639]:
+                  - generic [ref=e2640]:
+                    - img "Promoted" [ref=e2642]
+                    - generic [ref=e2643]:
+                      - img [ref=e2644]
+                      - link "Hiring" [ref=e2646]:
+                        - /url: /topics/hiring
+                      - generic [ref=e2647]: •
+                      - link "iMessage Apps" [ref=e2648]:
+                        - /url: /topics/imessage-apps
+                      - generic [ref=e2649]: •
+                      - link "Tech" [ref=e2650]:
+                        - /url: /topics/tech
+                  - link "Korbinian Abstreiter Korbinian Abstreiter We've been using Clera at Pluno and already hired 2 engineers who came from Clera! Quality of the profiles we receive is far higher than what we've had with traditional recruiters, and it saves us lots of time not having to manually reach out to great candidates. Highly recommend, you guys rock @alexanderfarr @sebastian_scott3!" [ref=e2652]:
+                    - /url: /products/clera?comment=5326321
+                    - button "Korbinian Abstreiter" [ref=e2653]:
+                      - img "Korbinian Abstreiter" [ref=e2654]
+                    - button "Korbinian Abstreiter" [ref=e2655]:
+                      - paragraph [ref=e2656]: Korbinian Abstreiter
+                    - paragraph [ref=e2657]: We've been using Clera at Pluno and already hired 2 engineers who came from Clera! Quality of the profiles we receive is far higher than what we've had with traditional recruiters, and it saves us lots of time not having to manually reach out to great candidates. Highly recommend, you guys rock @alexanderfarr @sebastian_scott3!
+              - button "234" [ref=e2658]:
+                - generic [ref=e2659]:
+                  - img [ref=e2660]
+                  - paragraph [ref=e2662]: "234"
+              - button "684" [ref=e2663]:
+                - generic [ref=e2664]:
+                  - img [ref=e2665]
+                  - paragraph [ref=e2667]: "684"
+            - generic [ref=e2668] [cursor=pointer]:
+              - img "Open Wearables" [ref=e2669]
+              - generic [ref=e2670]:
+                - link "3. Open Wearables" [ref=e2672]:
+                  - /url: /products/open-wearables
+                  - text: 3. Open Wearables
+                - generic [ref=e2674]: Open infrastructure for wearable-powered health products.
+                - generic [ref=e2676]:
+                  - img "Promoted" [ref=e2678]
+                  - generic [ref=e2679]:
+                    - img [ref=e2680]
+                    - link "Open Source" [ref=e2682]:
+                      - /url: /topics/open-source
+                    - generic [ref=e2683]: •
+                    - link "Wearables" [ref=e2684]:
+                      - /url: /topics/wearables
+                    - generic [ref=e2685]: •
+                    - link "Developer Tools" [ref=e2686]:
+                      - /url: /topics/developer-tools
+              - button "315" [ref=e2687]:
+                - generic [ref=e2688]:
+                  - img [ref=e2689]
+                  - paragraph [ref=e2691]: "315"
+              - button "616" [ref=e2692]:
+                - generic [ref=e2693]:
+                  - img [ref=e2694]
+                  - paragraph [ref=e2696]: "616"
+            - generic [ref=e2697] [cursor=pointer]:
+              - img "Orange Slice" [ref=e2698]
+              - generic [ref=e2699]:
+                - link "4. Orange Slice" [ref=e2701]:
+                  - /url: /products/orange-slice
+                  - text: 4. Orange Slice
+                - generic [ref=e2703]: Automate any sales task with AI
+                - generic [ref=e2705]:
+                  - img "Promoted" [ref=e2707]
+                  - generic [ref=e2708]:
+                    - img [ref=e2709]
+                    - link "Sales" [ref=e2711]:
+                      - /url: /topics/sales
+                    - generic [ref=e2712]: •
+                    - link "Marketing" [ref=e2713]:
+                      - /url: /topics/marketing
+                    - generic [ref=e2714]: •
+                    - link "Growth Hacking" [ref=e2715]:
+                      - /url: /topics/growth-hacking
+              - button "49" [ref=e2716]:
+                - generic [ref=e2717]:
+                  - img [ref=e2718]
+                  - paragraph [ref=e2720]: "49"
+              - button "479" [ref=e2721]:
+                - generic [ref=e2722]:
+                  - img [ref=e2723]
+                  - paragraph [ref=e2725]: "479"
+            - generic [ref=e2727] [cursor=pointer]:
+              - img "Trupeer AI" [ref=e2728]
+              - generic [ref=e2729]:
+                - link "Trupeer AI" [ref=e2731]:
+                  - /url: "#"
+                  - text: Trupeer AI
+                - generic [ref=e2733]: Create Stunning Demo Video with AI in minutes
+                - img "Promoted" [ref=e2737]
+            - generic [ref=e2738] [cursor=pointer]:
+              - img "Postiz" [ref=e2739]
+              - generic [ref=e2740]:
+                - link "5. Postiz" [ref=e2742]:
+                  - /url: /products/postiz
+                  - text: 5. Postiz
+                - generic [ref=e2744]: Agentic social media scheduler for agents like OpenClaw
+                - generic [ref=e2746]:
+                  - img "Promoted" [ref=e2748]
+                  - generic [ref=e2749]:
+                    - img [ref=e2750]
+                    - link "Social Media" [ref=e2752]:
+                      - /url: /topics/social-media
+                    - generic [ref=e2753]: •
+                    - link "Marketing automation" [ref=e2754]:
+                      - /url: /topics/marketing-automation
+                    - generic [ref=e2755]: •
+                    - link "Social media marketing" [ref=e2756]:
+                      - /url: /topics/social-media-marketing
+              - button "55" [ref=e2757]:
+                - generic [ref=e2758]:
+                  - img [ref=e2759]
+                  - paragraph [ref=e2761]: "55"
+              - button "496" [ref=e2762]:
+                - generic [ref=e2763]:
+                  - img [ref=e2764]
+                  - paragraph [ref=e2766]: "496"
+            - button "See all of last week's top products" [ref=e2767] [cursor=pointer]
+          - generic [ref=e2768]:
+            - heading "Last Month's Top Products" [level=2] [ref=e2769]
+            - generic [ref=e2770] [cursor=pointer]:
+              - img "Brila" [ref=e2771]
+              - generic [ref=e2772]:
+                - link "1. Brila" [ref=e2774]:
+                  - /url: /products/brila-2
+                  - text: 1. Brila
+                - generic [ref=e2776]: One-page websites from real Google Maps reviews
+                - generic [ref=e2778]:
+                  - img "Promoted" [ref=e2780]
+                  - generic [ref=e2781]:
+                    - img [ref=e2782]
+                    - link "Website Builder" [ref=e2784]:
+                      - /url: /topics/website-builder
+                    - generic [ref=e2785]: •
+                    - link "Artificial Intelligence" [ref=e2786]:
+                      - /url: /topics/artificial-intelligence
+              - button "245" [ref=e2787]:
+                - generic [ref=e2788]:
+                  - img [ref=e2789]
+                  - paragraph [ref=e2791]: "245"
+              - button "1,310" [ref=e2792]:
+                - generic [ref=e2793]:
+                  - img [ref=e2794]
+                  - paragraph [ref=e2796]: 1,310
+            - generic [ref=e2797] [cursor=pointer]:
+              - img "Fathom 3.0" [ref=e2798]
+              - generic [ref=e2799]:
+                - link "2. Fathom 3.0" [ref=e2801]:
+                  - /url: /products/fathom
+                  - text: 2. Fathom 3.0
+                - generic [ref=e2803]: "AI meeting notes: now bot-free, in ChatGPT & Claude + more"
+                - generic [ref=e2805]:
+                  - img "Promoted" [ref=e2807]
+                  - generic [ref=e2808]:
+                    - img [ref=e2809]
+                    - link "Productivity" [ref=e2811]:
+                      - /url: /topics/productivity
+                    - generic [ref=e2812]: •
+                    - link "Meetings" [ref=e2813]:
+                      - /url: /topics/meetings
+                    - generic [ref=e2814]: •
+                    - link "Artificial Intelligence" [ref=e2815]:
+                      - /url: /topics/artificial-intelligence
+              - button "234" [ref=e2816]:
+                - generic [ref=e2817]:
+                  - img [ref=e2818]
+                  - paragraph [ref=e2820]: "234"
+              - button "765" [ref=e2821]:
+                - generic [ref=e2822]:
+                  - img [ref=e2823]
+                  - paragraph [ref=e2825]: "765"
+            - generic [ref=e2826] [cursor=pointer]:
+              - generic "ProdShort" [ref=e2827]
+              - generic [ref=e2828]:
+                - link "3. ProdShort" [ref=e2830]:
+                  - /url: /products/prodshort
+                  - text: 3. ProdShort
+                - generic [ref=e2832]: Turn meetings into ready-to-post shorts and posts
+                - generic [ref=e2834]:
+                  - img "Promoted" [ref=e2836]
+                  - generic [ref=e2837]:
+                    - img [ref=e2838]
+                    - link "Social Media" [ref=e2840]:
+                      - /url: /topics/social-media
+                    - generic [ref=e2841]: •
+                    - link "Meetings" [ref=e2842]:
+                      - /url: /topics/meetings
+              - button "153" [ref=e2843]:
+                - generic [ref=e2844]:
+                  - img [ref=e2845]
+                  - paragraph [ref=e2847]: "153"
+              - button "716" [ref=e2848]:
+                - generic [ref=e2849]:
+                  - img [ref=e2850]
+                  - paragraph [ref=e2852]: "716"
+            - generic [ref=e2853] [cursor=pointer]:
+              - img "Velo" [ref=e2854]
+              - generic [ref=e2855]:
+                - link "4. Velo" [ref=e2857]:
+                  - /url: /products/velo-4
+                  - text: 4. Velo
+                - generic [ref=e2859]: Share anything as video messages
+                - generic [ref=e2861]:
+                  - img "Promoted" [ref=e2863]
+                  - generic [ref=e2864]:
+                    - img [ref=e2865]
+                    - link "Productivity" [ref=e2867]:
+                      - /url: /topics/productivity
+                    - generic [ref=e2868]: •
+                    - link "Artificial Intelligence" [ref=e2869]:
+                      - /url: /topics/artificial-intelligence
+                    - generic [ref=e2870]: •
+                    - link "Video" [ref=e2871]:
+                      - /url: /topics/video
+              - button "151" [ref=e2872]:
+                - generic [ref=e2873]:
+                  - img [ref=e2874]
+                  - paragraph [ref=e2876]: "151"
+              - button "666" [ref=e2877]:
+                - generic [ref=e2878]:
+                  - img [ref=e2879]
+                  - paragraph [ref=e2881]: "666"
+            - generic [ref=e2883] [cursor=pointer]:
+              - img "Tines" [ref=e2884]
+              - generic [ref=e2885]:
+                - link "Tines" [ref=e2887]:
+                  - /url: /products/tines
+                  - text: Tines
+                - generic [ref=e2889]: Build agents & automations integrated across your workspace
+                - generic [ref=e2890]:
+                  - generic [ref=e2891]:
+                    - img "Promoted" [ref=e2893]
+                    - generic [ref=e2894]:
+                      - img [ref=e2895]
+                      - link "Developer Tools" [ref=e2897]:
+                        - /url: /topics/developer-tools
+                      - generic [ref=e2898]: •
+                      - link "Artificial Intelligence" [ref=e2899]:
+                        - /url: /topics/artificial-intelligence
+                      - generic [ref=e2900]: •
+                      - link "Security" [ref=e2901]:
+                        - /url: /topics/security
+                  - link "Anupam Singh Anupam Singh This feels like automation built for real teams, not just perfect demos and it’s great to see it opened up to smaller teams too." [ref=e2903]:
+                    - /url: /products/tines?comment=5147481
+                    - button "Anupam Singh" [ref=e2904]:
+                      - img "Anupam Singh" [ref=e2905]
+                    - button "Anupam Singh" [ref=e2906]:
+                      - paragraph [ref=e2907]: Anupam Singh
+                    - paragraph [ref=e2908]: This feels like automation built for real teams, not just perfect demos and it’s great to see it opened up to smaller teams too.
+              - button "44" [ref=e2909]:
+                - generic [ref=e2910]:
+                  - img [ref=e2911]
+                  - paragraph [ref=e2913]: "44"
+              - button "456" [ref=e2914]:
+                - generic [ref=e2915]:
+                  - img [ref=e2916]
+                  - paragraph [ref=e2918]: "456"
+            - generic [ref=e2919] [cursor=pointer]:
+              - img "Plurai" [ref=e2920]
+              - generic [ref=e2921]:
+                - link "5. Plurai" [ref=e2923]:
+                  - /url: /products/plurai
+                  - text: 5. Plurai
+                - generic [ref=e2925]: Vibe-train evals and guardrails tailored to your use case
+                - generic [ref=e2927]:
+                  - img "Promoted" [ref=e2929]
+                  - generic [ref=e2930]:
+                    - img [ref=e2931]
+                    - link "API" [ref=e2933]:
+                      - /url: /topics/api-1
+                    - generic [ref=e2934]: •
+                    - link "Developer Tools" [ref=e2935]:
+                      - /url: /topics/developer-tools
+                    - generic [ref=e2936]: •
+                    - link "Artificial Intelligence" [ref=e2937]:
+                      - /url: /topics/artificial-intelligence
+              - button "227" [ref=e2938]:
+                - generic [ref=e2939]:
+                  - img [ref=e2940]
+                  - paragraph [ref=e2942]: "227"
+              - button "717" [ref=e2943]:
+                - generic [ref=e2944]:
+                  - img [ref=e2945]
+                  - paragraph [ref=e2947]: "717"
+            - button "See all of last month's top products" [ref=e2948] [cursor=pointer]
+      - complementary [ref=e2949]:
+        - generic [ref=e2950]:
+          - link "Trending Forum Threads" [ref=e2951] [cursor=pointer]:
+            - /url: /forums
+          - generic [ref=e2952]:
+            - generic [ref=e2953]:
+              - generic [ref=e2954] [cursor=pointer]:
+                - link "VS Code p/vscode" [ref=e2955]:
+                  - /url: /p/vscode
+                  - img "VS Code" [ref=e2956]
+                  - text: p/vscode
+                - link "The best VS Code extensions to use in 2026?" [ref=e2957]:
+                  - /url: /p/vscode/the-best-vs-code-extensions-to-use-in-2026
+                  - text: The best VS Code extensions to use in 2026?
+                - generic [ref=e2959]:
+                  - button "Upvote (23)" [ref=e2960]:
+                    - img [ref=e2961]
+                    - generic [ref=e2964]: Upvote
+                    - text: (23)
+                  - generic [ref=e2965]: •
+                  - generic:
+                    - img
+                    - text: "6"
+              - generic [ref=e2966] [cursor=pointer]:
+                - link "p/general" [ref=e2967]:
+                  - /url: /p/general
+                - link "How do you decide what features should be free and what should be paid?" [ref=e2968]:
+                  - /url: /p/general/how-do-you-decide-what-features-should-be-free-and-what-should-be-paid
+                  - text: How do you decide what features should be free and what should be paid?
+                - generic [ref=e2970]:
+                  - button "Upvote (707)" [ref=e2971]:
+                    - img [ref=e2972]
+                    - generic [ref=e2975]: Upvote
+                    - text: (707)
+                  - generic [ref=e2976]: •
+                  - generic:
+                    - img
+                    - text: "466"
+              - generic [ref=e2977] [cursor=pointer]:
+                - link "Rankfender p/rankfender" [ref=e2978]:
+                  - /url: /p/rankfender
+                  - img "Rankfender" [ref=e2979]
+                  - text: p/rankfender
+                - link "What's a non‑obvious sign that a project is going to fail?" [ref=e2980]:
+                  - /url: /p/rankfender/what-s-a-non-obvious-sign-that-a-project-is-going-to-fail
+                  - text: What's a non‑obvious sign that a project is going to fail?
+                - generic [ref=e2982]:
+                  - button "Upvote (31)" [ref=e2983]:
+                    - img [ref=e2984]
+                    - generic [ref=e2987]: Upvote
+                    - text: (31)
+                  - generic [ref=e2988]: •
+                  - generic:
+                    - img
+                    - text: "9"
+              - generic [ref=e2989] [cursor=pointer]:
+                - link "p/general" [ref=e2990]:
+                  - /url: /p/general
+                - link "Build your brand before your product, or launch first and reveal yourself later?" [ref=e2991]:
+                  - /url: /p/general/build-your-brand-before-your-product-or-launch-first-and-reveal-yourself-later
+                  - text: Build your brand before your product, or launch first and reveal yourself later?
+                - generic [ref=e2993]:
+                  - button "Upvote (314)" [ref=e2994]:
+                    - img [ref=e2995]
+                    - generic [ref=e2998]: Upvote
+                    - text: (314)
+                  - generic [ref=e2999]: •
+                  - generic:
+                    - img
+                    - text: "204"
+            - generic [ref=e3000]:
+              - link "View all" [ref=e3001] [cursor=pointer]:
+                - /url: /forums
+              - link "Start new thread" [ref=e3002] [cursor=pointer]:
+                - /url: /p/new
+                - img [ref=e3003]
+                - text: Start new thread
+  - contentinfo [ref=e3005]:
+    - generic [ref=e3006]:
+      - generic [ref=e3007]: Top Product Categories
+      - generic [ref=e3008]:
+        - button "Engineering & Development" [ref=e3010] [cursor=pointer]:
+          - generic [ref=e3011]: Engineering & Development
+          - img [ref=e3012]
+        - button "LLMs" [ref=e3015] [cursor=pointer]:
+          - generic [ref=e3016]: LLMs
+          - img [ref=e3017]
+        - button "Productivity" [ref=e3020] [cursor=pointer]:
+          - generic [ref=e3021]: Productivity
+          - img [ref=e3022]
+        - button "Marketing & Sales" [ref=e3025] [cursor=pointer]:
+          - generic [ref=e3026]: Marketing & Sales
+          - img [ref=e3027]
+        - button "Design & Creative" [ref=e3030] [cursor=pointer]:
+          - generic [ref=e3031]: Design & Creative
+          - img [ref=e3032]
+        - button "Social & Community" [ref=e3035] [cursor=pointer]:
+          - generic [ref=e3036]: Social & Community
+          - img [ref=e3037]
+        - button "Finance" [ref=e3040] [cursor=pointer]:
+          - generic [ref=e3041]: Finance
+          - img [ref=e3042]
+        - button "AI Agents" [ref=e3045] [cursor=pointer]:
+          - generic [ref=e3046]: AI Agents
+          - img [ref=e3047]
+    - generic [ref=e3051]:
+      - button "Trending categories" [ref=e3053] [cursor=pointer]:
+        - generic [ref=e3054]: Trending categories
+        - img [ref=e3055]
+      - button "Top reviewed" [ref=e3058] [cursor=pointer]:
+        - generic [ref=e3059]: Top reviewed
+        - img [ref=e3060]
+      - button "Trending products" [ref=e3063] [cursor=pointer]:
+        - generic [ref=e3064]: Trending products
+        - img [ref=e3065]
+      - button "Top forum threads" [ref=e3068] [cursor=pointer]:
+        - generic [ref=e3069]: Top forum threads
+        - img [ref=e3070]
+    - generic [ref=e3074]:
+      - generic [ref=e3075]: © 2026 Product Hunt
+      - generic [ref=e3076]:
+        - link "Newsletter" [ref=e3077] [cursor=pointer]:
+          - /url: /newsletters
+        - link "Apps" [ref=e3078] [cursor=pointer]:
+          - /url: /apps
+        - link "About" [ref=e3079] [cursor=pointer]:
+          - /url: /about
+        - link "FAQ" [ref=e3080] [cursor=pointer]:
+          - /url: https://help.producthunt.com
+        - link "Terms" [ref=e3081] [cursor=pointer]:
+          - /url: /legal#terms
+        - link "Privacy & Cookies" [ref=e3082] [cursor=pointer]:
+          - /url: /legal#privacy
+        - link "Privacy Choices" [ref=e3083] [cursor=pointer]:
+          - /url: /privacy/do-not-sell
+        - link "Advertise" [ref=e3084] [cursor=pointer]:
+          - /url: /sponsor?utm_content=sf
+        - link "llms.txt" [ref=e3085] [cursor=pointer]:
+          - /url: /llms.txt
+        - generic [ref=e3086]:
+          - text: "Contact us:"
+          - link "hello@producthunt.com" [ref=e3087] [cursor=pointer]:
+            - /url: mailto:hello@producthunt.com
+      - generic [ref=e3088]:
+        - link [ref=e3089] [cursor=pointer]:
+          - /url: https://x.com/ProductHunt
+          - img [ref=e3090]
+        - link [ref=e3092] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/producthunt
+          - img [ref=e3093]
