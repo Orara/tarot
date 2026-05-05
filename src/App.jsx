@@ -193,14 +193,17 @@ function App() {
           </div>
         </div>
         <div className="flex-1 relative flex justify-center items-center w-full max-w-md">
-          {/* Glowing background effect behind image */}
+          {/* Glowing background effect */}
           <div className="absolute inset-0 bg-tarot-secondary/20 blur-[100px] rounded-full"></div>
-          <img 
-            src="https://images.unsplash.com/photo-1590012314607-cda9d9b699ae?q=80&w=2000&auto=format&fit=crop" 
-            alt="Mystical Tarot Reading" 
-            className="w-full h-auto object-cover rounded-2xl shadow-[0_0_50px_rgba(122,77,255,0.3)] relative z-10 border border-white/10"
-            style={{ aspectRatio: '4/5' }}
-          />
+          <div className="w-full aspect-[4/5] rounded-2xl relative z-10 border border-purple-500/30 overflow-hidden flex items-center justify-center" style={{background:'radial-gradient(ellipse at 60% 40%, rgba(122,77,255,0.4) 0%, rgba(26,10,60,0.9) 60%, rgba(10,5,30,1) 100%)', boxShadow:'0 0 60px rgba(122,77,255,0.3)'}}>
+            <div className="absolute w-48 h-48 rounded-full" style={{top:'30%',left:'50%',transform:'translate(-50%,-50%)',background:'radial-gradient(circle, rgba(255,215,0,0.12) 0%, transparent 70%)'}} />
+            <div className="relative w-36 h-56">
+              <div className="absolute inset-0 rounded-xl border border-yellow-400/40" style={{background:'linear-gradient(135deg,rgba(122,77,255,0.3) 0%,rgba(255,215,0,0.08) 100%)',transform:'rotate(12deg)',boxShadow:'0 0 15px rgba(255,215,0,0.1)'}}><div className="absolute inset-3 rounded-lg border border-yellow-400/20 flex items-center justify-center"><span className="text-yellow-400/40 text-3xl">✦</span></div></div>
+              <div className="absolute inset-0 rounded-xl border border-yellow-400/50" style={{background:'linear-gradient(135deg,rgba(100,50,255,0.25) 0%,rgba(255,215,0,0.08) 100%)',transform:'rotate(5deg)',boxShadow:'0 0 15px rgba(255,215,0,0.1)'}}><div className="absolute inset-3 rounded-lg border border-yellow-400/25 flex items-center justify-center"><span className="text-yellow-400/50 text-3xl">☽</span></div></div>
+              <div className="absolute inset-0 rounded-xl border border-yellow-400/60" style={{background:'linear-gradient(135deg,rgba(80,30,200,0.3) 0%,rgba(255,215,0,0.1) 100%)',transform:'rotate(-4deg)',boxShadow:'0 0 20px rgba(255,215,0,0.15)'}}><div className="absolute inset-3 rounded-lg border border-yellow-400/30 flex items-center justify-center"><span className="text-yellow-400/60 text-3xl">✧</span></div></div>
+            </div>
+            <div className="absolute bottom-6 w-full text-center"><p className="text-yellow-400/60 text-xs tracking-[6px]">ARCANA INSIGHT</p></div>
+          </div>
         </div>
       </section>
 
