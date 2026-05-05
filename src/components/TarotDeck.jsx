@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { tarotDeck } from '../tarotData';
 import { useLanguage } from '../LanguageContext';
 
-export default function TarotDeck({ mode, onComplete, onCancel }) {
+export default function TarotDeck({ mode, concern, onComplete, onCancel }) {
   const { t, lang } = useLanguage();
   let maxCards = 1;
   if (mode === 'basic') maxCards = 3;
@@ -81,8 +81,22 @@ export default function TarotDeck({ mode, onComplete, onCancel }) {
         <h2 className="text-3xl font-bold text-white mb-2">
           {t(mode + 'ReadTitle')}
         </h2>
+
+        {/* Show concern as focus point */}
+        {concern && (
+          <div className="max-w-lg mx-auto mt-3 mb-4 bg-tarot-secondary/10 border border-tarot-secondary/30 rounded-xl px-4 py-2.5">
+            <p className="text-xs text-tarot-secondary uppercase tracking-widest mb-1">
+              {lang === 'ko' ? '이 질문에 집중하며 카드를 고르세요' :
+               lang === 'en' ? 'Focus on this as you choose your cards' :
+               lang === 'ja' ? 'これに集中しながらカードを選んでください' :
+               lang === 'zh' ? '专注于此问题选牌' : 'Focus on this as you choose'}
+            </p>
+            <p className="text-white text-sm italic">"{concern}"</p>
+          </div>
+        )}
+
         <p className="text-gray-400">
-          {lang === 'ko' ? `집중하고 ${maxCards}장의 카드를 선택해주세요.` : 
+          {lang === 'ko' ? `집중하고 ${maxCards}장의 카드를 선택해주세요.` :
            lang === 'en' ? `Focus and select ${maxCards} card(s).` :
            lang === 'ja' ? `集中して${maxCards}枚のカードを選んでください。` :
            lang === 'zh' ? `请集中注意力并选择${maxCards}张牌。` :

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
 import { useLanguage } from './LanguageContext';
 import TarotDeck from './components/TarotDeck';
+import ConcernInput from './components/ConcernInput';
 import { getTarotReading } from './lib/gemini';
 import { PayPalScriptProvider } from '@paypal/react-paypal-js';
 import PayPalCheckout from './components/PayPalCheckout';
@@ -19,6 +20,8 @@ function App() {
   const [checkoutMode, setCheckoutMode] = useState(null);
   const [freeUsed, setFreeUsed] = useState(false);
   const [isAdmin, setIsAdmin] = useState(false);
+  const [concern, setConcern] = useState('');
+  const [pendingMode, setPendingMode] = useState(null);
 
   useEffect(() => {
     // 어드민 모드: URL에 ?admin=arcana2026 이 있으면 활성화
@@ -43,7 +46,13 @@ function App() {
     return 0;
   };
 
-  const startReading = (mode) => {
+  const goToConcernInput = (mode) => {
+    setPendingMode(mode);
+    setAppState('concern');
+  };
+
+  const startReading = (mode, userConcern) => {
+    setConcern(userConcern || '');
     setAppState(mode + '-reading');
   };
 
@@ -61,7 +70,7 @@ function App() {
       );
       return;
     }
-    startReading('free');
+    goToConcernInput('free');
   };
 
   const handleCardsDrawn = async (cards) => {
@@ -73,14 +82,14 @@ function App() {
       setFreeUsed(true);
     }
 
-    setReadingResult({ cards, mode });
+    setReadingResult({ cards, mode, concern });
     setAppState('result');
     setReadingText("");
     setError(null);
     setIsLoading(true);
 
     try {
-      const text = await getTarotReading(cards, mode, lang);
+      const text = await getTarotReading(cards, mode, lang, concern);
       setReadingText(text);
     } catch (err) {
       if (err.message === "API_KEY_MISSING") {
@@ -97,12 +106,23 @@ function App() {
     }
   };
 
+  if (appState === 'concern') {
+    return (
+      <ConcernInput
+        mode={pendingMode}
+        onStart={(userConcern) => startReading(pendingMode, userConcern)}
+        onCancel={() => setAppState('home')}
+      />
+    );
+  }
+
   if (appState.includes('-reading')) {
     return (
       <TarotDeck
         mode={appState.replace('-reading', '')}
+        concern={concern}
         onComplete={handleCardsDrawn}
-        onCancel={() => setAppState('home')}
+        onCancel={() => setAppState('concern')}
       />
     );
   }
@@ -110,9 +130,19 @@ function App() {
   if (appState === 'result') {
     return (
       <div className="min-h-screen bg-tarot-dark flex flex-col items-center py-20 px-6">
-        <h2 className="text-3xl font-bold text-tarot-gold mb-8 text-center">
+        <h2 className="text-3xl font-bold text-tarot-gold mb-4 text-center">
           {t(readingResult.mode + 'ReadTitle')}
         </h2>
+
+        {/* Concern display */}
+        {readingResult.concern && (
+          <div className="w-full max-w-2xl mb-8 bg-tarot-secondary/10 border border-tarot-secondary/30 rounded-xl px-5 py-3 text-center">
+            <p className="text-xs text-tarot-secondary uppercase tracking-widest mb-1">
+              {lang === 'ko' ? '당신의 질문' : lang === 'en' ? 'Your Question' : lang === 'ja' ? 'あなたの質問' : lang === 'zh' ? '您的问题' : 'Your Question'}
+            </p>
+            <p className="text-gray-300 text-sm leading-relaxed italic">"{readingResult.concern}"</p>
+          </div>
+        )}
 
         {/* Selected Cards Display */}
         <div className="flex flex-wrap justify-center gap-6 mb-12">
@@ -202,7 +232,7 @@ function App() {
             onSuccess={(details) => {
               const mode = checkoutMode;
               setCheckoutMode(null);
-              startReading(mode);
+              goToConcernInput(mode);
             }}
             onCancel={() => setCheckoutMode(null)}
           />
@@ -334,7 +364,7 @@ function App() {
                 <p className="text-gray-400">{t('basicReadDesc')}</p>
               </div>
               <button
-                onClick={() => isAdmin ? startReading('basic') : setCheckoutMode('basic')}
+                onClick={() => isAdmin ? goToConcernInput('basic') : setCheckoutMode('basic')}
                 className="w-full py-3.5 border border-tarot-accent text-tarot-accent hover:bg-tarot-accent hover:text-black rounded-full font-bold transition-all"
               >
                 {isAdmin ? (lang === 'ko' ? '3장 바로 시작 (어드민)' : '3 Cards – Admin Free') : t('basicReadBtn')}
@@ -349,7 +379,7 @@ function App() {
                 <p className="text-gray-400">{t('premiumReadDesc')}</p>
               </div>
               <button
-                onClick={() => isAdmin ? startReading('premium') : setCheckoutMode('premium')}
+                onClick={() => isAdmin ? goToConcernInput('premium') : setCheckoutMode('premium')}
                 className="w-full py-3.5 bg-gradient-to-r from-yellow-500 to-tarot-gold hover:from-yellow-400 hover:to-yellow-300 rounded-full font-bold text-black transition-all shadow-[0_0_20px_rgba(255,215,0,0.3)]"
               >
                 {isAdmin ? (lang === 'ko' ? '5장 바로 시작 (어드민)' : '5 Cards – Admin Free') : t('premiumReadBtn')}
@@ -364,7 +394,7 @@ function App() {
                 <p className="text-gray-400">{t('vipReadDesc')}</p>
               </div>
               <button
-                onClick={() => isAdmin ? startReading('vip') : setCheckoutMode('vip')}
+                onClick={() => isAdmin ? goToConcernInput('vip') : setCheckoutMode('vip')}
                 className="w-full py-3.5 border border-purple-500 text-purple-400 hover:bg-purple-600 hover:text-white rounded-full font-bold transition-all"
               >
                 {isAdmin ? (lang === 'ko' ? '10장 바로 시작 (어드민)' : '10 Cards – Admin Free') : t('vipReadBtn')}
