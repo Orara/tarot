@@ -24,7 +24,6 @@ function App() {
   const [pendingMode, setPendingMode] = useState(null);
   const [adminStats, setAdminStats] = useState(null);
   const [statsLoading, setStatsLoading] = useState(false);
-  const [statsLoading, setStatsLoading] = useState(false);
 
   const fetchStats = async () => {
     setStatsLoading(true);
